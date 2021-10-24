@@ -26,15 +26,15 @@ Apple M1/M1 Pro/M1 Max Architectures.
 
 4. [Running Linux on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-m1)
 
-5. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows1011-on-the-m1)
+5. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-m1)
 
 6. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
 
 7. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-8. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audio-video-development)
+8. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-9. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics--design)
+9. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
 10. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
