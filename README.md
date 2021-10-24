@@ -1,16 +1,15 @@
 
 <h1 align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/138614033-5a32eb70-31f4-4bd0-8c46-3ede505ccca8.png">
   <br />
   Apple Silicon Guide
 </h1>
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614041-1877dd8c-8ff6-4e63-9a94-2390ac72a8f3.png">
 <br />
 Apple M1/M1 Pro/M1 Max Architectures.
 </p>
-
 
 #### A guide covering Apple Silicon including the applications, libraries and tools that will make you a better and more efficient with your Apple Silicon powered device.
 
@@ -59,7 +58,7 @@ Apple M1/M1 Pro/M1 Max Architectures.
 [Apple M1 Chip](https://www.apple.com/mac/m1/) is Apple's first SoC chip designed specifically for their ARM Mac products, it delivers incredible performance(8-core CPU and 8-core GPU), custom technologies, and great power efficiency. The M1 Chip is now availble for [Macbook Pro 13 with M1](https://www.apple.com/macbook-pro-13/), [Macbook Air 13 with M1](https://www.apple.com/macbook-air/), and [Mac Mini with M1](https://www.apple.com/mac-mini/).
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614045-f20a4858-0460-49c1-8d80-0ae815e8bc93.png">
 <br />
 </p>
 
@@ -68,7 +67,7 @@ Apple M1/M1 Pro/M1 Max Architectures.
 [Apple M1 Pro Chip](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/) is a 8 or 10-core system-on-a-chip (SoC) architecture designed for pro systems in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch). The chip features fast unified memory, industry-leading performance per watt, and incredible power efficiency, along with increased memory bandwidth and capacity. The M1 Pro offers up to 200GB/s of memory bandwidth with support for up to 32GB of unified memory and a GPU (14-core or 16-core option).
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614048-949a4fa8-71f8-4a2e-97fe-f8db874b3d13.png">
 <br />
 </p>
 
@@ -77,21 +76,21 @@ Apple M1/M1 Pro/M1 Max Architectures.
 [Apple M1 Max Chip](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/) is a 10-core system-on-a-chip (SoC) architecture designed for pro systems in the [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch). The chip features fast unified memory, industry-leading performance per watt, and incredible power efficiency, along with increased memory bandwidth and capacity. The M1 Pro offers up to 400GB/s of memory bandwidth with support for up to 64GB of unified memory and a GPU (16-core or 32-core option).
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614049-eff86f41-cb0c-41c8-8a93-c9590b711227.png">
 <br />
 </p>
 
 **M1 Max Chip. Source: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614054-fc5dfb69-fa4e-4a1d-a39d-4145466a6a70.png">
 <br />
 </p>
 
 **M1/ M1 Pro/ M1 Max CPU Performance. Source: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614056-784f775d-2b4d-4273-99ab-6a1025157704.png">
 <br />
 </p>
 
@@ -132,7 +131,7 @@ Apple M1/M1 Pro/M1 Max Architectures.
 [Debugging a Custom Kernel Extension](https://developer.apple.com/documentation/apple_silicon/debugging_a_custom_kernel_extension)
 
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/138614058-cf6558fe-2805-4909-8aea-ef081b92f92f.png">
 <br />
 Devices powered by Apple Silicon.
 </p>
