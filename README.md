@@ -326,6 +326,8 @@ Devices powered by Apple Silicon.
 Parallels Desktop for Mac
 </p>
 
+### Asahi Linux Development
+
 [Hector Martin](https://github.com/marcan) has merged the initial support for Apple M1 hardware into the Linux SOC (System On a Chip) tree for [Linux Kernel 5.13](https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git/commit/?h=for-next&id=0d5fe4b31785b732b71e764b55cda5c8d6e3bbbf). Also credit to developers [Sven Peter](https://github.com/svenpeter42) and [Alyssa Rosenzweig](https://github.com/alyssarosenzweig).
 
 [Asahi Linux](https://asahilinux.org/) is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro. Their goal is not just to make Linux run on these machines but to polish it to the point where it can be used as a daily OS.
@@ -338,10 +340,10 @@ Parallels Desktop for Mac
 
 [Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
 
-<h1 align="center">
+<h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/110054441-f4349400-7d0f-11eb-8889-743009b33994.png">
   <br />
-</h1>
+</h3>
 
 # Running Windows 10/11 on the M1
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
