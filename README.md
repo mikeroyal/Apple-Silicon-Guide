@@ -512,7 +512,7 @@ Devices powered by Apple Silicon.
 [Okra (Orchestration with Kubernetes on Apple)](https://www.macstadium.com/orka) is a virtualization layer created for Mac build infrastructure, Orka allows you to orchestrate macOS in a cloud environment using Kubernetes on genuine Apple hardware.
 
 <p align="center">
- <img src="">
+ <img src="https://user-images.githubusercontent.com/45159366/145732013-d0b9a6d3-d135-49df-bf2b-cc1f4e8970b4.png">
   <br />
   OKRA CLI
 </p>
@@ -681,9 +681,9 @@ Devices powered by Apple Silicon.
 
 [Ansible Galaxy User Guide](https://docs.ansible.com/ansible/latest/galaxy/user_guide.html)
 
-[Anisble Use Cases](https://www.ansible.com/use-cases?hsLang=en-us)
+[Ansible Use Cases](https://www.ansible.com/use-cases?hsLang=en-us)
 
-[Anisble Integrations](https://www.ansible.com/integrations?hsLang=en-us)
+[Ansible Integrations](https://www.ansible.com/integrations?hsLang=en-us)
 
 [Ansible Collections Overview](https://github.com/ansible-collections/overview/blob/main/README.rst)
 
@@ -701,7 +701,7 @@ Devices powered by Apple Silicon.
 
 [Encrypting content with Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/vault.html)
 
-[Using vault in playbooks with Ansible ](https://docs.ansible.com/ansible/latest/user_guide/playbooks_vault.html)
+[Using vault in playbooks with Ansible](https://docs.ansible.com/ansible/latest/user_guide/playbooks_vault.html)
 
 [Using Ansible With Azure](https://docs.microsoft.com/en-us/azure/developer/ansible/overview)
 
