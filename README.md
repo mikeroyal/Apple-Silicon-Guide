@@ -18,39 +18,43 @@ Apple M1/M1 Pro/M1 Max Architectures.
 
 # Table of Contents
 
-1. [Getting Started](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started)
+1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
 
-2. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
+2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
-3. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
+3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
 
-4. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+4. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
 
-5. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
 
-6. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+6. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
 
-7. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+7. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
 
-8. [Running Linux on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-m1)
+8. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
 
-9. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-m1)
+9. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-10. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+10. [Running Linux on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-m1)
 
-11. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+11. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-m1)
 
-12. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
 
-13. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+13. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-14. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+14. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-15. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+15. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
-16. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+16. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
-# Getting Started
+17. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+
+18. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+
+# Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Does it ARM? Apps that are reported to support Apple Silicon](https://doesitarm.com)
@@ -183,6 +187,94 @@ Devices powered by Apple Silicon.
 </p>
 
 **WatchOS 8. Source: [Apple](https://www.apple.com/watchos/watchos-8/)**
+
+# Chip on Wafer on Substrate (CoWoS) 
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145732295-4c0ada4e-c237-472c-8bef-58b8eb223747.png">
+  <br />
+</p>
+
+[CoWoS®](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm) is a platform that provides best-in-breed performance and highest integration density for high performance computing applications. This wafer level system integration platform offers wide range of interposer sizes, number of HBM cubes, and package sizes. It can enable larger than 2X-reticle size (or ~1,700mm2) interposer integrating leading SoC chips with more than four HBM2/HBM2E cubes.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145732340-8195fa38-c986-4de1-baa5-e69fb06100ed.png">
+  <br />
+  TSMC CoWoS®-S Architecture
+</p>
+
+[CoWoS-R](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm#tbc_CoWoS-R) is a member of CoWoS advanced packaging family leveraging InFO technology to utilize RDL interposer and to serve the interconnect between chiplets, especially in HBM(high bandwidth memory) and SoC heterogeneous integration. RDL interposer is comprised of polymer and copper traces, and it is relatively mechanically flexible. Such flexibility enhances the C4 joint integrity, and allows the new package can scale up its size to meet more complex functional demands.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145732343-9645518b-69b7-4213-b6f3-934373b5176f.png">
+  <br />
+  TSMC CoWoS®-R Architecture
+</p>
+
+[CoWoS®-L](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm#tbc_CoWoS-L) is one of the last for chip packages in the CoWoS® platform, combining the merits of CoWoS®-S and InFO technologies to provide the most flexible integration using interposer with LSI (Local Silicon Interconnect) chip for die-to-die interconnect and RDL layers for power and signal delivery. The offering starts from 1.5X-reticle interposer size with 1x SoC + 4x HBM cubes and will move forward to expand the envelope to larger sizes for integrating more chips.
+
+**The key features of CoWoS®-L service include:**
+
+   - LSI chips for high routing density die-to-die interconnect through multiple layers of sub-micron Cu lines. The LSI chips can feature variety of connection architectures (SoC to SoC, SoC to chiplet, SoC to HBM… etc) within each product, and can also be used repeatedly for multiple products. The corresponding metal types, layer counts, and pitches align with the offering from CoWoS®-S.
+
+   - Molding-based interposer with wide pitch of RDL layers on both front-side and back-side and TIV (Through Interposer Via) for signal and power delivery provides low loss of high frequency signal in high-speed transmission.
+
+   - Capability of integrating additional elements, stand-alone IPD (Integrated Passive Device), right underneath the SoC die to support its signal communication with better PI/SI.
+
+   <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/145732345-22e0a913-13de-456a-aa36-84d8f4a9c8db.png">
+  <br />
+  TSMC CoWoS®-L Architecture
+</p>
+
+# Xcode Development
+[Back to the Top](https://github.com/mikeroyal/Unreal-Engine-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/141201793-f31f4899-7317-49a7-808b-6e551df23bf9.png">
+  <br />
+  Xcode Guide
+</p>
+
+## Getting Started with Xcode
+
+[Apple Developer Documentation for Xcode](https://developer.apple.com/documentation/xcode)
+
+[Xcode](https://developer.apple.com/xcode/) includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging. Xcode 12 is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/110880054-dd9fb700-8292-11eb-9478-a5d62dc76f9d.png">
+<br />
+Developing with SwiftUI in Xcode 12
+</p>
+
+[Xcode Cloud](https://developer.apple.com/xcode-cloud/) is a continuous integration and delivery service built into Xcode and designed expressly for Apple developers. It accelerates the development and delivery of high-quality apps by bringing together cloud-based tools that help you build apps, run automated tests in parallel, deliver apps to testers, and view and manage user feedback.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/121821101-9cc98c80-cc4b-11eb-9dde-e3efa2ea8154.png">
+<br />
+</p>
+
+**Xcode Cloud. Source: [Apple](https://developer.apple.com/xcode-cloud/)**
+
+[SwiftUI](https://developer.apple.com/documentation/swiftui) is a user interface toolkit that provides views, controls, and layout structures for declaring your app's user interface. The SwiftUI framework provides event handlers for delivering taps, gestures, and other types of input to your application.
+
+[UIKit](https://developer.apple.com/documentation/uikit) is a framework provides the required infrastructure for your iOS or tvOS apps. It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multi-Touch and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app.
+
+[AppKit](https://developer.apple.com/documentation/appkit) is a graphical user interface toolkit that contains all the objects you need to implement the user interface for a macOS app such as windows, panels, buttons, menus, scrollers, and text fields, and it handles all the details for you as it efficiently draws on the screen, communicates with hardware devices and screen buffers, clears areas of the screen before drawing, and clips views.
+
+[ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
+
+[RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
+
+[SceneKit](https://developer.apple.com/scenekit/) is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your iOS apps.
+
+[Mac Catalyst](https://developer.apple.com/mac-catalyst/) is a set of Apple APIs that developers can use to rapidly port their iOS apps to [Apple Silicon M1 Chip](https://www.apple.com/mac/m1/) and take full advantage of the new capabilities on the new Apple hardware.
+
+[Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
+
+[TestFlight](https://developer.apple.com/testflight/) is a tool that makes it easy to invite users to test your apps and App Clips and collect valuable feedback before releasing your apps on the App Store. It allows you to invite up to 10,000 testers using just their email address or by sharing a public link.
 
 # Core ML Development
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
