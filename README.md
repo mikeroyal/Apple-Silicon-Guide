@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/157357009-72ae5a59-cec8-4099-bccd-9c6657029fd4.png">
+<img src="https://user-images.githubusercontent.com/45159366/157364203-a6c998b9-f15d-465e-81f4-ef888e7c8910.png">
 <br />
 Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 </p>
