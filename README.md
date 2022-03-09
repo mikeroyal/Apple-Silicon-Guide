@@ -1,14 +1,14 @@
 
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/138614033-5a32eb70-31f4-4bd0-8c46-3ede505ccca8.png">
+ <img src="https://user-images.githubusercontent.com/45159366/157356993-34a7e1fa-ac06-49aa-991a-bf797a745e64.png">
   <br />
   Apple Silicon Guide
 </h1>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/138614041-1877dd8c-8ff6-4e63-9a94-2390ac72a8f3.png">
+<img src="https://user-images.githubusercontent.com/45159366/157357009-72ae5a59-cec8-4099-bccd-9c6657029fd4.png">
 <br />
-Apple M1/M1 Pro/M1 Max Architectures.
+Apple M1/M1 Pro/M1 Max/Ma Ultra Architectures.
 </p>
 
 #### A guide covering Apple Silicon including the applications, libraries and tools that will make you a better and more efficient with your Apple Silicon powered device.
@@ -111,6 +111,29 @@ Apple M1/M1 Pro/M1 Max Architectures.
 </p>
 
 **M1/ M1 Pro/ M1 Max GPU Performance. Source: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
+
+[M1 Ultra](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/) is a Apple's most powerful sillicon chip in their M1-series lineup. The M1 Ultra is composed of **two M1 Max chips** that are connected together using Apple's UltraFusion Architecture packaging. This means the M1 Ultra can be configured with up to 128GB of high-bandwidth, low-latency unified memory that can be accessed by the **20-core CPU, 64-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M1 Ultra is currently available in Apple's **[Mac Studio](https://www.apple.com/shop/buy-mac/mac-studio)**.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/157358150-c0e1b60d-787d-4e36-ba12-b4d4c5ea8bd2.png">
+<br />
+</p>
+
+**M1 Ultra Chip. Source: [Apple](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/157357074-8767aba7-a5ca-43a4-b44f-b22bf38c3e57.png">
+<br />
+</p>
+
+**M1 Ultra CPU Performance. Source: [Apple](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/157357079-029db757-9d39-41c7-88d8-bed769b14ec8.png">
+<br />
+</p>
+
+**M1 Ultra GPU Performance. Source: [Apple](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/)**
 
 [Xcode 12](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
 
