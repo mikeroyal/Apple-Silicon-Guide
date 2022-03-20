@@ -5,7 +5,7 @@
   Apple Silicon Guide
 </h1>
 
-#### A guide covering Apple Silicon including the applications, libraries and tools that will make you a better and more efficient power user with your Apple Silicon powered device.
+#### A guide covering Apple Silicon including the applications, libraries and tools that will make you better and more efficient with your Apple Silicon powered device.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
