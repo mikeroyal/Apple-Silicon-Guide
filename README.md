@@ -210,7 +210,7 @@ Devices powered by Apple Silicon.
 
 **WatchOS 8. Source: [Apple](https://www.apple.com/watchos/watchos-8/)**
 
-# Chip on Wafer on Substrate (CoWoS) 
+# Chip on Wafer on Substrate (CoWoS)
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 <p align="center">
@@ -574,7 +574,7 @@ Developing with SwiftUI in Xcode 12
 
 [Docker Desktop](https://www.docker.com/products/docker-desktop) is an application for MacOS and Windows machines for the building and sharing of containerized applications and microservices. Docker Desktop delivers the speed, choice and security you need for designing and delivering containerized applications on your desktop. Docker Desktop includes Docker App, developer tools, Kubernetes and version synchronization to production Docker Engines.
 
-[Docker Hub](https://hub.docker.com/) is the world's largest library and community for container images Browse over 100,000 container images from software vendors, open-source projects, and the community.
+[Docker Hub](https://hub.docker.com/) is the world's largest library and community for container images. Browse over 100,000 container images from software vendors, open-source projects, and the community.
 
 [Docker Compose](https://docs.docker.com/compose/) is a tool that was developed to help define and share multi-container applications. With Docker Compose, you can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
