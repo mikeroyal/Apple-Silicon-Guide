@@ -578,7 +578,7 @@ Developing with SwiftUI in Xcode 12
 
 ## Docker Tools
  
-[Lima](https://github.com/lima-vm/lima) is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It makes for a great free and ope-source alternative for Docker Desktop.
+[Lima](https://github.com/lima-vm/lima) is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
 **Install Lima using Homebrew**
 
@@ -892,17 +892,17 @@ Parallels Desktop for Mac
 
 [Asahi Linux](https://asahilinux.org/) is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro. Their goal is not just to make Linux run on these machines but to polish it to the point where it can be used as a daily OS.
 
-[Asahi Linux Alpha Release is here!](https://asahilinux.org/2022/03/asahi-linux-alpha-release/)
+  - [Asahi Linux Alpha Release is here!](https://asahilinux.org/2022/03/asahi-linux-alpha-release/)
+
+  - [Asahi Linux installer on GitHub](https://github.com/AsahiLinux/asahi-installer)
+  
+  - [Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
 
 [M1N1](https://github.com/AsahiLinux/m1n1) is a bootloader and experimentation playground for Apple Silicon.
-
-[Asahi Linux installer on GitHub](https://github.com/AsahiLinux/asahi-installer)
 
 [Apple Silicon to Apple Silicon VDM utility](https://github.com/AsahiLinux/macvdmtool) is a tool that lets you get a serial console on an Apple Silicon device and reboot it remotely, using only another Apple Silicon device running macOS and a standard Type C cable.
 
 [Asahi GPU](https://github.com/AsahiLinux/gpu) is a repo that provides research for an open source graphics stack (3D acceleration) for Apple M1 chips.
-
-[Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
 
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/110054441-f4349400-7d0f-11eb-8889-743009b33994.png">
