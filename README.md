@@ -567,6 +567,12 @@ Developing with SwiftUI in Xcode 12
 [Docker Courses on Linkedin Learning](https://www.linkedin.com/learning/topics/docker)
 
 ## Docker Tools
+ 
+[Lima](https://github.com/lima-vm/lima) is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It makes for a great free and ope-source alternative for Docker Desktop.
+
+**Install Lima using Homebrew**
+
+```brew install lima docker docker-credential-helper```
 
 [Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly working in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
 
