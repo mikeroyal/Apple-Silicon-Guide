@@ -471,6 +471,20 @@ Developing with SwiftUI in Xcode 12
 
 [Parallels Desktop](https://www.parallels.com) is a Desktop Hypervisor that delivers the fastest, easiest and most powerful application for running Windows/Linux on Mac (including the new [Apple M1 chip](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/)) and ChromeOS.
 
+[UTM](https://getutm.app/) is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of [QEMU](https://www.qemu.org/) that allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
+
+ - [UTM (SE) for iOS/iPadOS](https://getutm.app/install/)
+ 
+ - [UTM for macOS](https://mac.getutm.app/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/164793036-c84684fb-be06-4452-bfc9-32f77fb8059f.png">
+  <br />
+ Ubuntu on UTM
+</p>
+ 
+[Multipass](https://multipass.run/) is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. It uses [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM) on Linux, [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) on Windows, and [HyperKit](https://github.com/moby/hyperkit) on macOS.
+
 [VMware Fusion](https://www.vmware.com/products/fusion.html) is a Desktop Hypervisor that deliver desktop and ‘server’ virtual machines, containers and [Kubernetes clusters](https://www.vmware.com/topics/glossary/content/kubernetes-cluster) to developers, and IT professionals on the Mac.
 
 [VMware Horizon](https://www.vmware.com/products/horizon.html) is a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
@@ -886,6 +900,21 @@ Developing with SwiftUI in Xcode 12
 Parallels Desktop for Mac
 </p>
 
+
+[UTM](https://getutm.app/) is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of [QEMU](https://www.qemu.org/) that allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
+
+ - [UTM (SE) for iOS/iPadOS](https://getutm.app/install/)
+ 
+ - [UTM for macOS](https://mac.getutm.app/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/164793036-c84684fb-be06-4452-bfc9-32f77fb8059f.png">
+  <br />
+ Ubuntu on UTM
+</p>
+ 
+[Multipass](https://multipass.run/) is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. It uses [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM) on Linux, [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) on Windows, and [HyperKit](https://github.com/moby/hyperkit) on macOS.
+
 ### Asahi Linux Development
 
 [Hector Martin](https://github.com/marcan) has merged the initial support for Apple M1 hardware into the Linux SOC (System On a Chip) tree for [Linux Kernel 5.13](https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git/commit/?h=for-next&id=0d5fe4b31785b732b71e764b55cda5c8d6e3bbbf). Also credit to developers [Sven Peter](https://github.com/svenpeter42) and [Alyssa Rosenzweig](https://github.com/alyssarosenzweig).
@@ -942,6 +971,18 @@ Parallels Desktop for Mac
 Parallels Desktop for Mac
 </p>
 
+[UTM](https://getutm.app/) is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of [QEMU](https://www.qemu.org/) that allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
+
+ - [UTM (SE) for iOS/iPadOS](https://getutm.app/install/)
+ 
+ - [UTM for macOS](https://mac.getutm.app/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/164793030-07cba054-33e2-4251-9be6-1f1c71851df6.png">
+  <br />
+ Windows 11 on UTM
+</p>
+ 
 [VMware Fusion](https://www.vmware.com/products/fusion.html) is a tool that allows you to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) on M1 Mac device without rebooting.
 
 [ARM64EC (“Emulation Compatible”)](https://docs.microsoft.com/en-us/windows/uwp/porting/arm64ec) is a new application binary interface (ABI) for Windows 11 on ARM that runs with native speed and is interoperable with x64 architecture. An app, process, or even a module can freely mix and match with ARM64EC and x64 as needed. The ARM64EC code in the app will run natively while any x64 code will run using Windows 11 on ARM’s built-in emulation. The ARM64EC ABI differs slightly from the current [ARM64 ABI](https://docs.microsoft.com/en-us/cpp/build/arm64-windows-abi-conventions?view=msvc-160) in ways that make it binary compatible with x64 code. Specifically, the ARM64EC ABI follows x64 software conventions including calling convention, stack usage, and data alignment, making ARM64EC and x64 interoperable. Apps built as ARM64EC may contain x64 code but do not have to, since ARM64EC is its own complete, first-class ABI for Windows.
@@ -1005,6 +1046,7 @@ Parallels Desktop for Mac
  <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
 
 [Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig.
+
 <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
 
 [Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms.
