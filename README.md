@@ -1061,6 +1061,12 @@ Parallels Desktop for Mac
  <img src="https://user-images.githubusercontent.com/45159366/162089471-3eb27f98-2366-4117-9af5-93bb126a2c37.png">
 </p>
 
+[Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/166166858-e70ca081-8931-46f3-9dc3-fe9c719d76f8.png">
+</p>
+
 [Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a vartiey of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
 
 <p align="center">
@@ -1068,6 +1074,8 @@ Parallels Desktop for Mac
 </p>
 
 ## Game Emulators
+
+[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
 [RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
 
@@ -1092,6 +1100,8 @@ Parallels Desktop for Mac
 [DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
 
 [Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
+
+[AetherSX2 For Macs (Apple Silicon)](https://www.aethersx2.com/archive/?dir=desktop/mac) is a emulator of the PlayStation 2 console using the based of the [PCSX2 emulator](https://pcsx2.net/). It lets you enjoy hundreds and hundreds of video games, many of which are classics, anytime and anywhere.
 
 [PCSX2](https://pcsx2.net/) is a Playstation 2 'emulator', a free program that tries to replicate the Playstation 2 console to enable you to play PS2 games on your PC.
 
