@@ -19,6 +19,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
 
+    - [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
+    - [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
+    - [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
+    - [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
+
 2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
 3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
@@ -40,6 +45,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 11. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-m1)
 
 12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+      
+      - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gamin-on-apple-silicon-resources)
+      - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
+      - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
+      - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
+      - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
+      - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
+      - [Performance Benchmarks](https://github.com/mikeroyal/Apple-Silicon-Guide#performance-benchmarks)
 
 13. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
@@ -78,6 +91,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 [Apple A-series](https://www.apple.com/) is Apple's 64-bit ARM-based system on a chip (SoC) used in their iPhones and iPads. Though, at WWDC 2020 it was announced that [Apple Silicon](https://developer.apple.com/documentation/apple_silicon) would [transition into Mac laptops](https://www.apple.com/newsroom/2020/06/apple-announces-mac-transition-to-apple-silicon/).
 
+### M1 
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/168941790-7886c405-ec76-4900-a405-ab29868485cb.png">
+<br />
+</p>
+
 [Apple M1 Chip](https://www.apple.com/mac/m1/) is Apple's first SoC chip designed specifically for their ARM Mac products, it delivers incredible performance(8-core CPU and 8-core GPU), custom technologies, and great power efficiency. The M1 Chip is now availble for [Macbook Pro 13 with M1](https://www.apple.com/macbook-pro-13/), [Macbook Air 13 with M1](https://www.apple.com/macbook-air/), [Mac Mini with M1](https://www.apple.com/mac-mini/), [iPad Pro](https://www.apple.com/ipad-pro/), and [iPad Air](https://www.apple.com/ipad-air/).
 
 <p align="center">
@@ -87,6 +108,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 **M1 Chip. Source: [Apple](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/)**
 
+### M1 Pro
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/168941797-887664ba-8184-4849-8379-07113032ef40.png">
+<br />
+</p>
+
 [Apple M1 Pro Chip](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/) is a 8 or 10-core system-on-a-chip (SoC) architecture designed for pro systems in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch). The chip features fast unified memory, industry-leading performance per watt, and incredible power efficiency, along with increased memory bandwidth and capacity. The M1 Pro offers up to 200GB/s of memory bandwidth with support for up to 32GB of unified memory and a GPU (14-core or 16-core option).
 
 <p align="center">
@@ -95,6 +124,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 </p>
 
 **M1 Pro Chip. Source: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
+
+### M1 Max
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/168941803-e81f20f6-0bda-4a50-9f2c-7f149b67fbeb.png">
+<br />
+</p>
 
 [Apple M1 Max Chip](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/) is a 10-core system-on-a-chip (SoC) architecture designed for pro systems in the [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch). The chip features fast unified memory, industry-leading performance per watt, and incredible power efficiency, along with increased memory bandwidth and capacity. The M1 Pro offers up to 400GB/s of memory bandwidth with support for up to 64GB of unified memory and a GPU (16-core or 32-core option).
 
@@ -118,6 +155,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 </p>
 
 **M1/ M1 Pro/ M1 Max GPU Performance. Source: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
+
+### M1 Ultra
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/168941808-d00d49e6-d6d5-4301-b4ac-7a8d4f2552de.png">
+<br />
+</p>
 
 [Apple M1 Ultra Chip](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/) is a Apple's most powerful sillicon chip in their M1-series lineup. The M1 Ultra is composed of **two M1 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 128GB of high-bandwidth, low-latency unified memory that can be accessed by the **20-core CPU, 64-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M1 Ultra is currently available in Apple's **[Mac Studio](https://www.apple.com/shop/buy-mac/mac-studio)**.
 
@@ -1000,7 +1045,7 @@ Parallels Desktop for Mac
 # Gaming
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-### Gaming on Apple Silicon resources
+## Gaming on Apple Silicon resources
 
  - **[Apple Silicon Games](https://applesilicongames.com/games)** 
  
@@ -1020,6 +1065,7 @@ Parallels Desktop for Mac
 
 
 ## Apple Arcade
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Apple Arcade](https://www.apple.com/apple-arcade/) is a game subscription service that gives up to six family members unlimited access to 100+ incredibly fun games, all with no ads and no in-app purchases.
 
@@ -1028,6 +1074,7 @@ Parallels Desktop for Mac
 </p>
 
 ## Steam
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Get Steam](https://store.steampowered.com/about/)
 
@@ -1040,6 +1087,7 @@ Parallels Desktop for Mac
 </p>
 
 ## Game Streaming
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
 
@@ -1074,6 +1122,7 @@ Parallels Desktop for Mac
 </p>
 
 ## Game Emulators
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
@@ -1127,10 +1176,12 @@ Parallels Desktop for Mac
    - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
    - [r/Roms](https://www.reddit.com/r/Roms/)
 
-
 ## Performance Benchmarks
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Geekbench 5](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+[GFXBench 5.0](https://gfxbench.com/result.jsp) is a high-end graphics benchmark that measures mobile and desktop performance with next-gen graphics features across all platforms. As a true cross-API benchmark, GFXBench supports all the industry-standard and vendor-specific APIs including OpenGL, OpenGL ES, Vulkan, Metal, DirectX/Direct3D and DX12. 
 
 [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
 
