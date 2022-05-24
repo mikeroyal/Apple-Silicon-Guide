@@ -46,7 +46,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
-      - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gamin-on-apple-silicon-resources)
+      - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming-on-apple-silicon-resources)
       - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
       - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
@@ -1084,6 +1084,17 @@ Parallels Desktop for Mac
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
+</p>
+
+ ## Epic Games Store
+[Back to the Top](https://github.com/mikeroyal/Windows-11-Guide/blob/main/README.md#table-of-contents)
+
+[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
+
+[Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/111918016-3fed7a00-8a40-11eb-964e-930c801c1c72.png">
 </p>
 
 ## Game Streaming
