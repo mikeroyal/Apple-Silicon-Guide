@@ -506,13 +506,15 @@ Developing with SwiftUI in Xcode 12
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/129622324-243aca6c-1feb-4b16-abef-70ad8b97f488.png">
+ <img src="https://user-images.githubusercontent.com/45159366/172255611-762a151f-6891-44b2-a0cf-657005e317ff.png">
   <br />
 </p>
 
 ## Metal Learning Resources
 
 [Metal](https://developer.apple.com/metal/) is a low-level API that provides a platform-optimized, low-overhead API for developing the latest 3D pro applications and amazing games using a rich shading language with tighter integration between graphics and compute programs. To help you do more while managing ever more complex shader code, Metal adds an unparalleled suite of advanced GPU debugging tools to help you realize the full potential of your graphics code.
+
+[Metal 3](https://developer.apple.com/videos/play/wwdc2022/10066) is Apple's newest graphics API that introdcues advanced features and compiler tools to load resources faster, compile shader binaries at build time, process complex geometry with mesh shaders, render high-resolution graphics in less time, train machine learning networks faster, and more. 
 
 [Apple Developer Documentation](https://developer.apple.com/documentation)
 
@@ -542,6 +544,14 @@ Developing with SwiftUI in Xcode 12
 ## Metal Tools, Libraries, and Frameworks
 
 [MTLDevice](https://developer.apple.com/documentation/metal/mtldevice) is the Metal interface to a GPU that you use to draw graphics or do parallel computation.
+
+[MetalFX](https://developer.apple.com/videos/play/wwdc2022/10103/) is a new API that provides platform optimized graphics effects for Metal applications. With MetalFX Upscaling, your application can now render frames at a lower resolution, reducing rendering time, without compromising rendering quality. We'll also show you how and when to use its two effects: spatial upscaling, which delivers substantial performance gains, and temporal AA and upscaling, which delivers the highest quality rendering.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/172254747-9308be59-4d79-4677-a5ec-cf40f5762cf7.png">
+  <br />
+ MetalFX Rendering. Credit: Apple
+</p>
 
 [Apple Foundation Framework](https://developer.apple.com/documentation/foundation) is a framework provides a base layer of functionality for apps and frameworks, including data storage and persistence, text processing, date and time calculations, sorting and filtering, and networking. The classes, protocols, and data types defined by Foundation are used throughout the macOS, iOS, watchOS, and tvOS SDKs.
 
