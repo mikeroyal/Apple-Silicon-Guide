@@ -216,7 +216,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 **M2. Source: [Apple](https://www.apple.com/newsroom/)**
 
 <p align="center">
-<img src="ttps://user-images.githubusercontent.com/45159366/172232750-1d6edc68-4a39-462d-8ea3-7f1b215d03c8.png">
+<img src="https://user-images.githubusercontent.com/45159366/172234868-ea4e4975-fb96-47da-a0cc-6bb5d8fba5af.png">
 <br />
 </p>
 
