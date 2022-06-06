@@ -206,7 +206,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 <br />
 </p>
 
-[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a 18% faster CPU, 35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1). It can be configured with up to 24GB of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**.
+[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)** and **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
@@ -298,11 +298,18 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 [Debugging a Custom Kernel Extension](https://developer.apple.com/documentation/apple_silicon/debugging_a_custom_kernel_extension)
 
+
+## Devices powered by Apple Silicon
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/138614058-cf6558fe-2805-4909-8aea-ef081b92f92f.png">
 <br />
 Devices powered by Apple Silicon.
 </p>
+
+### macOS
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [macOS](https://www.apple.com/macos) is an advanced desktop operating system (OS) for Apple's series of desktops and laptops.
 
@@ -313,6 +320,9 @@ Devices powered by Apple Silicon.
 
 **macOS Ventura. Source: [Apple](https://www.apple.com/macos/monterey/)**
 
+### iOS
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
 [iOS](https://www.apple.com/ios/) is an advanced mobile operating system (OS) for Apple's series of iPhone products.
 
 <p align="center">
@@ -321,6 +331,9 @@ Devices powered by Apple Silicon.
 </p>
 
 **iOS 16. Source: [Apple](https://www.apple.com/ios)**
+
+### iPadOS
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [iPadOS](https://www.apple.com/ipados/) is an advanced mobile operating system (OS) for Apple's series of iPad products.
 
@@ -331,14 +344,17 @@ Devices powered by Apple Silicon.
 
 **iPadOS 16. Source: [Apple](https://www.apple.com/ipados)**
 
-[WatchOS](https://www.apple.com/watchos/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
+###  watchOS
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+[watchOS](https://www.apple.com/watchos/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230694-4accbc04-9057-4280-84d2-42927131fc8c.png">
 <br />
 </p>
 
-**WatchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
+**watchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
 
 # Chip on Wafer on Substrate (CoWoS)
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
