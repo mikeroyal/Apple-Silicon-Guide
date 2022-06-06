@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172232702-67e36945-a30b-4593-bcc1-bc71cc162c60.png">
+<br />
+</p>
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/157356993-34a7e1fa-ac06-49aa-991a-bf797a745e64.png">
@@ -8,6 +12,12 @@
 #### A guide covering Apple Silicon including the applications, libraries and tools that will make you better and more efficient with your Apple Silicon powered device.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172232783-6cf8166f-2bd0-41bd-a067-bb61504fc182.png">
+<br />
+Apple M2 Architecture.
+</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/157364203-a6c998b9-f15d-465e-81f4-ef888e7c8910.png">
@@ -23,6 +33,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
     - [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
     - [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
     - [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
+    - [M2](https://github.com/mikeroyal/Apple-Silicon-Guide#m2)
 
 2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
@@ -187,7 +198,73 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 **M1 Ultra GPU Performance. Source: [Apple](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/)**
 
-[Xcode 12](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
+### M2
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172232702-67e36945-a30b-4593-bcc1-bc71cc162c60.png">
+<br />
+</p>
+
+[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a 18% faster CPU, 35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1). It can be configured with up to 24GB of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
+<br />
+</p>
+
+**M2. Source: [Apple](https://www.apple.com/newsroom/)**
+
+<p align="center">
+<img src="ttps://user-images.githubusercontent.com/45159366/172232750-1d6edc68-4a39-462d-8ea3-7f1b215d03c8.png">
+<br />
+</p>
+
+**M2 CPU Performance. Source: [Apple](https://www.apple.com/newsroom/)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230446-6fd70598-8dd9-4e5a-b92d-2e1e4ac92791.png">
+<br />
+</p>
+
+**M2 GPU Performance. Source: [Apple](https://www.apple.com/newsroom)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230507-c469930a-7a4e-4289-bb39-d6dddf7ecdcb.png">
+<br />
+</p>
+
+**M1 vs M2. Source: [Apple](https://www.apple.com/newsroom)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230463-b1578f4a-6cce-4738-9835-28d0ac7529ef.png">
+<br />
+</p>
+
+**M2 Gaming Performance. Source: [Apple](https://www.apple.com/newsroom)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230480-80b23096-4db5-467c-97b2-dc52427d49f7.png">
+<br />
+</p>
+
+**M2 Image Processing Performance. Source: [Apple](https://www.apple.com/newsroom)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230485-094fc112-efbd-4b21-90db-d66ac70bafbb.png">
+<br />
+</p>
+
+**M2 Video editing Performance. Source: [Apple](https://www.apple.com/newsroom)**
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/172230490-c8c9b8de-54f6-46a8-9f0c-e8375cd9dbea.png">
+<br />
+</p>
+
+**M2 Image filters & Effects Performance. Source: [Apple](https://www.apple.com/newsroom)**
+
+[Xcode 13](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
 
 [Tensorflow_macOS](https://github.com/apple/tensorflow_macos) is a Mac-optimized version of TensorFlow and TensorFlow Addons for macOS 11.0+ accelerated using Apple's ML Compute framework.
 
@@ -227,41 +304,41 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 Devices powered by Apple Silicon.
 </p>
 
-[macOS](https://www.apple.com/macos/monterey-preview/) is an advanced desktop operating system (OS) for Apple's series of desktops and laptops.
+[macOS](https://www.apple.com/macos) is an advanced desktop operating system (OS) for Apple's series of desktops and laptops.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/121821090-8d4a4380-cc4b-11eb-896a-74e1be0fb3c6.png">
+<img src="https://user-images.githubusercontent.com/45159366/172230572-2d86197a-ce2a-4eaa-a508-e2c148b60057.png">
 <br />
 </p>
 
-**macOS Monterey. Source: [Apple](https://www.apple.com/macos/monterey/)**
+**macOS Ventura. Source: [Apple](https://www.apple.com/macos/monterey/)**
 
-[iOS](https://www.apple.com/ios/ios-15-preview/) is an advanced mobile operating system (OS) for Apple's series of iPhone products.
+[iOS](https://www.apple.com/ios/) is an advanced mobile operating system (OS) for Apple's series of iPhone products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/121821096-976c4200-cc4b-11eb-9006-641b1c99a9e7.png">
+<img src="https://user-images.githubusercontent.com/45159366/172230685-96be6cd0-118f-48d7-b7b9-e258580cd66a.png">
 <br />
 </p>
 
-**iOS 15. Source: [Apple](https://www.apple.com/ios/ios-15/)**
+**iOS 16. Source: [Apple](https://www.apple.com/ios)**
 
-[iPadOS](https://www.apple.com/ipados/ipados-preview/) is an advanced mobile operating system (OS) for Apple's series of iPad products.
+[iPadOS](https://www.apple.com/ipados/) is an advanced mobile operating system (OS) for Apple's series of iPad products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/121821093-93402480-cc4b-11eb-9a02-42e75c811c39.png">
+<img src="https://user-images.githubusercontent.com/45159366/172230690-b628a77f-963c-44bd-b84b-9e76a2082ef3.png">
 <br />
 </p>
 
-**iPadOS 15. Source: [Apple](https://www.apple.com/ipados/ipados-15/)**
+**iPadOS 16. Source: [Apple](https://www.apple.com/ipados)**
 
-[WatchOS](https://www.apple.com/watchos/watchos-preview/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
+[WatchOS](https://www.apple.com/watchos/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/121821100-9b985f80-cc4b-11eb-9c10-1e3aac33feda.png">
+<img src="https://user-images.githubusercontent.com/45159366/172230694-4accbc04-9057-4280-84d2-42927131fc8c.png">
 <br />
 </p>
 
-**WatchOS 8. Source: [Apple](https://www.apple.com/watchos/watchos-8/)**
+**WatchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
 
 # Chip on Wafer on Substrate (CoWoS)
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
