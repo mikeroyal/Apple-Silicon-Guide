@@ -1246,6 +1246,8 @@ Parallels Desktop for Mac
 
 [RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
 
+[OpenEMU](https://openemu.org/) is an open-source project retro video-game emulation for macOS. It leverages modern macOS technologies, such as Cocoa, Core Animation, and other third-party libraries. 
+
 [Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.
 
 [Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
