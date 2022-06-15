@@ -80,23 +80,31 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 # Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-[Does it ARM? Apps that are reported to support Apple Silicon](https://doesitarm.com)
+- [Does it ARM? Apps that are reported to support Apple Silicon](https://doesitarm.com)
 
-[List of apps with native Apple silicon support](https://isapplesiliconready.com/for/m1)
+- [List of apps with native Apple silicon support](https://isapplesiliconready.com/for/m1)
 
-[M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)
+- [M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)
 
-[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)
+- [M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)
 
-[Apple Silicon Games](https://applesilicongames.com/games)
+- [Apple Silicon Games](https://applesilicongames.com/games)
   
-[Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)
+- [Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)
 
-[Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)
+- [Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)
 
-[Mac Development Ansible Playbook by Jeff Geerling](https://github.com/geerlingguy/mac-dev-playbook)
+- [Mac Development Ansible Playbook by Jeff Geerling](https://github.com/geerlingguy/mac-dev-playbook)
 
-[CrossOver® Mac](https://www.codeweavers.com/crossover)
+- [Running macOS in a Virtual Machine on Apple Silicon Macs](https://developer.apple.com/documentation/virtualization/running_macos_in_a_virtual_machine_on_apple_silicon_macs?language=objc) 
+
+- [Running Intel Binaries in Linux VMs with Rosetta](https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta?language=objc) 
+
+- [Virtualize macOS on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_macos_on_a_mac?language=objc) 
+
+- [Virtualize Linux on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_linux_on_a_mac?language=objc) 
+
+- [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
 [Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a framework that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
@@ -611,7 +619,18 @@ Developing with SwiftUI in Xcode 12
   <br />
 </p>
 
-**[Amazon Elastic Compute Cloud (EC2) M1 Mac instances for macOS](https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-ec2-m1-mac-instances-macos/)**
+
+### Developer Quick Links
+
+- [Amazon Elastic Compute Cloud (EC2) M1 Mac instances for macOS](https://aws.amazon.com/about-aws/whats-new/2021/12/amazon-ec2-m1-mac-instances-macos/)
+
+ - [Running macOS in a Virtual Machine on Apple Silicon Macs](https://developer.apple.com/documentation/virtualization/running_macos_in_a_virtual_machine_on_apple_silicon_macs?language=objc) - Install and run macOS in a virtual machine using the Virtualization framework.
+
+ - [Running Intel Binaries in Linux VMs with Rosetta](https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta?language=objc) - Running x86_64 Linux binaries under ARM Linux on Apple silicon.
+
+ - [Virtualize macOS on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_macos_on_a_mac?language=objc) - Configure and run macOS guests on Apple silicon Mac computers.
+
+ - [Virtualize Linux on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_linux_on_a_mac?language=objc) - Configure and run Linux guests on Apple silicon and Intel-based Mac computers.
 
 ## Virtualization Tools and Frameworks
 
@@ -1043,6 +1062,13 @@ Developing with SwiftUI in Xcode 12
 
 # Running Linux on the M1
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+### Developer Quick Links
+
+ - [Running Intel Binaries in Linux VMs with Rosetta](https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta?language=objc) - Running x86_64 Linux binaries under ARM Linux on Apple silicon.
+
+ - [Virtualize Linux on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_linux_on_a_mac?language=objc) - Configure and run Linux guests on Apple silicon and Intel-based Mac computers.
+ 
 
 [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
 
