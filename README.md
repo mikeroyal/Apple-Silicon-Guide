@@ -106,6 +106,10 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
+[macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide#openbsm-audit) is a collection of techniques for improving the security and privacy of a modern MacBook running a recent version of macOS.
+ 
+[macOS Security Compliance Project](https://github.com/usnistgov/macos_security) is an open source effort to provide a programmatic approach to generating security guidance. The configuration settings in this document were derived from National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, Security and Privacy Controls for Information Systems and Organizations, Revision 5. 
+
 [Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a framework that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
 [Apple A-series](https://www.apple.com/) is Apple's 64-bit ARM-based system on a chip (SoC) used in their iPhones and iPads. Though, at WWDC 2020 it was announced that [Apple Silicon](https://developer.apple.com/documentation/apple_silicon) would [transition into Mac laptops](https://www.apple.com/newsroom/2020/06/apple-announces-mac-transition-to-apple-silicon/).
