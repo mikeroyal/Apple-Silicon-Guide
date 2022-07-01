@@ -410,25 +410,24 @@ Devices powered by Apple Silicon.
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/141201793-f31f4899-7317-49a7-808b-6e551df23bf9.png">
   <br />
-  Xcode Guide
 </p>
 
 ## Getting Started with Xcode
 
 [Apple Developer Documentation for Xcode](https://developer.apple.com/documentation/xcode)
 
-[Xcode](https://developer.apple.com/xcode/) includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging. Xcode 12 is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
+[Xcode](https://developer.apple.com/xcode/) includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging. Xcode 14 is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/110880054-dd9fb700-8292-11eb-9478-a5d62dc76f9d.png">
+<img src="https://user-images.githubusercontent.com/45159366/176965201-6573e818-3b14-42b9-a1c2-5159d4aa33a9.png">
 <br />
-Developing with SwiftUI in Xcode 12
+Developing with SwiftUI in Xcode 14
 </p>
 
 [Xcode Cloud](https://developer.apple.com/xcode-cloud/) is a continuous integration and delivery service built into Xcode and designed expressly for Apple developers. It accelerates the development and delivery of high-quality apps by bringing together cloud-based tools that help you build apps, run automated tests in parallel, deliver apps to testers, and view and manage user feedback.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/121821101-9cc98c80-cc4b-11eb-9dde-e3efa2ea8154.png">
+<img src="https://user-images.githubusercontent.com/45159366/176965198-b5e29ebf-4c75-4c2f-b10c-32a840371d26.jpg">
 <br />
 </p>
 
