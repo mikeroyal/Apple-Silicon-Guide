@@ -106,6 +106,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
+- [asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon.
+
 [Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a framework that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
 [Apple A-series](https://www.apple.com/) is Apple's 64-bit ARM-based system on a chip (SoC) used in their iPhones and iPads. Though, at WWDC 2020 it was announced that [Apple Silicon](https://developer.apple.com/documentation/apple_silicon) would [transition into Mac laptops](https://www.apple.com/newsroom/2020/06/apple-announces-mac-transition-to-apple-silicon/).
@@ -1336,11 +1338,20 @@ Parallels Desktop for Mac
 
 [GFXBench 5.0](https://gfxbench.com/result.jsp) is a high-end graphics benchmark that measures mobile and desktop performance with next-gen graphics features across all platforms. As a true cross-API benchmark, GFXBench supports all the industry-standard and vendor-specific APIs including OpenGL, OpenGL ES, Vulkan, Metal, DirectX/Direct3D and DX12. 
 
+[PugetBench Benchmarks](https://www.pugetsystems.com/benchmarks/) is an application that has a number of benchmarks that are designed to test many popular professional applications using real-world projects and workflows. 
+
 [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
 
 [UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
 
 <img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+[asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/176965986-3a2b1f88-93d6-4d1b-aa2d-545a86e5e667.png">
+  <br />
+</p>
 
 # Game Development
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
