@@ -34,6 +34,12 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
     - [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
     - [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
     - [M2](https://github.com/mikeroyal/Apple-Silicon-Guide#m2)
+    - [Migrating to Apple Silicon](#Migrating-to-Apple-Silicon)
+    - [Devices powered by Apple Silicon](#Devices-powered-by-Apple-Silicon)
+    - [Getting Software](#Getting-Software)
+    - [Universal Control](#Universal-Control)
+    - [Stage Manager](#Stage-Manager)
+    - [Adding Storage(External)](#Adding-External-Storage)
 
 2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
@@ -278,7 +284,10 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 **M2 Image filters & Effects Performance. Source: [Apple](https://www.apple.com/newsroom)**
 
-[Xcode 13](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
+## Migrating to Apple Silicon
+[Back to the Top](#table-of-contents)
+
+[Xcode 13](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon.
 
 [Tensorflow_macOS](https://github.com/apple/tensorflow_macos) is a Mac-optimized version of TensorFlow and TensorFlow Addons for macOS 11.0+ accelerated using Apple's ML Compute framework.
 
@@ -314,7 +323,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 
 ## Devices powered by Apple Silicon
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/138614058-cf6558fe-2805-4909-8aea-ef081b92f92f.png">
@@ -369,6 +378,115 @@ Devices powered by Apple Silicon.
 </p>
 
 **watchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
+
+## Getting Software
+
+[Back to the Top](#table-of-contents)
+
+[Apple App Store](https://www.apple.com/app-store/)
+
+[Developing for the App Store](https://www.apple.com/app-store/developing-for-the-app-store/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/110990017-99aac180-8327-11eb-8a01-f9d252202835.png">
+<br />
+</p>
+
+[Setapp](https://setapp.com/) is a large suite of powerful Mac apps available by subscription($9.99/month) that will get you [210+ tools](https://setapp.com/apps) for any job, from drive cleaning, software/web development and writing.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/115629643-9d7f1b80-a2b7-11eb-801d-8db74af83847.png">
+  <br />
+</p>
+
+[Homebrew](https://brew.sh) is the missing Package Manager for your macOS, Linux, and Windows 10 (with [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/)) system. Homebrew is an essential tool for any developer/engineer.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/115158810-ee3b0e00-a044-11eb-98b4-3c0dc35ff972.png">
+  <br />
+</p>
+
+[Cakebrew](http://www.cakebrew.com/) is the most convenient way to use Homebrew for your daily tasks! It does for Homebrew what Synaptics does to Linux package managers. With the Cakebrew UI, you can:
+
+  - Search for formulae
+  - Install, uninstall and upgrade formula
+  - Tap and untap repos
+  - Update Homebrew
+  - Run the brew cleanup tool
+  
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/179672894-5d3961f3-68d3-4dcc-a679-a23c63041db3.png">
+  <br />
+</p>
+
+[MacUpdate](https://www.macupdate.com/) is a place to get software for MacOS. It has 18,000+ verified Mac apps, handpicked by the MacUpdate team.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/179672899-baf8ff51-7151-4318-8d08-446ede72a275.png">
+  <br />
+</p>
+
+  
+[MacPorts Project](https://www.macports.org/) is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on macOS. 
+
+## Universal Control
+[Back to the Top](#table-of-contents)
+
+[Universal Control](https://www.apple.com/newsroom/2021/10/macos-monterey-is-now-available/) is a software feature for Apple devices such as Macbooks and iPads that makes it possible to use a single keyboard, mouse, and trackpad with your Mac and iPad as long as they're side-by-side. Much like SideCar, there are limited settings for Universal Control. Without a second device connected, you can go to System Preferences -> Displays and click Advanced to pull up Universal Control settings. If a device is already connected, you'll have to go to Displays -> Display Settings -> Advanced.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/153113830-cf6380b4-af80-4252-894a-84a4eada82e6.png">
+<br />
+</p>
+
+Bluetooth, Wi-Fi, and Handoff must be enabled on each device, and they must be within 30 feet. If you prefer to use Universal Control wired, the devices can be connected via USB and you must trust your Mac on your iPad. At the moment, Apple does not mention support for Ethernet but we will test this ourselves during the beta period.
+
+You must also have supported devices. Apple says supported devices include:
+
+ - MacBook Pro (2016 and later)
+ - MacBook (2016 and later)
+ - MacBook Air (2018 and later)
+ - iMac (2017 and later)
+ - iMac (5K Retina 27-inch, Late 2015)
+ - iMac Pro, Mac mini (2018 and later)
+ - Mac Pro (2019)
+ - Any iPad Pro
+ - iPad Air (3rd generation and later)
+ - iPad (6th generation and later)
+ - iPad mini (5th generation and later)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/153113829-d6ba2c62-4639-4576-90c5-0456b1e2f06e.png">
+<br />
+</p>
+
+## Stage Manager
+
+Stage Manager is an iPadOS feature that provides better support for external displays. Stage Manager allows the iPad Air(**M1 chip**) and iPad Pro(**M1 chip**):
+
+  *  **Fast access to windows and apps**: The windows of the apps you’re working in are displayed prominently in the center, and other apps are arranged on the left side in order of recent use.
+  *  **Resizable windows**: Resize your windows to make them the perfect size for your task.
+  *  **Center app**: Focus on the app you’re working with without going full screen.
+  *  **Overlapping windows**: Create overlapping windows of different sizes in a single view, giving you the control to arrange your ideal workspace.
+  *  **Group apps together**: Drag and drop windows from the side or open apps from the Dock to create app sets that you can always get back to.
+  
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/179672909-4c040435-65db-4522-8846-1d0b87b4a6fa.png">
+<br />
+</p>
+
+
+## Adding External Storage
+[Back to the Top](#table-of-contents)
+
+[Sabrent XTRM Q](https://www.sabrent.com/rocket-xtrmq/) is a perfect SSD for all your creative pursuits: high-res photos, videos, sound files, etc. It's perfect for saving, creating and editing available in 500GB, 1TB, 2TB, and 4TB drives.
+
+[Shell Thunder](https://m.fledging.net/products/shell-thunder) is a high-performance Intel-Certified Thunderbolt 3 SSD Enclosure engineered for active cooling with smart fan technology. Shell Thunder is designed for 2280 and 2260 m.2 NVME SSDs for macOS and Windows.
+
+[Orico USB4.0 NVMe SSD Enclosure](https://www.orico.cc/us/product/detail/7328.html) is a high-performance SSD Enclosure engineered with up to a 40Gbps transmission rate and 2 TB capacity. It supports Windows, macOS, and Linux devices.
+
+[USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
+
 
 # Chip on Wafer on Substrate (CoWoS)
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
