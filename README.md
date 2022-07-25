@@ -2079,6 +2079,8 @@ Developing with SwiftUI in Xcode 12
 
 [Online C Courses | Harvard University](https://online-learning.harvard.edu/subject/c)
 
+[C++ Tutorial | Scaler Topics](https://www.scaler.com/topics/cpp/)
+
 
 ## C/C++ Tools and Frameworks
 
