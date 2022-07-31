@@ -40,6 +40,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
     - [Universal Control](#Universal-Control)
     - [Stage Manager](#Stage-Manager)
     - [Adding Storage(External)](#Adding-External-Storage)
+    - [SSD Drive Health/Data Recovery](#SSD-Drive-HealthData-Recovery)
+    - [Checking Battery Health](#Checking-Battery-Health)
 
 2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
@@ -488,6 +490,46 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 [Orico USB4.0 NVMe SSD Enclosure](https://www.orico.cc/us/product/detail/7328.html) is a high-performance SSD Enclosure engineered with up to a 40Gbps transmission rate and 2 TB capacity. It supports Windows, macOS, and Linux devices.
 
 [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
+
+## SSD Drive Health/Data Recovery
+
+- [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
+
+ * Restore from Time Machine: [Restore your files](https://support.apple.com/kb/HT203981) from a Time Machine backup.
+
+ * Reinstall macOS: Download and [reinstall MacOS](https://support.apple.com/kb/HT204904).
+
+ * Safari (or Get Help Online): Use Safari to browse the web and find help for your Mac. Links to [Apple's support website](https://support.apple.com/) are included. Browser plug-ins and extensions are disabled.
+
+ * Disk Utility: Use Disk Utility to [repair your disk](https://support.apple.com/kb/HT210898) or [erase your disk](https://support.apple.com/kb/HT208496) or other storage device.
+
+ * Additional utilities are available from the Utilities menu in the menu bar, including [Startup Security Utility](https://support.apple.com/kb/HT208198) (or [Firmware Password Utility](https://support.apple.com/kb/HT204455)), and Terminal. 
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/182049332-16b132a4-a02f-42d7-a234-3cc1088c25d6.png">
+<br />
+MacOS Recovery Options
+</p>
+
+[Disk Drill](https://www.cleverfiles.com/) is a free tool that can scan and recover data from virtually any storage device — including internal Macintosh hard drives, external hard drives, cameras, iPhones, iPads, iPods, Android devices, USB flash drives, Kindles, and memory cards. It can read your device even if it is failing, unreadable, or has lost a partition. Combining several powerful scanning algorithms, Disk Drill provides a complete Mac data recovery solution.
+
+[DriveDx](https://binaryfruit.com/drivedx) is an advanced drive-health diagnostic and monitoring utility. It not only monitors the drive’s built-in S.M.A.R.T. status, but also analyzes the changes of all drive health indicators that are closely related to SSD or HDD failures (like SSD wear out / endurance, reallocated bad sectors, offline bad sectors, pending sectors, I/O errors, and more) and alerts the user immediately if anything goes wrong. 
+
+## Checking Battery Health
+
+[coconutBattery](https://www.coconut-flavour.com/coconutbattery/) is a tool that keeps you aware of your current battery health. It shows you live information about the battery quality in your Mac, iPhone and iPad.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/182049312-aeebad9f-c226-4c77-9461-50f41d6100a0.png">
+<br />
+Checking Battery on your Mac device.
+</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/182049316-87385a01-d26e-46c6-bbfc-ae5043c57763.png">
+<br />
+Checking Battery on your iOS device.
+</p>
 
 
 # Chip on Wafer on Substrate (CoWoS)
