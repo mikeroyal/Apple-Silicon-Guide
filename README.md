@@ -778,10 +778,23 @@ Developing with SwiftUI in Xcode 14
   <br />
  Ubuntu on UTM
 </p>
+
+[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+
+  * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
+  * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
+  * Virtual TPM device with fast encryption support.
+  * Improved Linux support on M1.
+  * 3D Graphics HW Acceleration and OpenGL 4.3(Requires Linux 5.19+ & Mesa 22.1.3+) in Linux virtual machines.
+  * Universal Binary for Apple Silicon and Intel Macs.
+  
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/182049352-b899b356-57c0-4ec0-8fb1-ff394a1f6403.png">
+  <br />
+ Windows 11 on VMware Fusion
+</p>
  
 [Multipass](https://multipass.run/) is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. It uses [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM) on Linux, [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) on Windows, and [HyperKit](https://github.com/moby/hyperkit) on macOS.
-
-[VMware Fusion](https://www.vmware.com/products/fusion.html) is a Desktop Hypervisor that deliver desktop and ‘server’ virtual machines, containers and [Kubernetes clusters](https://www.vmware.com/topics/glossary/content/kubernetes-cluster) to developers, and IT professionals on the Mac.
 
 [VMware Horizon](https://www.vmware.com/products/horizon.html) is a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
 
@@ -1286,7 +1299,20 @@ Parallels Desktop for Mac
  Windows 11 on UTM
 </p>
  
-[VMware Fusion](https://www.vmware.com/products/fusion.html) is a tool that allows you to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) on M1 Mac device without rebooting.
+[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+
+  * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
+  * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
+  * Virtual TPM device with fast encryption support.
+  * Improved Linux support on M1.
+  * 3D Graphics HW Acceleration and OpenGL 4.3(Requires Linux 5.19+ & Mesa 22.1.3+) in Linux virtual machines.
+  * Universal Binary for Apple Silicon and Intel Macs.
+  
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/182049352-b899b356-57c0-4ec0-8fb1-ff394a1f6403.png">
+  <br />
+ Windows 11 on VMware Fusion
+</p>
 
 [ARM64EC (“Emulation Compatible”)](https://docs.microsoft.com/en-us/windows/uwp/porting/arm64ec) is a new application binary interface (ABI) for Windows 11 on ARM that runs with native speed and is interoperable with x64 architecture. An app, process, or even a module can freely mix and match with ARM64EC and x64 as needed. The ARM64EC code in the app will run natively while any x64 code will run using Windows 11 on ARM’s built-in emulation. The ARM64EC ABI differs slightly from the current [ARM64 ABI](https://docs.microsoft.com/en-us/cpp/build/arm64-windows-abi-conventions?view=msvc-160) in ways that make it binary compatible with x64 code. Specifically, the ARM64EC ABI follows x64 software conventions including calling convention, stack usage, and data alignment, making ARM64EC and x64 interoperable. Apps built as ARM64EC may contain x64 code but do not have to, since ARM64EC is its own complete, first-class ABI for Windows.
 
