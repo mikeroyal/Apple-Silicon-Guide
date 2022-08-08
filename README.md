@@ -29,19 +29,22 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
 
-    - [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
-    - [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
-    - [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
-    - [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
-    - [M2](https://github.com/mikeroyal/Apple-Silicon-Guide#m2)
-    - [Migrating to Apple Silicon](#Migrating-to-Apple-Silicon)
-    - [Devices powered by Apple Silicon](#Devices-powered-by-Apple-Silicon)
-    - [Getting Software](#Getting-Software)
-    - [Universal Control](#Universal-Control)
-    - [Stage Manager](#Stage-Manager)
-    - [Adding Storage(External)](#Adding-External-Storage)
-    - [SSD Drive Health/Data Recovery](#SSD-Drive-HealthData-Recovery)
-    - [Checking Battery Health](#Checking-Battery-Health)
+   * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
+   * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
+   * [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
+   * [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
+   * [M2](https://github.com/mikeroyal/Apple-Silicon-Guide#m2)
+   * [Migrating to Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Migrating-to-Apple-Silicon)
+   * [Devices powered by Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Devices-powered-by-Apple-Silicon)
+   * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
+     - [Productivity & Workflow Apps](https://github.com/mikeroyal/Apple-Silicon-Guide#Productivity--Workflow-Apps)
+     - [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Apple-Silicon-Guide#secure--privacy-focused-web-browsers)
+     - [Microsoft Office Alternatives](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives)    
+   * [Universal Control](https://github.com/mikeroyal/Apple-Silicon-Guide#Universal-Control)
+   * [Stage Manager](https://github.com/mikeroyal/Apple-Silicon-Guide#Stage-Manager)
+   * [Adding Storage(External)](https://github.com/mikeroyal/Apple-Silicon-Guide#Adding-External-Storage)
+   * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
+   * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
 
 2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
@@ -390,21 +393,14 @@ Devices powered by Apple Silicon.
 [Developing for the App Store](https://www.apple.com/app-store/developing-for-the-app-store/)
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/110990017-99aac180-8327-11eb-8a01-f9d252202835.png">
+<img src="https://user-images.githubusercontent.com/45159366/183509416-3f094b9d-7e9d-4d72-baa7-106cbf360efd.png">
 <br />
-</p>
-
-[Setapp](https://setapp.com/) is a large suite of powerful Mac apps available by subscription($9.99/month) that will get you [210+ tools](https://setapp.com/apps) for any job, from drive cleaning, software/web development and writing.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/115629643-9d7f1b80-a2b7-11eb-801d-8db74af83847.png">
-  <br />
 </p>
 
 [Homebrew](https://brew.sh) is the missing Package Manager for your macOS, Linux, and Windows 10 (with [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/)) system. Homebrew is an essential tool for any developer/engineer.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/115158810-ee3b0e00-a044-11eb-98b4-3c0dc35ff972.png">
+ <img src="https://user-images.githubusercontent.com/45159366/183512138-68b919fe-a970-431d-801e-6982049e9e92.png">
   <br />
 </p>
 
@@ -421,6 +417,13 @@ Devices powered by Apple Silicon.
   <br />
 </p>
 
+[Setapp](https://setapp.com/) is a large suite of powerful Mac apps available by subscription($9.99/month) that will get you [210+ tools](https://setapp.com/apps) for any job, from drive cleaning, software/web development and writing.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/115629643-9d7f1b80-a2b7-11eb-801d-8db74af83847.png">
+  <br />
+</p>
+
 [MacUpdate](https://www.macupdate.com/) is a place to get software for MacOS. It has 18,000+ verified Mac apps, handpicked by the MacUpdate team.
 
 <p align="center">
@@ -428,8 +431,152 @@ Devices powered by Apple Silicon.
   <br />
 </p>
 
-  
 [MacPorts Project](https://www.macports.org/) is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on macOS. 
+
+### Productivity & Workflow Apps
+
+[Back to the Top](#table-of-contents)
+
+[Bartender](https://www.macbartender.com/) is an app for macOS that superpowers your menu bar, giving you total control over your menu bar items, what's displayed, and when, with menu bar items only showing when you need them. It improves your workflow with quick reveal, search, custom hotkeys and triggers, and lots more. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509489-c6941bff-7f2a-4a5b-a5e4-a8c24bca3b1d.png">
+  <br />
+  Bartender menu bar tray
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183511213-02d08283-7432-4afc-988e-f933dc1bd4a5.png">
+  <br />
+  Bartender Settings
+</p>
+
+
+[Magnet](https://magnet.crowdcafe.com/) is an app that keeps your workspace organized. magnet is activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509955-d6249063-5d17-49c3-bb99-8c952086a6a7.png">
+  <br />
+  Magnet
+</p>
+
+
+[AltTab](https://alt-tab-macos.netlify.app/) is an app that brings the power of Windows’s “alt-tab” window switcher to macOS.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509490-8def09c4-b8a8-4112-b24a-aa9feeb8a3de.jpg">
+  <br />
+  AltTab
+</p>
+
+
+[MonitorControl](https://monitorcontrol.app/) is an app that controls your external display brightness and volume and shows native OSD. Use menulet sliders or the keyboard, including native Apple keys.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509539-7d839f11-a975-441d-a683-ca58031ac9f8.png">
+  <br />
+  MonitorControl
+</p>
+
+
+[WebCatalog](https://webcatalog.io/webcatalog/) is an app that turns any Website into Real Desktop Apps. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509551-bbac5da8-0e77-4a62-89df-19e9a19f9be0.png">
+  <br />
+  WbCatalog
+</p>
+
+
+[Maccy](https://maccy.app/) is a lightweight clipboard manager for macOS. It keeps the history of what you copy and lets you quickly navigate, search, and use previous clipboard contents.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509534-1843f439-9738-4e40-a6bf-72bf10fa9f5d.png">
+  <br />
+  Maccy clipboard manager
+</p>
+
+## Secure & Privacy Focused Web Browsers
+
+[Back to the Top](#table-of-contents)
+
+**Note: While [Safari](https://www.apple.com/safari/) is a great browser that comes included on all Apple devices. It may not have all the extensions you need for your workflow so I reccommend checking out the several great options below.**
+
+[Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158266387-04609c3f-1324-4c21-9186-5ed338835260.png">
+  <br />
+  Firefox
+</p>
+
+[Brave](https://brave.com/) is a fast, private and secure web browser for PC, Mac and mobile. It comes with [Brave Search](https://brave.com/search/), which is a private search engine that puts you first, not big tech for those that don't want to use Google Search.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158266393-8891913c-5acd-4a3a-98cf-ce214282126d.png">
+  <br />
+  Brave
+</p>
+
+[Ungoogled-Chromium](https://www.techspot.com/downloads/7181-ungoogled-chromium.html) is a lightweight approach to removing Google web service dependency.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/173683899-a91b5b02-533f-4ad2-ba84-c3a70108e0dd.png">
+  <br />
+ Ungoogled-Chromium
+</p>
+
+[Vivaldi](https://vivaldi.com/) is a fast, private and secure web browser for PC, Mac and mobile. It comes with built-in features like Notes, Screen Capture, Image Properties and (a lot) more.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158266396-25f48ceb-9868-4d8f-80a3-30bbd0bbf092.png">
+  <br />
+  Vivaldi
+</p>
+
+[Ghostery Dawn](https://www.ghostery.com/dawn) is a fast, private and secure web browser for PC, Mac and mobile. It comes with the complete Ghostery Privacy Suite including [Ghostery Glow](https://www.ghostery.com/glow) a private search engine that does not log your search history, which means you get served objective results, not results that are filtered by the likelihood you’ll click on them.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509605-9e486350-315c-4c9c-ab65-261cda0dac7f.png">
+  <br />
+  Ghostery Dawn
+</p>
+
+[DuckDuckGo Privacy Browser](https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361) is a fast, private and secure web browser for MacOS and mobile(iOS and Android).
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/183509601-0d8382cb-bf4f-41e7-9531-9946c8749a7c.png">
+  <br />
+ DuckDuckGo
+</p>
+
+## Microsoft Office Alternatives
+
+[Back to the Top](#table-of-contents)
+
+[OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats for Windows, Mac and Linux.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158472597-9ca73786-4e28-497f-9c6d-0a0040e8c3da.png">
+  <br />
+  OnlyOffice
+</p>
+
+[FreeOffice](https://www.freeoffice.com/) is a secure office suite highly compatible with MS Office formats for Windows, Mac and Linux.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158266331-321a1004-14cb-473f-a01f-9a9a6e67623a.png">
+  <br />
+  FreeOffice
+</p>
+
+[LibreOffice](https://www.libreoffice.org/) is a free and open-source office productivity software suite similar to Microsoft Office.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/158470268-2834d32d-72ef-4e5e-8cd6-02db51a5dcfa.png">
+  <br />
+  LibreOffice
+</p>
 
 ## Universal Control
 [Back to the Top](#table-of-contents)
