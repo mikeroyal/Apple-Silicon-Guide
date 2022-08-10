@@ -626,8 +626,8 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 <br />
 </p>
 
-
 ## Adding External Storage
+
 [Back to the Top](#table-of-contents)
 
 [Sabrent XTRM Q](https://www.sabrent.com/rocket-xtrmq/) is a perfect SSD for all your creative pursuits: high-res photos, videos, sound files, etc. It's perfect for saving, creating and editing available in 500GB, 1TB, 2TB, and 4TB drives.
@@ -639,6 +639,8 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
 
 ## SSD Drive Health/Data Recovery
+
+[Back to the Top](#table-of-contents)
 
 - [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
@@ -663,6 +665,8 @@ MacOS Recovery Options
 [DriveDx](https://binaryfruit.com/drivedx) is an advanced drive-health diagnostic and monitoring utility. It not only monitors the drive’s built-in S.M.A.R.T. status, but also analyzes the changes of all drive health indicators that are closely related to SSD or HDD failures (like SSD wear out / endurance, reallocated bad sectors, offline bad sectors, pending sectors, I/O errors, and more) and alerts the user immediately if anything goes wrong. 
 
 ## Checking Battery Health
+
+[Back to the Top](#table-of-contents)
 
 [coconutBattery](https://www.coconut-flavour.com/coconutbattery/) is a tool that keeps you aware of your current battery health. It shows you live information about the battery quality in your Mac, iPhone and iPad.
 
