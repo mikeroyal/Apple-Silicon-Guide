@@ -46,7 +46,10 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
 
-2. [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
+2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
+ 
+    - [InFO (Integrated Fan-Out) Wafer Level Packaging](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
+    - [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
 3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
 
@@ -683,8 +686,39 @@ Checking Battery on your iOS device.
 </p>
 
 
-# Chip on Wafer on Substrate (CoWoS)
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+# Wafer Level Multi-Chip Packaging Technology
+
+[Back to the Top](#table-of-contents)
+
+## InFO (Integrated Fan-Out) Wafer Level Packaging
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/184552824-33363b75-56c4-4f1a-a348-f18f107abdc5.png">
+  <br />
+</p>
+
+[InFO](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/InFO.htm) is an innovative wafer level system integration technology platform, featuring high density RDL (Re-Distribution Layer) and TIV (Through InFO Via) for high-density interconnect and performance for various applications, such as mobile, and high performance computing. The InFO platform offers various package schemes in 2D and 3D that are optimized for specific applications. 
+
+[InFO_PoP](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/InFO.htm#tbc_InFO_PoP) is the industry's 1st 3D wafer level fan-out package, features high density RDL and TIV to integrate mobile AP w/ DRAM package stacking for mobile application. Comparing to FC_PoP, InFO_PoP has a thinner profile and better electrical and thermal performances because of no organic substrate and C4 bump. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/184552831-604bc8ee-0bf4-434c-befe-161dbb6cf89e.png">
+  <br />
+  InFO_PoP 
+</p>
+
+[InFO_oS](https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/InFO.htm#tbc_InFO_oS) is a packaging process that leverages InFO technology and features higher density 2/2µm RDL line width/space to integrate multiple advanced logic chiplets for 5G networking application. It enables hybrid pad pitches on SoC with minimum 40µm I/O pitch, minimum 130µm C4 Cu bump pitch and > 2X reticle size InFO on >65 x 65mm substrates.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/184552827-aa529f79-3e44-412d-ab4d-1cd7bb81dac0.png">
+  <br />
+  InFO_oS 
+</p>
+
+## Chip on Wafer on Substrate (CoWoS)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/145732295-4c0ada4e-c237-472c-8bef-58b8eb223747.png">
