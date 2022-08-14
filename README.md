@@ -460,7 +460,6 @@ Devices powered by Apple Silicon.
   Magnet
 </p>
 
-
 [AltTab](https://alt-tab-macos.netlify.app/) is an app that brings the power of Windows’s “alt-tab” window switcher to macOS.
 
 <p align="center">
@@ -495,6 +494,8 @@ Devices powered by Apple Silicon.
   <br />
   Maccy clipboard manager
 </p>
+
+[Yabai](https://github.com/koekeishiya/yabai) is a window management utility that is designed to work as an extension to the built-in window manager of macOS.
 
 ## Secure & Privacy Focused Web Browsers
 
