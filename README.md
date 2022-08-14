@@ -960,6 +960,12 @@ Developing with SwiftUI in Xcode 14
 
 [Parallels Desktop](https://www.parallels.com) is a Desktop Hypervisor that delivers the fastest, easiest and most powerful application for running Windows/Linux on Mac (including the new [Apple M1 chip](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/)) and ChromeOS.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/110880057-df697a80-8292-11eb-8484-9bbc02592377.jpg">
+<br />
+Parallels Desktop for Mac
+</p>
+
 [UTM](https://getutm.app/) is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of [QEMU](https://www.qemu.org/) that allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad.
 
  - [UTM (SE) for iOS/iPadOS](https://getutm.app/install/)
@@ -986,7 +992,20 @@ Developing with SwiftUI in Xcode 14
   <br />
  Windows 11 on VMware Fusion
 </p>
- 
+
+[Tart](https://github.com/cirruslabs/tart) is a virtualization toolset to build, run and manage virtual machines on Apple Silicon.
+
+   * Tart uses Apple's own Virtualization.Framework for [near-native performance](https://browser.geekbench.com/v5/cpu/compare/14966395?baseline=14966339).
+   * Push/Pull virtual machines from any OCI-compatible container registry.
+   * Use Tart Packer Plugin to automate VM creation.
+   * Built-in CI integration.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/184552497-4c820684-5217-452b-ae1e-0e764a9a14b5.png">
+  <br />
+Tart
+</p>
+
 [Multipass](https://multipass.run/) is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. It uses [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM) on Linux, [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) on Windows, and [HyperKit](https://github.com/moby/hyperkit) on macOS.
 
 [VMware Horizon](https://www.vmware.com/products/horizon.html) is a digital workspace with the efficient delivery of virtual desktops and applications that equips workers anywhere, anytime, and on any device.
