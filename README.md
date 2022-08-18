@@ -486,7 +486,7 @@ Devices powered by Apple Silicon.
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/183509551-bbac5da8-0e77-4a62-89df-19e9a19f9be0.png">
   <br />
-  WbCatalog
+  WebCatalog
 </p>
 
 
@@ -499,6 +499,12 @@ Devices powered by Apple Silicon.
 </p>
 
 [Yabai](https://github.com/koekeishiya/yabai) is a window management utility that is designed to work as an extension to the built-in window manager of macOS.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/185481311-dd5edd37-1bbc-4f86-95ea-f3c3aaee6001.png">
+  <br />
+</p>
+
 
 ## Secure & Privacy Focused Web Browsers
 
