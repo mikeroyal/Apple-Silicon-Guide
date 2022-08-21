@@ -498,6 +498,70 @@ Devices powered by Apple Silicon.
   Maccy clipboard manager
 </p>
 
+[Daisydisk](https://daisydiskapp.com/) is a utility that provides a visual breakdown of your disk space in form of an interactive map, reveal the biggest space wasters, and remove them with a simple drag and drop. It supports all kinds of local drives, as well as the most popular cloud disks.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706628-3f546149-0505-4c10-a75a-295274eb590c.png">
+<br />
+Daisydisk
+</p>
+
+[Page screenshot for Safari](https://alexdenk.eu/mywork/pagescreenshot.html) is an awesome extension, just a click away, ready to use every time you need to capture a webpage screenshot, either the full page or just part of it. Along with your pictures will also automatically open in Preview for easy editing (annotations, blurring sensitive info, printing, drawing, sharing).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706686-c3caa3b0-9855-4c53-b890-c144fd53b1a4.png">
+<br />
+Page screenshot for Safari
+</p>
+
+[Paste](https://pasteapp.io/) is a Clipboard manager for Mac, iPhone, and iPad. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706648-15fed82e-da2a-4f94-82a3-02ac11c6d7df.png">
+<br />
+Paste
+</p>
+
+[PasteBot](https://tapbots.com/pastebot/) is an indispensible tool to improve your productivity. It quickly recalls clippings that you have copied before and apply powerful text filters to format before pasting. Queue up multiple clippings to paste in sequence. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706657-79fd7243-c323-4326-9d4f-d716a97b55b6.png">
+<br />
+PasteBot
+</p>
+
+[Speedcut](https://www.speedcut.app/) is a tool that lets your remove backgrounds from photos straight from your Mac's menu bar.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706966-082901b6-f433-44fc-bf49-1f92742220ec.png">
+<br />
+Speedcut
+</p>
+
+[Cleaner One Pro](https://cleanerone.trendmicro.com/cleaner-one-pro-for-mac/) is an all-in-one Mac Master Cleaner App. It can optimize your disk usage, free up space on your Mac, keep the hard drive clean, remove duplicate photos and other files, manage your apps, and much more. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706738-fafc320d-72b4-4b68-86df-a4d1ccf92ec0.png">
+<br />
+Cleaner One Pro
+</p>
+
+[Airbuddy 2](https://v2.airbuddy.app/) is a utility that let's you simply open your AirPods case next to your Mac and see the current status right away, just like how it works on your iPhone. A single click gets you connected, a swipe down lets you connect and change listenings modes at the same time. It has a fully customizable battery alerts help you keep track of your device's batteries.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706944-562df794-d9f7-4c3b-ab92-adf19e078d0f.png">
+<br />
+Airbuddy 2
+</p>
+
+[Fantastical 3](https://flexibits.com/fantastical) is a calendar app that works seamlessly across your Mac, iPad, iPhone, and Apple Watch. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706724-d9bde5a3-36fc-453e-80fd-5a6d2a1e1f13.png">
+<br />
+Fantastical 3
+</p>
+
 [Yabai](https://github.com/koekeishiya/yabai) is a window management utility that is designed to work as an extension to the built-in window manager of macOS.
 
 <p align="center">
