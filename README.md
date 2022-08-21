@@ -569,6 +569,124 @@ Fantastical 3
   <br />
 </p>
 
+[Bear](https://bear.app/) is a Private Markdown Editor for iPhone, iPad and Mac. It uses todos to stay on task across every device. Organize easily Link notes to each other to build a body of work. Add hashtags to organize the way you think. Use Face/Touch ID to protect sensitive notes.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707343-717aabae-21bf-4f43-b179-68ae339e9d3f.png">
+<br />
+Bear
+</p>
+
+[Obsidian](https://obsidian.md/) is a powerful knowledge base that works on top of a local folder of plain text Markdown files. It comes with 25 core plugins, 638 community plugins, and 130 themes, plus custom styling, you can tweak Obsidian to work and look exactly how you want it. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707401-7ed042a1-9658-45dc-ac16-ffb454eb3be7.png">
+<br />
+Obsidian
+</p>
+
+[MarkText](https://github.com/marktext/marktext) is a simple and elegant open-source markdown editor that focused on speed and usability.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707405-6bc1da24-e8b9-4713-949b-d0a29732224e.png">
+<br />
+MarkText
+</p>
+
+[1Focus](https://onefocusapp.com/) is an App and Website Blocker to keep youy focused on your work. Block specific apps such as email, games or unsupported web browsers. Also, block internet access by blocking the installed web browsers and the App Store.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707348-f16430fb-9847-4c58-ba11-80446c293705.png">
+<br />
+1Focus
+</p>
+
+[Harvest](https://www.getharvest.com/) is an easy Time Tracking Software With Invoicing. It creates a project Create entries for your projects and tasks, or import them via one of our integrations.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707378-d412d134-05f6-4a97-affc-cfb3f20b2633.png">
+<br />
+Harvest
+</p>
+
+[MindNode](https://www.mindnode.com/) is a map and brainstorming tool that lets you capture, organize, style and share your thoughts. Capture your thoughts Organize your ideas Style your mind map Discreetly Powerful All the features you need.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707637-0d5c7bd1-9968-4079-9941-8809af3a306e.png">
+<br />
+MindNode
+</p>
+
+[Unclutter](https://apps.apple.com/us/app/unclutter/id577085396?mt=12) is a 3-in-1 productivity app to power up your efficiency and comfort on Mac during the day. It's a smart and super handy place on your desktop for storing notes, files and pasteboard clips.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707426-c385b6ab-5494-45bb-8ddf-5f031fd2cf5d.png">
+<br />
+Unclutter
+</p>
+
+[Warp teminal](https://www.warp.dev/) is a blazingly fast, rust-based terminal reimagined from the ground up to work like a modern app.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707428-351705e2-15bd-4913-80a9-87bf8e0df945.png">
+<br />
+Warp
+</p>
+
+[Jettison](https://www.stclairsoft.com/Jettison/) is a tool that automatically ejects external disks from your Mac before your computer goes to sleep. Simply close the lid of your macbook and Jettison will automatically eject your backup drive, iPod, or whatever is connected so you can safely unplug it.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707387-4ba9bba2-305e-4976-986d-bf3e2a1113b9.png">
+<br />
+Jettison
+</p>
+
+[Numi](https://numi.app/) is a calculator that magically combines calculations with text, and allows you to freely share your computations. Numi combines text editor and calculator Support plain English.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706707-31ca1206-bfe5-4888-8b83-bbd80961b8ed.png">
+<br />
+NuMi
+</p>
+
+[Dropzone](https://aptonic.com/) is a productivity app for the Mac that makes it faster and easier to move and copy files, launch applications, upload to many different services, and more.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707368-7a3aeeda-79f5-4ad3-af40-f2eeedd3c236.png">
+<br />
+Dropzone
+</p>
+
+[System Color Picker](https://sindresorhus.com/system-color-picker) is the macOS color picker as an app with lots of extra features.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707461-1b4e46bb-86d7-4cfc-9d61-6c8d6182a434.png">
+<br />
+System Color Picker
+</p>
+
+[Things](https://culturedcode.com/things/) is an app that helps you plan your day, manage your projects, and make real progress toward your goals.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707448-44b5bc1b-96d8-4b1e-b33b-fb8a3157c092.png">
+<br />
+Things
+</p>
+
+[Raycast](https://www.raycast.com/) is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707470-4473a12f-f17a-419e-af1c-4662db395e09.png">
+<br />
+</p>
+
+[Tinkertool](https://www.bresink.com/osx/TinkerTool.html) is an application that gives you access to additional preference settings Apple has built into MacOS. This allows to activate hidden features in the operating system and in some of the applications delivered with the system.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707461-1b4e46bb-86d7-4cfc-9d61-6c8d6182a434.png">
+<br />
+Tinkertool
+</p>
 
 ## Secure & Privacy Focused Web Browsers
 
