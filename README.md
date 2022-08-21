@@ -660,7 +660,7 @@ Dropzone
 [System Color Picker](https://sindresorhus.com/system-color-picker) is the macOS color picker as an app with lots of extra features.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185707461-1b4e46bb-86d7-4cfc-9d61-6c8d6182a434.png">
+<img src="https://user-images.githubusercontent.com/45159366/185812204-2bb6073c-0e2f-40f8-83bc-6e981daf33ee.png">
 <br />
 System Color Picker
 </p>
