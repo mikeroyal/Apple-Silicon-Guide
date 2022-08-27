@@ -39,6 +39,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
      - [Productivity & Workflow Apps](https://github.com/mikeroyal/Apple-Silicon-Guide#Productivity--Workflow-Apps)
      - [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Apple-Silicon-Guide#secure--privacy-focused-web-browsers)
+        * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy--security-focused-browser-extnesions)
+        * [Privacy-focused Search Engines](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy-focused-search-engines)
      - [Microsoft Office Alternatives](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives)    
    * [Universal Control](https://github.com/mikeroyal/Apple-Silicon-Guide#Universal-Control)
    * [Stage Manager](https://github.com/mikeroyal/Apple-Silicon-Guide#Stage-Manager)
@@ -740,6 +742,145 @@ Tinkertool
  <img src="https://user-images.githubusercontent.com/45159366/183509601-0d8382cb-bf4f-41e7-9531-9946c8749a7c.png">
   <br />
  DuckDuckGo
+</p>
+
+### Privacy & Security Focused Browser extensions
+
+[Back to the Top](table-of-contents)
+
+[UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+ 
+[Privacy Badger](https://privacybadger.org/) is a browser extension that automatically learns to block invisible trackers.
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp)
+ 
+[DuckDuckGo Privacy Essentials](https://duckduckgo.com/app) is an extension that seamlessly helps prevent your personal information from being exposed during everyday online activity. 
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=fr)
+ 
+[Ghostery](https://www.ghostery.com/ghostery-browser-extension) is a comprehensive privacy protection Ad Blocker browser extension.
+ 
+ * [Firefox extension](https://www.ghostery.com/ghostery-ad-blocker-firefox)
+ * [Chrome extension](https://www.ghostery.com/ghostery-ad-blocker-chrome)
+ 
+[HTTPS Everywhere](https://www.eff.org/https-everywhere)  is an extension created by EFF and the Tor Project which automatically switches thousands of sites from insecure "http" to secure "https".
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=en)
+ 
+[CleanURLs](https://gitlab.com/KevinRoebert/ClearUrls) is an extension will automatically remove tracking elements from URLs to help protect your privacy when browsing through the Internet.
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/)
+ 
+**PixelBlock** is an Gmail extension that blocks email tracking attempts used to detect when you open and read emails. 
+
+ * [Chrome extension](https://chrome.google.com/webstore/detail/pixelblock/jmpmfcjnflbcoidlgapblgpgbilinlem/)
+
+[Sitejabber](https://www.sitejabber.com/) is an extension for consumers to find trustworthy online businesses and avoid scams.
+
+[Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/sitejabber/)
+
+[Chrome extension](https://chrome.google.com/webstore/detail/sitejabber-ratings-review/ckiddbafgcfifpioacgfijgicacanflo)
+ 
+[1Password](https://1password.com/) is a password manager that provides a place for users to store various passwords, software licenses, and other sensitive information in a virtual vault that is locked with a PBKDF2-guarded master password.
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en)
+ 
+[Bitwarden](https://bitwarden.com/) is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
+
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+ 
+[Guardio](https://guard.io/) is a lightweight extension designed to help you browse quickly and securely. It will clean your browser, speed it up, and protect your private information.
+
+ * [Chrome extension](https://chrome.google.com/webstore/detail/guardio-protection-for-ch/gjfpmkejnolcfklaaddjnckanhhgegla)
+ 
+[OneTab](https://www.one-tab.com/) is an extension that converts your tabs to a list and speeds up your browser.
+ 
+ * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/onetab/)
+ * [Chrome extension](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+ 
+### Privacy-focused Search Engines
+
+[Back to the Top](table-of-contents)
+
+ * [Brave Search](https://brave.com/search/)
+ 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009061-21142683-0943-4ef2-9ca1-a66831410ae4.png">
+  <br />
+ 
+</p>
+ 
+ * [Ghostery Glow](https://www.ghostery.com/glow)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009065-2d360d4f-9712-4f80-9da2-e8808773ba7f.png">
+  <br />
+ 
+</p>
+ 
+ * [DuckDuckGo](https://duckduckgo.com/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009064-2d753a92-6e80-48a5-9e88-deb9d886162e.png">
+  <br />
+ 
+</p>
+ 
+ * [Startpage](https://www.startpage.com/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009074-7e0ae42e-84b2-4815-9280-d56ff289462b.png">
+  <br />
+ 
+</p>
+ 
+ * [Qwant](https://www.qwant.com/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009070-b652dab1-0f4a-4020-b231-bc7da3897c04.png">
+  <br />
+ 
+</p>
+ 
+ * [Ecosia](https://www.ecosia.org/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009066-d81594fe-873f-4aed-ac0f-2f9f6673ebc9.png">
+  <br />
+ 
+</p>
+
+ * [Swisscows](https://swisscows.com/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009076-74c38325-077d-4511-be75-981646dd11c8.png">
+  <br />
+ 
+</p>
+ 
+ * [searX](https://searx.info/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009072-54539257-92f9-4f7e-9515-3cb14a2e8695.png">
+  <br />
+ 
+</p>
+ 
+ * [Mojeek](https://www.mojeek.com/)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/187009069-afd5a4e2-aea5-4143-87ba-8882c31476a8.png">
+  <br />
+ 
 </p>
 
 ## Microsoft Office Alternatives
