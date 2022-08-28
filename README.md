@@ -45,6 +45,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Adding Storage(External)](https://github.com/mikeroyal/Apple-Silicon-Guide#Adding-External-Storage)
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
+   * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
 
 2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
  
@@ -873,6 +874,51 @@ Checking Battery on your Mac device.
 <br />
 Checking Battery on your iOS device.
 </p>
+
+## MacOS/iOS Security Hardening
+
+[Back to the Top](table-of-contents)
+
+ * [CIS(Center for Internet Security) Apple macOS Benchmarks](https://www.cisecurity.org/benchmark/apple_os)
+ * [NIST Security Technical Implementation for macOS](https://ncp.nist.gov/checklist/1017)
+ * [Setting a custom umask in macOS](https://support.apple.com/en-us/HT201684)
+ * [Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist) is a curated checklist of 300+ tips for protecting digital security and privacy in 2022.
+
+### Enable full disk encryption
+
+Full disk encryption is pretty much self-explanatory. You want to encrypt your disk, so you prevent unauthorized access to your data.
+
+To turn on full disk encription on macOS:
+
+1. Go to System Preferences > Security & Privacy > FileVault
+2. Click on the lock on the bottom left side of the screen to authenticate (you need to authenticate to make changes, in this case, to turn on full disk encryption)
+3. Click Turn On FileVault... and follow the procedure step by step
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187093922-072076a7-7c4d-4fc4-a00f-e80d12d31bc2.png">
+<br />
+File Vault
+</p>
+
+[Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is a tool that along with System Integrity Protection (SIP), protects the runtime integrity of your software by preventing certain classes of exploits, like code injection, dynamically linked library (DLL) hijacking, and process memory space tampering. 
+
+[System Integrity Protection (SIP)](https://support.apple.com/en-us/HT204899) is a security technology in OS X El Capitan and later that's designed to help prevent potentially malicious software from modifying protected files and folders on your Mac.
+
+[Effaceable Storage](https://support.apple.com/guide/security/aside/sec0183122de/1/web/1) is a dedicated area of NAND storage, used to store cryptographic keys, that can be addressed directly and wiped securely.
+
+[SepOS](https://support.apple.com/guide/security/aside/secc3e4f7a43/1/web/1) is the Secure Enclave firmware, based on an Apple-customized version of the L4 microkernel.
+
+[Lynis](https://cisofy.com/lynis/) is a security auditing tool for systems based on UNIX like Linux, macOS, BSD, and others. It performs an in-depth security scan and runs on the system itself. The primary goal is to test security defenses and provide tips for further system hardening. It will also scan for general system information, vulnerable software packages, and possible configuration issues. 
+
+[Pareto Security](https://paretosecurity.com/) is a MenuBar app to automatically audit your Mac for basic security hygiene.
+
+[GRR Rapid Response](https://grr-doc.readthedocs.io/) is an incident response framework focused on remote live forensics. 
+
+[mac_apt](https://github.com/ydkhatri/mac_apt) is a DFIR (Digital Forensics and Incident Response) tool for macOS/iOS to process Mac computer full disk images (or live machines) and extract data/metadata useful for forensic investigation. It is a python based framework, which has plugins to process individual artifacts (such as Safari internet history, Network interfaces, Recently accessed files & volumes, etc..)
+
+[AdGuard DNS](https://adguard-dns.io/en/welcome.html) is a tool that let's you control all web traffic on your devices, block ads, trackers, and malicious domains.
+
+[Quad9](https://www.quad9.net/) is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats. This blocking action protects your computer, mobile device, or IoT systems against a wide range of threats such as malware, phishing, spyware, and botnets, and it can improve performance in addition to guaranteeing privacy. 
 
 
 # Wafer Level Multi-Chip Packaging Technology
