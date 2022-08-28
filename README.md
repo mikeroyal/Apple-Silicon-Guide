@@ -688,6 +688,14 @@ Things
 Tinkertool
 </p>
 
+[App Cleaner](https://app-cleaner.com/) is an application that uninstall/remove applications from Mac entirely with all their preferences, caches and other bits and pieces.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094108-4a5c0931-db42-479e-9061-467ca8891bfb.png">
+<br />
+App Cleaner
+</p>
+
 ## Secure & Privacy Focused Web Browsers
 
 [Back to the Top](#table-of-contents)
