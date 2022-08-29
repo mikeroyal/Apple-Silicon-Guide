@@ -39,7 +39,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
      - [Productivity & Workflow Apps](https://github.com/mikeroyal/Apple-Silicon-Guide#Productivity--Workflow-Apps)
      - [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Apple-Silicon-Guide#secure--privacy-focused-web-browsers)
-        * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy--security-focused-browser-extnesions)
+        * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy--security-focused-browser-extensions)
         * [Privacy-focused Search Engines](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy-focused-search-engines)
      - [Microsoft Office Alternatives](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives)    
    * [Universal Control](https://github.com/mikeroyal/Apple-Silicon-Guide#Universal-Control)
@@ -746,7 +746,7 @@ Tinkertool
 
 ### Privacy & Security Focused Browser extensions
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
 
@@ -809,7 +809,7 @@ Tinkertool
  
 ### Privacy-focused Search Engines
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
  * [Brave Search](https://brave.com/search/)
  
