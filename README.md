@@ -1528,23 +1528,53 @@ Tart
   <br />
 </p>
 
-**Running Kubernetes Locally on Apple Silicon (M1)**
+**Running Kubernetes Locally on Apple Silicon (M1/M2)**
 
-[kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”. It was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+**[kind](https://kind.sigs.k8s.io/)** is a tool for running local Kubernetes clusters using Docker container “nodes”. It was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
 **macOS home-brew command**
 
  ```brew install kind```
 
- **OR**
 
-[Okra (Orchestration with Kubernetes on Apple)](https://www.macstadium.com/orka) is a virtualization layer created for Mac build infrastructure, Orka allows you to orchestrate macOS in a cloud environment using Kubernetes on genuine Apple hardware.
+**[Okra (Orchestration with Kubernetes on Apple)](https://www.macstadium.com/orka)** is a virtualization layer created for Mac build infrastructure, Orka allows you to orchestrate macOS in a cloud environment using Kubernetes on genuine Apple hardware.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/145732013-d0b9a6d3-d135-49df-bf2b-cc1f4e8970b4.png">
   <br />
   OKRA CLI
 </p>
+
+**[Colima](https://github.com/abiosoft/colima)** is a container runtimes on macOS (and Linux) with minimal setup.
+
+**Included Featues:**
+
+   * M1/M2 Macs and Intel support
+    
+   * Docker and Containerd support
+    
+   * Kubernetes
+    
+   * Port Forwarding
+    
+   * Volume mounts
+    
+#### Installing Colima
+
+**Homebrew**
+
+```brew install colima```
+
+**MacPorts**
+
+```sudo port install colima```
+
+**Nix**
+
+```nix-env -iA nixpkgs.colima```
+
+
+
 
 ## Kubernetes Learning Resources
 
