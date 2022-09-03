@@ -443,6 +443,70 @@ Devices powered by Apple Silicon.
 
 [Back to the Top](#table-of-contents)
 
+[Signal](https://www.signal.org/) is a state-of-the-art end-to-end encryption (powered by the open source [Signal Protocol](https://github.com/signalapp)) messaging app that keeps your conversations secure. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188287855-d92f2bb8-1839-4ded-8412-a255061292cc.png">
+  <br />
+  Signal
+</p>
+
+[NordVPN](https://nordvpn.com/) is a VPN service and the flagship product of the cybersecurity company Nord Security. It's available for wireless routers, NAS devices, and other platforms. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188287860-8ad40bd7-3820-498f-bd08-6f91dee43013.png">
+  <br />
+  NordVPN
+</p>
+
+[WireGuard](https://www.wireguard.com/) is a fast, open-source, and secure VPN tunnel. WireGuard allows users to manage and use WireGuard tunnels. The app can import new tunnels from archives and files, from QR codes, or you can create one from scratch.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188287871-b77d5135-e329-4921-ba8e-f037f18ec165.png">
+  <br />
+ WireGuard
+</p>
+
+[Tailscale](https://tailscale.com/) is a open-source mesh VPN alternative built on WireGuard® that makes it easy to connect your devices. It includes features like automatic key rotation, NAT traversal, and single sign-on with two-factor authentication.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188288048-e972845a-51a6-4782-9771-8cf423b6bcf8.png">
+  <br />
+ Tailscale
+</p>
+
+[BitWarden](https://bitwarden.com/) is a free and open-source password management service that stores sensitive information such as website credentials(logins and passwords) in an encrypted vault while conveniently keeping them synced between all of your devices.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188288085-27fa54f7-3f3f-4e6c-9435-15548d24deff.png">
+  <br />
+  BitWarden
+</p>
+
+[1Blocker](https://1blocker.com/) is a fast, secure, and robust tool for iPhone, iPad, and Mac that empowers users to put a stop to invasive online content.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188287874-3ed8144d-9103-47b8-80c5-bd33a8bca1cb.png">
+  <br />
+  1Blocker
+</p> 
+
+[Adobe Lightroom Photo Editor](https://apps.apple.com/us/app/lightroom-photo-video-editor/id878783582) is a free, powerful photo & video editor and camera app that empowers you to capture and edit stunning images. It offers photo & video editing tools like sliders to retouch your images, apply photo filters, fine-tune backgrounds, and use transformative presets to quickly add unique adjustments.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188288045-b50e41f2-557d-490a-aa73-758e17c7aaa1.png">
+  <br />
+  Adobe Lightroom Photo Editor
+</p>
+
+[Things](https://culturedcode.com/things/) is an app that helps you plan your day, manage your projects, and make real progress toward your goals.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185707448-44b5bc1b-96d8-4b1e-b33b-fb8a3157c092.png">
+<br />
+Things
+</p>
+
 [Bartender](https://www.macbartender.com/) is an app for macOS that superpowers your menu bar, giving you total control over your menu bar items, what's displayed, and when, with menu bar items only showing when you need them. It improves your workflow with quick reveal, search, custom hotkeys and triggers, and lots more. 
 
 <p align="center">
@@ -666,14 +730,6 @@ Dropzone
 <img src="https://user-images.githubusercontent.com/45159366/185812204-2bb6073c-0e2f-40f8-83bc-6e981daf33ee.png">
 <br />
 System Color Picker
-</p>
-
-[Things](https://culturedcode.com/things/) is an app that helps you plan your day, manage your projects, and make real progress toward your goals.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185707448-44b5bc1b-96d8-4b1e-b33b-fb8a3157c092.png">
-<br />
-Things
 </p>
 
 [Raycast](https://www.raycast.com/) is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.
