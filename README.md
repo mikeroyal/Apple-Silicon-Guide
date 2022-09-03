@@ -1028,6 +1028,11 @@ Checking Battery on your iOS device.
 
 [Back to the Top](table-of-contents)
 
+### Resources
+
+ * [Signed system volume security in iOS, iPadOS, and macOS](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web)
+ * [Protecting against malware in macOS](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web)
+ * [CIS(Center for Internet Security) Apple iOS Benchmarks](https://www.cisecurity.org/benchmark/apple_ios)
  * [CIS(Center for Internet Security) Apple macOS Benchmarks](https://www.cisecurity.org/benchmark/apple_os)
  * [NIST Security Technical Implementation for macOS](https://ncp.nist.gov/checklist/1017)
  * [Setting a custom umask in macOS](https://support.apple.com/en-us/HT201684)
