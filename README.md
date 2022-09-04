@@ -491,6 +491,38 @@ Devices powered by Apple Silicon.
   1Blocker
 </p> 
 
+[Matrix](https://matrix.org/) is a client tool that gives you simple HTTP APIs and SDKs (iOS, Android, Web) to create chatrooms, direct chats and chat bots, complete with end-to-end encryption, file transfer, synchronized conversation history, formatted messages, read receipts and more.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188303122-2160d3f4-0fb4-4936-b475-7f015181dbf3.png">
+  <br />
+ Matrix
+</p>
+
+[Element](https://element.io/) is a Matrix web client built using the [Matrix React SDK](https://github.com/matrix-org/matrix-react-sdk). It is a robust and reliable hosting service for fast, secure real time communication.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188302916-c73507e5-e34c-4a47-9b1e-d43c180a10a4.png">
+  <br />
+ Element
+</p>
+
+[Nextcloud](http://nextcloud.com/) is a suite of client-server software for creating and using file hosting services. It offers an on-premise Universal File Access and sync platform with powerful collaboration capabilities and desktop, mobile and web interfaces.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188302917-dc12e604-33c5-413b-be52-4ada05eb5041.png">
+  <br />
+ Nextcloud
+</p> 
+
+[Synology](https://www.synology.com/) is a tool that allows you to easily access and manage files in your Synology Drive on the go. Apart from common file types, such as documents, images, videos and music, you can also open Synology Office document, spreadsheets and slides in the user-friendly viewer provided by Drive.
+ 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/188302924-a7a4291c-33da-48ed-9459-c0e82b42d1de.png">
+  <br />
+ Synology
+</p>
+
 [Adobe Lightroom Photo Editor](https://apps.apple.com/us/app/lightroom-photo-video-editor/id878783582) is a free, powerful photo & video editor and camera app that empowers you to capture and edit stunning images. It offers photo & video editing tools like sliders to retouch your images, apply photo filters, fine-tune backgrounds, and use transformative presets to quickly add unique adjustments.
 
 <p align="center">
@@ -507,6 +539,22 @@ Devices powered by Apple Silicon.
 Things
 </p>
 
+[Airbuddy 2](https://v2.airbuddy.app/) is a utility that let's you simply open your AirPods case next to your Mac and see the current status right away, just like how it works on your iPhone. A single click gets you connected, a swipe down lets you connect and change listenings modes at the same time. It has a fully customizable battery alerts help you keep track of your device's batteries.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706944-562df794-d9f7-4c3b-ab92-adf19e078d0f.png">
+<br />
+Airbuddy 2
+</p>
+
+[Fantastical 3](https://flexibits.com/fantastical) is a calendar app that works seamlessly across your Mac, iPad, iPhone, and Apple Watch. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/185706724-d9bde5a3-36fc-453e-80fd-5a6d2a1e1f13.png">
+<br />
+Fantastical 3
+</p>
+
 [Bartender](https://www.macbartender.com/) is an app for macOS that superpowers your menu bar, giving you total control over your menu bar items, what's displayed, and when, with menu bar items only showing when you need them. It improves your workflow with quick reveal, search, custom hotkeys and triggers, and lots more. 
 
 <p align="center">
@@ -520,7 +568,6 @@ Things
   <br />
   Bartender Settings
 </p>
-
 
 [Magnet](https://magnet.crowdcafe.com/) is an app that keeps your workspace organized. magnet is activated by dragging, customizable keyboard shortcuts or via menu bar, it declutters your screen by snapping windows into organized tiles.
 
@@ -584,7 +631,7 @@ Page screenshot for Safari
 [Paste](https://pasteapp.io/) is a Clipboard manager for Mac, iPhone, and iPad. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185706648-15fed82e-da2a-4f94-82a3-02ac11c6d7df.png">
+<img src="https://user-images.githubusercontent.com/45159366/188302928-e30c9dbc-90df-47cc-a6e4-79edceb928ec.png">
 <br />
 Paste
 </p>
@@ -600,7 +647,7 @@ PasteBot
 [Speedcut](https://www.speedcut.app/) is a tool that lets your remove backgrounds from photos straight from your Mac's menu bar.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185706966-082901b6-f433-44fc-bf49-1f92742220ec.png">
+<img src="https://user-images.githubusercontent.com/45159366/188302929-d87607fa-c0ca-4eee-95b9-e758b21b968a.png">
 <br />
 Speedcut
 </p>
@@ -611,22 +658,6 @@ Speedcut
 <img src="https://user-images.githubusercontent.com/45159366/185706738-fafc320d-72b4-4b68-86df-a4d1ccf92ec0.png">
 <br />
 Cleaner One Pro
-</p>
-
-[Airbuddy 2](https://v2.airbuddy.app/) is a utility that let's you simply open your AirPods case next to your Mac and see the current status right away, just like how it works on your iPhone. A single click gets you connected, a swipe down lets you connect and change listenings modes at the same time. It has a fully customizable battery alerts help you keep track of your device's batteries.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185706944-562df794-d9f7-4c3b-ab92-adf19e078d0f.png">
-<br />
-Airbuddy 2
-</p>
-
-[Fantastical 3](https://flexibits.com/fantastical) is a calendar app that works seamlessly across your Mac, iPad, iPhone, and Apple Watch. 
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/185706724-d9bde5a3-36fc-453e-80fd-5a6d2a1e1f13.png">
-<br />
-Fantastical 3
 </p>
 
 [Yabai](https://github.com/koekeishiya/yabai) is a window management utility that is designed to work as an extension to the built-in window manager of macOS.
