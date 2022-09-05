@@ -423,20 +423,6 @@ Devices powered by Apple Silicon.
   <br />
 </p>
 
-[Setapp](https://setapp.com/) is a large suite of powerful Mac apps available by subscription($9.99/month) that will get you [210+ tools](https://setapp.com/apps) for any job, from drive cleaning, software/web development and writing.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/115629643-9d7f1b80-a2b7-11eb-801d-8db74af83847.png">
-  <br />
-</p>
-
-[MacUpdate](https://www.macupdate.com/) is a place to get software for MacOS. It has 18,000+ verified Mac apps, handpicked by the MacUpdate team.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/179672899-baf8ff51-7151-4318-8d08-446ede72a275.png">
-  <br />
-</p>
-
 [MacPorts Project](https://www.macports.org/) is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on macOS. 
 
 ### Productivity & Workflow Apps
