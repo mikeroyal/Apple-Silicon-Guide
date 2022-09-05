@@ -1580,7 +1580,43 @@ Tart
   <br />
 </p>
 
+### Running Docker on Apple Silicon (M1/M2)
+
 **[Docker Desktop for Apple silicon](https://docs.docker.com/desktop/mac/apple-silicon/)**
+
+**[Lima](https://github.com/lima-vm/lima)** is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
+
+#### Install Lima using Homebrew
+
+```brew install lima docker docker-credential-helper```
+
+**[Colima](https://github.com/abiosoft/colima)** is a container runtimes on macOS (and Linux) with minimal setup.
+
+**Included Featues:**
+
+   * M1/M2 Macs and Intel support
+    
+   * Docker and Containerd support
+    
+   * Kubernetes
+    
+   * Port Forwarding
+    
+   * Volume mounts
+    
+#### Installing Colima
+
+**Homebrew**
+
+```brew install colima```
+
+**MacPorts**
+
+```sudo port install colima```
+
+**Nix**
+
+```nix-env -iA nixpkgs.colima```
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113521413-2ffc8c80-954e-11eb-9d19-b9c996bc524b.png">
@@ -1611,9 +1647,7 @@ Tart
  
 [Lima](https://github.com/lima-vm/lima) is a tool that launches Linux virtual machines with automatic file sharing and port forwarding (similar to WSL2), and [containerd](https://containerd.io/). It's a great free and open-source alternative for [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
-**Install Lima using Homebrew**
-
-```brew install lima docker docker-credential-helper```
+[Colima](https://github.com/abiosoft/colima) is a container runtimes on macOS (and Linux) with minimal setup.
 
 [Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly working in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
 
