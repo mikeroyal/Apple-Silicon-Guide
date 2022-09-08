@@ -28,7 +28,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 # Table of Contents
 
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
-
+   
+   * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
    * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
    * [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
@@ -132,6 +133,22 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 [Apple Hypervisor](https://developer.apple.com/documentation/hypervisor) is a framework that builds virtualization solutions on top of a lightweight hypervisor, without third-party kernel extensions. Hypervisor provides C APIs so you can interact with virtualization technologies in user space, without writing kernel extensions (KEXTs). As a result, the apps you create using this framework are suitable for distribution on the [Mac App Store](https://www.appstore.com/).
 
 [Apple A-series](https://www.apple.com/) is Apple's 64-bit ARM-based system on a chip (SoC) used in their iPhones and iPads. Though, at WWDC 2020 it was announced that [Apple Silicon](https://developer.apple.com/documentation/apple_silicon) would [transition into Mac laptops](https://www.apple.com/newsroom/2020/06/apple-announces-mac-transition-to-apple-silicon/).
+
+### A16 Bionic
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/189012041-b2d83612-780f-4b57-97ef-c5042cdd7605.png">
+<br />
+</p>
+
+**[A16 Bionic Chip](https://www.apple.com/iphone-14-pro/specs/)** is Apple's first 4nm SoC for iPhone 14 Pro & Max with a **6-core CPU has two performance cores and 4 high-efficiency cores**. Along with a **5-core GPU** and **16-core neural engine**.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/189012045-f4f64b59-1b43-4b78-86aa-57b018e19040.png">
+<br />
+A16 Bionic Chip Architecture
+</p>
 
 ### M1 
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
