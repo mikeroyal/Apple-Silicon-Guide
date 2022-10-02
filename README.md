@@ -30,6 +30,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
    
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
+   * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
    * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
    * [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
@@ -149,6 +150,50 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 <br />
 A16 Bionic Chip Architecture
 </p>
+
+### U1 
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193443686-279114d1-789a-4b88-bd5b-1ba9b1f153e1.png">
+<br />
+</p>
+
+[U1 Ultra Wideband (UWB) chip](https://support.apple.com/en-us/HT212274) is an Apple-designed silicon chip that has Ultra Wideband technology for spatial awareness. The U1 chip enables directional [AirDrop](https://support.apple.com/en-us/HT204144) functionality.
+
+ * **UWB (Ultra-wideband)** is a short-range radio technology that precisely pinpoints and measures distance between other UWB equipped devices.
+  
+**Apple devices with the U1 chip**
+ 
+ * [Apple AirTags](https://www.apple.com/airtag/)
+ * iPhone 11
+ * iPhone 11 Pro
+ * iPhone 11 Pro Max
+ * iPhone 12mini
+ * iPhone 12
+ * iPhone 12 Pro
+ * iPhone 12 Pro Max
+ * iPhone 13 mini
+ * iPhone 13
+ * iPhone 13 Pro
+ * iPhone 13 Pro Max
+ * iPhone 14
+ * iPhone 14 Plus
+ * iPhone 14 Pro
+ * iPhone 14 Pro Max
+ * Apple Watch Series 6
+ * Apple Watch Series 7
+ * Apple Watch Series 8
+ * Apple Watch SE (2nd Gen)
+ * Apple Watch Ultra
+ * Apple HomePod mini
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193443690-4bd78390-fe78-4053-8cf0-1be757486f08.png">
+<br />
+U1 Chip Die
+</p>
+
 
 ### M1 
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
