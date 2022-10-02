@@ -30,6 +30,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
    
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
+   * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
    * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
    * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
@@ -150,6 +151,24 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 <br />
 A16 Bionic Chip Architecture
 </p>
+
+### H2 
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193443812-2ea26b51-afa5-4843-a9ef-d595321f2d90.png">
+<br />
+</p>
+
+**[H2 Chip](https://www.apple.com/newsroom/2022/09/apple-announces-the-next-generation-of-airpods-pro/)** is Apple's SoC for the AiPods Pro that facilitates stronger(2x more) active noise cancellation, personalized spatial audio, and better performance during phone calls.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/193443814-c360663c-799b-406c-a3e9-4f4ea57a6d7a.png">
+<br />
+</p>
+
+H2 chip powering the AirPods Pro. Credit: [Apple](https://www.apple.com/newsroom/2022/09/apple-announces-the-next-generation-of-airpods-pro/)
+
 
 ### U1 
 [Back to the Top](#table-of-contents)
