@@ -2206,7 +2206,7 @@ Parallels Desktop for Mac
 [Back to the Top](#table-of-contents)
  
 <p align="center">
-<img src="">
+<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png)">
 <br />
 MacOS Ventura Settings for Game Controllers
 </p>
