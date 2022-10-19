@@ -1822,8 +1822,6 @@ Tart
 ```nix-env -iA nixpkgs.colima```
 
 
-
-
 ## Kubernetes Learning Resources
 
 [Kubernetes (K8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications.
@@ -2206,7 +2204,7 @@ Parallels Desktop for Mac
 [Back to the Top](#table-of-contents)
  
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png)">
+<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png">
 <br />
 MacOS Ventura Settings for Game Controllers
 </p>
