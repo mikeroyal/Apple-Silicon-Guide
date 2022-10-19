@@ -78,6 +78,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming-on-apple-silicon-resources)
+      - [Game Controllers](#game-controllers)
       - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
       - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
@@ -2199,6 +2200,40 @@ Parallels Desktop for Mac
  - **[iOS Gaming Subreddit](https://www.reddit.com/r/iosgaming/)**
  
  - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
+ 
+## Game Controllers
+
+[Back to the Top](#table-of-contents)
+ 
+<p align="center">
+<img src="">
+<br />
+MacOS Ventura Settings for Game Controllers
+</p>
+
+[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
+<br />
+Xbox Controller
+</p>
+
+[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
+<br />
+PS 5  DualSense™ Controller
+</p>
+
+[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
+<br />
+Nintendo Switch Pro Controller
+</p>
 
 
 ## Apple Arcade
