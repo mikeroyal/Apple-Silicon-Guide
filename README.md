@@ -856,6 +856,14 @@ Tinkertool
 App Cleaner
 </p>
 
+[Infuse](https://firecore.com/) is a Video Player for iOS, Apple TV, and Mac. It plays every video file ever created to avoid wasting hours converting and transcoding files.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/200111122-5e263a8c-2b1b-4425-b599-58ba7016fe20.png">
+<br />
+Infuse Video Player
+</p>
+
 ## Secure & Privacy Focused Web Browsers
 
 [Back to the Top](#table-of-contents)
