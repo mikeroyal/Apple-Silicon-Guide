@@ -321,7 +321,7 @@ U1 Chip Die
 <br />
 </p>
 
-[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)** and **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design.
+[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**, **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design, and **[iPad Pro with M2 ](https://www.apple.com/ipad-pro/)**.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
