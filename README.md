@@ -84,6 +84,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
       - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
+      - [GOG Galaxy Store](#GOG-Galaxy)
+      - [Itch.io Store](#Itch.io-Store)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
       - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
       - [Performance Benchmarks](https://github.com/mikeroyal/Apple-Silicon-Guide#performance-benchmarks)
@@ -2337,6 +2339,26 @@ Nintendo Switch Pro Controller
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/111918016-3fed7a00-8a40-11eb-964e-930c801c1c72.png">
+</p>
+
+## GOG Galaxy
+
+[Back to the Top](#table-of-contents)
+
+[GOG Galaxy](https://www.gog.com/galaxy) is an application that lets you combine multiple game libraries into one place and connect with your friends across all gaming platforms, consoles included.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
+</p>
+
+## Itch.io Store
+
+[Back to the Top](#table-of-contents)
+
+[Itch.io Store](https://itch.io/app) is an app that lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
 </p>
 
 ## Game Streaming
