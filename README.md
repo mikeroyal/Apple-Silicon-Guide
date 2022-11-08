@@ -85,7 +85,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
       - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
       - [GOG Galaxy Store](#GOG-Galaxy)
-      - [Itch.io Store](#Itch.io-Store)
+      - [Itch.io Store](#Itchio-Store)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
       - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
       - [Performance Benchmarks](https://github.com/mikeroyal/Apple-Silicon-Guide#performance-benchmarks)
