@@ -82,6 +82,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming-on-apple-silicon-resources)
       - [Setting up OBS Studio](#Setting-up-OBS-Studio)
           * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
+      - [Discord](#Discord)
+      - [Twitch](#Twitch)
       - [Game Controllers](#game-controllers)
       - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
@@ -2336,6 +2338,28 @@ Parallels Desktop for Mac
   * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
   * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
 
+
+## Discord
+
+[Back to the Top](#table-of-contents)
+
+[Discord](https://discord.com/) is an application with modern voice & text chat app. It provides clear voice, multiple server and channel support, mobile apps, and more. It's available on Linux, macOS, Windows, iOS, Android, and your web browser.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/203752975-d489f776-2039-474d-82ce-1cdd3dcdeff7.png">
+</p>
+
+## Twitch
+
+[Back to the Top](#table-of-contents)
+
+[Twitch for MacOS/iOS](https://apps.apple.com/us/app/twitch-live-game-streaming/id460177396)is an application where thousands of communities come together for our favorite streamers join millions enjoying live games, music, sports, esports, podcasts, cooking shows, IRL streams, etc..
+
+  * [Running your iOS apps/games in macOS](https://developer.apple.com/documentation/apple-silicon/running-your-ios-apps-in-macos)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/203753175-0aaea65d-013e-4a4e-b67d-19a6ca52ff56.png">
+</p>
  
 ## Game Controllers
 
