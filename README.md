@@ -135,6 +135,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
+- [DevToysMac](https://github.com/ObuchiYuki/DevToysMac) is the mac app version of [DevToys for Windows](https://github.com/veler/DevToys).
+
 - [asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon.
 
 - [macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide#openbsm-audit) is a collection of techniques for improving the security and privacy of a modern MacBook running a recent version of macOS.
