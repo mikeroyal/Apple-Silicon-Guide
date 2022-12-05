@@ -133,6 +133,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [Virtualize Linux on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_linux_on_a_mac?language=objc) 
 
+-  [Stable Diffusion with Core ML on Apple Silicon](https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon)
+
 - [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
 - [asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon.
