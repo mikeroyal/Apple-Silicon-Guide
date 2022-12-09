@@ -1459,11 +1459,22 @@ Developing with SwiftUI in Xcode 14
 
 [IBM Watson Services for Core ML | IBM](https://www.ibm.com/watson/stories/coreml)
 
+[Stable Diffusion with Core ML on Apple Silicon](https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon)
+
 [Generate Core ML assets using IBM Maximo Visual Inspection | IBM](https://developer.ibm.com/technologies/iot/tutorials/ibm-maximo-visual-inspection-apple-devices/)
 
 ## Core ML Tools, Libraries, and Frameworks
 
-[Core ML tools](https://coremltools.readme.io/) is a project that contains supporting tools for Core ML model conversion, editing, and validation.
+[Core ML Tools](https://github.com/apple/coremltools) is a tool to convert machine learning models from third-party libraries to the Core ML format. This Python package contains the supporting tools for converting models from training libraries such as the following:
+
+   * [TensorFlow](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf)
+   * TensorFlow 2](https://www.tensorflow.org/api_docs)
+   * [PyTorch](https://pytorch.org/)
+    
+**Non-neural network frameworks:**
+   * [scikit-learn](https://scikit-learn.org/stable/)
+   * [XGBoost](https://xgboost.readthedocs.io/en/latest/)
+   * [LibSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
 
 [Create ML](https://developer.apple.com/machine-learning/create-ml/) is a tool that provides new ways of training machine learning models on your Mac. It takes the complexity out of model training while producing powerful Core ML models.
 
