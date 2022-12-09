@@ -73,9 +73,9 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 9. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-10. [Running Linux on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-m1)
+10. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
 
-11. [Running Windows 10/11 on the M1](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-m1)
+11. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
 12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
@@ -2131,7 +2131,7 @@ Tart
 
 [OpenShift Hive](https://github.com/openshift/hive) is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
 
-# Running Linux on the M1
+# Running Linux on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 ### Developer Quick Links
@@ -2187,6 +2187,33 @@ Parallels Desktop for Mac
   <br />
 </h3>
 
+The [AsahiLinux Apple GPU drivers](https://asahilinux.org/2022/12/gpu-drivers-now-in-asahi-linux/) features are a work-in-progress OpenGL 2.1 and OpenGL ES 2.0 support for all current Apple M-series systems. That’s enough for hardware acceleration with desktop environments, like GNOME and KDE. It’s also enough for older 3D games, like Quake3 and Neverball. 
+
+Asahi Linux Graphics Team:
+
+    * [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa) is writing the OpenGL driver and compiler.
+    * [Asahi Lina](https://vt.social/@lina) is writing the kernel driver and helping with OpenGL.
+    * [Dougall Johnson](https://mastodon.social/@dougall) is reverse-engineering the instruction set with Alyssa.
+    * [Ella Stanforth](https://tech.lgbt/@ella) is working on a Vulkan driver, reusing the kernel driver, the compiler, and some code shared with the OpenGL driver.
+
+**Installing the Apple GPU Drivers:**
+
+To get the new drivers, you need to run the linux-asahi-edge kernel and also install the mesa-asahi-edge Mesa package.
+
+```
+$ sudo pacman -Syu
+$ sudo pacman -S linux-asahi-edge mesa-asahi-edge
+$ sudo update-grub
+```
+
+Since only one version of Mesa can be installed at a time, pacman will prompt you to replace mesa with mesa-asahi-edge. This is normal!
+
+**Recommendation:** Run Wayland instead of Xorg at this point, so if you’re using the KDE Plasma environment, make sure to install the Wayland session:
+
+```$ sudo pacman -S plasma-wayland-session```
+
+Then reboot, pick the Wayland session at the top of the login screen (SDDM), and enjoy! You might want to adjust the screen scale factor in System Settings → Display and Monitor (Plasma Wayland defaults to 100% or 200%, while 150% is often nicer). If you have “Force font DPI” enabled under Appearance → Fonts, you should disable that (it is saved separately for Wayland and Xorg, and shouldn’t be necessary on Wayland sessions). Log out and back in for these changes to fully apply.
+
 ### NixOS Development on M1
 
 **[NixOS on M1 Macs](https://github.com/tpwrules/nixos-m1)**
@@ -2209,7 +2236,7 @@ Parallels Desktop for Mac
   NixOS with the Plasma Desktop
 </h3>
 
-# Running Windows 10/11 on the M1
+# Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
