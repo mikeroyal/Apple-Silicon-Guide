@@ -1569,6 +1569,8 @@ Developing with SwiftUI in Xcode 14
  MetalFX Rendering. Credit: Apple
 </p>
 
+[MetalPetal](https://github.com/MetalPetal/MetalPetal) is a GPU accelerated image and video processing framework based on Metal designed to provide real-time processing for still image and video with easy to use programming interfaces.
+
 [Apple Foundation Framework](https://developer.apple.com/documentation/foundation) is a framework provides a base layer of functionality for apps and frameworks, including data storage and persistence, text processing, date and time calculations, sorting and filtering, and networking. The classes, protocols, and data types defined by Foundation are used throughout the macOS, iOS, watchOS, and tvOS SDKs.
 
 [Apple Core Animation Framework](https://developer.apple.com/documentation/quartzcore) is a graphics rendering and animation infrastructure that provides high frame rates and smooth animations without burdening the CPU and slowing down your app.
