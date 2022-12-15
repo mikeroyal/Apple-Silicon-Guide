@@ -91,6 +91,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Blizzard Battle.net](#Blizzard-Battlenet)
       - [Origin](#Origin)
       - [EA Play](#EA-Play)
+      - [Ubisoft Connect](#Ubisoft-Connect)
       - [GOG Galaxy Store](#GOG-Galaxy)
       - [Itch.io Store](#Itchio-Store)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
@@ -2498,6 +2499,16 @@ Nintendo Switch Pro Controller
  * **Note:** you will need to install [Origin](https://www.ea.com/origin-for-mac#) to access all EA game titles for EA Play even if you use **EA Play on Steam**.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
+
+## Ubisoft Connect
+
+[Back to the Top](#table-of-contents)
+
+[Ubisoft Connect](https://itunes.apple.com/us/app/ubisoft-club/id405228226/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
+
+ * [Using iPhone and iPad apps on Mac with Apple silicon](https://support.apple.com/guide/app-store/iphone-ipad-apps-mac-apple-silicon-fird2c7092da/3.0/mac/13.0)
+
+<img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
 ## GOG Galaxy
 
