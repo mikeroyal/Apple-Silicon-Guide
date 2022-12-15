@@ -93,6 +93,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [EA Play](#EA-Play)
       - [GOG Galaxy Store](#GOG-Galaxy)
       - [Itch.io Store](#Itchio-Store)
+      - [CrossOver for MacOS](#CrossOver-for-MacOS)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
       - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
       - [Performance Benchmarks](https://github.com/mikeroyal/Apple-Silicon-Guide#performance-benchmarks)
@@ -2519,7 +2520,16 @@ Nintendo Switch Pro Controller
   <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
 </p>
 
+## CrossOver for MacOS
+
+[Back to the Top](#table-of-contents)
+
+[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+
+<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+
 ## Game Streaming
+
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
