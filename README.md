@@ -88,7 +88,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
       - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
       - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
-      - [Blizzard Battle.net integration](#Blizzard-Battlenet)
+      - [Blizzard Battle.net](#Blizzard-Battlenet)
       - [Origin](#Origin)
       - [EA Play](#EA-Play)
       - [GOG Galaxy Store](#GOG-Galaxy)
