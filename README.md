@@ -85,16 +85,18 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Discord](#Discord)
       - [Twitch](#Twitch)
       - [Game Controllers](#game-controllers)
-      - [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
-      - [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
-      - [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
-      - [Blizzard Battle.net](#Blizzard-Battlenet)
-      - [Origin](#Origin)
-      - [EA Play](#EA-Play)
-      - [Ubisoft Connect](#Ubisoft-Connect)
-      - [GOG Galaxy Store](#GOG-Galaxy)
-      - [Itch.io Store](#Itchio-Store)
-      - [CrossOver for MacOS](#CrossOver-for-MacOS)
+      - [Game Stores & Launchers](#Game-Stores--Launchers)
+        * [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
+        * [CrossOver for MacOS](#CrossOver-for-MacOS)
+        * [Steam](https://github.com/mikeroyal/Apple-Silicon-Guide#steam)
+        * [Epic Games Store](https://github.com/mikeroyal/Apple-Silicon-Guide#epic-games-store)
+        * [Blizzard Battle.net](#Blizzard-Battlenet)
+        * [Origin](#Origin)
+        * [EA Play](#EA-Play)
+        * [Ubisoft Connect](#Ubisoft-Connect)
+        * [GOG Galaxy Store](#GOG-Galaxy)
+        * [Itch.io Store](#Itchio-Store) 
+        * [PolyMC for MineCraft](PolyMC)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
       - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
       - [Performance Benchmarks](https://github.com/mikeroyal/Apple-Silicon-Guide#performance-benchmarks)
@@ -2444,7 +2446,9 @@ PS 5  DualSense™ Controller
 Nintendo Switch Pro Controller
 </p>
 
-## Apple Arcade
+## Game Stores & Launchers
+
+### Apple Arcade
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Apple Arcade](https://www.apple.com/apple-arcade/) is a game subscription service that gives up to six family members unlimited access to 100+ incredibly fun games, all with no ads and no in-app purchases.
@@ -2453,7 +2457,15 @@ Nintendo Switch Pro Controller
  <img src="https://user-images.githubusercontent.com/45159366/112693074-377cb100-8e3d-11eb-910c-1095c91da6d5.png">
 </p>
 
-## Steam
+### CrossOver for MacOS
+
+[Back to the Top](#table-of-contents)
+
+[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+
+<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+
+### Steam
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Get Steam](https://store.steampowered.com/about/)
@@ -2466,7 +2478,7 @@ Nintendo Switch Pro Controller
  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
 </p>
 
- ## Epic Games Store
+ ### Epic Games Store
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
@@ -2477,21 +2489,21 @@ Nintendo Switch Pro Controller
  <img src="https://user-images.githubusercontent.com/45159366/111918016-3fed7a00-8a40-11eb-964e-930c801c1c72.png">
 </p>
 
-## Blizzard Battle.net 
+### Blizzard Battle.net 
 [Back to the Top](#table-of-contents)
 
 [Blizzard Battle.net](https://www.blizzard.com/apps/battle.net/desktop) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
 
 <img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
 
-## Origin 
+### Origin 
 [Back to the Top](#table-of-contents)
  
 [Origin for MacOS](https://www.ea.com/origin-for-mac#) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
 
 <img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
 
-## EA Play 
+### EA Play 
 
 [Back to the Top](#table-of-contents)
 
@@ -2501,7 +2513,7 @@ Nintendo Switch Pro Controller
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
 
-## Ubisoft Connect
+### Ubisoft Connect
 
 [Back to the Top](#table-of-contents)
 
@@ -2511,7 +2523,7 @@ Nintendo Switch Pro Controller
 
 <img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
-## GOG Galaxy
+### GOG Galaxy
 
 [Back to the Top](#table-of-contents)
 
@@ -2521,7 +2533,7 @@ Nintendo Switch Pro Controller
  <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
 </p>
 
-## Itch.io Store
+### Itch.io Store
 
 [Back to the Top](#table-of-contents)
 
@@ -2531,13 +2543,15 @@ Nintendo Switch Pro Controller
   <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
 </p>
 
-## CrossOver for MacOS
+### PolyMC
 
 [Back to the Top](#table-of-contents)
 
-[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+[PolyMC for MineCraft](https://polymc.org/download/mac/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
 
-<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208053263-1438f3bf-45d4-44b4-9e75-a663b6cad530.png">
+</p>
 
 ## Game Streaming
 
