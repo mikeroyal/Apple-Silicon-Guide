@@ -96,7 +96,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Ubisoft Connect](#Ubisoft-Connect)
         * [GOG Galaxy Store](#GOG-Galaxy)
         * [Itch.io Store](#Itchio-Store) 
-        * [PolyMC for MineCraft](PolyMC)
+        * [PolyMC for MineCraft](#PolyMC)
       - [Game Streaming](https://github.com/mikeroyal/Apple-Silicon-Guide#game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
         * [Local Game Streaming](Local-Game-Streaming)
