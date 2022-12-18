@@ -84,7 +84,9 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
           * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
       - [Discord](#Discord)
       - [Twitch](#Twitch)
-      - [Game Controllers](#game-controllers)
+      - [Gaming Peripherals](#Gaming-Peripherals)
+        * [Gaming mice, keyboards, and headsets](#RGB-Devices)
+        * [Game Controllers](#Game-controllers)
       - [Game Stores & Launchers](#Game-Stores--Launchers)
         * [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
         * [CrossOver for MacOS](#CrossOver-for-MacOS)
@@ -2413,8 +2415,29 @@ Parallels Desktop for Mac
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/203753175-0aaea65d-013e-4a4e-b67d-19a6ca52ff56.png">
 </p>
+
+## Gaming Peripherals
+
+### RGB Devices
+
+[Back to the Top](#table-of-contents)
+
+[Razer Synapse](https://www.razer.com/synapse-3) is a unified cloud-based hardware configuration tool that takes your Razer devices to the next level.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275996-70a83775-a6aa-4496-a37d-d3945c751beb.png">
+</p>
+
+[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275997-2b60eac7-0fa3-43d0-a5c6-d49ae2447d61.png">
+</p>
+
+[Corsair iCUE](https://www.corsair.com/us/en/icue-mac) is a tool that enables gaming peripherals and personal computer components including computer case fans, RGB lighting, gaming headsets, gaming keyboards, gaming mouse, remap buttons and switches, RAM DIMMS and AIO CPU cooler together.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275999-4904fece-56c6-4a04-a2de-04bb587d7c1b.png">
+</p>
  
-## Game Controllers
+### Game Controllers
 
 [Back to the Top](#table-of-contents)
  
