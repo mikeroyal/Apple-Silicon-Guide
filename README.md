@@ -104,7 +104,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Local Game Streaming](Local-Game-Streaming)
       - [Game Emulators](https://github.com/mikeroyal/Apple-Silicon-Guide#game-emulators)
         * [Emulator Frontends](#Frontends)
-        * [Nintendo GameCube & Wii](#Nintendo GameCube--Wii)
+        * [Nintendo GameCube & Wii](#Nintendo-GameCube--Wii)
         * [Nintendo Switch](#Nintendo-Switch)
         * [Nintendo 64](#Nintendo-64)
         * [Nintendo 3DS](#Nintendo-3DS)
