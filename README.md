@@ -80,13 +80,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming-on-apple-silicon-resources)
+      - [Manage Temps/Control Fans (CPU and GPU)](#Manage-TempsControl-Fans-CPU-and-GPU)
+      - [Gaming Peripherals](#Gaming-Peripherals)
+        * [Gaming mice, keyboards, and headsets](#RGB-Devices)
+        * [Game Controllers](#Game-controllers)
       - [Setting up OBS Studio](#Setting-up-OBS-Studio)
           * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
       - [Discord](#Discord)
       - [Twitch](#Twitch)
-      - [Gaming Peripherals](#Gaming-Peripherals)
-        * [Gaming mice, keyboards, and headsets](#RGB-Devices)
-        * [Game Controllers](#Game-controllers)
       - [Game Stores & Launchers](#Game-Stores--Launchers)
         * [Apple Arcade](https://github.com/mikeroyal/Apple-Silicon-Guide#apple-arcade)
         * [CrossOver for MacOS](#CrossOver-for-MacOS)
@@ -2347,6 +2348,92 @@ Parallels Desktop for Mac
  
  - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
  
+ 
+## Manage Temps/Control Fans (CPU and GPU)
+
+[MacsFanControl](https://crystalidea.com/macs-fan-control) is a to control fans on Apple computers.
+
+ **Features:**
+ 
+   * Real-time monitoring of fan speeds and temperatures
+   * Solve overheating problems like those found on a MacBook Pro
+   * Works on all Macs, both Intel & Apple Silicon
+   
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208856182-b685a2c1-e55c-4634-804b-b1a3ba48fd41.png">
+</p>
+
+
+[iStat Menus](https://bjango.com/mac/istatmenus/)  is highly configurable tool, with full support for macOS light and dark menubar modes. It covers a huge range of stats, including a CPU monitor, GPU, memory, network usage, disk usage, disk activity, date & time, battery and more.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208856211-94234e2c-35c0-41e1-9d9e-a0ecaa844c6a.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208857140-af14f17a-3f18-49a3-a413-ca692b88e745.png">
+</p>
+
+[smcFanControl](https://github.com/hholtmann/smcFanControl) is a tool that lets the user set a minimum speed for built-in fans. It allows you to increase your minimum fan speed to make your Intel or Apple Silicon Mac run cooler. 
+ 
+## Gaming Peripherals
+
+### RGB Devices
+
+[Back to the Top](#table-of-contents)
+
+[Razer Synapse](https://www.razer.com/synapse-3) is a unified cloud-based hardware configuration tool that takes your Razer devices to the next level.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275996-70a83775-a6aa-4496-a37d-d3945c751beb.png">
+</p>
+
+[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275997-2b60eac7-0fa3-43d0-a5c6-d49ae2447d61.png">
+</p>
+
+[Corsair iCUE](https://www.corsair.com/us/en/icue-mac) is a tool that enables gaming peripherals and personal computer components including computer case fans, RGB lighting, gaming headsets, gaming keyboards, gaming mouse, remap buttons and switches, RAM DIMMS and AIO CPU cooler together.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275999-4904fece-56c6-4a04-a2de-04bb587d7c1b.png">
+</p>
+ 
+### Game Controllers
+
+[Back to the Top](#table-of-contents)
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png">
+<br />
+MacOS Ventura Settings for Game Controllers
+</p>
+
+[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
+<br />
+Xbox Controller
+</p>
+
+[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
+<br />
+PS 5  DualSense™ Controller
+</p>
+
+[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
+<br />
+Nintendo Switch Pro Controller
+</p>
+
+ 
 ## Setting up OBS Studio
 
 [Back to the Top](#table-of-contents)
@@ -2409,7 +2496,6 @@ Parallels Desktop for Mac
   * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
   * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
 
-
 ## Discord
 
 [Back to the Top](#table-of-contents)
@@ -2432,60 +2518,6 @@ Parallels Desktop for Mac
   <img src="https://user-images.githubusercontent.com/45159366/203753175-0aaea65d-013e-4a4e-b67d-19a6ca52ff56.png">
 </p>
 
-## Gaming Peripherals
-
-### RGB Devices
-
-[Back to the Top](#table-of-contents)
-
-[Razer Synapse](https://www.razer.com/synapse-3) is a unified cloud-based hardware configuration tool that takes your Razer devices to the next level.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275996-70a83775-a6aa-4496-a37d-d3945c751beb.png">
-</p>
-
-[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275997-2b60eac7-0fa3-43d0-a5c6-d49ae2447d61.png">
-</p>
-
-[Corsair iCUE](https://www.corsair.com/us/en/icue-mac) is a tool that enables gaming peripherals and personal computer components including computer case fans, RGB lighting, gaming headsets, gaming keyboards, gaming mouse, remap buttons and switches, RAM DIMMS and AIO CPU cooler together.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275999-4904fece-56c6-4a04-a2de-04bb587d7c1b.png">
-</p>
- 
-### Game Controllers
-
-[Back to the Top](#table-of-contents)
- 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png">
-<br />
-MacOS Ventura Settings for Game Controllers
-</p>
-
-[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
-<br />
-Xbox Controller
-</p>
-
-[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
-<br />
-PS 5  DualSense™ Controller
-</p>
-
-[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
-<br />
-Nintendo Switch Pro Controller
-</p>
 
 ## Game Stores & Launchers
 
