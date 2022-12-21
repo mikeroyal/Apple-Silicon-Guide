@@ -2351,6 +2351,8 @@ Parallels Desktop for Mac
  
 ## Manage Temps/Control Fans (CPU and GPU)
 
+[Back to the Top](#table-of-contents)
+
 [MacsFanControl](https://crystalidea.com/macs-fan-control) is a to control fans on Apple computers.
 
  **Features:**
