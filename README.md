@@ -2733,14 +2733,43 @@ Nintendo Switch Pro Controller
 
 [EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
 
-[RetroPie](https://retropie.org.uk/) is a frontend for emulators that allows you to turn your Raspberry Pi, ODroid C1/C2, or PC into a retro-gaming machine. It builds upon Raspbian, [EmulationStation](https://github.com/Aloshi/EmulationStation), RetroArch and many other projects to enable you to play your favourite Arcade, home-console, and classic PC games with the minimum set-up.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/153087555-e1bde100-6079-4089-a33d-804e29064789.png">
-<br />
-</p>
-
 [RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
+
+[OpenEmu](https://openemu.org/) is an open-source project whose purpose is to bring macOS game emulation into the realm of first-class citizenship. The project leverages modern macOS technologies, such as Cocoa, Core Animation, and other third-party libraries.
+
+**Currently, OpenEmu can load the following game engines as plugins:**
+
+  * Atari 2600 ([Stella](https://stella-emu.github.io/))
+  * Atari 5200 ([Atari800](https://atari800.github.io/))
+  * Atari 7800 ([ProSystem](https://github.com/raz0red/wii7800))
+  * Atari Lynx ([Mednafen](https://mednafen.github.io/))
+  * ColecoVision ([CrabEmu](http://crabemu.sourceforge.net/))
+  * Famicom Disk System ([Nestopia](https://github.com/0ldsk00l/nestopia))
+  * Game Boy / Game Boy Color ([Gambatte](https://github.com/sinamas/gambatte))
+  * Game Boy Advance ([mGBA](https://mgba.io/))
+  * Game Gear ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Intellivision ([Bliss](https://github.com/jeremiah-sypult/BlissEmu))
+  * NeoGeo Pocket (Mednafen](https://mednafen.github.io/))
+  * Nintendo (NES) / Famicom ([FCEUX](https://github.com/TASVideos/fceux), [Nestopia](https://github.com/0ldsk00l/nestopia))
+  * Nintendo 64 ([Mupen64Plus](http://www.mupen64plus.org/))
+  * Nintendo DS ([DeSmuME](http://desmume.org/))
+  * Nintendo GameCube ([Dolphin](https://dolphin-emu.org/))
+  * Odyssey² / Videopac+ ([O2EM](https://sourceforge.net/projects/o2em/))
+  * PC-FX ([Mednafen](https://mednafen.github.io/))
+  * SG-1000 ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega 32X ([picodrive](https://github.com/notaz/picodrive))
+  * Sega CD / Mega CD (Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Genesis / Mega Drive (Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Master System ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Saturn ([Mednafen](https://mednafen.github.io/))
+  * Sony PSP ([PPSSPP](https://github.com/hrydgard/ppsspp))
+  * Sony PlayStation ([Mednafen](https://mednafen.github.io/))
+  * Super Nintendo (SNES) ([BSNES](https://bsnes.dev/), [Snes9x](https://github.com/snes9xgit/snes9x))
+  * TurboGrafx-16 / PC Engine ([Mednafen](https://mednafen.github.io/))
+  * TurboGrafx-CD / PCE-CD ([Mednafen](https://mednafen.github.io/))
+  * Vectrex ([VecXGL](https://github.com/james7780/VecXGL))
+  * Virtual Boy ([Mednafen](https://mednafen.github.io/))
+  * WonderSwan ([Mednafen](https://mednafen.github.io/))
 
 [Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance.
 
