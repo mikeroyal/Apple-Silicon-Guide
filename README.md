@@ -2751,7 +2751,7 @@ Nintendo Switch Pro Controller
   * Game Boy Advance ([mGBA](https://mgba.io/))
   * Game Gear ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
   * Intellivision ([Bliss](https://github.com/jeremiah-sypult/BlissEmu))
-  * NeoGeo Pocket (Mednafen](https://mednafen.github.io/))
+  * NeoGeo Pocket ([Mednafen](https://mednafen.github.io/))
   * Nintendo (NES) / Famicom ([FCEUX](https://github.com/TASVideos/fceux), [Nestopia](https://github.com/0ldsk00l/nestopia))
   * Nintendo 64 ([Mupen64Plus](http://www.mupen64plus.org/))
   * Nintendo DS ([DeSmuME](http://desmume.org/))
