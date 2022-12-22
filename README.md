@@ -99,7 +99,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Ubisoft Connect](#Ubisoft-Connect)
         * [GOG Galaxy Store](#GOG-Galaxy)
         * [Itch.io Store](#Itchio-Store) 
-        * [PolyMC for MineCraft](#PolyMC)
+        * [Prism for MineCraft](#Prism)
       - [Game Streaming](#Game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
         * [Local Game Streaming](#Local-Game-Streaming)
@@ -2638,14 +2638,14 @@ Nintendo Switch Pro Controller
   <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
 </p>
 
-### PolyMC
+### Prism
 
 [Back to the Top](#table-of-contents)
 
-[PolyMC for MineCraft](https://polymc.org/download/mac/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
+[Prism Launcher for MineCraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208053263-1438f3bf-45d4-44b4-9e75-a663b6cad530.png">
+  <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
 </p>
 
 ## Game Streaming
