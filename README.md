@@ -113,6 +113,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Nintendo Entertainment System (NES)](#Nintendo-Entertainment-System)
         * [Game Boy Advance](#Game-Boy-Advance)
         * [DOS](#DOS)
+        * [Atari](#Atari)
         * [Sega Dreamcast](#Sega-Dreamcast)
         * [PlayStation Portable](#PlayStation-Portable)
         * [PlayStation 1](#PlayStation-1)
@@ -2810,6 +2811,12 @@ Nintendo 3DS
 [DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
 
 [DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
+
+### Atari
+
+[Stella](https://stella-emu.github.io/) is a multi-platform Atari 2600 VCS emulator released under the GNU General Public License (GPL). Stella is available on Windows MacOS, Linux, and FreeBSD.
+
+[Hatari](https://hatari.tuxfamily.org/) is an Atari ST/STE/TT/Falcon emulator for Linux, BSD, MacOS, Windows and other systems which are supported by the SDL library. The Atari ST was a 16/32 bit computer system which was first released by Atari in 1985. 
 
 ### Sega Dreamcast
 
