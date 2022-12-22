@@ -2538,12 +2538,14 @@ Nintendo Switch Pro Controller
 
 [CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
 
+ * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
+
 <img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
 
 ### Steam
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-[Get Steam](https://store.steampowered.com/about/)
+[Installing Steam through CrossOver](https://www.codeweavers.com/compatibility/crossover/steam)
 
  <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
 
@@ -2576,6 +2578,8 @@ Nintendo Switch Pro Controller
  
 [Origin for MacOS](https://www.ea.com/origin-for-mac#) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
 
+ * [Origin installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/origin)
+
 <img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
 
 ### EA Play 
@@ -2602,6 +2606,7 @@ Nintendo Switch Pro Controller
 
 **Ways to Play Ubisift Connect on macOS Apple Silicon:**
  
+ * [Ubisoft Connect Installer (UPlay) through CrossOver](https://www.codeweavers.com/compatibility/crossover/Ubisoft-Connect-Installer)
  * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
  * [Ubisoft Connect through Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass/games?xr=shellnav#)
  * [Using iPhone and iPad apps on Mac with Apple silicon](https://support.apple.com/guide/app-store/iphone-ipad-apps-mac-apple-silicon-fird2c7092da/3.0/mac/13.0)
@@ -2613,6 +2618,8 @@ Nintendo Switch Pro Controller
 [Back to the Top](#table-of-contents)
 
 [GOG Galaxy](https://www.gog.com/galaxy) is an application that lets you combine multiple game libraries into one place and connect with your friends across all gaming platforms, consoles included.
+
+ * [GOG Galazy installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/gog-galaxy)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
