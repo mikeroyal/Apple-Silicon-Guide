@@ -2857,9 +2857,11 @@ Nintendo 3DS
 
 ### PlayStation 2
 
+[AetherSX2](https://www.aethersx2.com/) is a free (no ads) emulator of the PlayStation 2 (PS2) console for ARM-based devices. This enables you to play games which you have dumped from disc on your smartphone. 
+
 [PCSX2](https://pcsx2.net/) is a Playstation 2 'emulator', a free program that tries to replicate the Playstation 2 console to enable you to play PS2 games on your PC.
 
-[Play!]() is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms.
+[Play!](https://github.com/jpd002/Play-) is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms.
 
 ### PlayStation 3
 
