@@ -99,7 +99,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Ubisoft Connect](#Ubisoft-Connect)
         * [GOG Galaxy Store](#GOG-Galaxy)
         * [Itch.io Store](#Itchio-Store) 
-        * [Prism for MineCraft](#Prism)
+        * [Prism for Minecraft](#Prism)
       - [Game Streaming](#Game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
         * [Local Game Streaming](#Local-Game-Streaming)
@@ -2385,12 +2385,6 @@ Parallels Desktop for Mac
 
 [Back to the Top](#table-of-contents)
 
-[Razer Synapse](https://www.razer.com/synapse-3) is a unified cloud-based hardware configuration tool that takes your Razer devices to the next level.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275996-70a83775-a6aa-4496-a37d-d3945c751beb.png">
-</p>
-
 [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
 
 <p align="center">
@@ -2642,7 +2636,7 @@ Nintendo Switch Pro Controller
 
 [Back to the Top](#table-of-contents)
 
-[Prism Launcher for MineCraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
+[Prism Launcher for Minecraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
