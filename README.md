@@ -100,6 +100,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [GOG Galaxy Store](#GOG-Galaxy)
         * [Itch.io Store](#Itchio-Store) 
         * [Prism for Minecraft](#Prism)
+        * [XIV on Mac for FF XIV](#XIV-on-Mac)
       - [Game Streaming](#Game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
         * [Local Game Streaming](#Local-Game-Streaming)
@@ -2641,6 +2642,17 @@ Nintendo Switch Pro Controller
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
 </p>
+
+### XIV on Mac
+
+[Back to the Top](#table-of-contents)
+
+[XIVONMAC](https://www.xivmac.com/) is a modern, open-source Final Fantasy XIV client for macOS.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/209292818-12684fdc-c160-4e7d-828f-1f6370b6b3a0.gif">
+</p>
+
 
 ## Game Streaming
 
