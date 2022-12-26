@@ -710,7 +710,7 @@ Devices powered by Apple Silicon.
 Things
 </p>
 
-[Airbuddy 2](https://v2.airbuddy.app/) is a utility that let's you simply open your AirPods case next to your Mac and see the current status right away, just like how it works on your iPhone. A single click gets you connected, a swipe down lets you connect and change listenings modes at the same time. It has a fully customizable battery alerts help you keep track of your device's batteries.
+[Airbuddy 2](https://v2.airbuddy.app/) is a utility that lets you simply open your AirPods case next to your Mac and see the current status right away, just like how it works on your iPhone. A single click gets you connected, a swipe down lets you connect and change listenings modes at the same time. It has a fully customizable battery alerts help you keep track of your device's batteries.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/185706944-562df794-d9f7-4c3b-ab92-adf19e078d0f.png">
@@ -1336,7 +1336,7 @@ File Vault
 
 [mac_apt](https://github.com/ydkhatri/mac_apt) is a DFIR (Digital Forensics and Incident Response) tool for macOS/iOS to process Mac computer full disk images (or live machines) and extract data/metadata useful for forensic investigation. It is a python based framework, which has plugins to process individual artifacts (such as Safari internet history, Network interfaces, Recently accessed files & volumes, etc..)
 
-[AdGuard DNS](https://adguard-dns.io/en/welcome.html) is a tool that let's you control all web traffic on your devices, block ads, trackers, and malicious domains.
+[AdGuard DNS](https://adguard-dns.io/en/welcome.html) is a tool that lets you control all web traffic on your devices, block ads, trackers, and malicious domains.
 
 [Quad9](https://www.quad9.net/) is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats. This blocking action protects your computer, mobile device, or IoT systems against a wide range of threats such as malware, phishing, spyware, and botnets, and it can improve performance in addition to guaranteeing privacy. 
 
@@ -2184,7 +2184,7 @@ Tart
  - [Virtualize Linux on a Mac](https://developer.apple.com/documentation/virtualization/virtualize_linux_on_a_mac?language=objc) - Configure and run Linux guests on Apple silicon and Intel-based Mac computers.
  
 
-[Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
+[Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that lets you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/110880057-df697a80-8292-11eb-8484-9bbc02592377.jpg">
@@ -2282,7 +2282,7 @@ Then reboot, pick the Wayland session at the top of the login screen (SDDM), and
 # Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-[Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
+[Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that lets you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/110880057-df697a80-8292-11eb-8484-9bbc02592377.jpg">
@@ -2532,7 +2532,7 @@ Nintendo Switch Pro Controller
 
 [Back to the Top](#table-of-contents)
 
-[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that lets you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
 
  * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
  
@@ -2686,7 +2686,7 @@ Nintendo Switch Pro Controller
 
 [Back to the Top](#table-of-contents)
 
-[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
+[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that lets you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
 
 [Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
 
@@ -2695,7 +2695,7 @@ Nintendo Switch Pro Controller
 </p>
 
 
-[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that let's you control your PlayStation® console remotely wherever you have a high-speed internet connection. 
+[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that lets you control your PlayStation® console remotely wherever you have a high-speed internet connection. 
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/172946885-27f83bdf-ab1a-4eaa-ad33-0e108f92a981.png">
@@ -3311,7 +3311,7 @@ Nintendo 3DS
 
 [Flame®](https://www.autodesk.com/products/flame/overview) is a 3D VFX and finishing software provides powerful tools for 3D compositing, visual effects, and editorial finishing. An integrated, creative environment means faster compositing, advanced graphics, color correction, and more.
 
-[Mudbox®](https://www.autodesk.com/products/mudbox/overview) is a 3D digital painting and sculpting software that let's you sculpt and paint highly detailed 3D geometry and textures.
+[Mudbox®](https://www.autodesk.com/products/mudbox/overview) is a 3D digital painting and sculpting software that lets you sculpt and paint highly detailed 3D geometry and textures.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/122687228-2e944500-d1ca-11eb-894e-b55e15c35620.png">
