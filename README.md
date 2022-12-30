@@ -2867,6 +2867,8 @@ Nintendo 3DS
 
 [DuckStation](https://www.duckstation.org/) is an simulator/emulator of the Sony PlayStation 1 console, focusing on playability, speed, and long-term maintainability.
 
+[Avocado](https://github.com/JaCzekanski/Avocado) is a Modern PlayStation 1 emulator.
+
 ### PlayStation 2
 
 [AetherSX2](https://www.aethersx2.com/) is a free (no ads) emulator of the PlayStation 2 (PS2) console for ARM-based devices. This enables you to play games which you have dumped from disc on your smartphone. 
