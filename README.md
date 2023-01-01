@@ -2441,7 +2441,14 @@ Nintendo Switch Pro Controller
   <br />
 </p>
 
-[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. Starting with [OBS Studio version 28](https://projectobs.com/en/news/obs-studio-28-0/) it will feature 10-bit and HDR video encode support for [AV1](https://aomedia.org/av1-features/) and [HEVC](https://apps.apple.com/us/app/hevc/id768692338), and **native Apple Silicon support on macOS**.
+[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. Starting with [OBS Studio version 28](https://projectobs.com/en/news/obs-studio-28-0/) it features 10-bit and HDR video encode support for [AV1](https://aomedia.org/av1-features/) and [HEVC](https://apps.apple.com/us/app/hevc/id768692338), and **native Apple Silicon support on macOS**.
+
+**OBS Studio 29 new macOS features:**
+
+ * Added an upward compressor filter.
+ * Added a 3-band equalizer filter.
+ * Added support for native HEVC and ProRes encoders on macOS, including [P010](https://learn.microsoft.com/en-us/windows/win32/medfound/10-bit-and-16-bit-yuv-video-formats) and [HDR](https://www.adobe.com/creativecloud/photography/discover/hdr.html). 
+ * Added support for macOS Desk View.
  
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/185704748-217443ac-57e3-4ab3-ba74-6d09c2fe62fb.png">
