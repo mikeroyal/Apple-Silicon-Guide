@@ -104,7 +104,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [XIV on Mac for FF XIV](#XIV-on-Mac)
       - [Game Streaming](#Game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
-        * [Local Game Streaming](#Local-Game-Streaming)
+        * [Local Game Streaming](#Local-Game-Streaming)  
+      - [Playing Android Games](#Android-Games)
       - [Game Emulators](#game-emulators)
         * [Emulator Frontends](#Frontends)
         * [Nintendo GameCube & Wii](#Nintendo-GameCube--Wii)
@@ -2758,6 +2759,27 @@ Nintendo Switch Pro Controller
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+</p>
+
+## Android Games
+
+[Back to the Top](#table-of-contents)
+
+### BlueStacks
+[BlueStacks](https://www.bluestacks.com/download.html) is a the Fastest & Lightest Android App Player for Windows and macOS.
+
+ * [Getting Started with BlueStacks 4](https://support.bluestacks.com/hc/en-us/sections/360001186891-Getting-Started-with-BlueStacks-4)
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217487-269ce62d-49bb-4efc-ab26-61f5e2c41f72.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217491-68aabb0d-a3f0-4a77-ae7b-de66937a25b5.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217865-0fae0dc3-f229-49dd-9a88-14d75d154367.png">
 </p>
 
 ## Game Emulators
