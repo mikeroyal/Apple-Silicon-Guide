@@ -267,7 +267,7 @@ U1 Chip Die
 <br />
 </p>
 
-[Apple M1 Chip](https://www.apple.com/mac/m1/) is Apple's first SoC chip designed specifically for their ARM Mac products, it delivers incredible performance(8-core CPU and 8-core GPU), custom technologies, and great power efficiency. The M1 Chip is now availble for [Macbook Pro 13 with M1](https://www.apple.com/macbook-pro-13/), [Macbook Air 13 with M1](https://www.apple.com/macbook-air/), [Mac Mini with M1](https://www.apple.com/mac-mini/), [iPad Pro](https://www.apple.com/ipad-pro/), and [iPad Air](https://www.apple.com/ipad-air/).
+[Apple M1 Chip](https://www.apple.com/mac/m1/) is Apple's first SoC chip designed specifically for their ARM Mac products, it delivers incredible performance(8-core CPU and 8-core GPU), custom technologies, and great power efficiency. The M1 Chip is now available for [Macbook Pro 13 with M1](https://www.apple.com/macbook-pro-13/), [Macbook Air 13 with M1](https://www.apple.com/macbook-air/), [Mac Mini with M1](https://www.apple.com/mac-mini/), [iPad Pro](https://www.apple.com/ipad-pro/), and [iPad Air](https://www.apple.com/ipad-air/).
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/138614045-f20a4858-0460-49c1-8d80-0ae815e8bc93.png">
@@ -332,7 +332,7 @@ U1 Chip Die
 <br />
 </p>
 
-[Apple M1 Ultra Chip](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/) is a Apple's most powerful sillicon chip in their M1-series lineup. The M1 Ultra is composed of **two M1 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 128GB of high-bandwidth, low-latency unified memory that can be accessed by the **20-core CPU, 64-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M1 Ultra is currently available in Apple's **[Mac Studio](https://www.apple.com/shop/buy-mac/mac-studio)**.
+[Apple M1 Ultra Chip](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/) is a Apple's most powerful silicon chip in their M1-series lineup. The M1 Ultra is composed of **two M1 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 128GB of high-bandwidth, low-latency unified memory that can be accessed by the **20-core CPU, 64-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M1 Ultra is currently available in Apple's **[Mac Studio](https://www.apple.com/shop/buy-mac/mac-studio)**.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/157358150-c0e1b60d-787d-4e36-ba12-b4d4c5ea8bd2.png">
@@ -363,7 +363,7 @@ U1 Chip Die
 <br />
 </p>
 
-[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful sillicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**, **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design, and **[iPad Pro with M2 ](https://www.apple.com/ipad-pro/)**.
+[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful silicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**, **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design, and **[iPad Pro with M2 ](https://www.apple.com/ipad-pro/)**.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
@@ -841,7 +841,7 @@ Page screenshot for Safari
 Paste
 </p>
 
-[PasteBot](https://tapbots.com/pastebot/) is an indispensible tool to improve your productivity. It quickly recalls clippings that you have copied before and apply powerful text filters to format before pasting. Queue up multiple clippings to paste in sequence. 
+[PasteBot](https://tapbots.com/pastebot/) is an indispensable tool to improve your productivity. It quickly recalls clippings that you have copied before and apply powerful text filters to format before pasting. Queue up multiple clippings to paste in sequence. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/185706657-79fd7243-c323-4326-9d4f-d716a97b55b6.png">
@@ -896,7 +896,7 @@ Obsidian
 MarkText
 </p>
 
-[1Focus](https://onefocusapp.com/) is an App and Website Blocker to keep youy focused on your work. Block specific apps such as email, games or unsupported web browsers. Also, block internet access by blocking the installed web browsers and the App Store.
+[1Focus](https://onefocusapp.com/) is an App and Website Blocker to keep you focused on your work. Block specific apps such as email, games or unsupported web browsers. Also, block internet access by blocking the installed web browsers and the App Store.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/185707348-f16430fb-9847-4c58-ba11-80446c293705.png">
@@ -928,7 +928,7 @@ MindNode
 Unclutter
 </p>
 
-[Warp teminal](https://www.warp.dev/) is a blazingly fast, rust-based terminal reimagined from the ground up to work like a modern app.
+[Warp terminal](https://www.warp.dev/) is a blazingly fast, rust-based terminal reimagined from the ground up to work like a modern app.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/185707428-351705e2-15bd-4913-80a9-87bf8e0df945.png">
@@ -936,7 +936,7 @@ Unclutter
 Warp
 </p>
 
-[Jettison](https://www.stclairsoft.com/Jettison/) is a tool that automatically ejects external disks from your Mac before your computer goes to sleep. Simply close the lid of your macbook and Jettison will automatically eject your backup drive, iPod, or whatever is connected so you can safely unplug it.
+[Jettison](https://www.stclairsoft.com/Jettison/) is a tool that automatically ejects external disks from your Mac before your computer goes to sleep. Simply close the lid of your MacBook and Jettison will automatically eject your backup drive, iPod, or whatever is connected so you can safely unplug it.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/185707387-4ba9bba2-305e-4976-986d-bf3e2a1113b9.png">
@@ -1003,7 +1003,7 @@ Infuse Video Player
 
 [Back to the Top](#table-of-contents)
 
-**Note: While [Safari](https://www.apple.com/safari/) is a great browser that comes included on all Apple devices. It may not have all the extensions you need for your workflow so I reccommend checking out the several great options below.**
+**Note: While [Safari](https://www.apple.com/safari/) is a great browser that comes included on all Apple devices. It may not have all the extensions you need for your workflow so I recommend checking out the several great options below.**
 
 [Mozilla Firefox](https://www.mozilla.org/firefox/) is a free and open-source web browser developed by the Mozilla Foundation.
 
@@ -1223,7 +1223,7 @@ Infuse Video Player
 ## Universal Control
 [Back to the Top](#table-of-contents)
 
-[Universal Control](https://www.apple.com/newsroom/2021/10/macos-monterey-is-now-available/) is a software feature for Apple devices such as Macbooks and iPads that makes it possible to use a single keyboard, mouse, and trackpad with your Mac and iPad as long as they're side-by-side. Much like SideCar, there are limited settings for Universal Control. Without a second device connected, you can go to System Preferences -> Displays and click Advanced to pull up Universal Control settings. If a device is already connected, you'll have to go to Displays -> Display Settings -> Advanced.
+[Universal Control](https://www.apple.com/newsroom/2021/10/macos-monterey-is-now-available/) is a software feature for Apple devices such as MacBooks and iPads that makes it possible to use a single keyboard, mouse, and trackpad with your Mac and iPad as long as they're side-by-side. Much like SideCar, there are limited settings for Universal Control. Without a second device connected, you can go to System Preferences -> Displays and click Advanced to pull up Universal Control settings. If a device is already connected, you'll have to go to Displays -> Display Settings -> Advanced.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/153113830-cf6380b4-af80-4252-894a-84a4eada82e6.png">
@@ -1342,7 +1342,7 @@ Checking Battery on your iOS device.
 
 Full disk encryption is pretty much self-explanatory. You want to encrypt your disk, so you prevent unauthorized access to your data.
 
-To turn on full disk encription on macOS:
+To turn on full disk encryption on macOS:
 
 1. Go to System Preferences > Security & Privacy > FileVault
 2. Click on the lock on the bottom left side of the screen to authenticate (you need to authenticate to make changes, in this case, to turn on full disk encryption)
@@ -1574,7 +1574,7 @@ Developing with SwiftUI in Xcode 14
 
 [Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
 
-[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
@@ -1590,7 +1590,7 @@ Developing with SwiftUI in Xcode 14
 
 [Metal](https://developer.apple.com/metal/) is a low-level API that provides a platform-optimized, low-overhead API for developing the latest 3D pro applications and amazing games using a rich shading language with tighter integration between graphics and compute programs. To help you do more while managing ever more complex shader code, Metal adds an unparalleled suite of advanced GPU debugging tools to help you realize the full potential of your graphics code.
 
-[Metal 3](https://developer.apple.com/metal/) is Apple's newest graphics API that introdcues advanced features and compiler tools to load resources faster, compile shader binaries at build time, process complex geometry with mesh shaders, render high-resolution graphics in less time, train machine learning networks faster, and more. 
+[Metal 3](https://developer.apple.com/metal/) is Apple's newest graphics API that introduces advanced features and compiler tools to load resources faster, compile shader binaries at build time, process complex geometry with mesh shaders, render high-resolution graphics in less time, train machine learning networks faster, and more. 
 
 [Apple Developer Documentation](https://developer.apple.com/documentation)
 
@@ -1659,7 +1659,7 @@ Developing with SwiftUI in Xcode 14
 
 [Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
 
-[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
@@ -1748,7 +1748,7 @@ Tart
 
 [VMware Carbon Black](https://www.vmware.com/products/whats-new/carbon-black.html) is a cloud–native endpoint protection platform combines the intelligent system hardening and behavioral prevention needed to keep emerging threats at bay.
 
-[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It inlcudes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
+[Proxmox Virtual Environment(VE)](https://www.proxmox.com/en/) is a complete open-source platform for enterprise virtualization. It includes a built-in web interface that you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools on a single solution.
 
 [VirtManager](https://github.com/virt-manager/virt-manager) is a graphical tool for managing virtual machines via libvirt. Most usage is with QEMU/KVM virtual machines, but Xen and libvirt LXC containers are well supported. Common operations for any libvirt driver should work.
 
@@ -1788,7 +1788,7 @@ Tart
 
 [Magma](https://www.magmacore.org/) is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Their mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. Magma is 3GPP generation (2G, 3G, 4G or upcoming 5G networks) and access network agnostic (cellular or WiFi). It can flexibly support a radio access network with minimal development and deployment effort.
 
-[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openess to multi-vendor deployments.
+[OpenRAN](https://open-ran.org/) is an intelligent Radio Access Network(RAN) integrated on general purpose platforms with open interface between software defined functions. Open RANecosystem enables enormous flexibility and interoperability with a complete openness to multi-vendor deployments.
 
 [Open vSwitch(OVS)](https://www.openvswitch.org/)is an open source production quality, multilayer virtual switch licensed under the open source Apache 2.0 license. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).
 
@@ -1832,7 +1832,7 @@ Tart
 
 **[Colima](https://github.com/abiosoft/colima)** is a container runtimes on macOS (and Linux) with minimal setup.
 
-**Included Featues:**
+**Included Features:**
 
    * M1/M2 Macs and Intel support
     
@@ -1953,7 +1953,7 @@ Tart
 
 **[Colima](https://github.com/abiosoft/colima)** is a container runtimes on macOS (and Linux) with minimal setup.
 
-**Included Featues:**
+**Included Features:**
 
    * M1/M2 Macs and Intel support
     
@@ -2128,7 +2128,7 @@ Tart
 
 ## Ansible Learning Resources
 
-[Ansible](https://www.ansible.com/) is a simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. It uses a very simple language (YAML, in the form of Ansible Playbooks) that allows you to describe your automation jobs in a way that approaches plain English. Anisble works on Linux (Red Hat EnterPrise Linux(RHEL) and Ubuntu) and Microsoft Windows.
+[Ansible](https://www.ansible.com/) is a simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. It uses a very simple language (YAML, in the form of Ansible Playbooks) that allows you to describe your automation jobs in a way that approaches plain English. Ansible works on Linux (Red Hat EnterPrise Linux(RHEL) and Ubuntu) and Microsoft Windows.
 
 [Red Hat Training for Ansible](https://www.ansible.com/products/training-certification)
 
@@ -2506,7 +2506,7 @@ Nintendo Switch Pro Controller
   * **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** plugin; add a Downstream Keyer dock.
   * **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** plugin; filter for dynamic delaying a video source.
   * **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** plugin; freeze a source using a filter.
-  * **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** plugin; adding gradients as a Soource.
+  * **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** plugin; adding gradients as a Source.
   * **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** plugins; feed GStreamer launch pipelines into OBS Studio and use GStreamer encoder elements.
   * **[Move Transition](https://github.com/exeldro/obs-move-transition)** plugin; move source to a new position during scene transition.
   * **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** plugin; provides a custom effect to render multiple sources.
@@ -2643,7 +2643,7 @@ Nintendo Switch Pro Controller
 
 [Ubisoft Connect](https://itunes.apple.com/us/app/ubisoft-club/id405228226/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
 
-**Ways to Play Ubisift Connect on macOS Apple Silicon:**
+**Ways to Play Ubisoft Connect on macOS Apple Silicon:**
  
  * [Ubisoft Connect Installer (UPlay) through CrossOver](https://www.codeweavers.com/compatibility/crossover/Ubisoft-Connect-Installer)
  * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
@@ -2658,7 +2658,7 @@ Nintendo Switch Pro Controller
 
 [GOG Galaxy](https://www.gog.com/galaxy) is an application that lets you combine multiple game libraries into one place and connect with your friends across all gaming platforms, consoles included.
 
- * [GOG Galazy installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/gog-galaxy)
+ * [GOG Galaxy installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/gog-galaxy)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
@@ -2711,7 +2711,7 @@ Nintendo Switch Pro Controller
 
 <img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
 
-[Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a vartiey of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
+[Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a variety of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/112693072-364b8400-8e3d-11eb-9df0-d58af7ac9c9c.png">
@@ -3066,13 +3066,13 @@ Nintendo 3DS
 
 [A-Frame](https://aframe.io) is a web framework for building virtual reality experiences in WebVR with HTML and Entity-Component. A-Frame works on Vive, Rift, desktop, mobile platforms.
 
-[AppGameKit](https://www.appgamekit.com) is a powerful game development engine, ideal for Hobbyist and Indie developers. Where you can start coding in the easy to learn AppGameKit BASIC or use the libraries in C++ & XCode.
+[AppGameKit](https://www.appgamekit.com) is a powerful game development engine, ideal for Hobbyist and Indie developers. Where you can start coding in the easy to learn AppGameKit BASIC or use the libraries in C++ & Xcode.
 
 [Blender](https://www.blender.org) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.
 
 [GameMaker Studio 2](https://www.yoyogames.com/gamemaker) is the latest and greatest incarnation of GameMaker. It has everything you need to take your idea from concept to finished game. With no barriers to entry and powerful functionality, GameMaker Studio 2 is the ultimate 2D development environment.
 
-[Godot](https://godotengine.org) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, Mac OSX, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
+[Godot](https://godotengine.org) is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported in one click to a number of platforms, including the major desktop platforms (Linux, macOS, Windows) as well as mobile (Android, iOS) and web-based (HTML5) platforms.
 
 [Open Computing Language (OpenCL)](https://www.khronos.org/opencl/) is an open standard for [parallel programming](https://www.coursera.org/lecture/parprog1/introduction-to-parallel-computing-zNrIS) of heterogeneous platforms consisting of CPUs, GPUs, and other hardware accelerators found in supercomputers, cloud servers, personal computers, mobile devices and embedded platforms.
 
@@ -3215,7 +3215,7 @@ Nintendo 3DS
 
 [Blender](https://www.blender.org/features/video-editing/) comes with a built-in video sequence editor allows you to perform basic actions like video cuts and splicing, as well as more complex tasks like video masking or color grading. The Video Editor includes: Live preview, luma waveform, chroma vectorscope and histogram displays. Audio mixing, syncing, scrubbing and waveform visualization.
 
-[Lightworks](https://www.lwks.com/) is a non-linear video editing appluication for editing and mastering digital video used by the film industry. Its professional edition has been used for box office hits, such as Shutter Island, Pulp Fiction, and Mission Impossible. Intimidating user interface. Like professional video editors, such as Adobe Premiere Pro, Lightworks is rather complicated to use for new users.
+[Lightworks](https://www.lwks.com/) is a non-linear video editing application for editing and mastering digital video used by the film industry. Its professional edition has been used for box office hits, such as Shutter Island, Pulp Fiction, and Mission Impossible. Intimidating user interface. Like professional video editors, such as Adobe Premiere Pro, Lightworks is rather complicated to use for new users.
 
 [Shotcut](https://www.shotcut.org/) is an open source multi-platform video editor. You can perform various actions such as video editing (including 4K video quality), add effects, create new movies, import most image files formats, export to almost any file format and much more.
 
@@ -3390,7 +3390,7 @@ Nintendo 3DS
 
 [Houdini](https://www.sidefx.com/) is a 3D procedural software for modeling, rigging, animation, VFX, look development, lighting and rendering in film, TV, advertising and video game pipelines.
 
-[Open Graphics Library(OpenGL)](https://www.opengl.org/) is an API used acrossed mulitple  programming languages and platforms for hardware-accelerated rendering of 2D/3D vector graphics currently developed by the [Khronos Group](https://www.khronos.org/).
+[Open Graphics Library(OpenGL)](https://www.opengl.org/) is an API used across multiple  programming languages and platforms for hardware-accelerated rendering of 2D/3D vector graphics currently developed by the [Khronos Group](https://www.khronos.org/).
 
 [Open Computing Language (OpenCL)](https://www.khronos.org/opencl/) is an open standard for [parallel programming](https://www.coursera.org/lecture/parprog1/introduction-to-parallel-computing-zNrIS) of heterogeneous platforms consisting of CPUs, GPUs, and other hardware accelerators found in supercomputers, cloud servers, personal computers, mobile devices and embedded platforms.
 
@@ -3545,7 +3545,7 @@ Developing with SwiftUI in Xcode 12
 
 [Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
 
-[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C used in Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
@@ -3601,7 +3601,7 @@ Developing with SwiftUI in Xcode 12
 
 [Instruments](https://help.apple.com/instruments/mac/current/#/dev7b09c84f5) is a powerful and flexible performance-analysis and testing tool that’s part of the Xcode tool set. It’s designed to help you profile your iOS, watchOS, tvOS, and macOS apps, processes, and devices in order to better understand and optimize their behavior and performance.
 
-[Cocoapods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C in your Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Swift and Objective-C in your Xcode projects by specifying the dependencies for your project in a simple text file. CocoaPods then recursively resolves dependencies between libraries, fetches source code for all dependencies, and creates and maintains an Xcode workspace to build your project.
 
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
