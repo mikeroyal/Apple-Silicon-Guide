@@ -363,7 +363,7 @@ U1 Chip Die
 <br />
 </p>
 
-[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful silicon chip in their M2-series for right now. The M2 has a **18% faster CPU, *35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**, **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design, and **[iPad Pro with M2 ](https://www.apple.com/ipad-pro/)**.
+[Apple M2 Chip](https://www.apple.com/newsroom/) is a Apple's most powerful silicon chip in their M2-series for right now. The M2 has a **18% faster CPU, 35% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU, 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. The M2 will be available in Apple's new **[MacBook Air](https://www.apple.com/macbook-air/)**, **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** with old design, and **[iPad Pro with M2 ](https://www.apple.com/ipad-pro/)**.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
@@ -429,27 +429,13 @@ U1 Chip Die
   <img src="https://user-images.githubusercontent.com/45159366/202932322-14356b51-b658-427c-9653-0f853e544f88.png">
 </p>
 
-* **TSMC’s 3nm technology (N3)** will be another full node upgrade from their **5nm technology (N5)**, and offer the most advanced foundry technology in both PPA(power, performance and area scaling) and transistor technology when it's introduced in **Apple's M2 Pro and Max chips in 2023**. The N3 technology will offer up to 70% logic density gain, up to 15% speed improvement at the same power and up to 30% power reduction at the same speed as compared with N5 technology. 
-
-* [TSMC FINFLEX™](https://www.tsmc.com/english/news-events/blog-article-20220616) is a process that extends the product performance, power efficiency and density envelope of the 3nm family of semiconductor technologies by allowing chip designers to choose the best option for each of the key functional blocks on the same die using the same design toolset. These options include a **3-2 FIN**, **2-2 FIN** and **2-1 FIN** configuration with the following characteristics:
-
-   * **3-2 FIN** – Fastest clock frequencies and highest performance for the most demanding compute needs.
-
-   * **2-2 FIN** – Efficient Performance, a good balance between performance, power efficiency and density.
-
-   * **2-1 FIN** – Ultra Power Efficiency, lowest power consumption, lowest leakage and highest density.
-   
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932324-a5e4f95b-490f-46f2-bfed-b9514f2c0e97.png">
-</p>
-
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
+[Apple M2 Pro Chip](https://www.apple.com/newsroom/) has a **20% faster CPU, 30% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **32GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU, 19-core GPU (200GB/s memory bandwidth), and 16-core Neural Engine**. The M2 Pro will be available in Apple's **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)**, and **[Mac mini](https://www.apple.com/mac-mini/)**.
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932325-2711afda-a255-4d73-9aed-7e2fcac2cfb6.jpg">
+  <img src="https://user-images.githubusercontent.com/45159366/213024040-d9389326-f84d-4702-8056-afe6046dd5fe.png">
 </p>
 
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
+M2 Pro Chip. Image Credit: [Apple](https://www.apple.com/newsroom/)
 
 ### M2 Max
 
@@ -459,27 +445,14 @@ Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220
   <img src="https://user-images.githubusercontent.com/45159366/202932320-7249897a-29f4-4efb-8689-2427dfd85e33.png">
 </p>
 
-* **TSMC’s 3nm technology (N3)** will be another full node upgrade from their **5nm technology (N5)**, and offer the most advanced foundry technology in both PPA(power, performance and area scaling) and transistor technology when it's introduced in **Apple's M2 Pro and Max chips in 2023**. The N3 technology will offer up to 70% logic density gain, up to 15% speed improvement at the same power and up to 30% power reduction at the same speed as compared with N5 technology. 
+[Apple M2 Max Chip](https://www.apple.com/newsroom/) is a Apple's most powerful silicon chip in their M2-series for right now. The M2 has a **20% faster CPU, 30% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **96GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU, 38-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. The M2 Max will be available in Apple's **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)**, and **[Mac mini](https://www.apple.com/mac-mini/)**.
 
-* [TSMC FINFLEX™](https://www.tsmc.com/english/news-events/blog-article-20220616) is a process that extends the product performance, power efficiency and density envelope of the 3nm family of semiconductor technologies by allowing chip designers to choose the best option for each of the key functional blocks on the same die using the same design toolset. These options include a **3-2 FIN**, **2-2 FIN** and **2-1 FIN** configuration with the following characteristics:
-
-   * **3-2 FIN** – Fastest clock frequencies and highest performance for the most demanding compute needs.
-
-   * **2-2 FIN** – Efficient Performance, a good balance between performance, power efficiency and density.
-
-   * **2-1 FIN** – Ultra Power Efficiency, lowest power consumption, lowest leakage and highest density.
-   
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932324-a5e4f95b-490f-46f2-bfed-b9514f2c0e97.png">
-</p>
-
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
 
   <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932325-2711afda-a255-4d73-9aed-7e2fcac2cfb6.jpg">
+  <img src="https://user-images.githubusercontent.com/45159366/213024048-db42c02f-1379-497f-b96a-7446b31b5f69.png">
 </p>
 
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
+M2 Max Chip. Image Credit: [Apple](https://www.apple.com/newsroom/)
 
 
 ### M2 Ultra
