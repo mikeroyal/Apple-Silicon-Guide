@@ -463,29 +463,12 @@ M2 Max Chip. Image Credit: [Apple](https://www.apple.com/newsroom/)
   <img src="https://user-images.githubusercontent.com/45159366/210165270-8609f92a-8765-4b19-9956-cd04b0593159.png">
 </p>
 
+The M2 Ultra will most likely be announced in Q2-2023.
+
 The M2 Ultra is composed of **two M2 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging.
 
-* **TSMC’s 3nm technology (N3)** will be another full node upgrade from their **5nm technology (N5)**, and offer the most advanced foundry technology in both PPA(power, performance and area scaling) and transistor technology when it's introduced in **Apple's M2 Pro and Max chips in 2023**. The N3 technology will offer up to 70% logic density gain, up to 15% speed improvement at the same power and up to 30% power reduction at the same speed as compared with N5 technology. 
+The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-latency unified memory that can be accessed by the **24-core CPU, 76-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**.
 
-* [TSMC FINFLEX™](https://www.tsmc.com/english/news-events/blog-article-20220616) is a process that extends the product performance, power efficiency and density envelope of the 3nm family of semiconductor technologies by allowing chip designers to choose the best option for each of the key functional blocks on the same die using the same design toolset. These options include a **3-2 FIN**, **2-2 FIN** and **2-1 FIN** configuration with the following characteristics:
-
-   * **3-2 FIN** – Fastest clock frequencies and highest performance for the most demanding compute needs.
-
-   * **2-2 FIN** – Efficient Performance, a good balance between performance, power efficiency and density.
-
-   * **2-1 FIN** – Ultra Power Efficiency, lowest power consumption, lowest leakage and highest density.
-   
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932324-a5e4f95b-490f-46f2-bfed-b9514f2c0e97.png">
-</p>
-
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
-
-  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932325-2711afda-a255-4d73-9aed-7e2fcac2cfb6.jpg">
-</p>
-
-Image Credit: [TSMC](https://www.tsmc.com/english/news-events/blog-article-20220616)
 
 ## Migrating to Apple Silicon
 [Back to the Top](#table-of-contents)
