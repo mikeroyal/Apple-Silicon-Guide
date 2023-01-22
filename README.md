@@ -2800,6 +2800,8 @@ Nintendo Switch Pro Controller
 
 [Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance.
 
+[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
+
 [Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
 
 Cartridge Features
@@ -2863,6 +2865,8 @@ Nintendo 3DS
 [mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
 
 ### DOS 
+
+[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
 
 [DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
 
