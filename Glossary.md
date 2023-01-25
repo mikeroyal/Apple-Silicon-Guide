@@ -1,3 +1,5 @@
+# Glossary
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/213122564-2c2018e8-8b06-48dd-92a9-806ca08914c3.jpeg">
 <br />
