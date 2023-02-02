@@ -588,6 +588,23 @@ Devices powered by Apple Silicon.
 
 [MacPorts Project](https://www.macports.org/) is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on macOS. 
 
+[Nix package manager](https://nixos.org/) is a cross-platform package manager that utilizes a purely functional deployment model where software is installed into unique directories generated through cryptographic hashes. Choose from Thousands of Packages The Nix Packages collection (Nixpkgs) is a set of over 80 000 packages for the Nix package manager.
+
+ * **[Nix-darwin](https://github.com/LnL7/nix-darwin)** is Nix modules for darwin, ```/etc/nixos/configuration.nix``` for macOS.
+
+**Multi-user installation on macOS:**
+
+```$ sh <(curl -L https://nixos.org/nix/install)```
+
+**Note:** Nix will install all it's packages within ```/nix/store```.
+
+**Note 2:** You may need to source the nix profile at this point.
+
+```source /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh```
+
+```source /nix/var/nix/profiles/default/etc/profile.d/nix.sh```
+
+
 ### Productivity & Workflow Apps
 
 [Back to the Top](#table-of-contents)
