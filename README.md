@@ -17,9 +17,9 @@
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172232783-6cf8166f-2bd0-41bd-a067-bb61504fc182.png">
+<img src="https://user-images.githubusercontent.com/45159366/216295470-d61ffb68-363c-4a4b-9dbe-94ee6c61ea73.jpeg">
 <br />
-Apple M2 Architecture.
+Apple M2/M2 Pro/M2 Max Architecture.
 </p>
 
 <p align="center">
@@ -429,7 +429,7 @@ U1 Chip Die
 [Back to the Top](#table-of-contents)
 
  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932322-14356b51-b658-427c-9653-0f853e544f88.png">
+  <img src="https://user-images.githubusercontent.com/45159366/216295418-13381e71-6839-42e1-99ae-b22552374348.png">
 </p>
 
 [Apple M2 Pro Chip](https://www.apple.com/newsroom/) has a **20% faster CPU, 30% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **32GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU, 19-core GPU (200GB/s memory bandwidth), and 16-core Neural Engine**. The M2 Pro will be available in Apple's **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)**, and **[Mac mini](https://www.apple.com/mac-mini/)**.
@@ -445,7 +445,7 @@ M2 Pro Chip. Image Credit: [Apple](https://www.apple.com/newsroom/)
 [Back to the Top](#table-of-contents)
 
  <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/202932320-7249897a-29f4-4efb-8689-2427dfd85e33.png">
+  <img src="https://user-images.githubusercontent.com/45159366/216295429-7cb0f4ce-3b83-4c61-b9da-a937eceb2b27.png">
 </p>
 
 [Apple M2 Max Chip](https://www.apple.com/newsroom/) is a Apple's most powerful silicon chip in their M2-series for right now. The M2 has a **20% faster CPU, 30% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **96GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU, 38-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. The M2 Max will be available in Apple's **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)**, and **[Mac mini](https://www.apple.com/mac-mini/)**.
