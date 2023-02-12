@@ -2312,7 +2312,13 @@ Since only one version of Mesa can be installed at a time, pacman will prompt yo
 
 Then reboot, pick the Wayland session at the top of the login screen (SDDM), and enjoy! You might want to adjust the screen scale factor in System Settings → Display and Monitor (Plasma Wayland defaults to 100% or 200%, while 150% is often nicer). If you have “Force font DPI” enabled under Appearance → Fonts, you should disable that (it is saved separately for Wayland and Xorg, and shouldn’t be necessary on Wayland sessions). Log out and back in for these changes to fully apply.
 
-### NixOS Development on M1
+### Fedora Development on Apple Silicon
+
+* [Fedora Asahi Special Interest Group](https://fedoraproject.org/wiki/SIGs/Asahi)
+ 
+[Asahi-Fedora-Builder](https://github.com/leifliddy/asahi-fedora-builder) is a script that builds a minimal Fedora image to run on Apple M1/M2 systems.
+
+### NixOS Development on Apple Silicon
 
 **[NixOS on M1 Macs](https://github.com/tpwrules/nixos-m1)**
 
