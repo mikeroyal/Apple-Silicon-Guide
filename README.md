@@ -820,6 +820,14 @@ PasteBot
 Speedcut
 </p>
 
+[Pulse](https://kean.blog/pulse/home) is a powerful logging system for Apple Platforms builtin in SwiftUI. It allows you to record and inspect logs and ```URLSession``` network requests right from your iOS app. Shared logs and view them in [Pulse Pro](https://kean.blog/pulse/pro) or use remote logging to see them in real-time. Logs are stored locally and never leave your devices.
+
+p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/218423398-52ed3e3c-fa49-46c7-a6ea-03ba7c431224.png">
+<br />
+Pulse
+</p>
+
 [Cleaner One Pro](https://cleanerone.trendmicro.com/cleaner-one-pro-for-mac/) is an all-in-one Mac Master Cleaner App. It can optimize your disk usage, free up space on your Mac, keep the hard drive clean, remove duplicate photos and other files, manage your apps, and much more. 
 
 <p align="center">
@@ -1382,6 +1390,8 @@ File Vault
 [Effaceable Storage](https://support.apple.com/guide/security/aside/sec0183122de/1/web/1) is a dedicated area of NAND storage, used to store cryptographic keys, that can be addressed directly and wiped securely.
 
 [SepOS](https://support.apple.com/guide/security/aside/secc3e4f7a43/1/web/1) is the Secure Enclave firmware, based on an Apple-customized version of the L4 microkernel.
+
+[Pulse](https://kean.blog/pulse/home) is a powerful logging system for Apple Platforms builtin in SwiftUI. It allows you to record and inspect logs and ```URLSession``` network requests right from your iOS app. Shared logs and view them in [Pulse Pro](https://kean.blog/pulse/pro) or use remote logging to see them in real-time. Logs are stored locally and never leave your devices.
 
 [Lynis](https://cisofy.com/lynis/) is a security auditing tool for systems based on UNIX like Linux, macOS, BSD, and others. It performs an in-depth security scan and runs on the system itself. The primary goal is to test security defenses and provide tips for further system hardening. It will also scan for general system information, vulnerable software packages, and possible configuration issues. 
 
