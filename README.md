@@ -2488,6 +2488,14 @@ PS 5  DualSense™ Controller
 Nintendo Switch Pro Controller
 </p>
 
+[Google Stadia Controller on ebay](https://www.ebay.com/sch/i.html?_nkw=google+stadia+controller&_sop=12&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5336728181&customid=&toolid=10001)
+ 
+ **Switch your Stadia Controller to [Bluetooth mode](https://stadia.google.com/controller/)** to keep gaming wirelessly on your favorite devices and services after Stadia shuts down.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/218290131-3346f2d5-ee93-4dba-b8ed-e28f05c9055f.png">
+</p>
+
 [Steam Contoller](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=steam+controller&_sacat=0)
 
  * **Note:** Steam Controllers were discontinued on November 26, 2019, though, you can still buy them on ebay.
