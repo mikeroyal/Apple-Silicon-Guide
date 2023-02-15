@@ -1386,6 +1386,11 @@ Nexcloud Hub
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
+
+[Proton Drive](https://drive.proton.me/) is an end-to-end encrypted Swiss storage space for your files, photos, and videos, ensuring that nobody, except those authorized by you, can access your data. 
+
+[pCloud](https://www.pcloud.com/) is a secure place for your photos, videos and documents from every device, anywhere you go. pCloud starts with 10 GB free storage and automatically backup your photos and videos and free up space from your device. 
+
 ## SSD Drive Health/Data Recovery
 
 [Back to the Top](#table-of-contents)
