@@ -50,10 +50,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
      - [Secure & Privacy-focused Web Browsers](https://github.com/mikeroyal/Apple-Silicon-Guide#secure--privacy-focused-web-browsers)
         * [Privacy & Security Focused Browser extensions](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy--security-focused-browser-extensions)
         * [Privacy-focused Search Engines](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy-focused-search-engines)
-     - [Microsoft Office Alternatives](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives)    
+     - [Microsoft Office Alternatives](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives) 
    * [Universal Control](https://github.com/mikeroyal/Apple-Silicon-Guide#Universal-Control)
    * [Stage Manager](https://github.com/mikeroyal/Apple-Silicon-Guide#Stage-Manager)
    * [File Sync/Transfer](#File-SyncTransfer)
+   - [Replacing iCloud with Nexcloud](#Replacing-iCloud-with-Nexcloud)
    * [Adding Storage(External)](https://github.com/mikeroyal/Apple-Silicon-Guide#Adding-External-Storage)
    * [Backups](#Backups)
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
@@ -1264,6 +1265,90 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 [Usermode FTP Server](https://gitlab.com/ergoithz/umftpd) is a tool that let's you start an FTP server as user and transfer files with any FTP client. Allowing you to access your files directly with many file browsers' builtin FTP support: Windows File Explorer, Thunar, Gnome Files, Dolphin and many more. 
 
 [TagSpaces](https://www.tagspaces.org/) is a free, no vendor lock-in, open source application for organizing, annotating and managing local files with the help of tags. It features advanced note taking functionalities and some capabilities of to-do apps. It's available for Windows, Linux, Mac OS and Android. 
+
+## Replacing iCloud with Nexcloud
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/218290801-af7efb7b-fd9e-452e-a18e-72e643bdf044.png">
+  <br />
+  
+</p>
+
+**Replacing these iCloud services:**
+
+  * File sync (“iCloud Drive”) -> [Nextcloud Files](https://nextcloud.com/files/)
+  * Photos (“iCloud Photo Library”) -> [Nextcloud Photos](https://github.com/nextcloud/photos)
+  * Mail -> [Nextcloud Mail](https://apps.nextcloud.com/apps/mail) + [SnappyMail](https://apps.nextcloud.com/apps/snappymail)
+  * Contacts -> [Nextcloud Contacts](https://apps.nextcloud.com/apps/contacts)
+  * Calendar -> [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar)
+  * Reminders -> [SnappyMail](https://apps.nextcloud.com/apps/snappymail)
+  * Browser sync (“Safari”) -> [Nextcloud Bookmarks](https://apps.nextcloud.com/apps/bookmarks) or [Floccus](https://floccus.org/)
+  * Notes -> [Nextcloud Notes](https://apps.nextcloud.com/apps/notes)
+  * Password sync (“Keychain”) -> [KeePass DB on Nextcloud](https://apps.nextcloud.com/apps/keeweb)
+  * Remote access (“Back to my mac”) -> [Tailscale](https://tailscale.com/) + [docker-ddns](https://github.com/dprandzioch/docker-ddns)
+  * Find my iPhone -> [Nextcloud PhoneTrack](https://apps.nextcloud.com/apps/phonetrack)
+  * iWork for iCloud -> [Nextcloud with Onlyoffice](https://nextcloud.com/onlyoffice/) or [Collabora Online in Nextcloud](https://nextcloud.com/collaboraonline/)
+  * News -> [Miniflux](https://miniflux.app/) with [Fever API](https://miniflux.app/docs/services.html)
+  * Audiobooks (“iBooks”) -> [audiobookshelf](https://www.audiobookshelf.org/)
+  * Repository Hosting -> [GitLab](https://gitlab.com/)
+
+
+[Nextcloud](https://nextcloud.com) is an industry-leading, on-premises content collaboration platform for file sync & share and communication server. It is fully open source and you can host it yourself or pay a company to do it for you. Also checkout the following links below:
+
+   - [Nextcloud App Store](https://apps.nextcloud.com)
+
+   - [Nextcloud GitHub](https://github.com/nextcloud)
+
+   - [Nextcloud Developer Program](https://nextcloud.com/developer)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701961-ac8be115-34c1-4012-bd69-d1f22a10e48c.png">
+  <br />
+Nexcloud login screen
+</p>
+
+[Nextcloud Hub](https://nextcloud.com/hub/) is a tool that allows you to share and collaborate on documents, send and receive email, manage your calendar and have video chats without data leaks. As fully on-premises solution, Nextcloud Hub provides the benefits of online collaboration without the compliance and security risks.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/150701964-df1dd8d9-1d3a-4376-81e8-f49439fb4356.png">
+  <br />
+Nexcloud Hub
+</p>
+
+[Nextcloud AIO (All In One)](https://github.com/nextcloud/all-in-one) is a tool that provides easy deployment and maintenance with most features included in this one Nextcloud instance. 
+
+**Features it includes:**
+
+   * Nextcloud
+   * Nextcloud Office
+   * High performance backend for Nextcloud Files
+   * High performance backend for Nextcloud Talk
+   * Backup solution (based on BorgBackup)
+   * Imaginary
+   * ClamAV
+   * Fulltextsearch
+
+[Nextcloud Desktop Client](https://nextcloud.com/install/#install-clients) is a tool to synchronize files from Nextcloud Server with your computer.
+
+[Nextcloud Deck](https://apps.nextcloud.com/apps/deck) is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud.
+
+[Nextcloud Files](https://nextcloud.com/files/) is a tool tool that allows your employees have easy access to their files, photos and documents to work and can share and collaborate with team members, customers and partners. So IT knows nobody besides those they shared with has access to those files.
+
+[Nextcloud Talk](https://nextcloud.com/talk/) is a tool that protects your communication better than other team collaboration platforms like Microsoft Teams or Slack, making sure your data stays on your servers. It also goes further than other encrypted communication technologies by keeping even metadata from leaking.
+
+[Nextcloud Home](https://nextcloud.com/athome/) is a tool that allows you store your documents, calendar, contacts and photos on your server at home, at one of at one Nextcloud's providers or in a data center you trust.
+
+[Nextcloud Enterprise](https://nextcloud.com/enterprise/) is a service that gives professional organizations software optimized and tested for mission critical environments.
+
+[Nextcloud Outlook Integration](https://nextcloud.com/outlook/) is a tool that automatically upload files to replace large attachments or integrate Calendars and Contacts in Microsoft Outlook.
+
+[Collabora Online in Nextcloud](https://nextcloud.com/collaboraonline/) is a powerful LibreOffice-based online office suite with collaborative editing, which supports all major document, spreadsheet and presentation file formats and works in all modern browsers.
+
+[ONLYOFFICE integration in Nextcloud](https://nextcloud.com/onlyoffice/) is a service that empowers your users to collaborate on office documents with team members in real time. It has compatibility with Microsoft Office formats means perfect documents, every time.
+
+[Nextcloud VM(virtual machine appliance)](https://download.nextcloudvm.com/) is a set of carefully crafted family of [*nix](https://bit.ly/2UaCC7b) scripts, which interactively guide you through a quality-controlled installation of a Nextcloud instance for Home/SME Server and scripts for Raspberry Pi 4. It is Community developed and maintained.
 
 ## Adding External Storage
 
