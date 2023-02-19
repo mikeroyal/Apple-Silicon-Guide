@@ -1415,7 +1415,13 @@ MacOS Recovery Options
 
 [Disk Drill](https://www.cleverfiles.com/) is a free tool that can scan and recover data from virtually any storage device — including internal Macintosh hard drives, external hard drives, cameras, iPhones, iPads, iPods, Android devices, USB flash drives, Kindles, and memory cards. It can read your device even if it is failing, unreadable, or has lost a partition. Combining several powerful scanning algorithms, Disk Drill provides a complete Mac data recovery solution.
 
-[DriveDx](https://binaryfruit.com/drivedx) is an advanced drive-health diagnostic and monitoring utility. It not only monitors the drive’s built-in S.M.A.R.T. status, but also analyzes the changes of all drive health indicators that are closely related to SSD or HDD failures (like SSD wear out / endurance, reallocated bad sectors, offline bad sectors, pending sectors, I/O errors, and more) and alerts the user immediately if anything goes wrong. 
+[DriveDx](https://binaryfruit.com/drivedx) is an advanced drive-health diagnostic and monitoring utility. It not only monitors the drive’s built-in S.M.A.R.T. status, but also analyzes the changes of all drive health indicators that are closely related to SSD or HDD failures (like SSD wear out / endurance, reallocated bad sectors, offline bad sectors, pending sectors, I/O errors, and more) and alerts the user immediately if anything goes wrong.
+
+[AmorphousDiskMark](https://apps.apple.com/us/app/amorphousdiskmark/id1168254295?mt=12) is a tool that measures storage performance.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/218423387-eee6e655-2e19-414b-bb5c-0c9a6d3215a3.png">
+</p>
 
 ## Checking Battery Health
 
