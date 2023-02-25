@@ -74,7 +74,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 6. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
-7. [Unity Engine Development](#Unity-Engine-Development)
+7. [Unity Engine Development](#Unity-Development)
  
 8. [Blender Development](#Blender-Development)
 
@@ -1798,7 +1798,7 @@ Developing with SwiftUI in Xcode 14
 
 [MoltenVK](https://moltengl.com/moltenvk) is an implementation of Vulkan running on iOS and macOS using Apple's [Metal](https://developer.apple.com/metal/) graphics framework.
 
-### Unreal Engine 5 Development
+## Unreal Engine 5 Development
 
 [Back to the Top](#table-of-contents)
 
@@ -1806,6 +1806,13 @@ Developing with SwiftUI in Xcode 14
  <img src="https://user-images.githubusercontent.com/45159366/162537763-308611ef-a619-4fcd-99bf-bfe328c50f27.png">
   <br />
 </p>
+
+**Recommend Hardware Requirements:**
+
+**OS:** MacOS 12 or later
+**CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
+**RAM:** 32 GB 
+**Storage:** 1 TB 
 
 [Unreal Engine 5](https://www.unrealengine.com/unreal-engine-5) is a game engine developed by Epic Games with the world's most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. 
 
@@ -1840,7 +1847,7 @@ Developing with SwiftUI in Xcode 14
   Unreal Engine Marketplace
 </p>
 
-#### Unreal Engine Tools
+### Unreal Engine Tools
 [Back to the Top](#table-of-contents)
 
 [Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) is a complete gameplay scripting system in Unreal Engine based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
@@ -1885,7 +1892,7 @@ Developing with SwiftUI in Xcode 14
 
 [Replay System](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/ReplaySystem/) is a tool which can record gameplay for later viewing. This feature is available in all games, from live, multiplayer games played on dedicated servers, to single-player games, and even including Play-In-Editor sessions. At a high level, the Replay system works by using a DemoNetDriver to read data drawn from the built-in replication system, similar to how a NetDriver operates in a live, networked gameplay environment.
 
-#### Unreal Engine Developer Resources
+### Unreal Engine Developer Resources
 
 [Back to the Top](#table-of-contents)
 
@@ -1936,6 +1943,32 @@ Developing with SwiftUI in Xcode 14
  * [Getting Started with Vulkan](https://www.khronos.org/vulkan/)
 
  * [Getting Started with Apple Metal](https://developer.apple.com/metal/)
+ 
+ ### Unreal Engine 5 Development Books
+
+ * [Unreal Engine 5 for Beginners: Dive into the world of game development with Unreal Engine 5 to build amazing 3D games by Sargey Rose](https://www.amazon.com/Unreal-Engine-Beginners-development-amazing/dp/1800568088)
+
+ * [Blueprints Visual Scripting for Unreal Engine 5: Unleash the true power of Blueprints to create impressive games and applications in UE5, 3rd Edition by by Marcos Romero, Brenden Sewell, Luis Cataldi](https://www.amazon.com/Blueprints-Visual-Scripting-Unreal-Engine/dp/180181158X/) 
+
+ * [Unreal Engine 5 Character Creation, Animation, and Cinematics: Create custom 3D assets and bring them to life in Unreal Engine 5 using MetaHuman, Lumen, and Nanite by Henk Venter, Wilhelm Ogterop](https://www.amazon.com/Unreal-Character-Creation-Animation-Cinematics/dp/1801812446/) 
+
+ * [Elevating Game Experiences with Unreal Engine 5: Bring your game ideas to life using the new Unreal Engine 5 and C++, 2nd Edition by Goncalo Marques, Devin Sherry, David Pereira, Hammad Fozi](https://www.amazon.com/Elevating-Game-Experiences-Unreal-Engine/dp/1803239867/) 
+
+ * [Unreal Engine 5 RPG Development with C++ and Blueprint: Volume I: Basics, Combat, and VFX by Dr. Chihming Chiu](https://www.amazon.com/Unreal-Engine-RPG-Development-Blueprint/dp/B0BHC586PM/r) 
+
+ * [Build Stunning Real-time VFX with Unreal Engine 5: Start your journey into Unreal particle systems to create realistic visual effects using Niagara by Hrishikesh Andurlekar](https://www.amazon.com/Build-Stunning-Real-time-Unreal-Engine/dp/1801072418/) 
+
+ * [Game Development Patterns with Unreal Engine 5: Build maintainable and scalable systems with C++ and Blueprint by Stuart Butler , Tom Oliver](https://www.amazon.com/Game-Development-Patterns-Unreal-Engine/dp/1803243252/) 
+
+ * [Unreal Engine 5 Shaders and Effects Cookbook: Over 70 recipes for creating materials and advanced shading techniques, 2nd Edition by Brais Brenlla Ramos](https://www.amazon.com/Unreal-Engine-Shaders-Effects-Cookbook/dp/1837633088/) 
+
+ * [Game Development with Unreal Engine 5: Learn the Basics of Game Development in Unreal Engine 5 by by Mitchell Lynn, Cliff Sharif](https://www.amazon.com/Game-Development-Unreal-Engine-English/dp/9355513445/) 
+
+ * [Unreal Engine C++ the Ultimate Developer's Handbook: Learn C++ and Unreal Engine by Creating a Complete Action Game by Stephen Seth Ulibarri](https://www.amazon.com/Unreal-Engine-Ultimate-Developers-Handbook/dp/B089M2H7J1/) 
+
+ * [Unreal Engine from Zero to Proficiency (Foundations): A Step-by-step guide to your first game with Unreal Engine by Patrick Felicia](https://www.amazon.com/Unreal-Engine-Proficiency-Foundations-Step/dp/B0B6XJDR3K/) 
+
+ * [Reimagining Characters with Unreal Engine's MetaHuman Creator: Elevate your films with cinema-quality character designs and motion capture animation by Brian Rossney, Ciaran Kavanagh](https://www.amazon.com/Reimagining-characters-Unreal-MetaHuman-Creator/dp/1801817723/) 
  
  
 # Unity Development
