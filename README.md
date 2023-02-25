@@ -1994,6 +1994,11 @@ Developing with SwiftUI in Xcode 14
 [Unity](https://unity.com) is a cross-platform game development platform. Unity can be used to build high-quality 3D and 2D games, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers. Checkout the [Unity Manual](https://docs.unity3d.com/Manual/UnityOverview.html) to get started on your Unity projects.
 
 <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/221379487-ea59279e-94f0-4caa-9cfb-cb8f48db13e4.png">
+  <br />
+</p>
+
+<p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/146693059-97d5428c-cf3c-48f4-bb29-d35e4044d1d9.png">
   <br />
 </p>
@@ -2001,7 +2006,7 @@ Developing with SwiftUI in Xcode 14
 Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolving-the-unity-editor-ux)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/146693060-93465a17-9ae8-48aa-8d4b-6eee3e05b756.png">
+ <img src="https://user-images.githubusercontent.com/45159366/221379631-40782ba1-c5a2-4854-8cdd-2e4fa3bd63bf.png">
   <br />
   Unity Hub Installs
 </p>
@@ -2199,21 +2204,16 @@ by Spencer Grey](https://www.amazon.com/Mind-Melding-Unity-Blender-Game-Developm
 
 [Blender](https://www.blender.org) comes packed with import/export support for many different programs.
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/104788139-401e8000-5746-11eb-9647-058dee01a00e.png">
-  <br />
-</p>
-
 Including:
 
-    - Image(JPEG, JPEG2000, PNG, TARGA, OpenEXR, DPX, Cineon, Radiance HDR, SGI Iris, TIFF)
+   - Image(JPEG, JPEG2000, PNG, TARGA, OpenEXR, DPX, Cineon, Radiance HDR, SGI Iris, TIFF)
 
-    - Video(AVI, MPEG and Quicktime (on MacOS)).
+   - Video(AVI, MPEG and Quicktime (on MacOS)).
 
-    - 3D(Alembic, 3D Studio (3DS), COLLADA (DAE), Filmbox (FBX), Autodesk (DXF), Wavefront (OBJ), DirectX (x), Lightwave (LWO), Motion Capture (BVH), SVG, Stanford   PLY, STL, VRML, VRML97, X3D).
+   - 3D(Alembic, 3D Studio (3DS), COLLADA (DAE), Filmbox (FBX), Autodesk (DXF), Wavefront (OBJ), DirectX (x), Lightwave (LWO), Motion Capture (BVH), SVG, Stanford   PLY, STL, VRML, VRML97, X3D).
 
 
-[Eevee](https://docs.blender.org/manual/en/latest/render/eevee/introduction.html) is Blender’s realtime render engine built using [OpenGL]() focused on speed and interactivity while achieving the goal of rendering [PBR]() materials. Eevee can be used interactively in the 3D Viewport but also produce high quality final renders. Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes. For Cycles users, this makes Eevee work great for previewing materials in realtime.
+[Eevee](https://docs.blender.org/manual/en/latest/render/eevee/introduction.html) is Blender’s realtime render engine focused on speed and interactivity while achieving the goal of rendering PBR materials. Eevee can be used interactively in the 3D Viewport but also produce high quality final renders. Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes. For Cycles users, this makes Eevee work great for previewing materials in realtime.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/125211855-5a04cf80-e25e-11eb-94cf-f55ecf273049.png">
