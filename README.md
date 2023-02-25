@@ -74,7 +74,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 6. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
-7. [Unity Engine Development](#Unity-Development)
+7. [Unity Development](#Unity-Development)
  
 8. [Blender Development](#Blender-Development)
 
@@ -1808,10 +1808,13 @@ Developing with SwiftUI in Xcode 14
 
 **Recommend Hardware Requirements:**
 
-**OS:** MacOS 12 or later
-**CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
-**RAM:** 32 GB 
-**Storage:** 1 TB 
+* **OS:** MacOS 12 or later
+
+* **CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
+
+* **RAM:** 32 GB 
+
+* **Storage:** 1 TB 
 
 [Unreal Engine 5](https://www.unrealengine.com/unreal-engine-5) is a game engine developed by Epic Games with the world's most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. 
 
@@ -1978,12 +1981,15 @@ Developing with SwiftUI in Xcode 14
   <br />
 </p>
 
-**Recommended Hardware Requirements:**
+**Recommend Hardware Requirements:**
 
-**OS:** MacOS 12 or later
-**CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
-**RAM:** 32 GB 
-**Storage:** 1 TB 
+* **OS:** MacOS 12 or later
+
+* **CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
+
+* **RAM:** 32 GB 
+
+* **Storage:** 1 TB 
 
 [Unity](https://unity.com) is a cross-platform game development platform. Unity can be used to build high-quality 3D and 2D games, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers. Checkout the [Unity Manual](https://docs.unity3d.com/Manual/UnityOverview.html) to get started on your Unity projects.
 
@@ -2143,13 +2149,6 @@ by Spencer Grey](https://www.amazon.com/Mind-Melding-Unity-Blender-Game-Developm
   <br />
 </p>
 
-[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. 
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/221347484-b09ef929-3cd2-4d41-9a31-e41dc7d9d6da.png">
-  <br />
-</p>
-
 **Recommended Hardware Requirements:**
 
 * **OS:** MacOS 12 or later
@@ -2159,6 +2158,14 @@ by Spencer Grey](https://www.amazon.com/Mind-Melding-Unity-Blender-Game-Developm
 * **RAM:** 32 GB 
 
 * **Storage:** 1 TB 
+
+[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/221347484-b09ef929-3cd2-4d41-9a31-e41dc7d9d6da.png">
+  <br />
+</p>
+
 
 ## Blender Developer Resources
 
@@ -2263,6 +2270,39 @@ Including:
 Render-layer support. Along with the ability to render to multiLayer OpenEXR files.
 
 [Blender Motion Tracking](https://www.blender.org/features/vfx/#motion-tracking) is a feature that provides production ready camera and object tracking, allowing you to import raw footage, track it, mask areas and reconstruct the camera movements live in your 3d scene.
+
+### Blender Development Books
+
+ * [3D Environment Design with Blender: Enhance your modeling, texturing, and lighting skills to create realistic 3D scenes by Abdelilah Hamdani , Carlos Barreto](https://www.amazon.com/Photorealistic-Nature-Environment-Creation-Blender/dp/1803235853/)
+ 
+ * [Blender 3D Incredible Models: A comprehensive guide to hard-surface modeling, procedural texturing, and rendering
+by Arijan Belec](https://www.amazon.com/Blender-Incredible-Models-comprehensive-hard-surface/dp/1801817812/)
+
+ * [Blender Pro Tips: How Professionals Create 3D Models by Arijan Belec](https://www.amazon.com/Blender-Pro-Tips-Professionals-Create-ebook/dp/B0BTKJVDGK/)
+  
+ * [Blender 3D By Example: A project-based guide to learning the latest Blender 3D, EEVEE rendering engine, and Grease Pencil, 2nd Edition by Oscar Baechler, Xury Greer](https://www.amazon.com/Blender-3D-Example-project-based-rendering/dp/178961256X/)
+ 
+ * [Taking Blender to the Next Level: Implement advanced workflows such as geometry nodes, simulations, and motion tracking for Blender production pipelines by Ruan Lotter](https://www.amazon.com/Taking-Blender-Next-Level-simulations/dp/1803233567/)
+ 
+ * [The Complete Guide to Blender Graphics: Computer Modeling & Animation 7th Edition by John M. Blain](https://www.amazon.com/Complete-Guide-Blender-Graphics-Animation/dp/103212167X/)
+  
+ * [Shading, Lighting, and Rendering with Blender EEVEE: Create amazing concept art 12 times faster using a real-time rendering engine 
+by Sammie Crowder](https://www.amazon.com/Shading-Lighting-Rendering-Blender-EEVEE-ebook/dp/B09V1CR61X/)
+ 
+ * [Blender 3.2: The beginner's guide by Allan Brito](https://www.amazon.com/Blender-3-2-beginners-Allan-Brito/dp/B0B8RC4KL7/)
+ 
+ * [Sculpting the Blender Way: Explore Blender's 3D sculpting workflows and latest features, including Face Sets, Mesh Filters, and the Cloth brush by Xury Greer](https://www.amazon.com/Sculpting-Blender-Way-sculpting-workflows/dp/1801073872/)
+  
+ * [Mind-Melding Unity and Blender for 3D Game Development: Unleash the power of Unity and Blender to create amazing games
+by Spencer Grey](https://www.amazon.com/Mind-Melding-Unity-Blender-Game-Development/dp/1801071551/)
+
+ * [Squeaky Clean Topology in Blender: Create accurate deformations and optimized geometry for characters and hard surface models by Michael Steppig](https://www.amazon.com/Squeaky-Clean-Topology-Blender-deformations/dp/1803244089/)
+ 
+ * [Learn Blender Simulations the Right Way: Create attractive and realistic animations with Mantaflow, rigid and soft bodies, and Dynamic Paint by Stephen Pearson](https://www.amazon.com/Learn-Blender-Simulations-Right-Way/dp/1803234156/)
+ 
+ * [Game Development with Blender and Godot: Leverage the combined power of Blender and Godot for building a point-and-click adventure game by Kumsal Obuz](https://www.amazon.com/Development-Blender-Godot-point-click/dp/1801816026/)
+  
+ * [Beginner’s Guide to Creating Characters in Blender Paperback by 3dtotal Publishing](https://www.amazon.com/Beginners-Guide-Creating-Characters-Blender/dp/1912843137/)
 
 
 # Virtualization
