@@ -2079,9 +2079,24 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
   <br />
 </p>
 
-## Blender Developer Resources
+[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. 
 
-[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. [Independent Blender LTS support and services for enterprises](https://www.blender.org/press/canonical-offering-blender-support/) are available now via [Canonical](https://canonical.com/)(makers of the Ubuntu Advanced platform).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/221347484-b09ef929-3cd2-4d41-9a31-e41dc7d9d6da.png">
+  <br />
+</p>
+
+**Recommended Hardware Requirements:**
+
+* **OS:** MacOS 12 or later
+
+* **CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
+
+* **RAM:** 32 GB 
+
+* **Storage:** 1 TB 
+
+## Blender Developer Resources
 
  * [Blender Documentation](https://docs.blender.org/)
 
