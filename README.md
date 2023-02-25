@@ -1400,7 +1400,6 @@ Nexcloud Hub
 
 [rsnapshot](https://rsnapshot.org/) is a filesystem snapshot utility based on rsync. This makes it easy to make periodic snapshots of local machines, and remote machines over ssh.
 
-
 [Proton Drive](https://drive.proton.me/) is an end-to-end encrypted Swiss storage space for your files, photos, and videos, ensuring that nobody, except those authorized by you, can access your data. 
 
 [pCloud](https://www.pcloud.com/) is a secure place for your photos, videos and documents from every device, anywhere you go. pCloud starts with 10 GB free storage and automatically backup your photos and videos and free up space from your device. 
@@ -1938,13 +1937,20 @@ Developing with SwiftUI in Xcode 14
  * [Getting Started with Apple Metal](https://developer.apple.com/metal/)
  
  
-# Unity Development
+## Unity Development
 [Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/147710942-5da4fef2-5525-4942-98bc-81421b2144e5.png">
   <br />
 </p>
+
+**Recommended Hardware Requirements:**
+
+**OS:** MacOS 12 or later
+**CPU/GPU:** M1 Pro (10-core CPU, 16-core GPU) 
+**RAM:** 32 GB 
+**Storage:** 1 TB 
 
 [Unity](https://unity.com) is a cross-platform game development platform. Unity can be used to build high-quality 3D and 2D games, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers. Checkout the [Unity Manual](https://docs.unity3d.com/Manual/UnityOverview.html) to get started on your Unity projects.
 
@@ -2069,6 +2075,31 @@ Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolvin
  * [Learn Unity 3D with Online Courses and Lessons on edX](https://www.edx.org/learn/unity-3d)
 
  * [Unity Certified Programmer Exam Preparation on Coursera](https://www.coursera.org/specializations/unity-certified-programmer)
+ 
+### Unity Develop Books
+
+ * [Hands-On Unity 2022 Game Development: Learn to use the latest Unity 2022 features to create your first video game in the simplest way possible, 3rd Edition by Nicolas Alejandro Borromeo](https://www.amazon.com/Hands-Unity-2022-Game-Development/dp/1803236914/)
+ 
+ * [Unity Game Development Cookbook: Essentials for Every Game 1st Edition by Paris Buttfield-Addison, Jon Manning, Tim Nugent](https://www.amazon.com/Unity-Game-Development-Cookbook-Virtual/dp/1491999152/)
+ 
+ * [Unity 3D Game Development: Designed for passionate game developers―Engineered to build professional games by Anthony Davis, Travis Baptiste, Russell Craig](https://www.amazon.com/Unity-Game-Development-design-beautiful/dp/1801076146/)
+ 
+ * [Game Programming with Unity and C#: A Complete Beginner’s Guide 1st ed. Edition by Casey Hardman](https://www.amazon.com/Game-Programming-Unity-Complete-Beginners/dp/1484256557/)
+ 
+ * [Learning C# by Developing Games with Unity: Get to grips with coding in C# and build simple 3D games in Unity 2022 from the ground up, 7th Edition by Harrison Ferrone](https://www.amazon.com/Learning-Developing-Games-Unity-coding/dp/1837636877/)
+ 
+ * [Mind-Melding Unity and Blender for 3D Game Development: Unleash the power of Unity and Blender to create amazing games
+by Spencer Grey](https://www.amazon.com/Mind-Melding-Unity-Blender-Game-Development/dp/1801071551/)
+ 
+ * [C# Game Programming Cookbook for Unity 3D 2nd Edition by Jeff W. Murray](https://www.amazon.com/Game-Programming-Cookbook-Unity-3D-ebook/dp/B08VBMBGN2/)
+ 
+ * [Unity in Action, Third Edition: Multiplatform game development in C# 3rd Edition by Joe Hocking](https://www.amazon.com/Unity-Action-Third-Joseph-Hocking/dp/1617299332/)
+ 
+ * [Massively Multiplayer Game Programming With Unity 3d and Mirror: The Ultimate Guide to Building and Hosting Your MMOGS by Dr Chihming Chiu](https://www.amazon.com/Massively-Multiplayer-Programming-Unity-Mirror/dp/022884410X/)
+ 
+ * [Advanced Unity Game Development: Build Professional Games with Unity, C#, and Visual Studio 1st ed. Edition by Victor G Brusca](https://www.amazon.com/Advanced-Unity-Game-Development-Professional/dp/148427850X/)
+ 
+ * [Mathematics for Game Programming and Computer Graphics: Explore the essential mathematics for creating, rendering, and manipulating 3D virtual environments by Penny de Byl](https://www.amazon.com/Mathematics-Game-Programming-Computer-Graphics/dp/1801077339/)
 
 
 # Blender Development
