@@ -72,19 +72,25 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
 
-6. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+6. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
+ 
+7. [Unity Engine Development](#Unity-Engine-Development)
+ 
+8. [Blender Development](#Blender-Development)
 
-7. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+9. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
 
-8. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+10. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
 
-9. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+11. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
 
-10. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+12. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-11. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+13. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
 
-12. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+14. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+
+15. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [Manage Temps/Control Fans (CPU and GPU)](#Manage-TempsControl-Fans-CPU-and-GPU)
@@ -132,17 +138,17 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [MAME](#MAME)
       - [Performance Benchmarks](#performance-benchmarks)
 
-13. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+16. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-14. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+17. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-15. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+18. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
-16. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+19. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
-17. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+20. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
 
-18. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+21. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
 
 # Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
@@ -1791,6 +1797,394 @@ Developing with SwiftUI in Xcode 14
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
 [MoltenVK](https://moltengl.com/moltenvk) is an implementation of Vulkan running on iOS and macOS using Apple's [Metal](https://developer.apple.com/metal/) graphics framework.
+
+### Unreal Engine 5 Development
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/162537763-308611ef-a619-4fcd-99bf-bfe328c50f27.png">
+  <br />
+</p>
+
+[Unreal Engine 5](https://www.unrealengine.com/unreal-engine-5) is a game engine developed by Epic Games with the world's most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/162538256-a3390573-88b8-4925-a92e-70a56da951b3.png">
+  <br />
+  Unreal Engine 5 with Big City Sample Project
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/146693087-56cfbc91-3398-425c-90a1-6a2479ca3fce.png">
+  <br />
+</p>
+
+ Unreal Engine Twinmotion. Source: [Unreal Engine](https://www.unrealengine.com/en-US/blog/twinmotion-2021-1-is-here)
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627376-15ab099e-f433-4e0b-bf29-3ebf48b95fe8.png">
+  <br />
+  Unreal Engine 5 Project browser
+</p>
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627379-afa5a3d7-c50a-4d9f-94c8-3b14d39cea36.png">
+  <br />
+  Unreal Engine 5 Vehicle Project Demo
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/172468555-e7f7b4d6-1ba0-4f37-b3dd-f6b17c90b0f1.png">
+  <br />
+  Unreal Engine Marketplace
+</p>
+
+#### Unreal Engine Tools
+[Back to the Top](#table-of-contents)
+
+[Blueprint Visual Scripting](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) is a complete gameplay scripting system in Unreal Engine based on the concept of using a node-based interface to create gameplay elements from within Unreal Editor. As with many common scripting languages, it is used to define object-oriented (OO) classes or objects in the engine.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/180627381-f123e873-909c-410a-887e-51b2ba659439.png">
+  <br />
+ Blueprint Visual Scripting UI 
+</p>
+
+[Datasmith](https://www.unrealengine.com/en-US/datasmith) is a collection of tools and plugins that bring entire pre-constructed scenes and complex assets created in a variety of industry-standard design applications into Unreal Engine.
+
+[Chaos Physics](https://docs.unrealengine.com/5.0/en-US/InteractiveExperiences/Physics/ChaosPhysics/Overview/) is a Beta feature that is the light-weight physics simulation solution used in Fortnite, and it includes the following major features.
+
+   * RBAN (Rigid Body Animation Nodes)
+   * Destruction
+   * Cloth
+   * Ragdoll
+   * Vehicles
+
+[Niagara VFX System](https://docs.unrealengine.com/5.0/en-US/RenderingAndGraphics/Niagara/) is one of two tools you can use to create and adjust visual effects (VFX) inside Unreal Engine 5 (UE5). Before Niagara, the primary way to create and edit visual effects in UE4 was to use [Cascade](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/ParticleSystems). It has many of the same of particle manipulation methods that Cascade offers, the way you interact and build visual effects with Niagara is vastly different.
+
+[MetaHuman Creator](https://www.unrealengine.com/en-US/metahuman-creator) is a free cloud-based app that empowers anyone to create photorealistic digital humans, complete with hair and clothing, in minutes. MetaHumans come fully rigged and ready to animate in your Unreal Engine projects.
+
+[Twinmotion](https://www.twinmotion.com/en-US) is a real-time 3D immersion software that produces high-quality images, panoramas and standard or 360° VR videos in seconds. Developed for architecture, construction, urban planning and landscaping professionals.
+
+[Bridgew by Quixel](https://www.unrealengine.com/en-US/bridge) is a gateway to create a world of 3D content right inside the Unreal Engine. it includes Megascans—the world's largest library of AAA, cinema-quality assets based on real-world scan data.
+
+[Lumen](https://docs.unrealengine.com/5.0/en-US/RenderingFeatures/Lumen/TechOverview/) is an Unreal Engine 5 feature that uses multiple ray tracing methods to solve Global Illumination and Reflections. Screen traces are done first, followed by a more reliable method. It uses Software Ray Tracing through Signed Distance Fields by default, but can achieve higher quality on supporting video cards when Hardware Ray Tracing is enabled. **Note:** Lumen works on Apple Silicon with Unreal 5.2 release. 
+
+[Nanite](https://docs.unrealengine.com/5.0/en-US/RenderingFeatures/Nanite/) is Unreal Engine 5's new virtualized geometry system which uses a new internal mesh format and rendering technology to render pixel scale detail and high object counts. It intelligently does work on only the detail that can be perceived and no more.
+
+[Unreal Engine Marketplace](https://unrealengine.com/marketplace/en-US/store) is Unreal Engine's Store that has a library Of Textures, Models, Animations, Tutorials, and More for creating amazing 3D projects and games.
+
+[UnrealBuildTool (UBT)](https://docs.unrealengine.com/5.0/en-US/ProductionPipelines/BuildTools/UnrealBuildTool) is a tool that manages the process of building UE4 source code across a variety of build configurations.
+
+[UnrealHeaderTool (UHT)](https://docs.unrealengine.com/5.0/en-US/ProductionPipelines/BuildTools/UnrealHeaderTool) is a custom parsing and code-generation tool supporting the UObject system.
+
+[AutomationTool](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/BuildTools/AutomationTool) is a generic system used to automate processes, including testing and building games.
+
+[Proxy Geometry Tool](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/ProxyGeoTool/) is a tool-set that was developed as a way to increase your Unreal Engine 4 (UE4) project's performance while keeping the visual quality of your project uneffected.
+
+[Replay System](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/ReplaySystem/) is a tool which can record gameplay for later viewing. This feature is available in all games, from live, multiplayer games played on dedicated servers, to single-player games, and even including Play-In-Editor sessions. At a high level, the Replay system works by using a DemoNetDriver to read data drawn from the built-in replication system, similar to how a NetDriver operates in a live, networked gameplay environment.
+
+#### Unreal Engine Developer Resources
+
+[Back to the Top](#table-of-contents)
+
+ * [How to migrate your Unreal Engine 4 projects to Unreal Engine 5 Early Access quickly and smoothly](https://docs.unrealengine.com/5.0/en-US/MigrationGuide/)
+
+ * [Multi-platform development - Unreal Engine](https://www.unrealengine.com/en-US/features/multi-platform-development)
+
+ * [Unreal Engine 5 Documentation](https://docs.unrealengine.com/5.0/)
+
+ * [Unreal Engine Forums](https://forums.unrealengine.com/)
+
+**Note:** you will need to create an Epic Games account to download Unreal Engine.
+
+ * [Sign-up for Epic Games Acount](https://www.epicgames.com/account/password)
+ 
+ * [Sign-up for Epic Games GitHub](https://github.com/EpicGames/Signup)
+ 
+ * [macOS Development Requirements for Unreal Engine](https://docs.unrealengine.com/5.0/en-US/hardware-and-software-specifications-for-unreal-engine/)
+ 
+ * [iOS, iPadOS, and tvOS Development on Unreal Engine](https://docs.unrealengine.com/5.0/en-US/ios-ipados-and-tvos-support-for-unreal-engine/)
+ 
+ * [XR Development on Unreal Engine](https://docs.unrealengine.com/5.0/en-US/developing-for-xr-experiences-in-unreal-engine)
+
+ * [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-us/Programming/Development/VisualStudioSetup)
+
+ * [Unreal Engine Performance and Profiling](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/PerformanceAndProfiling/)
+
+ * [Unreal Engine C++ API Reference](https://docs.unrealengine.com/5.0/en-US/API/index.html)
+
+ * [Unreal Engine Blueprint API Reference](https://docs.unrealengine.com/5.0/en-US/BlueprintAPI/index.html)
+
+ * [Unreal Engine Python API Reference](https://docs.unrealengine.com/5.0/en-US/PythonAPI/index.html)
+ 
+  * [Unreal Online Learning](https://www.unrealengine.com/en-US/onlinelearning-courses) is a free learning platform that offers hands-on video courses and guided learning paths.
+ 
+ * [Unreal Engine Authorized Training Program](https://www.unrealengine.com/en-US/training-partners) 
+
+ * [Unreal Engine for education](https://www.unrealengine.com/en-US/education/)
+
+ * [Unreal Engine Training & Simulation](https://www.unrealengine.com/en-US/industry/training-simulation)
+ 
+ * [Unreal Engine | NVIDIA Developer](https://developer.nvidia.com/unrealengine)
+
+ * [Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
+
+ * [Getting Started with DirectX 12 Ultimate](https://devblogs.microsoft.com/directx/directx-12-ultimate-getting-started-guide/)
+
+ * [Getting Started with Vulkan](https://www.khronos.org/vulkan/)
+
+ * [Getting Started with Apple Metal](https://developer.apple.com/metal/)
+ 
+ 
+# Unity Development
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/147710942-5da4fef2-5525-4942-98bc-81421b2144e5.png">
+  <br />
+</p>
+
+[Unity](https://unity.com) is a cross-platform game development platform. Unity can be used to build high-quality 3D and 2D games, deploy them across mobile, desktop, VR/AR, consoles or the Web, and connect with loyal and enthusiastic players and customers. Checkout the [Unity Manual](https://docs.unity3d.com/Manual/UnityOverview.html) to get started on your Unity projects.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/146693059-97d5428c-cf3c-48f4-bb29-d35e4044d1d9.png">
+  <br />
+</p>
+
+Unity Terrain project. Source: [Unity](https://blog.unity.com/technology/evolving-the-unity-editor-ux)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/146693060-93465a17-9ae8-48aa-8d4b-6eee3e05b756.png">
+  <br />
+  Unity Hub Installs
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/147710657-16a6e35a-c78e-408b-a836-45b21a342f11.png">
+  <br />
+  Unity Asset Store
+</p>
+
+## Unity Tools
+
+[Unity Hub](https://unity.com/unity-hub) is a tool that helps manage multiple installations of the Unity Editor, create new projects, and access your work.
+
+[Unity Asset Store](https://assetstore.unity.com)is Unity's Store that has a library Of Textures, Models, Animations, Tutorials, and More for creating amazing 3D projects and games.
+
+[Unity Plus](https://store.unity.com/products/unity-plus) is a version of Unity for small businesses and serious hobbyists get more functionality and training resources to power up their projects.
+
+[Unity Pro](https://store.unity.com/products/unity-pro) is a version of Unity to create and operate amazing applications and immersive experiences with a complete solution for professionals across industries.
+
+[Unity Enterprise](https://store.unity.com/products/unity-enterprise) is a version of Unity for large teams creating at scale, Unity Enterprise delivers comprehensive technology, resources, and support that fuel innovation, reduce risk, and power your success.
+
+[Unity XR](https://docs.unity3d.com/Manual/XR.html) is a plug-in framework that enables XR providers to integrate with the Unity engine and make full use of its features.
+
+[Unity MARS](https://unity.com/products/unity-mars) is a tool that helps you create augmented reality (AR) apps with better workflows and purpose built authoring tools.
+
+[Unity Build Server](https://unity.com/products/unity-build-server) is a tool that offloads your Unity project builds to network hardware, empowering your creative team to iterate more, produce higher quality products, and ship on time.
+
+[Unity Teams](https://unity.com/products/unity-teams) is a tool that helps you and your team create together, faster. It makes it simple to save, share and sync your Unity projects with anyone.
+
+[Unity Automated QA](https://unity.com/products/automated-qa) is a tool that shortens the development feedback loop with on-demand tests that anyone on your team can create and run without writing code.
+
+[Unity Simulation Pro](https://unity.com/products/unity-simulation-pro) is a tool that unlocks the true power of scalable simulations through a simulation-optimized version of the Unity runtime.
+
+[Unity Forma](https://unity.com/products/unity-forma) is a tool that brings the power of real-time 3D to your marketing. It turns 3D product data into interactive 3D configurators, stunning images and more.
+
+[Unity Reflect](https://unity.com/products/unity-reflect) is a tool that helps create an experience immersive and collaborative real-time 3D environments, including in AR and VR, for better decision-making across your entire project lifecycle.
+
+[Unity Reflect Develop](https://unity.com/products/unity-reflect-develop) is a tool that builds your own custom applications to address any problem across the entire building and infrastructure lifecycle for internal or commercial deployment.
+
+[Unity ArtEngine](https://unity.com/products/unity-artengine) is Unity’s material authoring tool. Harnessing the power of assisted creation, the tool helps creators accelerate production pipelines.
+
+[Unity Machine Learning Agents](https://unity.com/products/machine-learning-agents) is a tol that helps train and embed intelligent agents by leveraging state-of-the-art deep learning technology.
+
+[Unity Essential Success ](https://unity.com/products/unity-essential-success) is a tool that is your dedicated Support Coordinator and experienced Unity engineers are ready to help.
+
+[Bolt Visual scripting](https://unity.com/products/unity-visual-scripting) is a tool in Unity empowers creators to develop gameplay mechanics or interaction logic with a visual, graph-based system, instead of writing traditional lines of code.
+
+[VisualLive](https://unity.com/products/visuallive) is a tool for construction professionals can visualize designs and collaborate in real-time by overlaying large BIM and CAD files onto jobsites using AR.
+
+[Professional Services: Optimization Accelerator](https://unity.com/products/optimization-accelerator) is atool that boosts your project and your productivity in a four-day sprint with hands-on guidance from a Unity engineer. It will help you analyze performance problems, test solutions, and implement improvements.
+
+[Odin Inspector Enterprise](https://unity.com/products/odin) is a tool that optimizes your project workflows and save thousands of development hours.
+
+[Multiplay](https://unity.com/products/multiplay) is a resilient, multicloud hybrid server hosting and matchmaking platform without having to build and maintain your own infrastructure. Proven at scale in some of the world’s biggest games.
+
+[Vivox](https://unity.com/products/vivox) is a voice and text comms tool that boosts player engagement, retention rates and create immersive multiplayer experiences by leveraging an easy-to-implement, feature-rich voice and text chat service.
+
+[Relayᴮᴱᵀᴬ](https://unity.com/products/relay) is a tool that provides a great multiplayer gaming experiences with Unity’s Relay service that's now in open beta.
+
+[Lobbyᴮᴱᵀᴬ](https://unity.com/products/lobby) is a tool that connects your players for great multiplayer gaming experiences with Lobby that's now in Open Beta.
+
+[Cloud Codeᴮᴱᵀᴬ](https://unity.com/products/cloud-code) is a tool that runs your game logic in the cloud as serverless functions and interact with other backend services.
+
+[Cloud Saveᴮᴱᵀᴬ](https://unity.com/products/cloud-save) is a tool that builds better player experiences by storing game data to the cloud.
+
+[Furioos](https://unity.com/products/furioos) is a tool that streams fully interactive 3D experiences from Unity, other real-time 3D platforms, and Windows applications with peak visual quality in any web browser.
+
+[OctaneRender® for Unity](https://unity.com/products/otoy-octanerender) is a tool that lets you harness physically accurate rendering directly in Unity and compose gorgeous, cinematic-quality scenes with OctaneRender materials and lighting.
+
+[Pacelab WEAVR](https://unity.com/products/weavr) is a tool that provides a complete XR platform that enables any company, in any industry, to develop and manage enterprise-scale immersive training.
+
+[Interact](https://unity.com/products/interact) is a tool that creates advanced real-time, human-centric simulations on any VR configuration for training, visualization, and safety.
+
+[Prespective](https://unity.com/products/prespective) is a tool that helps you design and simulate your machine, factory, or system in Unity real-time 3D. Create common ground among stakeholders and speed up decision processes with improved visualization tools.
+
+[Pixyz](https://unity.com/products/pixyz) is a tool that lets you can quickly import, prep, and optimize your large CAD, mesh and point cloud models for real-time visualizations in Unity.
+
+[Plastic SCM Cloud Edition](https://unity.com/products/plastic-scm) is a tool that makes Collaboration more efficient with a performant, easy-to-use version control system (VCS) made for programmers, artists and designers.
+
+[Backtrace](https://unity.com/products/backtrace) is a game crash management platform that delivers uninterrupted game experiences by automating your response to errors.
+
+[SpeedTree®](https://store.speedtree.com/) is a group of vegetation programming and modeling software products developed and sold by Interactive Data Visualization, Inc. that generates virtual foliage for animations, architecture and in real time for video games and demanding real time simulations. [Unity Technologies acquired SpeedTree in July 2021](https://investors.unity.com/news/news-details/2021/Unity-Acquires-Interactive-Data-Visualization-Inc.-IDV-Creators-of-SpeedTree-Environment-Creation-Suite/default.aspx).
+
+[ParSec](https://parsec.app/) is a the ultimate remote desktop, powerful enough for teams of developers, designers, architects, and engineers to get the job done and work together from anywhere. [Unity Technologies acquired Parsec in August 2021](https://unity.com/our-company/newsroom/unity-enters-agreement-acquire-parsec).
+
+[SyncSketch](https://syncsketch.com) is a collaboration software for visual artists that allows a team to view, review, and provide feedback on each other’s work. It includes support for both 2D and 3D assets as well as video. As of [December 2021 SyncSketch has been acquired by Unity Technologies](https://blog.syncsketch.com/news/sycncsketch-acquired-by-unity/).
+
+[Weta Digital](https://www.wetafx.co.nz/) is a digital visual effects company created by [Peter Jackson](https://www.imdb.com/name/nm0001392/). It produced the digital special effects for Heavenly Creatures and the Lord of the Rings. [Unity Technologies acquired Weta Digital in November 2021](https://unity.com/our-company/newsroom/unity-announces-intent-acquire-weta-digital).
+
+
+## Unity Developer Resources
+
+[Unity Knowledge Base](https://support.unity.com/hc/en-us) is a library of articles that helps you troubleshoot common problems, whether it’s creating an account, importing assets, or baking a scene.
+
+ * [Unity Forum](https://forum.unity.com/)
+
+ * [Unity Issue Tracker](https://issuetracker.unity3d.com/)
+
+ * [Unity Certifications](https://unity.com/products/unity-certifications)
+
+ * [Learn game development with Unity](https://learn.unity.com/courses)
+ 
+ * [Getting Started with Apple Metal](https://developer.apple.com/metal/)
+ 
+ * [Autodesk for Games](https://www.autodesk.com/campaigns/autodesk-for-games)
+
+ * [Unity Courses, Training, and Lessons on Udemy](https://www.udemy.com/topic/unity/)
+
+ * [Learn Unity 3D with Online Courses and Lessons on edX](https://www.edx.org/learn/unity-3d)
+
+ * [Unity Certified Programmer Exam Preparation on Coursera](https://www.coursera.org/specializations/unity-certified-programmer)
+
+
+# Blender Development
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/125211848-53765800-e25e-11eb-872d-732aa2e74ad1.png">
+  <br />
+</p>
+
+## Blender Developer Resources
+
+[Blender](https://www.blender.org) is a professional, free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. [Independent Blender LTS support and services for enterprises](https://www.blender.org/press/canonical-offering-blender-support/) are available now via [Canonical](https://canonical.com/)(makers of the Ubuntu Advanced platform).
+
+ * [Blender Documentation](https://docs.blender.org/)
+
+ * [Blender Foundation](https://www.blender.org/foundation/)
+
+ * [Blender Community Fourm](https://devtalk.blender.org/)
+
+ * [Blender Foundation Certification Training](https://www.blender.org/certification/)
+
+ * [Blender Cloud Courses](https://cloud.blender.org/courses)
+
+ * [Blender Institute](https://www.blender.org/institute/)
+
+ * [Blender Demo Project files](https://www.blender.org/download/demo-files/)
+
+ * [Blender YouTube Tutorials and Demos](https://www.youtube.com/user/BlenderFoundation)
+
+ * [Blender Donations & Sponsors](https://www.blender.org/foundation/donation-payment/)
+
+ * [Blender Education](https://www.blender.org/get-involved/)
+
+ * [Blender Network](https://www.blendernetwork.org/)
+
+ * [BlenderNation](https://www.blendernation.com/category/blender/add-ons/)
+
+ * [Blender Market(The indie market for Blender creators)](https://www.blendermarket.com/categories/scripts-and-addons)
+
+## Blender Tools and Addons
+
+[Blender](https://www.blender.org) comes packed with import/export support for many different programs.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/104788139-401e8000-5746-11eb-9647-058dee01a00e.png">
+  <br />
+</p>
+
+Including:
+
+    - Image(JPEG, JPEG2000, PNG, TARGA, OpenEXR, DPX, Cineon, Radiance HDR, SGI Iris, TIFF)
+
+    - Video(AVI, MPEG and Quicktime (on MacOS)).
+
+    - 3D(Alembic, 3D Studio (3DS), COLLADA (DAE), Filmbox (FBX), Autodesk (DXF), Wavefront (OBJ), DirectX (x), Lightwave (LWO), Motion Capture (BVH), SVG, Stanford   PLY, STL, VRML, VRML97, X3D).
+
+
+[Eevee](https://docs.blender.org/manual/en/latest/render/eevee/introduction.html) is Blender’s realtime render engine built using [OpenGL]() focused on speed and interactivity while achieving the goal of rendering [PBR]() materials. Eevee can be used interactively in the 3D Viewport but also produce high quality final renders. Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes. For Cycles users, this makes Eevee work great for previewing materials in realtime.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/125211855-5a04cf80-e25e-11eb-94cf-f55ecf273049.png">
+  <br />
+</p>
+
+**Eevee final render – “Temple”. Source: [Dominik Graf](https://docs.blender.org/manual/en/latest/render/eevee/introduction.html#id2)**
+
+[Cycles](https://www.blender.org/features/rendering/) is Blender’s ray-trace based production render engine.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/118338215-6ec91f00-b4ca-11eb-9c9e-f5cf377ca3c4.png">
+  <br />
+</p>
+
+ **Blender's Cycles Render Engine. Source: [Blender](https://www.blender.org)**
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/118338217-6ffa4c00-b4ca-11eb-92d0-9aa30230495d.png">
+  <br />
+</p>
+
+ **Blender VFX(Visual Effects). Source: [Blender](https://www.blender.org)**
+
+[FreeStyle](https://docs.blender.org/manual/en/dev/render/freestyle/index.html) is an edge- and line-based non-photorealistic (NPR) rendering engine. It relies on mesh data and z-depth information to draw lines on selected edge types. Various line styles can be added to produce artistic (“hand drawn”, “painted”, etc.) or technical (hard line) looks.
+
+[Modifiers](https://docs.blender.org/manual/en/dev/modeling/modifiers/introduction.html) are automatic operations that affect an object in a non-destructive way. With modifiers, you can perform many effects automatically that would otherwise be too tedious to update manually (such as subdivision surfaces) and without affecting the base geometry of your object.
+
+[UV Unwrapping](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/uv/unwrapping/introduction.html) is a tool that let's you easily unwrap your mesh right inside Blender, and use image textures or paint your own directly onto the model.
+
+[UV Sculpt](https://docs.blender.org/manual/en/dev/modeling/meshes/editing/uv/uv_sculpt.html) is a “mode” in Blender that allows you to grab, pinch and smooth UVs, just like Sculpt Mode.
+
+[Dedicated Workspace](https://www.blender.org/features/sculpting/#dedicated-workspace) is a feature of sculpting organic subjects using the built-in sculpting feature set of Blender.
+
+[Brushes](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction.html) is a feature in Blender that comes with built-in brushes such as Crease, Clay Strips, Pinch, Grab, Smooth, Mask and many more.
+
+[Dynamic topology( dyntopo)](https://docs.blender.org/manual/en/dev/sculpt_paint/sculpting/adaptive.html) is a dynamic tessellation sculpting method, which adds and removes details on the fly, whereas regular sculpting only affects the shape of a mesh.
+
+[Masking](https://docs.blender.org/manual/en/dev/sculpt_paint/sculpting/hide_mask.html#mask) is a feature used while sculpting, areas might be hidden behind parts of the mesh or they might be too close to other parts. To work through these, it is useful to isolate parts of a mesh to sculpt on. This can be done by either completely hiding parts of the mesh or by masking areas that can not be sculpted on.
+
+[Grease Pencil](https://www.blender.org/features/grease-pencil/) is a particular type of Blender object that allow you to draw in the 3D space. It can be use to make traditional 2D animation, cut-out animation, motion graphics or use it as storyboard tool among other things.
+
+[Constraints](https://docs.blender.org/manual/en/2.80/animation/constraints/index.html) are a way to control an object’s properties (e.g. its location, rotation, scale), using either plain static values (like the “limit” ones), or another object, called “target” (like e.g. the “copy” ones).
+
+[Shape keys](https://docs.blender.org/manual/en/2.80/animation/shape_keys/introduction.html) are used to deform objects into new shapes for animation. In other terminology, shape keys may be called “morph targets” or “blend shapes”. The most popular use cases for shape keys are in character facial animation and in tweaking and refining a skeletal rig. They are particularly useful for modeling organic soft parts and muscles where there is a need for more control over the resulting shape than what can be achieved with combination of rotation and scale.
+
+[Motion Paths](https://docs.blender.org/manual/en/2.80/animation/motion_paths.html) is a tool allows you to visualize the motion of points as paths over a series of frames. These points can be object origins and bone joints.
+
+[Simulations](https://www.blender.org/features/simulation/) is a tool that allows you to create amazing Simulations such as a crumbling building, rain, fire, smoke, fluid, cloth or full on destruction.
+
+[Blender Video Editor](https://www.blender.org/features/video-editing/) is a video editor that comes with a built-in video sequence editor allows you to perform basic actions like video cuts and splicing, as well as more complex tasks like video masking or color grading.
+
+[Blender Compositing](https://www.blender.org/features/vfx/#compositing) is a feature that comes with an impressive library of nodes for creating camera fx, color grading, vignettes and much more
+Render-layer support. Along with the ability to render to multiLayer OpenEXR files.
+
+[Blender Motion Tracking](https://www.blender.org/features/vfx/#motion-tracking) is a feature that provides production ready camera and object tracking, allowing you to import raw footage, track it, mask areas and reconstruct the camera movements live in your 3d scene.
+
 
 # Virtualization
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
