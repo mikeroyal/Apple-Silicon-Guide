@@ -2397,10 +2397,10 @@ The [AsahiLinux Apple GPU drivers](https://asahilinux.org/2022/12/gpu-drivers-no
 
 Asahi Linux Graphics Team:
 
-    * [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa) is writing the OpenGL driver and compiler.
-    * [Asahi Lina](https://vt.social/@lina) is writing the kernel driver and helping with OpenGL.
-    * [Dougall Johnson](https://mastodon.social/@dougall) is reverse-engineering the instruction set with Alyssa.
-    * [Ella Stanforth](https://tech.lgbt/@ella) is working on a Vulkan driver, reusing the kernel driver, the compiler, and some code shared with the OpenGL driver.
+   * [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa) is writing the OpenGL driver and compiler.
+   * [Asahi Lina](https://vt.social/@lina) is writing the kernel driver and helping with OpenGL.
+   * [Dougall Johnson](https://mastodon.social/@dougall) is reverse-engineering the instruction set with Alyssa.
+   * [Ella Stanforth](https://tech.lgbt/@ella) is working on a Vulkan driver, reusing the kernel driver, the compiler, and some code shared with the OpenGL driver.
 
 **Installing the Apple GPU Drivers:**
 
@@ -2425,6 +2425,22 @@ Then reboot, pick the Wayland session at the top of the login screen (SDDM), and
 * [Fedora Asahi Special Interest Group](https://fedoraproject.org/wiki/SIGs/Asahi)
  
 [Asahi-Fedora-Builder](https://github.com/leifliddy/asahi-fedora-builder) is a script that builds a minimal Fedora image to run on Apple M1/M2 systems.
+
+**Installing a Prebuilt Image**
+
+Make sure to update your macOS to version 12.3 or later, then just pull up a Terminal in macOS and paste in this command:
+
+```curl https://leifliddy.com/fedora.sh | sh```
+
+**Fedora Package Install**
+
+```dnf install mkosi arch-install-scripts systemd-container zip```
+
+<h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/220301314-23dbffb5-5c08-4d6f-ae22-f5f6c9ab46d3.png">
+  <br />
+  Fedora Linux 
+</h3>
 
 ### NixOS Development on Apple Silicon
 
