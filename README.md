@@ -87,6 +87,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 12. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
 13. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+     * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
+     * [Asahi Linux Development](#Asahi-Linux-Development)
+     * [Fedora Linux Development](#Fedora-Linux-Development)
+     * [NixOS Linux Development](#NixOS-Linux-Development)
+     * [Debian Linux Development](#Debian-Linux-Development)
 
 14. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
@@ -2853,7 +2858,7 @@ Tart
 # Running Linux on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-### Developer Quick Links
+### Linux Virtualization on Apple Silicon
 
  - [Running Intel Binaries in Linux VMs with Rosetta](https://developer.apple.com/documentation/virtualization/running_intel_binaries_in_linux_vms_with_rosetta?language=objc) - Running x86_64 Linux binaries under ARM Linux on Apple silicon.
 
@@ -2887,11 +2892,17 @@ Parallels Desktop for Mac
 
 [Hector Martin](https://github.com/marcan) has merged the initial support for Apple M1 hardware into the Linux SOC (System On a Chip) tree for [Linux Kernel 5.13](https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git/commit/?h=for-next&id=0d5fe4b31785b732b71e764b55cda5c8d6e3bbbf). Also credit to developers [Sven Peter](https://github.com/svenpeter42) and [Alyssa Rosenzweig](https://github.com/alyssarosenzweig).
 
+The Linux kernel 6.2 offers mainline support for the Apple M1 Pro, Max, and Ultra chips as work done by Asahi Linux's developers was upstreamed. Though, that does not mean you can simply install a Linux distro like Fedora, Ubuntu, or Debian with the 6.2 kernel.
+
+ * [Linux kernel 6.2 release notes](https://lkml.org/lkml/2023/2/19/309).
+
 [Asahi Linux](https://asahilinux.org/) is a project and community with the goal of porting Linux to Apple Silicon Macs, starting with the 2020 M1 Mac Mini, MacBook Air, and MacBook Pro. Their goal is not just to make Linux run on these machines but to polish it to the point where it can be used as a daily OS.
 
   - [Asahi Linux Alpha Release is here!](https://asahilinux.org/2022/03/asahi-linux-alpha-release/)
 
   - [Asahi Linux installer on GitHub](https://github.com/AsahiLinux/asahi-installer)
+  
+  - [Asahi Linux Feature Support](https://github.com/AsahiLinux/docs/wiki/Feature-Support)
   
   - [Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
 
@@ -2933,7 +2944,7 @@ Since only one version of Mesa can be installed at a time, pacman will prompt yo
 
 Then reboot, pick the Wayland session at the top of the login screen (SDDM), and enjoy! You might want to adjust the screen scale factor in System Settings → Display and Monitor (Plasma Wayland defaults to 100% or 200%, while 150% is often nicer). If you have “Force font DPI” enabled under Appearance → Fonts, you should disable that (it is saved separately for Wayland and Xorg, and shouldn’t be necessary on Wayland sessions). Log out and back in for these changes to fully apply.
 
-### Fedora Development on Apple Silicon
+### Fedora Linux Development
 
 * [Fedora Asahi Special Interest Group](https://fedoraproject.org/wiki/SIGs/Asahi)
  
@@ -2955,7 +2966,7 @@ Make sure to update your macOS to version 12.3 or later, then just pull up a Ter
   Fedora Linux 
 </h3>
 
-### NixOS Development on Apple Silicon
+### NixOS Linux Development 
 
 **[NixOS on M1 Macs](https://github.com/tpwrules/nixos-m1)**
 
@@ -2971,11 +2982,94 @@ Make sure to update your macOS to version 12.3 or later, then just pull up a Ter
 
 [NixOS Packages Search](https://search.nixos.org/packages) is a tool for searching through NixOS packages.
 
+[Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer) is an opinionated alternative to the official [Nix install scripts](https://nixos.org/download.html).
+
+**The nix-installer tool is ready to use in a number of environments:**
+
+|Platform |	Multi User |	root only |	Maturity|
+|------|------|-------|------|
+|Linux (x86_64 & aarch64) |✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+|MacOS (x86_64 & aarch64) |	✓ |		|Stable (See note)|
+|Valve Steam Deck (SteamOS)| 	✓ |		|Stable|
+|WSL2 (x86_64 & aarch64) |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+|Podman Linux Containers |	✓ (via [systemd](https://systemd.io/)) |	✓ |	Stable|
+|Docker Containers 	|	|✓ |	Stable|
+|Linux (i686) |	✓ (via [systemd](https://systemd.io/)) |	✓ 	|Unstable|
+
 <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/128645111-b2a92dd2-f246-4df0-b05c-5b0ffce05448.png">
   <br />
   NixOS with the Plasma Desktop
 </h3>
+
+### Debian Linux Development
+
+Starting from mid-2022, the best advice for getting Debian installed is to be found here: **https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/.**
+
+#### Artefacts
+
+**If you don't want to use the prebuild artefacts, you can build them yourself using the following scripts:**
+
+    - **prepare_rust.sh** - Prepares a rust installation suitable for kernel compilation
+    - **m1n1_uboot_kernel.sh** - Builds m1n1, u-boot and the kernel including gpu support.
+    - **mesa.sh** - Creates mesa packages
+    - **bootstrap.sh** - Creates Debian root and live filesystem
+    - **meta.sh** - Meta package which makes sure that we always get latest and gratest kernel.
+    
+    
+#### Asahi installer
+
+**[Video Recording](https://tg.st/u/debian_asahi_installer.mp4)**
+
+    Poweroff your Mac. Hold and press the power button until you see a wheel chain and Options written below. **Approx 20 seconds**.
+
+    In the boot picker, choose Options. Once loaded, open a Terminal under Utilities > Terminal
+
+    **Run the asahi installer and select Debian:**
+
+    ```curl -sL https://tg.st/d | sh```
+
+    **Follow the installer instructions.**
+
+    Once Debian is booted log in as root without password and set a root password
+
+    ```passwd```
+    ```pwconv```
+
+    **Configure wifi by editing the wpa_supplicant.conf, enabling the interface and remove the # before allow-hotplug to enable it during boot.**
+
+    ```vi /etc/wpa_supplicant/wpa_supplicant.conf```
+    ```ifup wlan0```
+    ```vi /etc/network/interfaces```
+
+    Reboot to see if grub was correctly installed
+
+    ```reboot```
+
+    Install a desktop environment for example blackbox
+
+    ```apt-get update```
+    ```apt-get install -y xinit blackbox xterm firefox-esr lightdm```
+
+    **Create yourself an unprivileged user **
+
+    ```useradd -m -c 'Firstname Lastname' -s /bin/bash <username>```
+    ```passwd <username>```
+
+     **Optional install sshd. You can not log in as root, but only with your unprivileged user **
+
+    ```apt update```
+    ```apt install -y openssh-server```
+
+    Consult the  **[/root/quickstart.txt](https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/blob_plain/refs/heads/master:/files/quickstart.txt) ** file to find out how to do other interesting things.
+    
+    <h3 align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/222395704-be1d4f1b-498e-484e-9035-e7758f784aef.png">
+  <br />
+  Debian 
+</h3>
+
+Image Credit: [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa)
 
 # Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
