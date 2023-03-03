@@ -2885,6 +2885,15 @@ Parallels Desktop for Mac
   <br />
  Ubuntu on UTM
 </p>
+
+[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+
+  * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
+  * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
+  * Virtual TPM device with fast encryption support.
+  * Improved Linux support on M1.
+  * 3D Graphics HW Acceleration and OpenGL 4.3(Requires Linux 5.19+ & Mesa 22.1.3+) in Linux virtual machines.
+  * Universal Binary for Apple Silicon and Intel Macs.
  
 [Multipass](https://multipass.run/) is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. It uses [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM) on Linux, [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) on Windows, and [HyperKit](https://github.com/moby/hyperkit) on macOS.
 
@@ -3010,60 +3019,66 @@ Starting from mid-2022, the best advice for getting Debian installed is to be fo
 
 **If you don't want to use the prebuild artefacts, you can build them yourself using the following scripts:**
 
-    - **prepare_rust.sh** - Prepares a rust installation suitable for kernel compilation
-    - **m1n1_uboot_kernel.sh** - Builds m1n1, u-boot and the kernel including gpu support.
-    - **mesa.sh** - Creates mesa packages
-    - **bootstrap.sh** - Creates Debian root and live filesystem
-    - **meta.sh** - Meta package which makes sure that we always get latest and gratest kernel.
+   - **prepare_rust.sh** - Prepares a rust installation suitable for kernel compilation
+   - **m1n1_uboot_kernel.sh** - Builds m1n1, u-boot and the kernel including gpu support.
+   - **mesa.sh** - Creates mesa packages
+   - **bootstrap.sh** - Creates Debian root and live filesystem
+   - **meta.sh** - Meta package which makes sure that we always get latest and gratest kernel.
     
     
 #### Asahi installer
 
 **[Video Recording](https://tg.st/u/debian_asahi_installer.mp4)**
 
-    Poweroff your Mac. Hold and press the power button until you see a wheel chain and Options written below. **Approx 20 seconds**.
+   Poweroff your Mac. Hold and press the power button until you see a wheel chain and Options written below. **Approx 20 seconds**.
 
-    In the boot picker, choose Options. Once loaded, open a Terminal under Utilities > Terminal
+   In the boot picker, choose Options. Once loaded, open a Terminal under Utilities > Terminal
 
-    **Run the asahi installer and select Debian:**
+   **Run the asahi installer and select Debian:**
 
-    ```curl -sL https://tg.st/d | sh```
+   ```curl -sL https://tg.st/d | sh```
 
-    **Follow the installer instructions.**
+  **Follow the installer instructions.**
 
-    Once Debian is booted log in as root without password and set a root password
+  **Once Debian is booted log in as root without password and set a root password.**
 
-    ```passwd```
-    ```pwconv```
+   ```passwd```
+   
+   ```pwconv```
 
-    **Configure wifi by editing the wpa_supplicant.conf, enabling the interface and remove the # before allow-hotplug to enable it during boot.**
+  **Configure wifi by editing the wpa_supplicant.conf, enabling the interface and remove the # before allow-hotplug to enable it during boot.**
 
-    ```vi /etc/wpa_supplicant/wpa_supplicant.conf```
-    ```ifup wlan0```
-    ```vi /etc/network/interfaces```
+   ```vi /etc/wpa_supplicant/wpa_supplicant.conf```
+   
+   ```ifup wlan0```
+   
+   ```vi /etc/network/interfaces```
 
-    Reboot to see if grub was correctly installed
+   **Reboot to see if grub was correctly installed**
 
-    ```reboot```
+   ```reboot```
 
-    Install a desktop environment for example blackbox
+   **Install a desktop environment for example blackbox**
 
-    ```apt-get update```
-    ```apt-get install -y xinit blackbox xterm firefox-esr lightdm```
+   ```apt-get update```
+   
+   ```apt-get install -y xinit blackbox xterm firefox-esr lightdm```
 
-    **Create yourself an unprivileged user **
+  **Create yourself an unprivileged user**
 
-    ```useradd -m -c 'Firstname Lastname' -s /bin/bash <username>```
-    ```passwd <username>```
+   ```useradd -m -c 'Firstname Lastname' -s /bin/bash <username>```
+   
+   ```passwd <username>```
 
-     **Optional install sshd. You can not log in as root, but only with your unprivileged user **
+   **Optional install sshd. You can not log in as root, but only with your unprivileged user**
 
-    ```apt update```
-    ```apt install -y openssh-server```
+   ```apt update```
+   
+   ```apt install -y openssh-server```
 
-    Consult the  **[/root/quickstart.txt](https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/blob_plain/refs/heads/master:/files/quickstart.txt) ** file to find out how to do other interesting things.
+   Consult the  **[/root/quickstart.txt](https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/blob_plain/refs/heads/master:/files/quickstart.txt)** file to find out how to do other interesting things.
     
-    <h3 align="center">
+   <h3 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/222395704-be1d4f1b-498e-484e-9035-e7758f784aef.png">
   <br />
   Debian 
