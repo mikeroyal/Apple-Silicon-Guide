@@ -92,6 +92,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
      * [Fedora Linux Development](#Fedora-Linux-Development)
      * [NixOS Linux Development](#NixOS-Linux-Development)
      * [Debian Linux Development](#Debian-Linux-Development)
+     * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
 
 14. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
@@ -3550,6 +3551,73 @@ Starting from mid-2022, the best advice for getting Debian installed is to be fo
 </h3>
 
 Image Credit: [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa)
+
+### Ubuntu Development
+
+* **[Ubuntu Apple Silicon Image](https://github.com/tobhe/ubuntu-asahi)**
+
+**Most of the hard work, including the kernel and boot software, was done by the [Asahi Linux project](https://asahilinux.org/) and their development team.**
+
+While you will end up with a fairly usable computer, the exact hardware features you want [may not be ready yet](https://github.com/AsahiLinux/docs/wiki/%22When-will-Asahi-Linux-be-done%3F%22). Please look at the [Asahi Linux Feature Support page](https://github.com/AsahiLinux/docs/wiki/Feature-Support) for information. 
+
+For more general information about Linux on Apple Silicon Macs, refer to the [Asahi Linux project](https://asahilinux.org/) and [alpha installer release](https://asahilinux.org/2022/03/asahi-linux-alpha-release/). 
+
+#### Installer
+
+**To install a prebuilt image run:**
+
+```
+curl -sL https://tobhe.de/ubuntu/install > install.sh	# Download
+less install.sh						# Review
+sh install.sh						# Run
+```
+
+The installer offers a choice of different Ubuntu releases and build configurations.
+
+**Currently supported are:**
+
+  * Ubuntu 22.10 Desktop
+  * Ubuntu 22.10 Server
+  * Ubuntu 22.04 Desktop
+  * Ubuntu 22.04 Server
+
+The default **username and password are both ```ubuntu```.** Root access can be achieved via ```sudo```.
+
+
+### Dual-booting macOS and Linux
+
+Yes, The installer can automatically resize your macos partition according to your liking and install Ubuntu in the freed up space. Removing macOS is not supported at the moment since it is required to update the system firmware.
+
+### Building
+
+If you do not want to use the prebuilt disk image, you can build one yourself with the instructions below.
+
+```
+# Install dependencies
+sudo apt-get install arch-install-scripts debootstrap mtools parted gnupg eatmydata rsync git squashfs-tools zip
+
+# Install dependencies, if your builder system is NOT arm64
+sudo apt-get install binfmt-support qemu qemu-user-static
+````
+#### Build
+
+```
+cd ubuntu-asahi
+# Build the entire live image
+sudo ./build-generic.sh
+```
+The live GPT image file will be output to ```build/ubuntu.live.img```, the zip archive for the Asahi Linux installer will be output to ```build/ubuntu.live.img.zip```.
+
+#### Clean
+
+The clean.sh script will clean up the build folder, except for the cache folder, which is used by debootstrap to cache debs.
+
+```
+cd ubuntu-asahi
+# Clean the build folder
+./clean.sh
+```
+
 
 # Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
