@@ -3485,7 +3485,13 @@ To complete the uninstallation, open the Startup Disk pane of System Preferences
 
 ### Debian Linux Development
 
-Starting from mid-2022, the best advice for getting Debian installed is to be found here: **https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/.**
+**Most of the hard work, including the kernel and boot software, was done by the [Asahi Linux project](https://asahilinux.org/) and their development team.**
+
+While you will end up with a fairly usable computer, the exact hardware features you want [may not be ready yet](https://github.com/AsahiLinux/docs/wiki/%22When-will-Asahi-Linux-be-done%3F%22). Please look at the [Asahi Linux Feature Support page](https://github.com/AsahiLinux/docs/wiki/Feature-Support) for information. 
+
+For more general information about Linux on Apple Silicon Macs, refer to the [Asahi Linux project](https://asahilinux.org/) and [alpha installer release](https://asahilinux.org/2022/03/asahi-linux-alpha-release/). 
+
+**Important Note:** Starting from mid-2022, the best advice for getting Debian installed is to be found here: **https://git.zerfleddert.de/cgi-bin/gitweb.cgi/m1-debian/.**
 
 #### Artefacts
 
