@@ -4217,6 +4217,8 @@ Cartridge Features
 
 [Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.
 
+[PrimeHack](https://github.com/shiiion/dolphin) is a fork of **Dolphin Emulator** to bring modern Mouse and Keyboard controls, as well as Dual-Stick gamepad controls to the Metroid Prime Trilogy. It also offers many other features such as increased FoV and various new cheats. [Versions of Metroid Prime that are currently supported.](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions#what-versions-of-metroid-prime-are-supported)
+
 ### Nintendo Switch 
 
 [Ryujinx](https://ryujinx.org/) is an open-source Nintendo Switch emulator created by gdkchan and written in C#. This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds. 
