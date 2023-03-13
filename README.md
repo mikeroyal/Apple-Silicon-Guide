@@ -59,6 +59,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Backups](#Backups)
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
+   * [Powerbanks](#Powerbanks)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
 
 2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
@@ -1459,6 +1460,26 @@ Checking Battery on your Mac device.
 <br />
 Checking Battery on your iOS device.
 </p>
+
+## Powerbanks
+
+While the Apple Silicon Macbooks have grrat battery life. It's always good to have a portable powerbank when you're traveling, work, conferences, etc..
+
+* [Using USB-C cables with your Mac](https://support.apple.com/guide/mac-help/use-usb-c-cables-mchl447b9239/mac)
+* [Apple USB-C Charge Cable (2m) on Amazon](https://www.amazon.com/Apple-USB-C-Charge-Cable-2m/dp/B01MQ5Z080)
+* [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m)
+* [About the Apple USB-C to Lightning Cable](https://support.apple.com/en-us/HT205807)
+
+[Anker PowerCore III (45W USB-C PD output)](https://www.amazon.com/Anker-PowerCore-Capacity-Delivery-Portable/dp/B08FX8GKJ5)
+
+[Anker 737 Powerbank (up to 140W USC-C PD output)](https://www.amazon.com/Anker-PowerCore-Portable-Charger-Compatible/dp/B09VPHVT2Z)
+
+[Anker 733 2-in-1 Power Bank and Wall Charger (up to 65W USC-C PD output)](https://www.amazon.com/Anker-GaNPrime-PowerCore-Charger-Portable/dp/B09W2H224F)
+
+[HenHot 65W USB-C Portable Charger](https://www.amazon.com/HenHot-20000mAh-Laptop-Portable-Charger/dp/B09SLCV819)
+
+[Baseus 65W USB-C Power Bank with Built-in Cable](https://www.amazon.com/Portable-Charger-Baseus-20000mAh-Charging/dp/B08THFDRSZ)
+
 
 ## MacOS/iOS Security Hardening
 
