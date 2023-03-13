@@ -1382,6 +1382,24 @@ Nexcloud Hub
 
 [USB-C to Lightning Cable (2 m)](https://www.apple.com/shop/product/MQGH2AM/A/usb-c-to-lightning-cable-2-m) is cable to connect your iPhone, iPad, or iPod with Lightning connector to your USB-C or Thunderbolt 3 (USB-C) enabled Mac for syncing and charging, or to your USB-C enabled iPad for charging.
 
+**More fast External Storage options for MacOS/iOS/iPadOS:**
+
+ * [Kingston XS2000 Portable SSD](https://www.amazon.com/Kingston-Performance-Pocket-Sized-SXS2000-2000G/dp/B09F6279PY)
+ * [Crucial X8](https://www.amazon.com/Crucial-X8/s?k=Crucial+X8)
+ * [Samsung Portable SSD X5](https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-x5-1tb-mu-pb1t0b-am/)
+ * [Samsung Portable SSD T7 Touch](https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t7-touch-usb-3-2-500gb-black-mu-pc500k-ww/)
+ * [SanDisk Professional Pro-G40 SSD](https://www.westerndigital.com/products/portable-drives/sandisk-professional-pro-g40-ssd)
+ * [SanDisk Professional G-Drive ArmorATD](https://www.westerndigital.com/products/portable-drives/sandisk-professional-g-drive-armoratd-usb-3-1-hdd)
+ * [WD Black P10](https://www.westerndigital.com/products/portable-drives/wd-black-p10-game-drive-usb-3-2-hdd)
+ * [WD Black D10](https://www.westerndigital.com/products/external-drives/wd-black-d10-game-drive-usb-3-2-hdd)
+ * [WD My Passport (5TB)](https://www.westerndigital.com/products/portable-drives/wd-my-passport-usb-3-0-hdd)
+ * [OWC Envoy Pro EX With USB-C](https://www.amazon.com/OWC-Envoy-External-Storage-Solution/dp/B07T7X7HRK)
+ * [LaCie Rugged SSD Pro](https://www.lacie.com/products/rugged/)
+ * [LaCie Rugged RAID Shuttle](https://www.lacie.com/products/rugged/)
+ * [LaCie 2big RAID](https://www.lacie.com/products/big/2big/)
+ * [LaCie Mobile Drive](https://www.lacie.com/products/mobile-drive/)
+ * [CalDigit AV Pro 2](https://www.caldigit.com/av-pro-2/)
+
 ## Backups
 
 [Back to the Top](#table-of-contents)
