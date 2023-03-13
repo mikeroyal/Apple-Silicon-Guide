@@ -99,7 +99,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 15. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
-      - [Manage Temps/Control Fans (CPU and GPU)](#Manage-TempsControl-Fans-CPU-and-GPU)
+      - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
         * [Game Controllers](#Game-controllers)
@@ -3703,20 +3703,25 @@ Parallels Desktop for Mac
  - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
  
  
-## Manage Temps/Control Fans (CPU and GPU)
+## Manage Temps/Fans (CPU and GPU)
 
 [Back to the Top](#table-of-contents)
 
-[MacsFanControl](https://crystalidea.com/macs-fan-control) is a to control fans on Apple computers.
 
- **Features:**
+[Stats](https://github.com/exelban/stats) is a tool that allows you to monitor your macOS system in the menubar.
+
+ * Battery level
+ * Bluetooth devices
+ * CPU utilization
+ * Disk utilization
+ * Fan's control
+ * GPU utilization
+ * Memory usage
+ * Network usage
+ * Sensors information (Temperature/Voltage/Power)
  
-   * Real-time monitoring of fan speeds and temperatures
-   * Solve overheating problems like those found on a MacBook Pro
-   * Works on all Macs, both Intel & Apple Silicon
-   
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208856182-b685a2c1-e55c-4634-804b-b1a3ba48fd41.png">
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/224650106-1be2ae52-e54d-48b1-acbd-a71a9fc1d1d1.png">
 </p>
 
 
@@ -3730,7 +3735,6 @@ Parallels Desktop for Mac
   <img src="https://user-images.githubusercontent.com/45159366/208857140-af14f17a-3f18-49a3-a413-ca692b88e745.png">
 </p>
 
-[smcFanControl](https://github.com/hholtmann/smcFanControl) is a tool that lets the user set a minimum speed for built-in fans. It allows you to increase your minimum fan speed to make your Intel or Apple Silicon Mac run cooler. 
  
 ## Gaming Peripherals
 
