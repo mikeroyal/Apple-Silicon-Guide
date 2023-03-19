@@ -1633,7 +1633,18 @@ File Vault
 
 ## Getting Started with Xcode
 
-[Apple Developer Documentation for Xcode](https://developer.apple.com/documentation/xcode)
+**Developer Resources:**
+
+ * [Apple Developer Documentation for Xcode](https://developer.apple.com/documentation/xcode)
+ * [Apple Professional Training Courses](https://training.apple.com/)
+ * [Apple Developer Tools & SDKs](https://developer.apple.com/download/)
+ * [Apple API References](https://developer.apple.com/documentation/)
+ * [Learn to code with Swift Playgrounds](https://developer.apple.com/swift-playgrounds/)
+ * [Develop in Swift Explorations](https://apple.co/teachingcode)
+ * [Develop in Swift Fundamentals](https://apple.co/teachingcode)
+ * [Develop in Swift Data Collections](https://apple.co/teachingcode)
+ * [Develop in Swift App Design Workbook](https://education-static.apple.com/coding-club-kit/appworkbook.key)
+ * [Swift Coding Clubs](https://www.apple.com/education/k12/teaching-code/#coding-club)
 
 [Xcode](https://developer.apple.com/xcode/) includes everything developers need to create great applications for Mac, iPhone, iPad, Apple TV, and Apple Watch. Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging. Xcode 14 is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon and the Intel x86_64 CPU.
 
@@ -1769,29 +1780,29 @@ Developing with SwiftUI in Xcode 14
 
 [Metal 3](https://developer.apple.com/metal/) is Apple's newest graphics API that introduces advanced features and compiler tools to load resources faster, compile shader binaries at build time, process complex geometry with mesh shaders, render high-resolution graphics in less time, train machine learning networks faster, and more. 
 
-[Apple Developer Documentation](https://developer.apple.com/documentation)
+* [Apple Developer Documentation](https://developer.apple.com/documentation)
 
-[MetalKit](https://developer.apple.com/documentation/metalkit/)
+* [MetalKit](https://developer.apple.com/documentation/metalkit/)
 
-[Metal Shading Language Specification](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf)
+* [Metal Shading Language Specification](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf)
 
-[Using Metal Feature Set Tables](https://developer.apple.com/documentation/metal/gpu_features/using_metal_feature_set_tables/)
+* [Using Metal Feature Set Tables](https://developer.apple.com/documentation/metal/gpu_features/using_metal_feature_set_tables/)
 
-[Metal Performance Shaders](https://developer.apple.com/documentation/metalperformanceshaders/)
+* [Metal Performance Shaders](https://developer.apple.com/documentation/metalperformanceshaders/)
 
-[Optimizing Performance with the GPU Counters Instrument](https://developer.apple.com/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument?language=objc)
+* [Optimizing Performance with the GPU Counters Instrument](https://developer.apple.com/documentation/metal/optimizing_performance_with_the_gpu_counters_instrument?language=objc)
 
-[Enabling Frame Capture](https://developer.apple.com/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture?language=objc)
+* [Enabling Frame Capture](https://developer.apple.com/documentation/metal/frame_capture_debugging_tools/enabling_frame_capture?language=objc)
 
-[Reducing the Memory Footprint of Metal Apps](https://developer.apple.com/documentation/metal/reducing_the_memory_footprint_of_metal_apps)
+* [Reducing the Memory Footprint of Metal Apps](https://developer.apple.com/documentation/metal/reducing_the_memory_footprint_of_metal_apps)
 
-[Metal Developer Tools for Windows](https://developer.apple.com/download/release/)
+* [Metal Developer Tools for Windows](https://developer.apple.com/download/release/)
 
-[Metal Sample code](https://developer.apple.com/metal/sample-code/)
+* [Metal Sample code](https://developer.apple.com/metal/sample-code/)
 
-[Metal plugin for TensorFlow](https://developer.apple.com/metal/tensorflow-plugin/)
+* [Metal plugin for TensorFlow](https://developer.apple.com/metal/tensorflow-plugin/)
 
-[Metal Developer discussions](https://developer.apple.com/forums/tags/metal/)
+* [Metal Developer discussions](https://developer.apple.com/forums/tags/metal/)
 
 
 ## Metal Tools, Libraries, and Frameworks
