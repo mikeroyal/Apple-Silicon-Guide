@@ -1481,7 +1481,7 @@ Checking Battery on your iOS device.
 
 ## Powerbanks
 
-While the Apple Silicon Macbooks have grrat battery life. It's always good to have a portable powerbank when you're traveling, work, conferences, etc..
+While the Apple Silicon Macbooks have great battery life. It's always good to have a portable powerbank for charging your device when you're traveling, conferences, etc..
 
 * [Using USB-C cables with your Mac](https://support.apple.com/guide/mac-help/use-usb-c-cables-mchl447b9239/mac)
 * [Apple USB-C Charge Cable (2m) on Amazon](https://www.amazon.com/Apple-USB-C-Charge-Cable-2m/dp/B01MQ5Z080)
