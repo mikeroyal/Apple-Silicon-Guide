@@ -59,7 +59,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Backups](#Backups)
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
-   * [Powerbanks](#Powerbanks)
+   * [Charging/Powerbanks](#ChargingPowerbanks)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
 
 2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
@@ -1479,7 +1479,7 @@ Checking Battery on your Mac device.
 Checking Battery on your iOS device.
 </p>
 
-## Powerbanks
+## Charging/Powerbanks
 
 While the Apple Silicon Macbooks have great battery life. It's always good to have a portable powerbank for charging your device when you're traveling, conferences, etc..
 
@@ -1493,6 +1493,14 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 [Anker 737 Powerbank (up to 140W USC-C PD output)](https://www.amazon.com/Anker-PowerCore-Portable-Charger-Compatible/dp/B09VPHVT2Z)
 
 [Anker 733 2-in-1 Power Bank and Wall Charger (up to 65W USC-C PD output)](https://www.amazon.com/Anker-GaNPrime-PowerCore-Charger-Portable/dp/B09W2H224F)
+
+[Anker 525 Power Bank 20000mAh](https://www.anker.com/products/a1287?listingPlan=b&variant=41110977642646&discount=WS24A1287011)
+
+[Omni 20+ 20000mAh Laptop Power Bank](https://www.omnicharge.co/products/omni-20/)
+
+[MAXOAK Portable Laptop Charger(26756mAh/99Wh), Portable Power Station W/1x120V AC Outlet PD 45W USB-C Solar Generator Battery Backup Power Supply](https://www.amazon.com/Portable-TSA-Approved-MAXOAK-26756mAh-Lighting-Bluetti/dp/B07VWNV5S6)
+
+[MAXOAK K2 185Wh/50000mAh Power Bank for Laptop](https://maxoak.net/products/maxoak-k2-185Wh-50000mah-power-bank)
 
 [HenHot 65W USB-C Portable Charger](https://www.amazon.com/HenHot-20000mAh-Laptop-Portable-Charger/dp/B09SLCV819)
 
