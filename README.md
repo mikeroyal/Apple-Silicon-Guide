@@ -3837,6 +3837,20 @@ PS 5  DualSense™ Controller
 Nintendo Switch Pro Controller
 </p>
 
+[8BitDo SN30 Pro+ Controller](https://www.8bitdo.com/sn30-pro-plus/)
+
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/226544985-d0c0301c-e927-4845-abf8-5d728943e674.png">
+</br>
+8BitDo SN30 Pro+ Controller
+</p>
+
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/226544994-7628f14d-f558-48f6-92b5-940905ab3fd9.png">
+ </br>
+ 8BitDo SN30 Pro+ Controller Button Mapping
+</p>
+
 [Google Stadia Controller on ebay](https://www.ebay.com/sch/i.html?_nkw=google+stadia+controller&_sop=12&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5336728181&customid=&toolid=10001)
  
  **Switch your Stadia Controller to [Bluetooth mode](https://stadia.google.com/controller/)** to keep gaming wirelessly on your favorite devices and services after Stadia shuts down.
