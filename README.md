@@ -1481,6 +1481,8 @@ Checking Battery on your iOS device.
 
 ## Charging/Powerbanks
 
+[Back to the Top](#table-of-contents)
+
 While the Apple Silicon Macbooks have great battery life. It's always good to have a portable powerbank for charging your device when you're traveling, conferences, etc..
 
 * [Using USB-C cables with your Mac](https://support.apple.com/guide/mac-help/use-usb-c-cables-mchl447b9239/mac)
@@ -1498,7 +1500,7 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 
 [Omni 20+ 20000mAh Laptop Power Bank](https://www.omnicharge.co/products/omni-20/)
 
-[MAXOAK Portable Laptop Charger(26756mAh/99Wh), Portable Power Station W/1x120V AC Outlet PD 45W USB-C Solar Generator Battery Backup Power Supply](https://www.amazon.com/Portable-TSA-Approved-MAXOAK-26756mAh-Lighting-Bluetti/dp/B07VWNV5S6)
+[MAXOAK Portable Laptop Charger(26756mAh/99Wh), Portable Power Station with AC Outlet PD 45W USB-C Solar Generator Battery Backup Power Supply](https://www.amazon.com/Portable-TSA-Approved-MAXOAK-26756mAh-Lighting-Bluetti/dp/B07VWNV5S6)
 
 [MAXOAK K2 185Wh/50000mAh Power Bank for Laptop](https://maxoak.net/products/maxoak-k2-185Wh-50000mah-power-bank)
 
@@ -1509,7 +1511,7 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 
 ## MacOS/iOS Security Hardening
 
-[Back to the Top](table-of-contents)
+[Back to the Top](#table-of-contents)
 
 ### Resources
 
