@@ -23,7 +23,9 @@ A
    
    **APFS Volume:** a logical filesystem within an APFS container, that can be mounted on a directory.
    
-  **ASC:** Possible generic name for Coprocessors
+   **ASC:** Possible generic name for Coprocessors
+   
+   **ARM64(AKA AArch64):** A 64-bit extension of the ARM architecture family being first introduced with the **Armv8-A** architecture. 
 
 B
 
