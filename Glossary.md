@@ -11,7 +11,8 @@ A
    **AGX:** The internal name for Apple's GPU series.
    
    **AIC:** Apple Interrupt Controller. Apple's custom ARM interrupt controller, because the standard GIC was too standard for Apple.
-   **ANS:** NVME / storage coprocessor?
+   
+   **ANS:** NVME/storage coprocessor.
    
    **AP: Application Processor**. The main CPU running most of the OS. Contrast to SEP.
    
