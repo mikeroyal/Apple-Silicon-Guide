@@ -1492,9 +1492,15 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 
 [Anker PowerCore III (45W USB-C PD output)](https://www.amazon.com/Anker-PowerCore-Capacity-Delivery-Portable/dp/B08FX8GKJ5)
 
-[Anker 737 Powerbank (up to 140W USC-C PD output)](https://www.amazon.com/Anker-PowerCore-Portable-Charger-Compatible/dp/B09VPHVT2Z)
+[Anker 747 Charger (GaNPrime 150W)](https://www.anker.com/products/a2340)
 
-[Anker 733 2-in-1 Power Bank and Wall Charger (up to 65W USC-C PD output)](https://www.amazon.com/Anker-GaNPrime-PowerCore-Charger-Portable/dp/B09W2H224F)
+[Anker 737 Charger (GaNPrime 120W)](https://www.anker.com/products/a2148)
+
+[Anker 736 Charger (Nano II 100W)](https://www.anker.com/products/a2145)
+ 
+[Anker 735 Charger (GaNPrime 65W)](https://www.anker.com/products/a2668)
+ 
+[Anker 733 Power Bank (GaNPrime PowerCore 65W)](https://www.anker.com/products/a1651)
 
 [Anker 525 Power Bank 20000mAh](https://www.anker.com/products/a1287?listingPlan=b&variant=41110977642646&discount=WS24A1287011)
 
