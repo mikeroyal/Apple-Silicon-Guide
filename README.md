@@ -1567,6 +1567,20 @@ File Vault
 
 [Quad9](https://www.quad9.net/) is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats. This blocking action protects your computer, mobile device, or IoT systems against a wide range of threats such as malware, phishing, spyware, and botnets, and it can improve performance in addition to guaranteeing privacy. 
 
+### VPN
+
+[Back to The Top](#table-of-contents)
+
+* [Wireguard](https://www.wireguard.com/) - A new minimal VPN Solution that is very fast.
+* [Tailscale](https://tailscale.com/) - The easiest, most secure way to use WireGuard and 2FA. Tailscale helps you manage and access private or shared resources from anywhere in the world. 
+* [NetBird](https://netbird.io/) - An open-source VPN management platform built on top of WireGuard® making it easy to create secure private networks for your organization or home.
+* [SoftEther](https://www.softether.org/) - Multi-protocol software VPN with advanced features.
+* [OpenVPN](https://community.openvpn.net) - Uses a custom security protocol that utilizes SSL/TLS for key exchange.
+* [Pritunl](https://pritunl.com/) - OpenVPN based solution that's easy to set up.
+* [sshuttle](https://github.com/apenwarr/sshuttle) - Poor man's VPN.
+* [strongSwan](https://www.strongswan.org/) - Complete IPsec implementation for Linux.
+* [tinc](https://www.tinc-vpn.org/) - Distributed p2p VPN.
+
 
 # Wafer Level Multi-Chip Packaging Technology
 
