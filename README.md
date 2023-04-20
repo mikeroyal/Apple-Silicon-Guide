@@ -73,21 +73,25 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
 
-6. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
+6. [Visual Studio Studio (VSCode) Development](#vscode-development)
+
+     - [VS Code Extensions for Developer Productivity](https://github.com/mikeroyal/Unreal-Engine-Guide#VS-Code-Extensions-for-Developer-Productivity) 
+
+7. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
-7. [Unity Development](#Unity-Development)
+8. [Unity Development](#Unity-Development)
  
-8. [Blender Development](#Blender-Development)
+9. [Blender Development](#Blender-Development)
 
-9. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+10. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
 
-10. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+11. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
 
-11. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+12. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
 
-12. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+13. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-13. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+14. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
      * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
      * [Asahi Linux Development](#Asahi-Linux-Development)
      * [Fedora Linux Development](#Fedora-Linux-Development)
@@ -95,9 +99,9 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
      * [Debian Linux Development](#Debian-Linux-Development)
      * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
 
-14. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+15. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
-15. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+16. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
@@ -145,17 +149,17 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [MAME](#MAME)
       - [Performance Benchmarks](#performance-benchmarks)
 
-16. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+17. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-17. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+18. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-18. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+19. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
-19. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+20. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
-20. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+21. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
 
-21. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+22. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
 
 # Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
@@ -1882,6 +1886,104 @@ Developing with SwiftUI in Xcode 14
 [AppCode](https://www.jetbrains.com/objc/) is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages.
 
 [MoltenVK](https://moltengl.com/moltenvk) is an implementation of Vulkan running on iOS and macOS using Apple's [Metal](https://developer.apple.com/metal/) graphics framework.
+
+##  VSCode Development
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/140833078-77973dcf-d3a6-421f-b6a7-b6e63fb1e97c.png">
+<br />
+</p>
+
+ * [VS Code Documentation](https://code.visualstudio.com/docs)
+
+ * [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+
+[Visual Studio Code](https://code.visualstudio.com) is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/140832435-49e53589-e9e1-47fe-a1bd-d9800cfc1274.png">
+<br />
+VS Code
+</p>
+
+[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/VSCode) is a marketplace for all extensions for Visual Studio, Azure DevOps Services, Azure DevOps Server and Visual Studio Code.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/140832440-0247a088-4eeb-4c57-ae7d-90894d56d629.png">
+<br />
+VS Code Marketplace
+</p>
+
+[Code Server](https://coder.com/) is a tool that allows you to run [VS Code](https://code.visualstudio.com/) on any machine anywhere and access it in the browser.
+
+[GitHub Codespaces](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces) is an integrated development environment(IDE) on GitHub. That allows developers to develop entirely in the cloud using Visual Studio and Visual Studio Code. Also, from any repo or pull request on GitHub you can simply press the period (.) key on your keyboard to bring up the browser-based VS Code environment with the source code file ready for editing. That dot (.) press to bring up the web-based VS Code editor takes you to https://github.dev/.
+
+[Language Server Protocol (LSP)](https://microsoft.github.io/language-server-protocol/) is a tool that defines the protocol used between an editor or IDE and a language server that provides language features like auto complete, go to definition, find all references.
+
+### VS Code Extensions for Developer Productivity
+
+[Back to the Top](#table-of-contents)
+
+[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a service/ extension that enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. You can instantly and securely share your current project, start a joint debugging session, share terminal instances, forward localhost web apps, have voice calls, and more.
+
+[GistPad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs) is a Visual Studio Code extension that allows you to edit GitHub Gists and repositories from the comfort of your favorite editor. You can open, create, delete, fork and star gists and repositories, and then seamlessly begin editing files as if they were local, without ever cloning, pushing or pulling anything.
+
+[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) is an extension for Visual Studio Code that launches a development local Server with live reload feature for static & dynamic pages.
+
+[GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) is an extension for Visual Studio Code that allows you to review and manage GitHub pull requests and issues in Visual Studio Code.
+
+[Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal) is an extension for Visual Studio Code that lets you run terminal command directly in the Editor.
+
+[Profile Switcher](https://marketplace.visualstudio.com/items?itemName=aaronpowell.vscode-profile-switcher) is an extension for Visual Studio Code that allows you to switch between different profiles you have created.
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) is an extension for Visual Studio Code that gets the Material Design icons into your VS Code.
+
+[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) is an extension for Visual Studio Code that adds Atom's iconic One Dark theme, which is one of the most installed themes for VS Code.
+
+[VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) is an extension for Visual Studio Code that brings icons to your Visual Studio Code setup.
+
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) is an extension for Visual Studio Code that helps you visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+
+[Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) is an extension for Visual Studio Code that will display inline in the editor the size of the imported/required package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size.
+
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) is an extension for Visual Studio Code that gives you everything you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more).
+
+[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) is an extension for Visual Studio Code that automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text.
+
+[Auto-Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) is an extension for Visual Studio Code that automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text does.
+
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) is an extension for Visual Studio Code that synchronizes Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) is an extension for Visual Studio Code that lets you mark lines of code and jump to them.
+
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) is an extension for Visual Studio Code that improves your code commenting by annotating with alert, informational, TODOs, and more.
+
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) is an extension for Visual Studio Code that works as a spelling checker for source code.
+
+[CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) is an extension for Visual Studio Code that allows peeking to css ID and class strings as definitions from html files to respective CSS. It also allows peek and goto definition.
+
+[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) is an extension for Visual Studio Code that enhances the Tailwind development experience by providing Visual Studio Code users with advanced features such as autocomplete, syntax highlighting, and linting.
+
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) is an extension for Visual Studio Code that is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+[NPM Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) is an extension for Visual Studio Code that autocompletes npm modules in import statements.
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) is an extension for Visual Studio Code that autocompletes filenames.
+
+[Relative Path](https://marketplace.visualstudio.com/items?itemName=jakob101.RelativePath) is an extension for Visual Studio Code that gets the relative url paths from files in the current workspace.
+
+[Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete) is an extension for Visual Studio Code that provides path completion for visual studio code.
+
+[Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode) is an extension for Visual Studio Code that updates your discord status with a rich presence.
+
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) is an extension for Visual Studio Code that runs code snippets or code files for multiple languages: C/C++, Java, JavaScript, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, BASH/SH, C#, F#, .NET Core, TypeScript, CoffeeScript, Scala, Swift, Julia, OCaml, R, Elixir, Clojure, Haxe, Objective-C, Rust, Racket, Scheme, Kotlin, Dart, Haskell, Nim, D, CUDA, and custom command.
+
+[Kite](https://marketplace.visualstudio.com/items?itemName=kiteco.kite) is an extension for Visual Studio Code that provides an AI-powered programming assistant that helps you write code faster inside Visual Studio Code. Kite works for all major programming languages: Python, Java, Go, PHP, C/C#/C++, Javascript, HTML/CSS, Typescript, React, Ruby, Scala, Kotlin, Bash, Vue and React.
+
+[Tabnine](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode) is an extension for Visual Studio Code that provides an AI code completion tool trusted by millions of developers to code faster with fewer errors. Whether you are a new dev or a seasoned pro, working solo or part of a team, Tabnine will help push your productivity to new heights while cutting your QA time in your favorite IDE.
+
 
 ## Unreal Engine 5 Development
 
