@@ -59,6 +59,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Backups](#Backups)
    * [SSD Drive Health/Data Recovery](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
+      - [Turning on Low Power Mode](#low-power-mode)
    * [Charging/Powerbanks](#ChargingPowerbanks)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
 
@@ -1478,6 +1479,41 @@ Checking Battery on your Mac device.
 <br />
 Checking Battery on your iOS device.
 </p>
+
+### Lower Power Mode
+
+**If you have a Mac laptop, you can change the options below to reduce energy use and optimize the lifespan of your battery.**
+
+ **On your Mac, choose Apple menu  > System Settings, then click Battery in the sidebar. (You may need to scroll down.)**
+
+ **Do any of the following:**
+
+   * Click the pop-up menu next to Low Power Mode on the right, then choose “Always,” “Only on battery,” or “Only on power adapter.”
+
+   * Click the Info button next to Battery Health on the right, then turn on Optimized Battery Charging and “Manage battery longevity.”
+
+   * Click Options on the right, then turn on “Put hard disks to sleep when possible” and “Automatic graphics switching.”
+        
+   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/234225969-7bce4b07-a55a-4cb9-aace-6a2f8ed1972f.png">
+<br />
+</p>
+        
+        
+[Cooldown](https://goodsnooze.gumroad.com/l/cooldown) is a simple menu bar app that allows you to quickly toggle Low Power Mode on and off.
+
+**Planned features**
+
+  * Automatically toggle LPM at certain times.
+  * Automatically toggle LPM when certain apps are opened.
+  * Design improvements.
+  
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/234226010-78ab7711-3785-4152-a3da-7f193b293041.png">
+<br />
+</p>
+      
 
 ## Charging/Powerbanks
 
