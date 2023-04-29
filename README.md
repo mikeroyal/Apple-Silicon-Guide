@@ -75,7 +75,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 6. [Visual Studio Studio (VSCode) Development](#vscode-development)
 
-     - [VS Code Extensions for Developer Productivity](https://github.com/mikeroyal/Unreal-Engine-Guide#VS-Code-Extensions-for-Developer-Productivity) 
+     - [VS Code Extensions for Developer Productivity](#VS-Code-Extensions-for-Developer-Productivity) 
 
 7. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
