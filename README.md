@@ -1484,7 +1484,7 @@ Checking Battery on your Mac device.
 Checking Battery on your iOS device.
 </p>
 
-### Lower Power Mode
+### Low Power Mode
 
 **If you have a Mac laptop, you can change the options below to reduce energy use and optimize the lifespan of your battery.**
 
