@@ -34,6 +34,8 @@ B
 C
 
    **Chicken Bits:** Otherwise known as "kill bits", configuration bits used for disabling/enabling specific features.
+   
+   **countryd** is a system in iOS that combines multiple data such as current GPS location, country code from the Wi-Fi router, and information obtained from the SIM card to determine the country the user is in. It was silently added with iOS 16.2, but is not being actively used for anything so far. It will most likely be active in iOS 17 for Sideloading apps in the **EU only**.
 
 D
 
