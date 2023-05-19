@@ -1607,6 +1607,21 @@ File Vault
 
 [Quad9](https://www.quad9.net/) is a free service that replaces your default ISP or enterprise Domain Name Server (DNS) configuration. When your computer performs any Internet transaction that uses the DNS (and most transactions do), Quad9 blocks lookups of malicious host names from an up-to-the-minute list of threats. This blocking action protects your computer, mobile device, or IoT systems against a wide range of threats such as malware, phishing, spyware, and botnets, and it can improve performance in addition to guaranteeing privacy. 
 
+
+### MacOS Forensic Analysis
+
+[Back to The Top](#table-of-contents)
+
+**MacOS Forensic Analysis** is the process of building in-depth digital forensics knowledge of MacOS and iOS systems.
+ - [SANS FOR518: Mac and iOS Forensic Analysis and Incident Response Course](https://www.sans.org/cyber-security-courses/mac-and-ios-forensic-analysis-and-incident-response/)
+
+* [Memoryze for Mac](https://www.fireeye.com/services/freeware/memoryze.html) - Memoryze for Mac is Memoryze but then for Macs. A lower number of features, however.
+* [Knockknock](https://objective-see.com/products/knockknock.html) - Displays persistent items(scripts, commands, binaries, etc.) that are set to execute automatically on MacOS.
+* [macOS Artifact Parsing Tool (mac_apt)](https://github.com/ydkhatri/mac_apt) - Plugin based forensics framework for quick mac triage that works on live machines, disk images or individual artifact files.
+* [MacOS Auditor](https://github.com/jipegit/OSXAuditor) - Free Mac MacOScomputer forensics tool.
+* [MacOS Collector](https://github.com/yelp/osxcollector) - MacOS Auditor offshoot for live response.
+* [The ESF Playground](https://themittenmac.com/the-esf-playground/) - A tool to view the events in Apple Endpoint Security Framework (ESF) in real time.
+
 ### VPN
 
 [Back to The Top](#table-of-contents)
