@@ -2169,6 +2169,12 @@ VS Code Marketplace
 
 [Nanite](https://docs.unrealengine.com/5.0/en-US/RenderingFeatures/Nanite/) is Unreal Engine 5's new virtualized geometry system which uses a new internal mesh format and rendering technology to render pixel scale detail and high object counts. It intelligently does work on only the detail that can be perceived and no more.
 
+[Procedural Content Generation Framework (PCG)](https://docs.unrealengine.com/5.2/en-US/procedural-content-generation--framework-in-unreal-engine/) is a toolset for creating your own procedural content inside Unreal Engine. It provides artists and designers the ability to build fast, iterative tools and content of any complexity ranging from asset utilities, such as buildings or biome generation, up to entire worlds. 
+
+[Unreal Engine's VCam system](https://docs.unrealengine.com/5.2/en-US/virtual-cameras-in-unreal-engine/) is a Cine Camera in Unreal Engine that uses a modular component system to manipulate camera data and output the final results to a variety of external output devices. In addition, the Virtual Camera system provides its functionality while in the editor and during Play In Editor (PIE) or Standalone Game mode. 
+
+[nDisplay](https://docs.unrealengine.com/5.2/en-US/ndisplay-overview-for-unreal-engine/) is a tool in Unreal Engine that describes how multiple computers work together in an nDisplay rendering network.
+
 [Unreal Engine Marketplace](https://unrealengine.com/marketplace/en-US/store) is Unreal Engine's Store that has a library Of Textures, Models, Animations, Tutorials, and More for creating amazing 3D projects and games.
 
 [UnrealBuildTool (UBT)](https://docs.unrealengine.com/5.0/en-US/ProductionPipelines/BuildTools/UnrealBuildTool) is a tool that manages the process of building UE4 source code across a variety of build configurations.
