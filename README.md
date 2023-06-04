@@ -501,8 +501,10 @@ The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-laten
 
 [Back to the Top](#table-of-contents) 
 
+**Big Updated Coming June 5th!**
+
 <p align="center">
- <img src="">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/8e117c73-8472-4270-86c7-ff839e77ebef">
   <br />
 </p>
 
