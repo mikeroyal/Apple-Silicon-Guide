@@ -35,6 +35,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
    * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
    * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
+   * [R1](#R1)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
    * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
    * [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
@@ -285,9 +286,27 @@ H2 chip powering the AirPods Pro. Credit: [Apple](https://www.apple.com/newsroom
 U1 Chip Die
 </p>
 
+### R1
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/eacf3128-cc30-4cf8-9d77-12e5bda15e48">
+<br />
+R1 Chip 
+</p>
+
+The **R1 chip** is dedicated toward real-time sensor processing for the 12 cameras and 5 sensors on the Vision Pro headset.
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/425ff971-6fa4-4ba9-a594-932367662b23)">
+<br />
+R1 & M2 chips in the Vision Pro Headset
+</p>
+
 
 ### M1 
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168941790-7886c405-ec76-4900-a405-ab29868485cb.png">
