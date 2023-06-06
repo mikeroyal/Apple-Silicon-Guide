@@ -17,9 +17,9 @@
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/216295470-d61ffb68-363c-4a4b-9dbe-94ee6c61ea73.jpeg">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/3d7ab593-8059-4e99-860b-c950efd31007">
 <br />
-Apple M2/M2 Pro/M2 Max Architecture.
+Apple M2/M2 Pro/M2 Max/M2 Ultra Architecture.
 </p>
 
 <p align="center">
@@ -175,6 +175,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)
 
+- [Bring your game to Mac with the Game Porting Toolkit ](https://developer.apple.com/videos/play/wwdc2023/10123/)
+
 - [Apple Silicon Games](https://applesilicongames.com/games)
   
 - [Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)
@@ -293,10 +295,9 @@ U1 Chip Die
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/eacf3128-cc30-4cf8-9d77-12e5bda15e48">
 <br />
-R1 Chip 
 </p>
 
-The **R1 chip** is dedicated toward real-time sensor processing for the 12 cameras and 5 sensors on the Vision Pro headset.
+The **R1 chip** is dedicated toward real-time sensor processing, taking the input from 12 cameras, five sensors (including a LIDAR sensor) and six microphones on the Vision Pro headset.
 
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/425ff971-6fa4-4ba9-a594-932367662b23)">
@@ -511,7 +512,7 @@ M2 Max Chip. Image Credit: [Apple](https://www.apple.com/newsroom/)
 
 The M2 Ultra is composed of **two M2 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging.
 
-The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-latency unified memory that can be accessed by the **24-core CPU, 76-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**.
+The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-latency unified memory that can be accessed by the **24-core CPU, 76-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M2 Ultra is available for the [Mac Studio](https://www.apple.com/mac-studio/) and [Mac Pro](https://www.apple.com/mac-pro/).
 
 
 ## Apple AR and Vision Pro Headset
