@@ -529,28 +529,35 @@ The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-laten
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/1eb8474d-ed6b-4c57-a88c-6879db9df78b">
   <br />
- Vision Pro Headset
+ Vision Pro Headset. Image Credit: Apple
 </p>
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/4fa96b25-effe-4dc2-a5c9-3c43bcdda285)">
   <br />
- Vision Pro Headset with battery pack
+ Vision Pro Headset with battery pack. Image Credit: Apple
 </p>
 
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/425ff971-6fa4-4ba9-a594-932367662b23)">
 <br />
-R1 & M2 chips in the Vision Pro Headset
+R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
 </p>
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/e1f5d708-87a8-4b45-bfc9-03860cb6ebea">
   <br />
- VisionOS
+ visionOS. Image Credit: Apple
 </p>
 
-* [VisionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+* [visionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+ 
+ **visionOS Resources**
+ 
+ * [Learn about visionOS](https://developer.apple.com/visionos/learn/)
+ * [Vision Pro compatibility evaluations (available July 2023)](https://d*eveloper.apple.com/visionos/work-with-apple/)
+ * [Vision Pro developer labs (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
+ * [Vision Pro developer kit (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
  
 
  **Apple Vision Pro Headset Specs:**
@@ -586,7 +593,7 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
 
 ### Tools and Frameworks
 
- * [Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083/) is a tool that let's you discover how to easily compose, edit, and preview 3D content with Reality Composer Pro. Follow along as we explore this developer tool by setting up a new project, composing scenes, adding particle emitters and audio, and even previewing content on device. 
+ * [Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083/) is a tool that let's you discover how to easily compose, edit, and preview 3D content with Reality Composer Pro. Follow along as you explore this developer tool by setting up a new project, composing scenes, adding particle emitters and audio, and even previewing content on your device. 
  * [Reality Composer](https://developer.apple.com/augmented-reality/tools/) is a powerful tool that makes it easy for you to create interactive augmented reality experiences with no prior 3D experience. The Reality Converter quickly converts your existing 3D models to [USDZ](https://graphics.pixar.com/usd/files/USDZFileFormatSpecification.pdf) so it works seamlessly in our tools and on all AR-enabled iPhone and iPad devices.
  * [USDZ](https://graphics.pixar.com/usd/release/spec_usdz.html) is a file format that contains a 3D scene or object saved in the USDZ Universal format, which is developed by Apple and Pixar Animation Studios. It is an uncompressed and unencrypted .ZIP archive that stores a Universal Scene Description (.USD, USDA, or USDC) file, which includes 3D geometry and shading data. USDZ files may also contain .PNG and .JPEG image textures and .M4A, .MP3, or .WAV audio files utilized in the 3D object or scene.
  * [ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
