@@ -107,6 +107,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 16. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
+      - [MacOS Game Mode](#macos-game-mode)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
@@ -4124,6 +4125,17 @@ Parallels Desktop for Mac
  
  - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
  
+ 
+## MacOS Game Mode
+
+[Back to the Top](#table-of-contents)
+
+ 
+**[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the running title, thereby improving gaming hardware performance across the board. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods.
+
+<p align="center">
+  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fa3f2a70-df44-4e94-99cd-93fd7de1adf7">
+</p>
  
 ## Manage Temps/Fans (CPU and GPU)
 
