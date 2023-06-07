@@ -4102,7 +4102,11 @@ Parallels Desktop for Mac
 # Gaming
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
-## Gaming on Apple Silicon resources
+## Gaming on Apple Silicon Resources
+
+ - **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
+
+ - **[PortJump](https://www.codeweavers.com/portjump)**
 
  - **[Apple Silicon Games](https://applesilicongames.com/games)** 
  
