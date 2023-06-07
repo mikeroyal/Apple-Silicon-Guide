@@ -4131,10 +4131,12 @@ Parallels Desktop for Mac
 [Back to the Top](#table-of-contents)
 
  
-**[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the running title, thereby improving gaming hardware performance across the board. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods.
+**[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the game title you're running. Optimizing your gaming experience across the board with smoother and more consistent frame rates. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods, and significantly reducing input latency with popular game controllers like those for Xbox and PlayStation by doubling the Bluetooth sampling rate. 
 
 <p align="center">
   <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fa3f2a70-df44-4e94-99cd-93fd7de1adf7">
+ <br />
+ Game Mode. Image Credit: Apple
 </p>
  
 ## Manage Temps/Fans (CPU and GPU)
