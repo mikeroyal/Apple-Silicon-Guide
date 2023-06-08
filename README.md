@@ -1828,6 +1828,12 @@ File Vault
 
 [Back to the Top](#table-of-contents)
 
+h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/375b3bc6-3a9a-4a71-90a1-8181254260ff">
+  <br />
+ 
+</h3>
+
 [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat or aggressive DRM generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work such as the Last of Us Part 1 game.
 
 
@@ -1937,7 +1943,13 @@ Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volu
 
 ### Steam install
 
-Go to Steam website and download the Windows version of Steam: https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe and place in your Downloads folder.
+h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7c41f9fc-6195-44ac-9398-d1d32da78749">
+  <br />
+ 
+</h3>
+
+Go to Steam website and download the Windows version of [Steam](https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe) and place in your Downloads folder.
 
 **Install Steam**
 
@@ -1954,6 +1966,93 @@ Alternate way of launching Steam (after installing):
 ```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
 
 If this continues then close the Terminal window and then re-open and try again, repeat until the login screen opens. Now you should be able to download and launch Windows games through Steam.
+
+## Epic/Heroic Games and GOG support
+
+h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/992edc00-18e8-4f51-ab7b-0f047ffb6f84">
+  <br />
+ 
+</h3>
+
+This is particularly useful because as it currently, the real Epic Games Launcher fails to install under the Game Porting Toolkit. Heroic supports Epic and GOG.com games.
+
+   * Install the native [macOS Heroic Games Launcher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases) or from Homebrew.
+   * Open Heroic, and log into your Epic Games and/or GOG.com account.
+   * Go to the "Wine Manager" and install a numbered version of Wine, such that it won't auto update- we are going to modify it. 
+   * At the time of writing this, the newest numbered version of Wine-Crossover is ```Wine-Crossover-Wine-22.1.0```
+   * Press the folder icon that appears after installing it to open the directory containing Heroic's Wine installations.
+   * Right-click on the version of Wine you just installed and press "Show Package Contents".
+   * Open this directory in the Terminal.
+       * If you have **"OpenInTerminal"** this is one button, otherwise press **"Show Path Bar"** and navigate where it says with **"cd"**.
+       * It should be something like ```cd ~/Library/Application\ Support/heroic/tools/wine/Wine-crossover-wine-22.1.0```.
+
+    ```cd Contents/MacOS```
+
+    **Remove the existing Wine:**
+
+    ```rm wine```
+
+  ###  Create a symlink to Game Porting Toolkit's Wine
+        **If using Game Porting Toolkit Wineprefix:**
+
+        ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
+
+        **If using Whisky:**
+
+       ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
+
+    cd ../Resources
+
+    **Remove the existing Wine:**
+
+    ```rm -rfv wine```
+
+    ### Create a symlink to Game Porting Toolkit's Wine
+    
+        **If using Game Porting Toolkit Wineprefix:**
+
+        ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
+
+        If using Whisky:
+
+        ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
+
+   * You are now done with Terminal. Install any games you want to try playing.
+   * Select the game you want to play, and press the settings button in the top-right.
+   * Make sure the version of Wine you just downloaded and modified is selected.
+   * Make sure your Game Porting Toolkit Wine Prefix is selected. If you followed Apple's guide this is ```/Users/you/my-game-prefix```.
+   * If you Open the "Other" section you can also add any environment variables you want like ```WINEESYNC=1"``` and ```"MTL_HUD_ENABLED=1"```
+   * Close the settings and try running the game.
+ 
+ 
+## Battle.net
+
+h3 align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fc90046c-797d-47cb-9073-25af1d847660">
+  <br />
+ 
+</h3>
+
+Please download the [Windows version of Battle.net](https://download.battle.net/en-gb/?platform=windows).
+
+**Make a new Wineprefix for Battle.net - we will refer to this as battle-net from now:**
+
+```WINEPREFIX=~/battle-net `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
+
+  *  A “Wine configuration” window should appear on your screen.
+  *  Change the version of Windows to Windows 10.
+  *  Choose Apply and then OK to exit winecfg.
+
+Run Battle.net launcher
+
+```gameportingtoolkit ~/battle-net ~/Downloads/Battle.net-Setup.exe```
+
+Please be aware that there is an issue launching Battle.net once installed, the only current way to re-login is to 'install' the launcher again.
+
+Start individual game without the launcher using this command:
+
+```arch -x86_64 gameportingtoolkit-no-hud ~/battle-net 'C:\Program Files (x86)\Diablo IV\Diablo IV Launcher.exe'```
 
 ### Launching individual game
 
