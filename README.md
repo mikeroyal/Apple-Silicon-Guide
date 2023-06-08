@@ -108,7 +108,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
-      - [Game Porting Tool](#game-porting-tool)
+      - [Game Porting Toolkit](#game-porting-toolkit)
       - [Whisky Wine wrapper](#whisky)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
