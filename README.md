@@ -80,6 +80,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Twitch](#Twitch)
       - [Game Stores & Launchers](#Game-Stores--Launchers)
         * [Apple Arcade](#apple-arcade)
+        * [PlayCover](#playcover)
         * [CrossOver for MacOS](#CrossOver-for-MacOS)
         * [Steam](#Steam)
         * [Epic Games Store](#Epic-games-store)
@@ -2366,12 +2367,30 @@ Nintendo Switch Pro Controller
 ## Game Stores & Launchers
 
 ### Apple Arcade
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Apple Arcade](https://www.apple.com/apple-arcade/) is a game subscription service that gives up to six family members unlimited access to 100+ incredibly fun games, all with no ads and no in-app purchases.
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/112693074-377cb100-8e3d-11eb-910c-1095c91da6d5.png">
+</p>
+
+### PlayCover
+
+[Back to the Top](#table-of-contents)
+
+[PlayCover](https://github.com/PlayCover/PlayCover) is a tool that let's run iOS apps and games on Apple Silicon Macs(macOS 12.0 or newer) with mouse, keyboard and controller support. 
+
+**Devices with the following chips are supported:**
+
+  * M1
+  * M1 Pro
+  * M1 Max
+  * M1 Ultra
+  * M2
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/2cfa0e1a-8cbe-435d-aa2f-b4b1365f6c4d">
 </p>
 
 ### CrossOver for MacOS
