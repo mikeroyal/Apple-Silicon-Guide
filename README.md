@@ -108,6 +108,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
+      - [Game Porting Tool](#game-porting-tool)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
@@ -4138,11 +4139,142 @@ Parallels Desktop for Mac
  <br />
  Game Mode. Image Credit: Apple
 </p>
+
+## Game Porting Toolkit
+
+[Back to the Top](#table-of-contents)
+
+[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports DirectX 9 through 12. Games that use anti-cheat or aggressive DRM generally don't work. Games that require AVX CPUs also do not work such as the Last of Us game.
+
+**Working Games:**
+
+ *  Cyberpunk 2077
+ *  Elden Ring  
+ *  Diablo IV 
+ *  Hogwarts Legacy
+ *  Deep Rock Galactic
+ *  Sonic Omens
+ *  Sonic P-06
+ *  Scarlet Nexus
+ *  Dyson Sphere Program (some objects and main character weren't visible before)
+ *  Derail Valley (good performance, no missing manuals, and in-game objects for train operation like on CrossOver)
+ *  Spider-Man (2018)
+ *  Spider-Man Miles Morales - requires Windows version fix.
+ *  Warframe - To get installer/launcher working add dwrite (disabled) to library overrides in winecfg.
+ *  QUBE 2
+ 
+### System Requirements
+ 
+   * macOS Sonoma should be used, currently it is in beta. 
+   * macOS Ventura causes large numbers of issues with steamwebhelper.exe crashing so it isn't recommended, use the macOS Sonoma beta.
+   * [Visit Apple Developer Downloads site](https://developer.apple.com/downloads), these files are now free to download use for any logged in Apple account.
+       - Search for Command Line Tools for Xcode 15 beta and download the dmg file, then install it.
+       - If you have an old version Xcode installed, remove it.
+       - Search for Game Porting Toolkit and download it. Open the dmg file and then run the pkg.
+       
+### Using Homebrew
+
+**Note:** if you have ever installed Homebrew before, then it is advisable to remove arm64 Homebrew as this can interfere with this build process. Either use a Homebrew uninstall script or delete the folder ```/opt/homebrew/bin```.
+
+Open Terminal (search in Spotlight on macOS).
+
+**Install Rosetta:**
+
+```softwareupdate --install-rosetta```
+
+Enter an x86_64 shell to continue the following steps in a Rosetta environment. All subsequent commands should be run within this shell.
+
+```arch -x86_64 zsh```
+
+Install the x86_64 version of Homebrew if you don't already have it.
+
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+**Make sure the brew command is on your path:**
+
+which brew
+
+**If this command does not print ```/usr/local/bin/brew```, you should use this command:**
+
+```export PATH=/usr/local/bin:${PATH}```
+
+### Build 
+
+**Run this command to download Apple tap:**
+
+```brew tap apple/apple http://github.com/apple/homebrew-apple```
+
+Install the game-porting-toolkit formula. This formula downloads and compiles several large software projects. How long this takes will depend on the speed of your computer. It can take over 1 hour to complete depending on the speed of your Mac.
+
+```brew -v install apple/apple/game-porting-toolkit```
+
+If during installation you see an error such as “Error: game-porting-toolkit: unknown or unsupported macOS version: :dunno”, your version of Homebrew doesn’t have macOS Sonoma support. Update to the latest version of Homebrew and try again.
+
+```brew update brew -v install apple/apple/game-porting-toolkit```
+
+### Wine prefix 
+
+A Wine prefix contains a virtual C: drive. You will install the toolkit and your game into this virtual C: drive. Run the following command to create a new Wine prefix named my-game-prefix in your home directory.
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
+
+   * A “Wine configuration” window should appear on your screen.
+   * Change the version of Windows to Windows 10.
+   * Choose Apply and then OK to exit winecfg.
+
+If the “Wine configuration” window does not appear, and no new icon appears in the Dock, verify that you have correctly installed the x86_64 version of Homebrew as well as the game-porting-toolkit formula.
+
+**Preparing the toolkit**
+
+Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volumes/Game Porting Toolkit-1.0```. Use this script to copy the Game Porting Toolkit library directory into Wine’s library directory.
+
+```ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolkit`/lib/```
+
+**Put the 3 scripts from the Game Porting Toolkit DMG into here /usr/local/bin using this command:**
+
+```cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin```
+
+### Steam install
+
+Go to Steam website and download the Windows version of Steam: https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe and place in your Downloads folder.
+
+**Install Steam**
+
+```gameportingtoolkit ~/my-game-prefix ~/Downloads/SteamSetup.exe```
+
+**Run Steam**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Steam/steam.exe'```
+
+Log into Steam A common issue is that Steam will present with a blank black window.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If this continues then close the Terminal window and then re-open and try again, repeat until the login screen opens. Now you should be able to download and launch Windows games through Steam.
+
+### Launching individual game
+
+Open your Wine prefix’s virtual C: drive in Finder ```(open ~/my-game-prefix/drive_c)``` and copy your game into an appropriate subdirectory.
+
+**A. Standard launching**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+This launches the given Windows game binary with a visible extended Metal Performance HUD and filters logging to output from the Game Porting Toolkit.
+
+**B. Launching without a HUD**
+
+```gameportingtoolkit-no-hud ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+**C. Launching with Wine ESYNC disable**
+
+```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
  
 ## Manage Temps/Fans (CPU and GPU)
 
 [Back to the Top](#table-of-contents)
-
 
 [Stats](https://github.com/exelban/stats) is a tool that allows you to monitor your macOS system in the menubar.
 
