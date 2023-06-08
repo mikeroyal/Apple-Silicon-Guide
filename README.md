@@ -2133,7 +2133,7 @@ Issues may be fixed by enrolling into the Steam beta.
 
 [Back to the Top](#table-of-contents)
 
-[Whisky](https://github.com/IsaacMarovitz/Whisky) is tool that provides a clean and easy to use graphical wrapper for Wine built in native SwiftUI. It can make and manage bottles, install and run Windows apps and games. Whisky is built on top of [CrossOver 22.1.1](https://www.codeweavers.com/crossover/download-now) and Apple's [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula)developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz) and help form [Gcenx](https://github.com/Gcenx).
+[Whisky](https://github.com/IsaacMarovitz/Whisky) is tool that provides a clean and easy to use graphical wrapper for Wine built in native SwiftUI. It can make and manage bottles, install and run Windows apps and games. Whisky is built on top of [CrossOver 22.1.1](https://www.codeweavers.com/crossover/download-now) and Apple's [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz) and help from [Gcenx](https://github.com/Gcenx).
 
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
