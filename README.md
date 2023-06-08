@@ -89,7 +89,6 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Ubisoft Connect](#Ubisoft-Connect)
         * [GOG Galaxy Store](#GOG-Galaxy)
         * [Itch.io Store](#Itchio-Store) 
-        * [Prism for Minecraft](#Prism)
         * [XIV on Mac for FF XIV](#XIV-on-Mac)
       - [Game Streaming](#Game-streaming)
         * [Cloud Game Streaming](#Cloud-Game-Streaming)
@@ -1987,36 +1986,37 @@ This is particularly useful because as it currently, the real Epic Games Launche
        * If you have **"OpenInTerminal"** this is one button, otherwise press **"Show Path Bar"** and navigate where it says with **"cd"**.
        * It should be something like ```cd ~/Library/Application\ Support/heroic/tools/wine/Wine-crossover-wine-22.1.0```.
 
-    ```cd Contents/MacOS```
+   ```cd Contents/MacOS```
 
-    **Remove the existing Wine:**
+   **Remove the existing Wine:**
 
     ```rm wine```
 
   ###  Create a symlink to Game Porting Toolkit's Wine
-        **If using Game Porting Toolkit Wineprefix:**
+        
+    **If using Game Porting Toolkit Wineprefix:**
 
-        ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
+     ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
 
-        **If using Whisky:**
+   **If using Whisky:**
 
-       ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
+      ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
 
     cd ../Resources
 
-    **Remove the existing Wine:**
+  **Remove the existing Wine:**
 
     ```rm -rfv wine```
 
-    ### Create a symlink to Game Porting Toolkit's Wine
+   ### Create a symlink to Game Porting Toolkit's Wine
     
-        **If using Game Porting Toolkit Wineprefix:**
+   **If using Game Porting Toolkit Wineprefix:**
 
-        ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
+      ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
 
-        If using Whisky:
+   **If using Whisky:**
 
-        ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
+       ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
 
    * You are now done with Terminal. Install any games you want to try playing.
    * Select the game you want to play, and press the settings button in the top-right.
@@ -2477,16 +2477,6 @@ Nintendo Switch Pro Controller
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
-</p>
-
-### Prism
-
-[Back to the Top](#table-of-contents)
-
-[Prism Launcher for Minecraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
 </p>
 
 ### XIV on Mac
