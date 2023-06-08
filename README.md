@@ -109,6 +109,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
       - [Game Porting Tool](#game-porting-tool)
+      - [Whisky Wine wrapper](#whisky)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
@@ -4271,6 +4272,17 @@ This launches the given Windows game binary with a visible extended Metal Perfor
 **C. Launching with Wine ESYNC disable**
 
 ```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+## Whisky
+
+[Back to the Top](#table-of-contents)
+
+[Whisky](https://github.com/IsaacMarovitz/Whisky) is a modern Wine wrapper for macOS built with SwiftUI.
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
+<br />
+</p>
  
 ## Manage Temps/Fans (CPU and GPU)
 
