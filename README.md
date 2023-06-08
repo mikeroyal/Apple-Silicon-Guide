@@ -1828,7 +1828,7 @@ File Vault
 
 [Back to the Top](#table-of-contents)
 
-h3 align="center">
+<h3 align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/375b3bc6-3a9a-4a71-90a1-8181254260ff">
   <br />
  
@@ -1943,7 +1943,7 @@ Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volu
 
 ### Steam install
 
-h3 align="center">
+<h3 align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7c41f9fc-6195-44ac-9398-d1d32da78749">
   <br />
  
@@ -1969,7 +1969,7 @@ If this continues then close the Terminal window and then re-open and try again,
 
 ## Epic/Heroic Games and GOG support
 
-h3 align="center">
+<h3 align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/992edc00-18e8-4f51-ab7b-0f047ffb6f84">
   <br />
  
@@ -2028,7 +2028,7 @@ This is particularly useful because as it currently, the real Epic Games Launche
  
 ## Battle.net
 
-h3 align="center">
+<h3 align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fc90046c-797d-47cb-9073-25af1d847660">
   <br />
  
