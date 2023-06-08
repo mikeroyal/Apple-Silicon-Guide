@@ -4309,15 +4309,11 @@ If still not working then try using CrossOver and create a Steam bottle, then re
 
 ```WINEPREFIX="/Users/[username]/Library/Application Support/CrossOver/Bottles/Steam/"```
 
-Steam crashes straight after opening
+**Steam crashes straight after opening:** Disconnect any external monitors.
 
-Disconnect any external monitors.
+**Battle.net launcher won't re-launch:** Re-install the launcher to reopen, no other fix at the moment.
 
-Battle.net launcher won't re-launch
-
-Re-install the launcher to reopen, no other fix at the moment.
-
-My game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
+Game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
 
 ```
 WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f
@@ -4328,9 +4324,9 @@ WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver 
 
 This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
 
-My game won't run and crashes with an invalid instruction
+**Game won't run and crashes with an invalid instruction**
 
-Invalid instruction crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
+**Invalid instruction** crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
 
 **Game won't run because its anti-cheat or DRM software is incompatible with Wine translation.**
 
