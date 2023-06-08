@@ -4145,7 +4145,8 @@ Parallels Desktop for Mac
 
 [Back to the Top](#table-of-contents)
 
-[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports DirectX 9 through 12. Games that use anti-cheat or aggressive DRM generally don't work. Games that require AVX CPUs also do not work such as the Last of Us game.
+[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat or aggressive DRM generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work such as the Last of Us Part 1 game.
+
 
 <p align="center">
   <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/c04de75d-b1ad-4e8f-8f44-e750ca479081">
@@ -4159,6 +4160,12 @@ Parallels Desktop for Mac
  *  Elden Ring  
  *  Diablo IV 
  *  Hogwarts Legacy
+ *  Crysis Remastered
+ *  Cuphead
+ *  Halo 3 (No Online due to Easy Anti-Cheat Compatibility)
+ *  Metal Gear Solid V: The Phantom Pain
+ *  Final Fantasy VII Remake Intergrade (~50 FPS on High settings at 1080p with M1 Pro.)
+ *  God of War (Works somewhat well on M1 Pro (16gb), wouldn't recommend lesser hardware.)
  *  Deep Rock Galactic
  *  Sonic Omens
  *  Sonic P-06
@@ -4169,6 +4176,10 @@ Parallels Desktop for Mac
  *  Spider-Man Miles Morales - requires Windows version fix.
  *  Warframe - To get installer/launcher working add dwrite (disabled) to library overrides in winecfg.
  *  QUBE 2
+ *  Deceive Inc. - works well if launched without EAC.
+ *  Risk of Rain 2 (does not require `-disable-gpu-skinning` like Crossover 22.)
+ *  Tetris Effect: (Connected - Game window doesn't like retina mode, works otherwise.)
+ *  Bloodstained: Ritual of the Night
  
 ### System Requirements
  
@@ -4278,6 +4289,67 @@ This launches the given Windows game binary with a visible extended Metal Perfor
 **C. Launching with Wine ESYNC disable**
 
 ```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+### Logging 
+
+The provided ```bin/gameportingtoolkit*``` scripts can be copied onto your path to facilitate different forms of logging and launching. You can run these scripts from any shell; you don’t need to switch to the Rosetta environment first.
+
+Logging output will appear in the Terminal window in which you launch your game as well as the system log, which can be viewed with the Console app found in Applications ▸ Utilities. Log messages from the Game Porting Toolkit are prefixed with D3DM. By default the gameportingtoolkit* scripts will filter to just the D3DM-prefixed messages.
+Troubleshooting • Link
+
+### Steam login black screen
+
+Close the Terminal window and then reopen and retry the command, repeat several times.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=<path to the Wine bottle you set up> /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If still not working then try using CrossOver and create a Steam bottle, then redirect this WINEPREFIX to that bottle:
+
+```WINEPREFIX="/Users/[username]/Library/Application Support/CrossOver/Bottles/Steam/"```
+
+Steam crashes straight after opening
+
+Disconnect any external monitors.
+
+Battle.net launcher won't re-launch
+
+Re-install the launcher to reopen, no other fix at the moment.
+
+My game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
+
+```
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k
+```
+**steamwebhelper.exe crashes**
+
+This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
+
+My game won't run and crashes with an invalid instruction
+
+Invalid instruction crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
+
+**Game won't run because its anti-cheat or DRM software is incompatible with Wine translation.**
+
+You may be able to rebuild a custom version of your game in your Windows development environment with anti-cheat or DRM disabled for your own evaluation purposes. When porting your code natively to Apple Silicon and macOS, contact your anti-cheat or DRM provider—most have native Apple Silicon solutions for your native build.
+
+**Game won’t run because it requires Mono, .NET, or the MSVCRT runtime.**
+
+The game porting toolkit’s evaluation environment does not pre-install these runtime support packages. If your game makes use of one of these packages, consider searching for and downloading appropriate installers (.exe or .msi) and installing them to your evaluation environment. Additional runtime installers can be run on your environment by just launching the installer and following its installation instructions:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 <some-installer.exe>```
+
+And .MSI packages can be installed by launching the Windows uninstaller application and choosing to install a downloaded .msi package:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 uninstaller```
+
+**Controller issues**
+
+Issues may be fixed by enrolling into the Steam beta. 
+
 
 ## Whisky
 
