@@ -63,47 +63,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Turning on Low Power Mode](#low-power-mode)
    * [Charging/Powerbanks](#ChargingPowerbanks)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
-
-2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
- 
-    - [InFO (Integrated Fan-Out) Wafer Level Packaging](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
-    - [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
-
-3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
-
-4. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
-
-5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
-
-6. [Visual Studio Studio (VSCode) Development](#vscode-development)
-
-     - [VS Code Extensions for Developer Productivity](#VS-Code-Extensions-for-Developer-Productivity) 
-
-7. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
- 
-8. [Unity Development](#Unity-Development)
- 
-9. [Blender Development](#Blender-Development)
-
-10. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
-
-11. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
-
-12. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
-
-13. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
-
-14. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
-     * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
-     * [Asahi Linux Development](#Asahi-Linux-Development)
-     * [Fedora Linux Development](#Fedora-Linux-Development)
-     * [NixOS Linux Development](#NixOS-Linux-Development)
-     * [Debian Linux Development](#Debian-Linux-Development)
-     * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
-
-15. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
-
-16. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+   
+ 2. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
@@ -153,6 +114,45 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Xbox](#Xbox)
         * [MAME](#MAME)
       - [Performance Benchmarks](#performance-benchmarks)
+
+3. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
+ 
+    - [InFO (Integrated Fan-Out) Wafer Level Packaging](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
+    - [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
+
+4. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
+
+5. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
+
+6. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
+
+7. [Visual Studio Studio (VSCode) Development](#vscode-development)
+
+     - [VS Code Extensions for Developer Productivity](#VS-Code-Extensions-for-Developer-Productivity) 
+
+8. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
+ 
+9. [Unity Development](#Unity-Development)
+ 
+10. [Blender Development](#Blender-Development)
+
+11. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+
+12. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+
+13. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+
+14. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+
+15. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+     * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
+     * [Asahi Linux Development](#Asahi-Linux-Development)
+     * [Fedora Linux Development](#Fedora-Linux-Development)
+     * [NixOS Linux Development](#NixOS-Linux-Development)
+     * [Debian Linux Development](#Debian-Linux-Development)
+     * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
+
+16. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
 17. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
@@ -1784,6 +1784,923 @@ File Vault
 [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-and-install-the-microsoft-authenticator-app-351498fc-850a-45da-b7b6-27e523b8702a) is an app helps you sign in to your accounts when you're using two-step verification. Two-step verification helps you to use your accounts more securely because passwords can be forgotten, stolen, or compromised.
 
 [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid) is a software authenticator developed by Google that implements multi-factor authentication services using the Time-based one-time password and HMAC-based one-time password, for authenticating users of software applications.
+
+# Gaming
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+## Gaming on Apple Silicon Resources
+
+ - **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
+
+ - **[PortJump](https://www.codeweavers.com/portjump)**
+
+ - **[Apple Silicon Games](https://applesilicongames.com/games)** 
+ 
+ - **[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)**
+
+ - **[M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)**
+
+ - **[Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)**
+  
+ - **[Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)**
+
+ - **[MacGaming Subreddit](https://www.reddit.com/r/macgaming)**
+ 
+ - **[iOS Gaming Subreddit](https://www.reddit.com/r/iosgaming/)**
+ 
+ - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
+ 
+ 
+## MacOS Game Mode
+
+[Back to the Top](#table-of-contents)
+
+ 
+**[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the game title you're running. Optimizing your gaming experience across the board with smoother and more consistent frame rates. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods, and significantly reducing input latency with popular game controllers like those for Xbox and PlayStation by doubling the Bluetooth sampling rate. 
+
+<p align="center">
+  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fa3f2a70-df44-4e94-99cd-93fd7de1adf7">
+ <br />
+ Game Mode. Image Credit: Apple
+</p>
+
+## Game Porting Toolkit
+
+[Back to the Top](#table-of-contents)
+
+[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat or aggressive DRM generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work such as the Last of Us Part 1 game.
+
+
+<p align="center">
+  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/c04de75d-b1ad-4e8f-8f44-e750ca479081">
+ <br />
+ Game Porting Toolkit running Cyberpunk 2077 on a  M1 Macbook. Image Credit: Isaac Marovitz
+</p>
+
+**Working Games:**
+
+ *  Cyberpunk 2077
+ *  Elden Ring  
+ *  Diablo IV 
+ *  Hogwarts Legacy
+ *  Crysis Remastered
+ *  Cuphead
+ *  Halo 3 (No Online due to Easy Anti-Cheat Compatibility)
+ *  Metal Gear Solid V: The Phantom Pain
+ *  Final Fantasy VII Remake Intergrade (~50 FPS on High settings at 1080p with M1 Pro.)
+ *  God of War (Works somewhat well on M1 Pro (16gb), wouldn't recommend lesser hardware.)
+ *  Deep Rock Galactic
+ *  Sonic Omens
+ *  Sonic P-06
+ *  Scarlet Nexus
+ *  Dyson Sphere Program (some objects and main character weren't visible before)
+ *  Derail Valley (good performance, no missing manuals, and in-game objects for train operation like on CrossOver)
+ *  Spider-Man (2018)
+ *  Spider-Man Miles Morales - requires Windows version fix.
+ *  Warframe - To get installer/launcher working add dwrite (disabled) to library overrides in winecfg.
+ *  QUBE 2
+ *  Deceive Inc. - works well if launched without EAC.
+ *  Risk of Rain 2 (does not require `-disable-gpu-skinning` like Crossover 22.)
+ *  Tetris Effect: (Connected - Game window doesn't like retina mode, works otherwise.)
+ *  Bloodstained: Ritual of the Night
+ 
+### System Requirements
+ 
+   * macOS Sonoma should be used, currently it is in beta. 
+   * macOS Ventura causes large numbers of issues with steamwebhelper.exe crashing so it isn't recommended, use the macOS Sonoma beta.
+   * [Visit Apple Developer Downloads site](https://developer.apple.com/downloads), these files are now free to download use for any logged in Apple account.
+       - Search for Command Line Tools for Xcode 15 beta and download the dmg file, then install it.
+       - If you have an old version Xcode installed, remove it.
+       - Search for Game Porting Toolkit and download it. Open the dmg file and then run the pkg.
+       
+### Using Homebrew
+
+**Note:** if you have ever installed Homebrew before, then it is advisable to remove arm64 Homebrew as this can interfere with this build process. Either use a Homebrew uninstall script or delete the folder ```/opt/homebrew/bin```.
+
+Open Terminal (search in Spotlight on macOS).
+
+**Install Rosetta:**
+
+```softwareupdate --install-rosetta```
+
+Enter an x86_64 shell to continue the following steps in a Rosetta environment. All subsequent commands should be run within this shell.
+
+```arch -x86_64 zsh```
+
+Install the x86_64 version of Homebrew if you don't already have it.
+
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+**Make sure the brew command is on your path:**
+
+which brew
+
+**If this command does not print ```/usr/local/bin/brew```, you should use this command:**
+
+```export PATH=/usr/local/bin:${PATH}```
+
+### Build 
+
+**Run this command to download Apple tap:**
+
+```brew tap apple/apple http://github.com/apple/homebrew-apple```
+
+Install the game-porting-toolkit formula. This formula downloads and compiles several large software projects. How long this takes will depend on the speed of your computer. It can take over 1 hour to complete depending on the speed of your Mac.
+
+```brew -v install apple/apple/game-porting-toolkit```
+
+If during installation you see an error such as “Error: game-porting-toolkit: unknown or unsupported macOS version: :dunno”, your version of Homebrew doesn’t have macOS Sonoma support. Update to the latest version of Homebrew and try again.
+
+```brew update brew -v install apple/apple/game-porting-toolkit```
+
+### Wine prefix 
+
+A Wine prefix contains a virtual C: drive. You will install the toolkit and your game into this virtual C: drive. Run the following command to create a new Wine prefix named my-game-prefix in your home directory.
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
+
+   * A “Wine configuration” window should appear on your screen.
+   * Change the version of Windows to Windows 10.
+   * Choose Apply and then OK to exit winecfg.
+
+If the “Wine configuration” window does not appear, and no new icon appears in the Dock, verify that you have correctly installed the x86_64 version of Homebrew as well as the game-porting-toolkit formula.
+
+**Preparing the toolkit**
+
+Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volumes/Game Porting Toolkit-1.0```. Use this script to copy the Game Porting Toolkit library directory into Wine’s library directory.
+
+```ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolkit`/lib/```
+
+**Put the 3 scripts from the Game Porting Toolkit DMG into here /usr/local/bin using this command:**
+
+```cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin```
+
+### Steam install
+
+Go to Steam website and download the Windows version of Steam: https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe and place in your Downloads folder.
+
+**Install Steam**
+
+```gameportingtoolkit ~/my-game-prefix ~/Downloads/SteamSetup.exe```
+
+**Run Steam**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Steam/steam.exe'```
+
+Log into Steam A common issue is that Steam will present with a blank black window.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If this continues then close the Terminal window and then re-open and try again, repeat until the login screen opens. Now you should be able to download and launch Windows games through Steam.
+
+### Launching individual game
+
+Open your Wine prefix’s virtual C: drive in Finder ```(open ~/my-game-prefix/drive_c)``` and copy your game into an appropriate subdirectory.
+
+**A. Standard launching**
+
+```gameportingtoolkit ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+This launches the given Windows game binary with a visible extended Metal Performance HUD and filters logging to output from the Game Porting Toolkit.
+
+**B. Launching without a HUD**
+
+```gameportingtoolkit-no-hud ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+**C. Launching with Wine ESYNC disable**
+
+```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
+
+### Logging 
+
+The provided ```bin/gameportingtoolkit*``` scripts can be copied onto your path to facilitate different forms of logging and launching. You can run these scripts from any shell; you don’t need to switch to the Rosetta environment first.
+
+Logging output will appear in the Terminal window in which you launch your game as well as the system log, which can be viewed with the Console app found in Applications ▸ Utilities. Log messages from the Game Porting Toolkit are prefixed with D3DM. By default the gameportingtoolkit* scripts will filter to just the D3DM-prefixed messages.
+Troubleshooting • Link
+
+### Steam login black screen
+
+Close the Terminal window and then reopen and retry the command, repeat several times.
+
+Alternate way of launching Steam (after installing):
+
+```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=<path to the Wine bottle you set up> /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
+
+If still not working then try using CrossOver and create a Steam bottle, then redirect this WINEPREFIX to that bottle:
+
+```WINEPREFIX="/Users/[username]/Library/Application Support/CrossOver/Bottles/Steam/"```
+
+**Steam crashes straight after opening:** Disconnect any external monitors.
+
+**Battle.net launcher won't re-launch:** Re-install the launcher to reopen, no other fix at the moment.
+
+Game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
+
+```
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f
+WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k
+```
+**steamwebhelper.exe crashes**
+
+This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
+
+**Game won't run and crashes with an invalid instruction**
+
+**Invalid instruction** crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
+
+**Game won't run because its anti-cheat or DRM software is incompatible with Wine translation.**
+
+You may be able to rebuild a custom version of your game in your Windows development environment with anti-cheat or DRM disabled for your own evaluation purposes. When porting your code natively to Apple Silicon and macOS, contact your anti-cheat or DRM provider—most have native Apple Silicon solutions for your native build.
+
+**Game won’t run because it requires Mono, .NET, or the MSVCRT runtime.**
+
+The game porting toolkit’s evaluation environment does not pre-install these runtime support packages. If your game makes use of one of these packages, consider searching for and downloading appropriate installers (.exe or .msi) and installing them to your evaluation environment. Additional runtime installers can be run on your environment by just launching the installer and following its installation instructions:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 <some-installer.exe>```
+
+And .MSI packages can be installed by launching the Windows uninstaller application and choosing to install a downloaded .msi package:
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 uninstaller```
+
+**Controller issues**
+
+Issues may be fixed by enrolling into the Steam beta. 
+
+
+## Whisky
+
+[Back to the Top](#table-of-contents)
+
+[Whisky](https://github.com/IsaacMarovitz/Whisky) is a modern Wine wrapper for macOS built with SwiftUI developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz).
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
+<br />
+</p>
+ 
+## Manage Temps/Fans (CPU and GPU)
+
+[Back to the Top](#table-of-contents)
+
+[Stats](https://github.com/exelban/stats) is a tool that allows you to monitor your macOS system in the menubar.
+
+ * Battery level
+ * Bluetooth devices
+ * CPU utilization
+ * Disk utilization
+ * Fan's control
+ * GPU utilization
+ * Memory usage
+ * Network usage
+ * Sensors information (Temperature/Voltage/Power)
+ 
+ <p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/224650106-1be2ae52-e54d-48b1-acbd-a71a9fc1d1d1.png">
+</p>
+
+
+[iStat Menus](https://bjango.com/mac/istatmenus/)  is highly configurable tool, with full support for macOS light and dark menubar modes. It covers a huge range of stats, including a CPU monitor, GPU, memory, network usage, disk usage, disk activity, date & time, battery and more.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208856211-94234e2c-35c0-41e1-9d9e-a0ecaa844c6a.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208857140-af14f17a-3f18-49a3-a413-ca692b88e745.png">
+</p>
+
+ 
+## Gaming Peripherals
+
+### RGB Devices
+
+[Back to the Top](#table-of-contents)
+
+[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275997-2b60eac7-0fa3-43d0-a5c6-d49ae2447d61.png">
+</p>
+
+[Corsair iCUE](https://www.corsair.com/us/en/icue-mac) is a tool that enables gaming peripherals and personal computer components including computer case fans, RGB lighting, gaming headsets, gaming keyboards, gaming mouse, remap buttons and switches, RAM DIMMS and AIO CPU cooler together.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/208275999-4904fece-56c6-4a04-a2de-04bb587d7c1b.png">
+</p>
+ 
+### Game Controllers
+
+[Back to the Top](#table-of-contents)
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png">
+<br />
+MacOS Ventura Settings for Game Controllers
+</p>
+
+[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
+<br />
+Xbox Controller
+</p>
+
+[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
+<br />
+PS 5  DualSense™ Controller
+</p>
+
+[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
+<br />
+Nintendo Switch Pro Controller
+</p>
+
+[8BitDo SN30 Pro+ Controller](https://www.8bitdo.com/sn30-pro-plus/)
+
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/226544985-d0c0301c-e927-4845-abf8-5d728943e674.png">
+</br>
+8BitDo SN30 Pro+ Controller
+</p>
+
+  <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/226544994-7628f14d-f558-48f6-92b5-940905ab3fd9.png">
+ </br>
+ 8BitDo SN30 Pro+ Controller Button Mapping
+</p>
+
+[Google Stadia Controller on ebay](https://www.ebay.com/sch/i.html?_nkw=google+stadia+controller&_sop=12&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5336728181&customid=&toolid=10001)
+ 
+ **Switch your Stadia Controller to [Bluetooth mode](https://stadia.google.com/controller/)** to keep gaming wirelessly on your favorite devices and services after Stadia shuts down.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/218290131-3346f2d5-ee93-4dba-b8ed-e28f05c9055f.png">
+</p>
+
+[Steam Contoller](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=steam+controller&_sacat=0)
+
+ * **Note:** Steam Controllers were discontinued on November 26, 2019, though, you can still buy them on ebay.
+
+ * [Steam Controller Setup](https://help.steampowered.com/en/faqs/view/41C5-7D8C-1671-411E)
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/211141385-fe44e2a3-ebc2-41d7-acc1-4d14957ef9aa.png">
+
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/211141386-8054ef27-e7de-4ecc-96e9-b8a46e45a9ea.png">
+
+</p>
+
+
+[Amazon Luna Controller](https://www.amazon.com/luna/getting-started)
+
+* **The Luna Controller** is made for Amazon's cloud gaming service. Powered by Cloud Direct technology Connect directly to Amazon's custom game servers when playing on Luna, reducing roundtrip latency by 17 to 30 milliseconds vs. a local Bluetooth connection among Windows PC, Mac, and Fire TV. 
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/218290132-7a548dea-8c9b-4c96-8efb-24b9d8c7f74c.png">
+</p>
+
+ 
+## Setting up OBS Studio
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/185703842-0926e10a-467a-471c-b5f6-b74df4e460d9.png">
+  <br />
+</p>
+
+[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. Starting with [OBS Studio version 28](https://projectobs.com/en/news/obs-studio-28-0/) it features 10-bit and HDR video encode support for [AV1](https://aomedia.org/av1-features/) and [HEVC](https://apps.apple.com/us/app/hevc/id768692338), and **native Apple Silicon support on macOS**.
+
+**OBS Studio 29 new macOS features:**
+
+ * Added an upward compressor filter.
+ * Added a 3-band equalizer filter.
+ * Added support for native HEVC and ProRes encoders on macOS, including [P010](https://learn.microsoft.com/en-us/windows/win32/medfound/10-bit-and-16-bit-yuv-video-formats) and [HDR](https://www.adobe.com/creativecloud/photography/discover/hdr.html). 
+ * Added support for macOS Desk View.
+ 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/185704748-217443ac-57e3-4ab3-ba74-6d09c2fe62fb.png">
+  <br />
+  OBS Studio
+</p>
+
+ 
+ ### Useful OBS Studio 3rd party plugins and themes.
+ 
+  * **[OBS Studio Themes](https://obsproject.com/forum/resources/categories/themes.10/)**
+ 
+  * **[touch portal icon packs](https://www.touch-portal.com/assetsdb/show-all.php?cat=i)**
+ 
+  * **[Streamlink](https://streamlink.github.io/)** is a CLI utility which pipes video streams from various services into a video player, such as VLC.  
+
+  * **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** plugin; an automated scene switcher.
+  * **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** plugin; control stereo pan of audio source.
+  * **[Browser](https://github.com/obsproject/obs-browser)** plugin; CEF-based OBS Studio browser plugin.
+  * **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)** plugin; filter you can add to media source to load the oldest or newest file in a directory.
+  * **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** plugin; add a Downstream Keyer dock.
+  * **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** plugin; filter for dynamic delaying a video source.
+  * **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** plugin; freeze a source using a filter.
+  * **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** plugin; adding gradients as a Source.
+  * **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** plugins; feed GStreamer launch pipelines into OBS Studio and use GStreamer encoder elements.
+  * **[Move Transition](https://github.com/exeldro/obs-move-transition)** plugin; move source to a new position during scene transition.
+  * **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** plugin; provides a custom effect to render multiple sources.
+  * **[NDI](https://github.com/Palakis/obs-ndi)** plugin; Network A/V via NewTek's NDI.
+  * **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** plugin; screen capture via NVIDIA FBC API. Requires [NvFBC patches for Nvidia drivers](https://github.com/keylase/nvidia-patch) for consumer grade GPUs.
+  * **[Soundboard](https://github.com/cg2121/obs-soundboard)** plugin; adds a soundboard dock.
+  * **[Source Copy](https://github.com/exeldro/obs-source-copy)** plugin; adds copy and paste options to the tools menu.
+  * **[Source Dock](https://github.com/exeldro/obs-source-dock)** plugin; create a Dock for a source, which lets you see audio levels, change volume and control media. 
+  * **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** plugin; recursion effect filter.
+  * **[Replay Source](https://github.com/exeldro/obs-replay-source)** plugin; slow motion replay async sources from memory.
+  * **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** plugin; simple filter to adjust RGB levels.
+  * **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)** plugin; encode and publish to a RTSP stream.
+  * **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)** plugin; adds a filter which makes a source scale based on the audio levels of any audio source you choose
+  * **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** plugin; filter, backup and restore Scene Collections.
+  * **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)** plugin; create a Dock for showing and editing notes for the current active scene.
+  * **[Source Record](https://github.com/exeldro/obs-source-record)** plugin; make sources available to record via a filter.
+  * **[Source Switcher](https://github.com/exeldro/obs-source-switcher)** plugin; to switch between a list of sources.
+  * **[Spectralizer](https://github.com/univrsal/spectralizer)** plugin; audio visualization using fftw.
+  * **[StreamFX](https://github.com/Xaymar/obs-StreamFX)** plugin; collection modern effects filters and transitions.
+  * **[Teleport](https://github.com/fzwoch/obs-teleport)** plugin; open NDI-like replacement.
+  * **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)** plugin; Provides a text source rendered using Pango with multi-language support, emoji support, vertical rendering and RTL support.
+  * **[Text PThread](https://github.com/norihiro/obs-text-pthread)** plugin; Rich text source plugin with many advanced features.
+  * **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)** plugin; a time warp scan filter.
+  * **[Transition Table](https://github.com/exeldro/obs-transition-table)** plugin; customize scene transitions.
+  * **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** plugin; make sources available to the virtual camera via a filter
+  * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
+  * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
+
+## Discord
+
+[Back to the Top](#table-of-contents)
+
+[Discord](https://discord.com/) is an application with modern voice & text chat app. It provides clear voice, multiple server and channel support, mobile apps, and more. It's available on Linux, macOS, Windows, iOS, Android, and your web browser.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/203752975-d489f776-2039-474d-82ce-1cdd3dcdeff7.png">
+</p>
+
+## Twitch
+
+[Back to the Top](#table-of-contents)
+
+[Twitch for MacOS/iOS](https://apps.apple.com/us/app/twitch-live-game-streaming/id460177396)is an application where thousands of communities come together for our favorite streamers join millions enjoying live games, music, sports, esports, podcasts, cooking shows, IRL streams, etc..
+
+  * [Running your iOS apps/games in macOS](https://developer.apple.com/documentation/apple-silicon/running-your-ios-apps-in-macos)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/203753175-0aaea65d-013e-4a4e-b67d-19a6ca52ff56.png">
+</p>
+
+
+## Game Stores & Launchers
+
+### Apple Arcade
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+[Apple Arcade](https://www.apple.com/apple-arcade/) is a game subscription service that gives up to six family members unlimited access to 100+ incredibly fun games, all with no ads and no in-app purchases.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112693074-377cb100-8e3d-11eb-910c-1095c91da6d5.png">
+</p>
+
+### CrossOver for MacOS
+
+[Back to the Top](#table-of-contents)
+
+[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+
+ * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
+ 
+  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+
+### Steam
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+[Installing Steam through CrossOver](https://www.codeweavers.com/compatibility/crossover/steam)
+
+ <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
+
+ [Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
+</p>
+
+ ### Epic Games Store
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
+
+[Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/111918016-3fed7a00-8a40-11eb-964e-930c801c1c72.png">
+</p>
+
+### Blizzard Battle.net 
+[Back to the Top](#table-of-contents)
+
+[Blizzard Battle.net](https://www.blizzard.com/apps/battle.net/desktop) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
+
+<img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
+
+### Origin 
+[Back to the Top](#table-of-contents)
+ 
+[Origin for MacOS](https://www.ea.com/origin-for-mac#) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
+
+ * [Origin installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/origin)
+
+<img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
+
+### EA Play 
+
+[Back to the Top](#table-of-contents)
+
+[EA Play](https://www.ea.com/ea-play) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
+
+ * **Note:** you will need to install [Origin](https://www.ea.com/origin-for-mac#) to access all EA game titles for EA Play even if you use **EA Play on Steam**.
+ 
+ **Ways to Play EA Play on macOS Apple Silicon:**
+ 
+ * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
+ * [EA Play through Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass/games?xr=shellnav#)
+ * [EA Play through Steam](https://store.steampowered.com/subscriptions/ea)
+
+<img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
+
+### Ubisoft Connect
+
+[Back to the Top](#table-of-contents)
+
+[Ubisoft Connect](https://itunes.apple.com/us/app/ubisoft-club/id405228226/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
+
+**Ways to Play Ubisoft Connect on macOS Apple Silicon:**
+ 
+ * [Ubisoft Connect Installer (UPlay) through CrossOver](https://www.codeweavers.com/compatibility/crossover/Ubisoft-Connect-Installer)
+ * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
+ * [Ubisoft Connect through Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass/games?xr=shellnav#)
+ * [Using iPhone and iPad apps on Mac with Apple silicon](https://support.apple.com/guide/app-store/iphone-ipad-apps-mac-apple-silicon-fird2c7092da/3.0/mac/13.0)
+
+<img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
+
+### GOG Galaxy
+
+[Back to the Top](#table-of-contents)
+
+[GOG Galaxy](https://www.gog.com/galaxy) is an application that lets you combine multiple game libraries into one place and connect with your friends across all gaming platforms, consoles included.
+
+ * [GOG Galaxy installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/gog-galaxy)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
+</p>
+
+### Itch.io Store
+
+[Back to the Top](#table-of-contents)
+
+[Itch.io Store](https://itch.io/app) is an app that lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
+</p>
+
+### Prism
+
+[Back to the Top](#table-of-contents)
+
+[Prism Launcher for Minecraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
+</p>
+
+### XIV on Mac
+
+[Back to the Top](#table-of-contents)
+
+[XIVONMAC](https://www.xivmac.com/) is a modern, open-source Final Fantasy XIV client for macOS.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/209292818-12684fdc-c160-4e7d-828f-1f6370b6b3a0.gif">
+</p>
+
+
+## Game Streaming
+
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+### Cloud Game Streaming
+
+[Back to the Top](#table-of-contents)
+
+[Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)** subscription.
+
+<img src="https://user-images.githubusercontent.com/45159366/108111388-74d56e00-7049-11eb-8aeb-3e5d65f9e832.png">
+
+[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
+
+<img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
+
+[Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a variety of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/112693072-364b8400-8e3d-11eb-9df0-d58af7ac9c9c.png">
+</p>
+
+[Shadow](https://shadow.tech/) is a fully-featured, cloud-based, high-end computer. It is the only remote service that offers performance capable of competing with a local PC. Available on Windows, macOS, Linux, Android/AndroidTV, and iOS/tvOS.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/200110962-dd631248-7a13-48bb-9b5a-acbbf8550e16.png">
+</p>
+
+### Local Game Streaming
+
+[Back to the Top](#table-of-contents)
+
+[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
+
+[Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
+</p>
+
+
+[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that let's you control your PlayStation® console remotely wherever you have a high-speed internet connection. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/172946885-27f83bdf-ab1a-4eaa-ad33-0e108f92a981.png">
+</p>
+
+
+[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for **PlayStation 4 and PlayStation 5 Remote Play** for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/208854787-3442b9df-60bc-4ed2-87e3-efaa159a6b7f.png">
+</p>
+
+[Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/166166858-e70ca081-8931-46f3-9dc3-fe9c719d76f8.png">
+</p>
+
+[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
+</p>
+
+[Greenlight](https://github.com/unknownskl/xbox-xcloud-client) is an open-source client for xCloud and xHome streaming made in Javascript and Typescript. The client is an application wrapper around [xbox-xcloud-player](https://github.com/unknownskl/xbox-xcloud-player). It runs on Linux, MacOS, Windows, and Steam Deck.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/231686736-94adf5e6-1320-4f23-bea4-4fd05fe40da5.png">
+</br>
+Greenlight
+</p>
+
+## Android Games
+
+[Back to the Top](#table-of-contents)
+
+### BlueStacks
+[BlueStacks](https://www.bluestacks.com/download.html) is a the Fastest & Lightest Android App Player for Windows and macOS.
+
+ * [Getting Started with BlueStacks 4](https://support.bluestacks.com/hc/en-us/sections/360001186891-Getting-Started-with-BlueStacks-4)
+ 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217487-269ce62d-49bb-4efc-ab26-61f5e2c41f72.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217491-68aabb0d-a3f0-4a77-ae7b-de66937a25b5.png">
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/210217865-0fae0dc3-f229-49dd-9a88-14d75d154367.png">
+</p>
+
+## Game Emulators
+[Back to the Top](#table-of-contents)
+
+**Also checkout these subreddits for more great Game Emulators recommendations**
+  
+   - [r/emulation](https://www.reddit.com/r/emulation/)
+   - [r/emulations](https://www.reddit.com/r/emulators/)
+   - [r/RetroArch](https://www.reddit.com/r/RetroArch/)
+   - [r/DolphinEmulator](https://www.reddit.com/r/DolphinEmulator/)
+   - [r/Citra](https://www.reddit.com/r/Citra/)
+   - [r/cemu](https://www.reddit.com/r/cemu/)
+   - [r/yuzu](https://www.reddit.com/r/yuzu/)
+   - [r/OpenEmu](https://www.reddit.com/r/OpenEmu/)
+   - [r/MAME](https://www.reddit.com/r/MAME/)
+   - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
+   - [r/Roms](https://www.reddit.com/r/Roms/)
+   
+### Frontends
+
+[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
+
+[RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
+
+[OpenEmu](https://openemu.org/) is an open-source project whose purpose is to bring macOS game emulation into the realm of first-class citizenship. The project leverages modern macOS technologies, such as Cocoa, Core Animation, and other third-party libraries.
+
+**Currently, OpenEmu can load the following game engines as plugins:**
+
+  * Atari 2600 ([Stella](https://stella-emu.github.io/))
+  * Atari 5200 ([Atari800](https://atari800.github.io/))
+  * Atari 7800 ([ProSystem](https://github.com/raz0red/wii7800))
+  * Atari Lynx ([Mednafen](https://mednafen.github.io/))
+  * ColecoVision ([CrabEmu](http://crabemu.sourceforge.net/))
+  * Famicom Disk System ([Nestopia](https://github.com/0ldsk00l/nestopia))
+  * Game Boy / Game Boy Color ([Gambatte](https://github.com/sinamas/gambatte))
+  * Game Boy Advance ([mGBA](https://mgba.io/))
+  * Game Gear ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Intellivision ([Bliss](https://github.com/jeremiah-sypult/BlissEmu))
+  * NeoGeo Pocket ([Mednafen](https://mednafen.github.io/))
+  * Nintendo (NES) / Famicom ([FCEUX](https://github.com/TASVideos/fceux), [Nestopia](https://github.com/0ldsk00l/nestopia))
+  * Nintendo 64 ([Mupen64Plus](http://www.mupen64plus.org/))
+  * Nintendo DS ([DeSmuME](http://desmume.org/))
+  * Nintendo GameCube ([Dolphin](https://dolphin-emu.org/))
+  * Odyssey² / Videopac+ ([O2EM](https://sourceforge.net/projects/o2em/))
+  * PC-FX ([Mednafen](https://mednafen.github.io/))
+  * SG-1000 ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega 32X ([picodrive](https://github.com/notaz/picodrive))
+  * Sega CD / Mega CD ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Genesis / Mega Drive ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Master System ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
+  * Sega Saturn ([Mednafen](https://mednafen.github.io/))
+  * Sony PSP ([PPSSPP](https://github.com/hrydgard/ppsspp))
+  * Sony PlayStation ([Mednafen](https://mednafen.github.io/))
+  * Super Nintendo (SNES) ([BSNES](https://bsnes.dev/), [Snes9x](https://github.com/snes9xgit/snes9x))
+  * TurboGrafx-16 / PC Engine ([Mednafen](https://mednafen.github.io/))
+  * TurboGrafx-CD / PCE-CD ([Mednafen](https://mednafen.github.io/))
+  * Vectrex ([VecXGL](https://github.com/james7780/VecXGL))
+  * Virtual Boy ([Mednafen](https://mednafen.github.io/))
+  * WonderSwan ([Mednafen](https://mednafen.github.io/))
+
+[Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance.
+
+[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
+
+[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
+
+Cartridge Features
+
+- Scan for ROM files and match with IGDB game information
+- Serve ROM download links alongside game details
+- Manage access to library with user creation and permissions (WIP)
+- Allow users to request games (Planned)
+- Play select ROMs in-browser using JS emulators (Planned)
+- Track played and favorite games (even ones that aren't available for download) (Planned)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45159366/172274231-d691a850-1879-44fb-8fa0-08e549d7bb29.png">
+    <br />
+      Cartridge UI
+</p>
+
+### Nintendo GameCube & Wii
+
+[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.
+
+[PrimeHack](https://github.com/shiiion/dolphin) is a fork of **Dolphin Emulator** to bring modern Mouse and Keyboard controls, as well as Dual-Stick gamepad controls to the Metroid Prime Trilogy. It also offers many other features such as increased FoV and various new cheats. [Versions of Metroid Prime that are currently supported.](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions#what-versions-of-metroid-prime-are-supported)
+
+### Nintendo Switch 
+
+[Ryujinx](https://ryujinx.org/) is an open-source Nintendo Switch emulator created by gdkchan and written in C#. This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds. 
+
+[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra. 
+
+### Nintendo 64
+
+[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
+
+Nintendo 3DS
+
+[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
+
+### Nintendo DS
+
+[DeSmuME](https://desmume.org/) is a Nintendo DS emulator.
+
+[melonDS](https://github.com/melonDS-emu/melonDS) is a tool that aims at providing fast and accurate Nintendo DS emulation. While it is still a work in progress, it has a pretty solid set of features.
+
+**Features:**
+
+    * Nearly complete core (CPU, video, audio, etc...)
+    * OpenGL renderer, 3D upscaling
+    * RTC, microphone, lid close/open
+    * Joystick support
+    * Savestates
+    * Various display position/sizing/rotations modes
+    * Work-in-progress Wi-Fi emulation for online connectivity and local multiplayer
+    * Experimental emulation of the Nintendo DSi
+
+### Super Nintendo Entertainment System (SNES)
+
+[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. 
+
+[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
+
+### Game Boy Advance
+
+[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
+
+### DOS 
+
+[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
+
+[DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
+
+[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
+
+### Atari
+
+[Stella](https://stella-emu.github.io/) is a multi-platform Atari 2600 VCS emulator released under the GNU General Public License (GPL). Stella is available on Windows MacOS, Linux, and FreeBSD.
+
+[Hatari](https://hatari.tuxfamily.org/) is an Atari ST/STE/TT/Falcon emulator for Linux, BSD, MacOS, Windows and other systems which are supported by the SDL library. The Atari ST was a 16/32 bit computer system which was first released by Atari in 1985. 
+
+### Sega Dreamcast
+
+[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
+
+
+[Redream](https://redream.io/) is a Dreamcast emulator, enabling you to play your favorite Dreamcast games in high-definition(1080p or 4k).
+
+### PlayStation Portable
+
+[PPSSPP](https://www.ppsspp.org/) is a PSP emulator that can run games in full HD resolution. It can even upscale textures that would otherwise be too blurry as they were made for the small screen of the original PSP.
+
+### PlayStation 1
+
+[DuckStation](https://www.duckstation.org/) is an simulator/emulator of the Sony PlayStation 1 console, focusing on playability, speed, and long-term maintainability.
+
+[Avocado](https://github.com/JaCzekanski/Avocado) is a Modern PlayStation 1 emulator.
+
+### PlayStation 2
+
+[AetherSX2](https://www.aethersx2.com/) is a free (no ads) emulator of the PlayStation 2 (PS2) console for ARM-based devices. This enables you to play games which you have dumped from disc on your smartphone. 
+
+[PCSX2](https://pcsx2.net/) is a Playstation 2 'emulator', a free program that tries to replicate the Playstation 2 console to enable you to play PS2 games on your PC.
+
+[Play!](https://github.com/jpd002/Play-) is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms.
+
+### PlayStation 3
+
+[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL.
+
+### Xbox
+
+[xemu](https://xemu.app/) is an original Xbox emulator.
+
+[Xenia](https://github.com/xenia-project/xenia) is an Xbox 360 Emulator.
+
+### MAME
+
+[MAME](https://www.mamedev.org/) is a Arcade Machine Emulator.
+
+## Performance Benchmarks
+[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+
+[Geekbench 6](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/220055002-0f99a8bf-6a3f-4511-9157-7bd398f623f4.png">
+</p>
+
+[GFXBench 5.0](https://gfxbench.com/result.jsp) is a high-end graphics benchmark that measures mobile and desktop performance with next-gen graphics features across all platforms. As a true cross-API benchmark, GFXBench supports all the industry-standard and vendor-specific APIs including OpenGL, OpenGL ES, Vulkan, Metal, DirectX/Direct3D and DX12. 
+
+[PugetBench Benchmarks](https://www.pugetsystems.com/benchmarks/) is an application that has a number of benchmarks that are designed to test many popular professional applications using real-world projects and workflows. 
+
+[Phoronix Test Suite](https://www.phoronix-test-suite.com/)
+
+[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
+
+<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
+
+[asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon. 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/176965986-3a2b1f88-93d6-4d1b-aa2d-545a86e5e667.png">
+  <br />
+</p>
 
 
 # Wafer Level Multi-Chip Packaging Technology
@@ -4068,923 +4985,6 @@ Parallels Desktop for Mac
  <img src="https://user-images.githubusercontent.com/45159366/120387363-a9aabf80-c2de-11eb-84a5-8e4b422e7546.png">
   Windows 10 Desktop
 </h3>
-
-# Gaming
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-## Gaming on Apple Silicon Resources
-
- - **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
-
- - **[PortJump](https://www.codeweavers.com/portjump)**
-
- - **[Apple Silicon Games](https://applesilicongames.com/games)** 
- 
- - **[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)**
-
- - **[M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)**
-
- - **[Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)**
-  
- - **[Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)**
-
- - **[MacGaming Subreddit](https://www.reddit.com/r/macgaming)**
- 
- - **[iOS Gaming Subreddit](https://www.reddit.com/r/iosgaming/)**
- 
- - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
- 
- 
-## MacOS Game Mode
-
-[Back to the Top](#table-of-contents)
-
- 
-**[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the game title you're running. Optimizing your gaming experience across the board with smoother and more consistent frame rates. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods, and significantly reducing input latency with popular game controllers like those for Xbox and PlayStation by doubling the Bluetooth sampling rate. 
-
-<p align="center">
-  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fa3f2a70-df44-4e94-99cd-93fd7de1adf7">
- <br />
- Game Mode. Image Credit: Apple
-</p>
-
-## Game Porting Toolkit
-
-[Back to the Top](#table-of-contents)
-
-[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat or aggressive DRM generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work such as the Last of Us Part 1 game.
-
-
-<p align="center">
-  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/c04de75d-b1ad-4e8f-8f44-e750ca479081">
- <br />
- Game Porting Toolkit running Cyberpunk 2077 on a  M1 Macbook. Image Credit: Isaac Marovitz
-</p>
-
-**Working Games:**
-
- *  Cyberpunk 2077
- *  Elden Ring  
- *  Diablo IV 
- *  Hogwarts Legacy
- *  Crysis Remastered
- *  Cuphead
- *  Halo 3 (No Online due to Easy Anti-Cheat Compatibility)
- *  Metal Gear Solid V: The Phantom Pain
- *  Final Fantasy VII Remake Intergrade (~50 FPS on High settings at 1080p with M1 Pro.)
- *  God of War (Works somewhat well on M1 Pro (16gb), wouldn't recommend lesser hardware.)
- *  Deep Rock Galactic
- *  Sonic Omens
- *  Sonic P-06
- *  Scarlet Nexus
- *  Dyson Sphere Program (some objects and main character weren't visible before)
- *  Derail Valley (good performance, no missing manuals, and in-game objects for train operation like on CrossOver)
- *  Spider-Man (2018)
- *  Spider-Man Miles Morales - requires Windows version fix.
- *  Warframe - To get installer/launcher working add dwrite (disabled) to library overrides in winecfg.
- *  QUBE 2
- *  Deceive Inc. - works well if launched without EAC.
- *  Risk of Rain 2 (does not require `-disable-gpu-skinning` like Crossover 22.)
- *  Tetris Effect: (Connected - Game window doesn't like retina mode, works otherwise.)
- *  Bloodstained: Ritual of the Night
- 
-### System Requirements
- 
-   * macOS Sonoma should be used, currently it is in beta. 
-   * macOS Ventura causes large numbers of issues with steamwebhelper.exe crashing so it isn't recommended, use the macOS Sonoma beta.
-   * [Visit Apple Developer Downloads site](https://developer.apple.com/downloads), these files are now free to download use for any logged in Apple account.
-       - Search for Command Line Tools for Xcode 15 beta and download the dmg file, then install it.
-       - If you have an old version Xcode installed, remove it.
-       - Search for Game Porting Toolkit and download it. Open the dmg file and then run the pkg.
-       
-### Using Homebrew
-
-**Note:** if you have ever installed Homebrew before, then it is advisable to remove arm64 Homebrew as this can interfere with this build process. Either use a Homebrew uninstall script or delete the folder ```/opt/homebrew/bin```.
-
-Open Terminal (search in Spotlight on macOS).
-
-**Install Rosetta:**
-
-```softwareupdate --install-rosetta```
-
-Enter an x86_64 shell to continue the following steps in a Rosetta environment. All subsequent commands should be run within this shell.
-
-```arch -x86_64 zsh```
-
-Install the x86_64 version of Homebrew if you don't already have it.
-
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
-
-**Make sure the brew command is on your path:**
-
-which brew
-
-**If this command does not print ```/usr/local/bin/brew```, you should use this command:**
-
-```export PATH=/usr/local/bin:${PATH}```
-
-### Build 
-
-**Run this command to download Apple tap:**
-
-```brew tap apple/apple http://github.com/apple/homebrew-apple```
-
-Install the game-porting-toolkit formula. This formula downloads and compiles several large software projects. How long this takes will depend on the speed of your computer. It can take over 1 hour to complete depending on the speed of your Mac.
-
-```brew -v install apple/apple/game-porting-toolkit```
-
-If during installation you see an error such as “Error: game-porting-toolkit: unknown or unsupported macOS version: :dunno”, your version of Homebrew doesn’t have macOS Sonoma support. Update to the latest version of Homebrew and try again.
-
-```brew update brew -v install apple/apple/game-porting-toolkit```
-
-### Wine prefix 
-
-A Wine prefix contains a virtual C: drive. You will install the toolkit and your game into this virtual C: drive. Run the following command to create a new Wine prefix named my-game-prefix in your home directory.
-
-```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 winecfg```
-
-   * A “Wine configuration” window should appear on your screen.
-   * Change the version of Windows to Windows 10.
-   * Choose Apply and then OK to exit winecfg.
-
-If the “Wine configuration” window does not appear, and no new icon appears in the Dock, verify that you have correctly installed the x86_64 version of Homebrew as well as the game-porting-toolkit formula.
-
-**Preparing the toolkit**
-
-Make sure the Game Porting Toolkit dmg downloaded earlier is mounted at ```/Volumes/Game Porting Toolkit-1.0```. Use this script to copy the Game Porting Toolkit library directory into Wine’s library directory.
-
-```ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolkit`/lib/```
-
-**Put the 3 scripts from the Game Porting Toolkit DMG into here /usr/local/bin using this command:**
-
-```cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin```
-
-### Steam install
-
-Go to Steam website and download the Windows version of Steam: https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe and place in your Downloads folder.
-
-**Install Steam**
-
-```gameportingtoolkit ~/my-game-prefix ~/Downloads/SteamSetup.exe```
-
-**Run Steam**
-
-```gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Steam/steam.exe'```
-
-Log into Steam A common issue is that Steam will present with a blank black window.
-
-Alternate way of launching Steam (after installing):
-
-```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
-
-If this continues then close the Terminal window and then re-open and try again, repeat until the login screen opens. Now you should be able to download and launch Windows games through Steam.
-
-### Launching individual game
-
-Open your Wine prefix’s virtual C: drive in Finder ```(open ~/my-game-prefix/drive_c)``` and copy your game into an appropriate subdirectory.
-
-**A. Standard launching**
-
-```gameportingtoolkit ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
-
-This launches the given Windows game binary with a visible extended Metal Performance HUD and filters logging to output from the Game Porting Toolkit.
-
-**B. Launching without a HUD**
-
-```gameportingtoolkit-no-hud ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
-
-**C. Launching with Wine ESYNC disable**
-
-```gameportingtoolkit-no-esync ~/my-game-prefix 'C:\Program Files\MyGame\MyGame.exe'```
-
-### Logging 
-
-The provided ```bin/gameportingtoolkit*``` scripts can be copied onto your path to facilitate different forms of logging and launching. You can run these scripts from any shell; you don’t need to switch to the Rosetta environment first.
-
-Logging output will appear in the Terminal window in which you launch your game as well as the system log, which can be viewed with the Console app found in Applications ▸ Utilities. Log messages from the Game Porting Toolkit are prefixed with D3DM. By default the gameportingtoolkit* scripts will filter to just the D3DM-prefixed messages.
-Troubleshooting • Link
-
-### Steam login black screen
-
-Close the Terminal window and then reopen and retry the command, repeat several times.
-
-Alternate way of launching Steam (after installing):
-
-```MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=<path to the Wine bottle you set up> /usr/local/Cellar/game-porting-toolkit/1.0/bin/wine64 'C:\Program Files (x86)/Steam/steam.exe'```
-
-If still not working then try using CrossOver and create a Steam bottle, then redirect this WINEPREFIX to that bottle:
-
-```WINEPREFIX="/Users/[username]/Library/Application Support/CrossOver/Bottles/Steam/"```
-
-**Steam crashes straight after opening:** Disconnect any external monitors.
-
-**Battle.net launcher won't re-launch:** Re-install the launcher to reopen, no other fix at the moment.
-
-Game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
-
-```
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k
-```
-**steamwebhelper.exe crashes**
-
-This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
-
-**Game won't run and crashes with an invalid instruction**
-
-**Invalid instruction** crashes are often (but not always) caused when Rosetta 2 is unable to translate AVX/AVX2 instructions. You may be able to recompile a version of your game without AVX/AVX2 instructions in order to evaluate its potential on Apple Silicon with the Game Porting Toolkit when you hit this error. When porting your code natively to Apple Silicon, NEON instructions are a high-performance replacement for AVX/AVX2.
-
-**Game won't run because its anti-cheat or DRM software is incompatible with Wine translation.**
-
-You may be able to rebuild a custom version of your game in your Windows development environment with anti-cheat or DRM disabled for your own evaluation purposes. When porting your code natively to Apple Silicon and macOS, contact your anti-cheat or DRM provider—most have native Apple Silicon solutions for your native build.
-
-**Game won’t run because it requires Mono, .NET, or the MSVCRT runtime.**
-
-The game porting toolkit’s evaluation environment does not pre-install these runtime support packages. If your game makes use of one of these packages, consider searching for and downloading appropriate installers (.exe or .msi) and installing them to your evaluation environment. Additional runtime installers can be run on your environment by just launching the installer and following its installation instructions:
-
-```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 <some-installer.exe>```
-
-And .MSI packages can be installed by launching the Windows uninstaller application and choosing to install a downloaded .msi package:
-
-```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 uninstaller```
-
-**Controller issues**
-
-Issues may be fixed by enrolling into the Steam beta. 
-
-
-## Whisky
-
-[Back to the Top](#table-of-contents)
-
-[Whisky](https://github.com/IsaacMarovitz/Whisky) is a modern Wine wrapper for macOS built with SwiftUI developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz).
-
-<p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
-<br />
-</p>
- 
-## Manage Temps/Fans (CPU and GPU)
-
-[Back to the Top](#table-of-contents)
-
-[Stats](https://github.com/exelban/stats) is a tool that allows you to monitor your macOS system in the menubar.
-
- * Battery level
- * Bluetooth devices
- * CPU utilization
- * Disk utilization
- * Fan's control
- * GPU utilization
- * Memory usage
- * Network usage
- * Sensors information (Temperature/Voltage/Power)
- 
- <p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/224650106-1be2ae52-e54d-48b1-acbd-a71a9fc1d1d1.png">
-</p>
-
-
-[iStat Menus](https://bjango.com/mac/istatmenus/)  is highly configurable tool, with full support for macOS light and dark menubar modes. It covers a huge range of stats, including a CPU monitor, GPU, memory, network usage, disk usage, disk activity, date & time, battery and more.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208856211-94234e2c-35c0-41e1-9d9e-a0ecaa844c6a.png">
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208857140-af14f17a-3f18-49a3-a413-ca692b88e745.png">
-</p>
-
- 
-## Gaming Peripherals
-
-### RGB Devices
-
-[Back to the Top](#table-of-contents)
-
-[Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html) is software tool that lets you customize Logitech G gaming mice, keyboards, headsets, speakers, and other devices.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275997-2b60eac7-0fa3-43d0-a5c6-d49ae2447d61.png">
-</p>
-
-[Corsair iCUE](https://www.corsair.com/us/en/icue-mac) is a tool that enables gaming peripherals and personal computer components including computer case fans, RGB lighting, gaming headsets, gaming keyboards, gaming mouse, remap buttons and switches, RAM DIMMS and AIO CPU cooler together.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/208275999-4904fece-56c6-4a04-a2de-04bb587d7c1b.png">
-</p>
- 
-### Game Controllers
-
-[Back to the Top](#table-of-contents)
- 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/196628394-d6bd6113-ee45-4e68-a035-678bcec4cdfd.png">
-<br />
-MacOS Ventura Settings for Game Controllers
-</p>
-
-[Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/187094245-3c406751-4e4b-42fd-bd2c-a72181722fad.png">
-<br />
-Xbox Controller
-</p>
-
-[PlayStation 5 DualSense™ Wireless Controller](https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/187094347-109c80cd-5cc3-4a97-8a8f-0181687ab0d4.png">
-<br />
-PS 5  DualSense™ Controller
-</p>
-
-[Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/194023448-09e74efa-67f8-4503-87f5-5b7e59289608.png">
-<br />
-Nintendo Switch Pro Controller
-</p>
-
-[8BitDo SN30 Pro+ Controller](https://www.8bitdo.com/sn30-pro-plus/)
-
-  <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/226544985-d0c0301c-e927-4845-abf8-5d728943e674.png">
-</br>
-8BitDo SN30 Pro+ Controller
-</p>
-
-  <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/226544994-7628f14d-f558-48f6-92b5-940905ab3fd9.png">
- </br>
- 8BitDo SN30 Pro+ Controller Button Mapping
-</p>
-
-[Google Stadia Controller on ebay](https://www.ebay.com/sch/i.html?_nkw=google+stadia+controller&_sop=12&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=5336728181&customid=&toolid=10001)
- 
- **Switch your Stadia Controller to [Bluetooth mode](https://stadia.google.com/controller/)** to keep gaming wirelessly on your favorite devices and services after Stadia shuts down.
- 
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/218290131-3346f2d5-ee93-4dba-b8ed-e28f05c9055f.png">
-</p>
-
-[Steam Contoller](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=steam+controller&_sacat=0)
-
- * **Note:** Steam Controllers were discontinued on November 26, 2019, though, you can still buy them on ebay.
-
- * [Steam Controller Setup](https://help.steampowered.com/en/faqs/view/41C5-7D8C-1671-411E)
-
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/211141385-fe44e2a3-ebc2-41d7-acc1-4d14957ef9aa.png">
-
-</p>
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/211141386-8054ef27-e7de-4ecc-96e9-b8a46e45a9ea.png">
-
-</p>
-
-
-[Amazon Luna Controller](https://www.amazon.com/luna/getting-started)
-
-* **The Luna Controller** is made for Amazon's cloud gaming service. Powered by Cloud Direct technology Connect directly to Amazon's custom game servers when playing on Luna, reducing roundtrip latency by 17 to 30 milliseconds vs. a local Bluetooth connection among Windows PC, Mac, and Fire TV. 
-
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/218290132-7a548dea-8c9b-4c96-8efb-24b9d8c7f74c.png">
-</p>
-
- 
-## Setting up OBS Studio
-
-[Back to the Top](#table-of-contents)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/185703842-0926e10a-467a-471c-b5f6-b74df4e460d9.png">
-  <br />
-</p>
-
-[OBS (Open Broadcaster Software)](https://obsproject.com/) is free and open source software for video recording and live streaming. Stream to Twitch, YouTube and many other providers or record your own videos with high quality H264 / AAC encoding. Starting with [OBS Studio version 28](https://projectobs.com/en/news/obs-studio-28-0/) it features 10-bit and HDR video encode support for [AV1](https://aomedia.org/av1-features/) and [HEVC](https://apps.apple.com/us/app/hevc/id768692338), and **native Apple Silicon support on macOS**.
-
-**OBS Studio 29 new macOS features:**
-
- * Added an upward compressor filter.
- * Added a 3-band equalizer filter.
- * Added support for native HEVC and ProRes encoders on macOS, including [P010](https://learn.microsoft.com/en-us/windows/win32/medfound/10-bit-and-16-bit-yuv-video-formats) and [HDR](https://www.adobe.com/creativecloud/photography/discover/hdr.html). 
- * Added support for macOS Desk View.
- 
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/185704748-217443ac-57e3-4ab3-ba74-6d09c2fe62fb.png">
-  <br />
-  OBS Studio
-</p>
-
- 
- ### Useful OBS Studio 3rd party plugins and themes.
- 
-  * **[OBS Studio Themes](https://obsproject.com/forum/resources/categories/themes.10/)**
- 
-  * **[touch portal icon packs](https://www.touch-portal.com/assetsdb/show-all.php?cat=i)**
- 
-  * **[Streamlink](https://streamlink.github.io/)** is a CLI utility which pipes video streams from various services into a video player, such as VLC.  
-
-  * **[Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher)** plugin; an automated scene switcher.
-  * **[Audio Pan](https://github.com/norihiro/obs-audio-pan-filter)** plugin; control stereo pan of audio source.
-  * **[Browser](https://github.com/obsproject/obs-browser)** plugin; CEF-based OBS Studio browser plugin.
-  * **[Directory Watch Media](https://github.com/exeldro/obs-dir-watch-media)** plugin; filter you can add to media source to load the oldest or newest file in a directory.
-  * **[Downstream Keyer](https://github.com/exeldro/obs-downstream-keyer)** plugin; add a Downstream Keyer dock.
-  * **[Dynamic Delay](https://github.com/exeldro/obs-dynamic-delay)** plugin; filter for dynamic delaying a video source.
-  * **[Freeze Filter](https://github.com/exeldro/obs-freeze-filter)** plugin; freeze a source using a filter.
-  * **[Gradient Source](https://github.com/exeldro/obs-gradient-source)** plugin; adding gradients as a Source.
-  * **[GStreamer](https://github.com/fzwoch/obs-gstreamer)** plugins; feed GStreamer launch pipelines into OBS Studio and use GStreamer encoder elements.
-  * **[Move Transition](https://github.com/exeldro/obs-move-transition)** plugin; move source to a new position during scene transition.
-  * **[Multi Source Effect](https://github.com/norihiro/obs-multisource-effect)** plugin; provides a custom effect to render multiple sources.
-  * **[NDI](https://github.com/Palakis/obs-ndi)** plugin; Network A/V via NewTek's NDI.
-  * **[NvFBC](https://gitlab.com/fzwoch/obs-nvfbc)** plugin; screen capture via NVIDIA FBC API. Requires [NvFBC patches for Nvidia drivers](https://github.com/keylase/nvidia-patch) for consumer grade GPUs.
-  * **[Soundboard](https://github.com/cg2121/obs-soundboard)** plugin; adds a soundboard dock.
-  * **[Source Copy](https://github.com/exeldro/obs-source-copy)** plugin; adds copy and paste options to the tools menu.
-  * **[Source Dock](https://github.com/exeldro/obs-source-dock)** plugin; create a Dock for a source, which lets you see audio levels, change volume and control media. 
-  * **[Recursion Effect](https://github.com/exeldro/obs-recursion-effect)** plugin; recursion effect filter.
-  * **[Replay Source](https://github.com/exeldro/obs-replay-source)** plugin; slow motion replay async sources from memory.
-  * **[RGB Levels](https://github.com/petrifiedpenguin/obs-rgb-levels-filter)** plugin; simple filter to adjust RGB levels.
-  * **[RTSPServer](https://github.com/iamscottxu/obs-rtspserver/)** plugin; encode and publish to a RTSP stream.
-  * **[Scale to Sound](https://github.com/Qufyy/obs-scale-to-sound)** plugin; adds a filter which makes a source scale based on the audio levels of any audio source you choose
-  * **[Scene Collection Manager](https://github.com/exeldro/obs-scene-collection-manager)** plugin; filter, backup and restore Scene Collections.
-  * **[Scene Notes Dock](https://github.com/exeldro/obs-scene-notes-dock)** plugin; create a Dock for showing and editing notes for the current active scene.
-  * **[Source Record](https://github.com/exeldro/obs-source-record)** plugin; make sources available to record via a filter.
-  * **[Source Switcher](https://github.com/exeldro/obs-source-switcher)** plugin; to switch between a list of sources.
-  * **[Spectralizer](https://github.com/univrsal/spectralizer)** plugin; audio visualization using fftw.
-  * **[StreamFX](https://github.com/Xaymar/obs-StreamFX)** plugin; collection modern effects filters and transitions.
-  * **[Teleport](https://github.com/fzwoch/obs-teleport)** plugin; open NDI-like replacement.
-  * **[Text Pango](https://github.com/kkartaltepe/obs-text-pango)** plugin; Provides a text source rendered using Pango with multi-language support, emoji support, vertical rendering and RTL support.
-  * **[Text PThread](https://github.com/norihiro/obs-text-pthread)** plugin; Rich text source plugin with many advanced features.
-  * **[Time Warp Scan](https://github.com/exeldro/obs-time-warp-scan)** plugin; a time warp scan filter.
-  * **[Transition Table](https://github.com/exeldro/obs-transition-table)** plugin; customize scene transitions.
-  * **[Virtual Cam Filter](https://github.com/exeldro/obs-virtual-cam-filter)** plugin; make sources available to the virtual camera via a filter
-  * **[VNC Source](https://github.com/norihiro/obs-vnc)** plugin; VNC viewer that works as a source.
-  * **[Websockets](https://github.com/Palakis/obs-websocket)** plugin; remote-control OBS Studio through WebSockets, compatible with [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en).
-
-## Discord
-
-[Back to the Top](#table-of-contents)
-
-[Discord](https://discord.com/) is an application with modern voice & text chat app. It provides clear voice, multiple server and channel support, mobile apps, and more. It's available on Linux, macOS, Windows, iOS, Android, and your web browser.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/203752975-d489f776-2039-474d-82ce-1cdd3dcdeff7.png">
-</p>
-
-## Twitch
-
-[Back to the Top](#table-of-contents)
-
-[Twitch for MacOS/iOS](https://apps.apple.com/us/app/twitch-live-game-streaming/id460177396)is an application where thousands of communities come together for our favorite streamers join millions enjoying live games, music, sports, esports, podcasts, cooking shows, IRL streams, etc..
-
-  * [Running your iOS apps/games in macOS](https://developer.apple.com/documentation/apple-silicon/running-your-ios-apps-in-macos)
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/203753175-0aaea65d-013e-4a4e-b67d-19a6ca52ff56.png">
-</p>
-
-
-## Game Stores & Launchers
-
-### Apple Arcade
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-[Apple Arcade](https://www.apple.com/apple-arcade/) is a game subscription service that gives up to six family members unlimited access to 100+ incredibly fun games, all with no ads and no in-app purchases.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/112693074-377cb100-8e3d-11eb-910c-1095c91da6d5.png">
-</p>
-
-### CrossOver for MacOS
-
-[Back to the Top](#table-of-contents)
-
-[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
-
- * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
- 
-  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-
-<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
-
-### Steam
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-[Installing Steam through CrossOver](https://www.codeweavers.com/compatibility/crossover/steam)
-
- <img src="https://user-images.githubusercontent.com/45159366/106686402-13100100-657f-11eb-9012-6bdac264a808.png">
-
- [Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
-</p>
-
- ### Epic Games Store
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
-
-[Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/111918016-3fed7a00-8a40-11eb-964e-930c801c1c72.png">
-</p>
-
-### Blizzard Battle.net 
-[Back to the Top](#table-of-contents)
-
-[Blizzard Battle.net](https://www.blizzard.com/apps/battle.net/desktop) is an internet-based online gaming, digital distribution, and digital rights management platform developed by Activision and Blizzard Entertainment. Battle.net is the launcher for World of Warcraft, Diablo III, StarCraft II, Hearthstone, Heroes of the Storm, Overwatch and Call of Duty.
-
-<img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
-
-### Origin 
-[Back to the Top](#table-of-contents)
- 
-[Origin for MacOS](https://www.ea.com/origin-for-mac#) is an online gaming, digital distribution and digital rights management (DRM) platform developed by Electronic Arts that allows users to purchase games on the internet for PC and mobile platforms, and download them with the Origin client (formerly EA Download Manager, EA Downloader and EA Link).
-
- * [Origin installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/origin)
-
-<img src="https://user-images.githubusercontent.com/45159366/189614468-49c4a05c-d6ca-4988-b3e6-10f0c71463d6.png">
-
-### EA Play 
-
-[Back to the Top](#table-of-contents)
-
-[EA Play](https://www.ea.com/ea-play) is a subscription-based video game service from Electronic Arts for the Xbox One, Xbox Series X/S, PlayStation 4, PlayStation 5 and Microsoft Windows platforms, offering access to selected games published by Electronic Arts along with additional incentives.
-
- * **Note:** you will need to install [Origin](https://www.ea.com/origin-for-mac#) to access all EA game titles for EA Play even if you use **EA Play on Steam**.
- 
- **Ways to Play EA Play on macOS Apple Silicon:**
- 
- * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
- * [EA Play through Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass/games?xr=shellnav#)
- * [EA Play through Steam](https://store.steampowered.com/subscriptions/ea)
-
-<img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
-
-### Ubisoft Connect
-
-[Back to the Top](#table-of-contents)
-
-[Ubisoft Connect](https://itunes.apple.com/us/app/ubisoft-club/id405228226/) is a digital distribution, digital rights management, multiplayer and communications service created by Ubisoft to provide an experience similar to the achievements/trophies offered by various other game companies.
-
-**Ways to Play Ubisoft Connect on macOS Apple Silicon:**
- 
- * [Ubisoft Connect Installer (UPlay) through CrossOver](https://www.codeweavers.com/compatibility/crossover/Ubisoft-Connect-Installer)
- * [Windows on Mac with Parallels Desktop](https://www.parallels.com/products/desktop/)
- * [Ubisoft Connect through Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass/games?xr=shellnav#)
- * [Using iPhone and iPad apps on Mac with Apple silicon](https://support.apple.com/guide/app-store/iphone-ipad-apps-mac-apple-silicon-fird2c7092da/3.0/mac/13.0)
-
-<img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
-
-### GOG Galaxy
-
-[Back to the Top](#table-of-contents)
-
-[GOG Galaxy](https://www.gog.com/galaxy) is an application that lets you combine multiple game libraries into one place and connect with your friends across all gaming platforms, consoles included.
-
- * [GOG Galaxy installer through CrossOver](https://www.codeweavers.com/compatibility/crossover/gog-galaxy)
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
-</p>
-
-### Itch.io Store
-
-[Back to the Top](#table-of-contents)
-
-[Itch.io Store](https://itch.io/app) is an app that lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
-</p>
-
-### Prism
-
-[Back to the Top](#table-of-contents)
-
-[Prism Launcher for Minecraft](https://prismlauncher.org/) is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods. 
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/209223630-4ae7df57-9561-411c-9be8-ea7cd76f266a.png">
-</p>
-
-### XIV on Mac
-
-[Back to the Top](#table-of-contents)
-
-[XIVONMAC](https://www.xivmac.com/) is a modern, open-source Final Fantasy XIV client for macOS.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/209292818-12684fdc-c160-4e7d-828f-1f6370b6b3a0.gif">
-</p>
-
-
-## Game Streaming
-
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-### Cloud Game Streaming
-
-[Back to the Top](#table-of-contents)
-
-[Xbox Cloud Gaming](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming) is Microsoft's cloud-based Xbox game-streaming technology **(currently in Beta)**. **Play games like Forza Horizon 4, Halo 5: Guardians, Gears of War 4, Sea of Thieves, Cuphead, Red Dead Redemption 2, and 100+ other games on your mobile device or Chrome web browser**. Xbox Cloud Gaming does require an **[Xbox Game Pass Ultimate](https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming)** subscription.
-
-<img src="https://user-images.githubusercontent.com/45159366/108111388-74d56e00-7049-11eb-8aeb-3e5d65f9e832.png">
-
-[Geforce NOW](https://www.nvidia.com/en-us/geforce-now/download/) is NVIDIA's Cloud Gaming Service.
-
-<img src="https://user-images.githubusercontent.com/45159366/106686391-0f7c7a00-657f-11eb-9d0b-1ebb4d385883.jpeg">
-
-[Amazon Luna](https://www.amazon.com/luna/landing-page) is Amazon's Cloud Gaming Service. Amazon Luna is Compatible/Supported on a variety of [Devices and Browsers](https://www.amazon.com/gp/help/customer/display.html?nodeId=GUFHUSX8X324T4XE).
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/112693072-364b8400-8e3d-11eb-9df0-d58af7ac9c9c.png">
-</p>
-
-[Shadow](https://shadow.tech/) is a fully-featured, cloud-based, high-end computer. It is the only remote service that offers performance capable of competing with a local PC. Available on Windows, macOS, Linux, Android/AndroidTV, and iOS/tvOS.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/200110962-dd631248-7a13-48bb-9b5a-acbbf8550e16.png">
-</p>
-
-### Local Game Streaming
-
-[Back to the Top](#table-of-contents)
-
-[Steam Remote Play Together](https://store.steampowered.com/remoteplay/#together) is a steam service that let's you share your Steam local multi-player games with friends over the internet, for free. Using Remote Play Together, one player owns and runs the game, then up to four players can join.
-
-[Steam Link app](https://store.steampowered.com/steamlink/about) is available free of charge, streaming your Steam PC games to phones, tablets, and TV.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
-</p>
-
-
-[PlayStation Remote Play](https://www.playstation.com/en-us/support/games/playstation-remote-play-on-pc-and-mac/) is a feature available on all PS4 and PS5 consoles that let's you control your PlayStation® console remotely wherever you have a high-speed internet connection. 
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/172946885-27f83bdf-ab1a-4eaa-ad33-0e108f92a981.png">
-</p>
-
-
-[Chiaki](https://git.sr.ht/~thestr4ng3r/chiaki) is a Free and Open Source Software Client for **PlayStation 4 and PlayStation 5 Remote Play** for Linux, FreeBSD, OpenBSD, Android, macOS, Windows, Nintendo Switch and potentially even more platforms. 
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/208854787-3442b9df-60bc-4ed2-87e3-efaa159a6b7f.png">
-</p>
-
-[Parsec](https://parsec.app/cloud-gaming) is a video game streaming platform, which offers a wide variety of games and genres to choose from and provides a high-quality and smooth gameplay. SParsec is developed in order to provide a high-quality smooth gameplay, same time to be free of all ads and in-game purchases.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/166166858-e70ca081-8931-46f3-9dc3-fe9c719d76f8.png">
-</p>
-
-[Moonlight Game Streaming](https://moonlight-stream.org/) is a program that let you stream from your PC games over the Internet with no configuration required. Stream from almost any device, whether you're in another room or miles away from your gaming rig. [Sunshine](https://github.com/LizardByte/Sunshine) is a **Game stream host for Moonlight** that is a self-hosted, low latency, cloud gaming solution with support for AMD, Intel, and NVIDIA GPUs.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/106686398-11463d80-657f-11eb-841a-d534829ccc3d.png">
-</p>
-
-[Greenlight](https://github.com/unknownskl/xbox-xcloud-client) is an open-source client for xCloud and xHome streaming made in Javascript and Typescript. The client is an application wrapper around [xbox-xcloud-player](https://github.com/unknownskl/xbox-xcloud-player). It runs on Linux, MacOS, Windows, and Steam Deck.
-
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/231686736-94adf5e6-1320-4f23-bea4-4fd05fe40da5.png">
-</br>
-Greenlight
-</p>
-
-## Android Games
-
-[Back to the Top](#table-of-contents)
-
-### BlueStacks
-[BlueStacks](https://www.bluestacks.com/download.html) is a the Fastest & Lightest Android App Player for Windows and macOS.
-
- * [Getting Started with BlueStacks 4](https://support.bluestacks.com/hc/en-us/sections/360001186891-Getting-Started-with-BlueStacks-4)
- 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/210217487-269ce62d-49bb-4efc-ab26-61f5e2c41f72.png">
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/210217491-68aabb0d-a3f0-4a77-ae7b-de66937a25b5.png">
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/210217865-0fae0dc3-f229-49dd-9a88-14d75d154367.png">
-</p>
-
-## Game Emulators
-[Back to the Top](#table-of-contents)
-
-**Also checkout these subreddits for more great Game Emulators recommendations**
-  
-   - [r/emulation](https://www.reddit.com/r/emulation/)
-   - [r/emulations](https://www.reddit.com/r/emulators/)
-   - [r/RetroArch](https://www.reddit.com/r/RetroArch/)
-   - [r/DolphinEmulator](https://www.reddit.com/r/DolphinEmulator/)
-   - [r/Citra](https://www.reddit.com/r/Citra/)
-   - [r/cemu](https://www.reddit.com/r/cemu/)
-   - [r/yuzu](https://www.reddit.com/r/yuzu/)
-   - [r/OpenEmu](https://www.reddit.com/r/OpenEmu/)
-   - [r/MAME](https://www.reddit.com/r/MAME/)
-   - [r/EmuDev](https://www.reddit.com/r/EmuDev/)
-   - [r/Roms](https://www.reddit.com/r/Roms/)
-   
-### Frontends
-
-[EmulationStation Desktop Edition (ES-DE)](https://www.es-de.org/) is a frontend application for browsing and launching games from your multi-platform game collection. It's  available for Unix/Linux, macOS(M1 & Intel) and Windows.
-
-[RetroArch](https://www.retroarch.com/) is a frontend for emulators, game engines and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are also unified so configuration is done once and for all.
-
-[OpenEmu](https://openemu.org/) is an open-source project whose purpose is to bring macOS game emulation into the realm of first-class citizenship. The project leverages modern macOS technologies, such as Cocoa, Core Animation, and other third-party libraries.
-
-**Currently, OpenEmu can load the following game engines as plugins:**
-
-  * Atari 2600 ([Stella](https://stella-emu.github.io/))
-  * Atari 5200 ([Atari800](https://atari800.github.io/))
-  * Atari 7800 ([ProSystem](https://github.com/raz0red/wii7800))
-  * Atari Lynx ([Mednafen](https://mednafen.github.io/))
-  * ColecoVision ([CrabEmu](http://crabemu.sourceforge.net/))
-  * Famicom Disk System ([Nestopia](https://github.com/0ldsk00l/nestopia))
-  * Game Boy / Game Boy Color ([Gambatte](https://github.com/sinamas/gambatte))
-  * Game Boy Advance ([mGBA](https://mgba.io/))
-  * Game Gear ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-  * Intellivision ([Bliss](https://github.com/jeremiah-sypult/BlissEmu))
-  * NeoGeo Pocket ([Mednafen](https://mednafen.github.io/))
-  * Nintendo (NES) / Famicom ([FCEUX](https://github.com/TASVideos/fceux), [Nestopia](https://github.com/0ldsk00l/nestopia))
-  * Nintendo 64 ([Mupen64Plus](http://www.mupen64plus.org/))
-  * Nintendo DS ([DeSmuME](http://desmume.org/))
-  * Nintendo GameCube ([Dolphin](https://dolphin-emu.org/))
-  * Odyssey² / Videopac+ ([O2EM](https://sourceforge.net/projects/o2em/))
-  * PC-FX ([Mednafen](https://mednafen.github.io/))
-  * SG-1000 ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-  * Sega 32X ([picodrive](https://github.com/notaz/picodrive))
-  * Sega CD / Mega CD ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-  * Sega Genesis / Mega Drive ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-  * Sega Master System ([Genesis Plus](https://github.com/ekeeke/Genesis-Plus-GX))
-  * Sega Saturn ([Mednafen](https://mednafen.github.io/))
-  * Sony PSP ([PPSSPP](https://github.com/hrydgard/ppsspp))
-  * Sony PlayStation ([Mednafen](https://mednafen.github.io/))
-  * Super Nintendo (SNES) ([BSNES](https://bsnes.dev/), [Snes9x](https://github.com/snes9xgit/snes9x))
-  * TurboGrafx-16 / PC Engine ([Mednafen](https://mednafen.github.io/))
-  * TurboGrafx-CD / PCE-CD ([Mednafen](https://mednafen.github.io/))
-  * Vectrex ([VecXGL](https://github.com/james7780/VecXGL))
-  * Virtual Boy ([Mednafen](https://mednafen.github.io/))
-  * WonderSwan ([Mednafen](https://mednafen.github.io/))
-
-[Pegasus](https://pegasus-frontend.org/) is a cross platform, customizable graphical frontend for launching emulators and managing your game library (especially retro games) and launching them from one place. It's focused on customizability, cross platform support (including embedded devices) and high performance.
-
-[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
-
-[Cartridge](https://github.com/unclebacon-live/cartridge) is a self-hosted game library made with Laravel + Vue.js.
-
-Cartridge Features
-
-- Scan for ROM files and match with IGDB game information
-- Serve ROM download links alongside game details
-- Manage access to library with user creation and permissions (WIP)
-- Allow users to request games (Planned)
-- Play select ROMs in-browser using JS emulators (Planned)
-- Track played and favorite games (even ones that aren't available for download) (Planned)
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/172274231-d691a850-1879-44fb-8fa0-08e549d7bb29.png">
-    <br />
-      Cartridge UI
-</p>
-
-### Nintendo GameCube & Wii
-
-[Dolphin](https://dolphin-emu.org) is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.
-
-[PrimeHack](https://github.com/shiiion/dolphin) is a fork of **Dolphin Emulator** to bring modern Mouse and Keyboard controls, as well as Dual-Stick gamepad controls to the Metroid Prime Trilogy. It also offers many other features such as increased FoV and various new cheats. [Versions of Metroid Prime that are currently supported.](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions#what-versions-of-metroid-prime-are-supported)
-
-### Nintendo Switch 
-
-[Ryujinx](https://ryujinx.org/) is an open-source Nintendo Switch emulator created by gdkchan and written in C#. This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds. 
-
-[yuzu](https://yuzu-emu.org) is an experimental open-source emulator for the Nintendo Switch from the creators of Citra. 
-
-### Nintendo 64
-
-[m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
-
-Nintendo 3DS
-
-[Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
-
-### Nintendo DS
-
-[DeSmuME](https://desmume.org/) is a Nintendo DS emulator.
-
-[melonDS](https://github.com/melonDS-emu/melonDS) is a tool that aims at providing fast and accurate Nintendo DS emulation. While it is still a work in progress, it has a pretty solid set of features.
-
-**Features:**
-
-    * Nearly complete core (CPU, video, audio, etc...)
-    * OpenGL renderer, 3D upscaling
-    * RTC, microphone, lid close/open
-    * Joystick support
-    * Savestates
-    * Various display position/sizing/rotations modes
-    * Work-in-progress Wi-Fi emulation for online connectivity and local multiplayer
-    * Experimental emulation of the Nintendo DSi
-
-### Super Nintendo Entertainment System (SNES)
-
-[Snes9x](https://www.snes9x.com/) is a portable, freeware Super Nintendo Entertainment System (SNES) emulator. 
-
-[bsnes](https://github.com/bsnes-emu/bsnes) is a Super Nintendo (SNES) emulator focused on performance, features, and ease of use.
-
-### Game Boy Advance
-
-[mGBA](https://mgba.io/) is a new emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.
-
-### DOS 
-
-[Boxer](https://boxer.thec0de.com/) is a DOSBox game emulator frontend that's fit for your Mac. 
-
-[DOSBox](https://www.dosbox.com/) is an open-source DOS emulator which primarily focuses on running DOS Games.
-
-[DOSBox Staging](https://github.com/dosbox-staging/dosbox-staging) is a full x86 CPU emulator (independent of host architecture), capable of running DOS programs that require real or protected mode.
-
-### Atari
-
-[Stella](https://stella-emu.github.io/) is a multi-platform Atari 2600 VCS emulator released under the GNU General Public License (GPL). Stella is available on Windows MacOS, Linux, and FreeBSD.
-
-[Hatari](https://hatari.tuxfamily.org/) is an Atari ST/STE/TT/Falcon emulator for Linux, BSD, MacOS, Windows and other systems which are supported by the SDL library. The Atari ST was a 16/32 bit computer system which was first released by Atari in 1985. 
-
-### Sega Dreamcast
-
-[Flycast](https://github.com/flyinghead/flycast) is a multi-platform Sega Dreamcast, Naomi and Atomiswave emulator derived from reicast.
-
-
-[Redream](https://redream.io/) is a Dreamcast emulator, enabling you to play your favorite Dreamcast games in high-definition(1080p or 4k).
-
-### PlayStation Portable
-
-[PPSSPP](https://www.ppsspp.org/) is a PSP emulator that can run games in full HD resolution. It can even upscale textures that would otherwise be too blurry as they were made for the small screen of the original PSP.
-
-### PlayStation 1
-
-[DuckStation](https://www.duckstation.org/) is an simulator/emulator of the Sony PlayStation 1 console, focusing on playability, speed, and long-term maintainability.
-
-[Avocado](https://github.com/JaCzekanski/Avocado) is a Modern PlayStation 1 emulator.
-
-### PlayStation 2
-
-[AetherSX2](https://www.aethersx2.com/) is a free (no ads) emulator of the PlayStation 2 (PS2) console for ARM-based devices. This enables you to play games which you have dumped from disc on your smartphone. 
-
-[PCSX2](https://pcsx2.net/) is a Playstation 2 'emulator', a free program that tries to replicate the Playstation 2 console to enable you to play PS2 games on your PC.
-
-[Play!](https://github.com/jpd002/Play-) is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms.
-
-### PlayStation 3
-
-[RPCS3](https://rpcs3.net/) is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows and Linux. RPCS3 started development in May of 2011 by its founders DH and Hykem. The emulator is currently capable of running over 1800 commercial titles powered by Vulkan and OpenGL.
-
-### Xbox
-
-[xemu](https://xemu.app/) is an original Xbox emulator.
-
-[Xenia](https://github.com/xenia-project/xenia) is an Xbox 360 Emulator.
-
-### MAME
-
-[MAME](https://www.mamedev.org/) is a Arcade Machine Emulator.
-
-## Performance Benchmarks
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
-
-[Geekbench 6](https://www.geekbench.com/download/) is a cross-platform benchmark that measures your system's performance with the press of a button.
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/220055002-0f99a8bf-6a3f-4511-9157-7bd398f623f4.png">
-</p>
-
-[GFXBench 5.0](https://gfxbench.com/result.jsp) is a high-end graphics benchmark that measures mobile and desktop performance with next-gen graphics features across all platforms. As a true cross-API benchmark, GFXBench supports all the industry-standard and vendor-specific APIs including OpenGL, OpenGL ES, Vulkan, Metal, DirectX/Direct3D and DX12. 
-
-[PugetBench Benchmarks](https://www.pugetsystems.com/benchmarks/) is an application that has a number of benchmarks that are designed to test many popular professional applications using real-world projects and workflows. 
-
-[Phoronix Test Suite](https://www.phoronix-test-suite.com/)
-
-[UNIGINE Superposition](https://benchmark.unigine.com/superposition) is an extreme performance and stability test for PC hardware: video card, power supply, cooling system.
-
-<img src="https://user-images.githubusercontent.com/45159366/107092007-8f8d2480-67b7-11eb-9c3f-a0cb02e6dfcd.png">
-
-[asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon. 
-
-<p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/176965986-3a2b1f88-93d6-4d1b-aa2d-545a86e5e667.png">
-  <br />
-</p>
 
 # Game Development
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
