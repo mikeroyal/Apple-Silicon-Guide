@@ -4147,6 +4147,12 @@ Parallels Desktop for Mac
 
 [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports DirectX 9 through 12. Games that use anti-cheat or aggressive DRM generally don't work. Games that require AVX CPUs also do not work such as the Last of Us game.
 
+<p align="center">
+  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/c04de75d-b1ad-4e8f-8f44-e750ca479081">
+ <br />
+ Game Porting Toolkit running Cyberpunk 2077 on a  M1 Macbook. Image Credit: Isaac Marovitz
+</p>
+
 **Working Games:**
 
  *  Cyberpunk 2077
@@ -4277,7 +4283,7 @@ This launches the given Windows game binary with a visible extended Metal Perfor
 
 [Back to the Top](#table-of-contents)
 
-[Whisky](https://github.com/IsaacMarovitz/Whisky) is a modern Wine wrapper for macOS built with SwiftUI.
+[Whisky](https://github.com/IsaacMarovitz/Whisky) is a modern Wine wrapper for macOS built with SwiftUI developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz).
 
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
