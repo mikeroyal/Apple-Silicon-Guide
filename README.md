@@ -45,7 +45,6 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [M2 Max](#M2-Max)
    * [M2 Ultra](#M2-Ultra)
    * [Apple AR and Vision Pro Headset](#apple-ar-and-vision-pro-headset)
-   * [Migrating to Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Migrating-to-Apple-Silicon)
    * [Devices powered by Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Devices-powered-by-Apple-Silicon)
    * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
      - [Productivity & Workflow Apps](https://github.com/mikeroyal/Apple-Silicon-Guide#Productivity--Workflow-Apps)
@@ -567,6 +566,7 @@ R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
    
    * Powered by an M2 chip and **R1 chip(dedicated toward real-time sensor processing for the 12 cameras and 5 sensors on the Vision Pro headset)**.
    * High-resolution 4K micro OLED displays.
+   * Display refresh rate of [90Hz and supports a special 96Hz mode for 24fps video](https://developer.apple.com/videos/play/wwdc2023/10071/?time=143).
    * Display Pixel Size will be between 3000 ppi-4000 ppi.
    * Display offers a brightness of 5,000 nits.
    * The color gamut is quoted as DCI > 97% DCI.
@@ -598,11 +598,14 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
 
  * [Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083/) is a tool that let's you discover how to easily compose, edit, and preview 3D content with Reality Composer Pro. Follow along as you explore this developer tool by setting up a new project, composing scenes, adding particle emitters and audio, and even previewing content on your device. 
  * [Reality Composer](https://developer.apple.com/augmented-reality/tools/) is a powerful tool that makes it easy for you to create interactive augmented reality experiences with no prior 3D experience. The Reality Converter quickly converts your existing 3D models to [USDZ](https://graphics.pixar.com/usd/files/USDZFileFormatSpecification.pdf) so it works seamlessly in our tools and on all AR-enabled iPhone and iPad devices.
+ * [Apple Vision](https://developer.apple.com/documentation/vision) is a framework that performs face and face landmark detection, text detection, barcode recognition, image registration, and general feature tracking. Vision also allows the use of custom Core ML models for tasks like classification or object detection.
  * [USDZ](https://graphics.pixar.com/usd/release/spec_usdz.html) is a file format that contains a 3D scene or object saved in the USDZ Universal format, which is developed by Apple and Pixar Animation Studios. It is an uncompressed and unencrypted .ZIP archive that stores a Universal Scene Description (.USD, USDA, or USDC) file, which includes 3D geometry and shading data. USDZ files may also contain .PNG and .JPEG image textures and .M4A, .MP3, or .WAV audio files utilized in the 3D object or scene.
  * [ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
  * [RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
  * [RealityUI](https://github.com/maxxfrazer/RealityUI) is a Swift Package for creating familiar UI Elements and animations in a RealityKit rendered Augmented Reality or Virtual Reality scene. 
  * [SceneKit](https://developer.apple.com/scenekit/) is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your iOS apps.
+ * [SwiftUI](https://developer.apple.com/documentation/swiftui) is a user interface toolkit that provides views, controls, and layout structures for declaring your app's user interface. The SwiftUI framework provides event handlers for delivering taps, gestures, and other types of input to your application.
+ * [UIKit](https://developer.apple.com/documentation/uikit) is a framework provides the required infrastructure for your iOS or tvOS apps. It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multi-Touch and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app.
  * [MetalFX](https://developer.apple.com/videos/play/wwdc2022/10103/) is a new API that provides platform optimized graphics effects for Metal applications. With MetalFX Upscaling, your application can now render frames at a lower resolution, reducing rendering time, without compromising rendering quality. We'll also show you how and when to use its two effects: spatial upscaling, which delivers substantial performance gains, and temporal AA and upscaling, which delivers the highest quality rendering.
 
 <p align="center">
@@ -626,42 +629,6 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
  * [Unity Manual: XR](https://docs.unity3d.com/Manual/XR.html)
  * [Intro to XR: VR, AR, and MR Foundations - Unity Learn](https://learn.unity.com/course/introduction-to-xr-vr-ar-and-mr-foundations)
  * [Unity XR: Build VR and AR Apps](https://unity3d.com/learn/unity-xr-apps)
-
-
-## Migrating to Apple Silicon
-[Back to the Top](#table-of-contents)
-
-* [Xcode 13](https://developer.apple.com/xcode/) is built as an Universal app that runs 100% natively on Intel-based CPUs and Apple Silicon. It includes a unified macOS SDK that features all the frameworks, compilers, debuggers, and other tools you need to build apps that run natively on Apple Silicon.
-
-* [Universal App Quick Start Program](https://developer.apple.com/programs/universal/)
-
-* [Writing ARM64 Code for Apple Platforms](https://developer.apple.com/documentation/xcode/writing_arm64_code_for_apple_platforms)
-
-* [Porting Your macOS Apps to Apple Silicon](https://developer.apple.com/documentation/xcode/porting_your_macos_apps_to_apple_silicon)
-
-* [Building a Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary)
-
-* [Addressing Architectural Differences in Your macOS Code](https://developer.apple.com/documentation/apple_silicon/addressing_architectural_differences_in_your_macos_code)
-
-* [Porting Just-In-Time(JIT) Compilers to Apple Silicon](https://developer.apple.com/documentation/apple_silicon/porting_just-in-time_compilers_to_apple_silicon)
-
-* [Porting Your Audio Code to Apple Silicon](https://developer.apple.com/documentation/audiounit/porting_your_audio_code_to_apple_silicon)
-
-* [Porting Your Metal Code to Apple Silicon](https://developer.apple.com/documentation/metal/porting_your_metal_code_to_apple_silicon)
-
-* [Tuning Your Code’s Performance for Apple Silicon](https://developer.apple.com/documentation/os/workgroups/tuning_your_code_s_performance_for_apple_silicon)
-
-* [Learn how Rosetta translates executables and what Rosetta can’t translate](https://developer.apple.com/documentation/apple_silicon/about_the_rosetta_translation_environment)
-
-* [Running Your iOS Apps on macOS](https://developer.apple.com/documentation/apple_silicon/running_your_ios_apps_on_macos)
-
-* [Adapting iOS Code to Run in the macOS Environment](https://developer.apple.com/documentation/apple_silicon/adapting_ios_code_to_run_in_the_macos_environment)
-
-* [Implementing Drivers, System Extensions, and Kexts](https://developer.apple.com/documentation/apple_silicon/implementing_drivers_system_extensions_and_kexts)
-
-* [Installing a Custom Kernel Extension](https://developer.apple.com/documentation/apple_silicon/installing_a_custom_kernel_extension)
-
-* [Debugging a Custom Kernel Extension](https://developer.apple.com/documentation/apple_silicon/debugging_a_custom_kernel_extension)
 
 
 ## Devices powered by Apple Silicon
@@ -2021,7 +1988,7 @@ Developing with SwiftUI in Xcode 14
 
 [AppKit](https://developer.apple.com/documentation/appkit) is a graphical user interface toolkit that contains all the objects you need to implement the user interface for a macOS app such as windows, panels, buttons, menus, scrollers, and text fields, and it handles all the details for you as it efficiently draws on the screen, communicates with hardware devices and screen buffers, clears areas of the screen before drawing, and clips views.
 
-[ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
+[ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. 
 
 [RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
 
