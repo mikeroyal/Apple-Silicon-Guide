@@ -70,6 +70,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [MacOS Game Mode](#macos-game-mode)
       - [Game Porting Toolkit](#game-porting-toolkit)
       - [Whisky Wine wrapper](#whisky)
+      - [CrossOver for MacOS](#CrossOver-for-MacOS)
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
@@ -81,7 +82,6 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Game Stores & Launchers](#Game-Stores--Launchers)
         * [Apple Arcade](#apple-arcade)
         * [PlayCover](#playcover)
-        * [CrossOver for MacOS](#CrossOver-for-MacOS)
         * [Steam](#Steam)
         * [Epic Games Store](#Epic-games-store)
         * [Blizzard Battle.net](#Blizzard-Battlenet)
@@ -1834,7 +1834,11 @@ File Vault
  
 </h3>
 
-[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat or aggressive DRM generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work such as the Last of Us Part 1 game.
+[Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) is Apple's new translation layer which combines Wine with Apple's own D3DMetal which supports [DirectX 9 through 12](https://en.wikipedia.org/wiki/DirectX). Games that use anti-cheat([Easy Anti-Cheat](https://www.easy.ac/) and [BattleEye](https://www.battleye.com/)) or aggressive [DRM](https://en.wikipedia.org/wiki/Digital_rights_management) generally don't work. Games that require [AVX/AVX 2](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions) CPUs also don't work.
+
+ * The Game Porting Toolkit builds a [dxil](https://github.com/Microsoft/DirectXShaderCompiler/blob/main/docs/DXIL.rst) to [metallib](https://developer.apple.com/documentation/metal) converter and DirectX11/DirectX12 to Metal runtime translator. Non-graphics APIs are translated by Wine and do not use any tech from [moltenVK](https://github.com/KhronosGroup/MoltenVK), [DXVK](https://github.com/doitsujin/dxvk); or [SPIRV-Cross](https://github.com/KhronosGroup/SPIRV-Cross). The Metal shader converter can be shipped by games and can be used in the game developer asset pipelines.
+ 
+ * [Metal shader converter](https://developer.apple.com/metal/shader-converter/) is a tool that converts shader intermediate representations in LLVM IR bytecode into bytecode suitable to be loaded into Metal. It’s available as a library and a standalone executable. All the functionality exposed through the library interface is available via the standalone executable.
 
 
 <p align="center">
@@ -1842,6 +1846,12 @@ File Vault
  <br />
  Game Porting Toolkit running Cyberpunk 2077 on a  M1 Macbook. Image Credit: Isaac Marovitz
 </p>
+
+[![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
+[![Game Porting Toolkit: Hogwarts Legacy on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=FbpIpsA89cY&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Hogwarts Legacy on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=FbpIpsA89cY)
+[![Game Porting Toolkit: Stray on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=dxJ-iFb86lw&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Stray on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=dxJ-iFb86lw)
+[![Game Porting Toolkit: Diablo 4 on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=fLn267So6HU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Diablo 4 on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=fLn267So6HU)
+[![Game Porting Toolkit: Genshin Impact on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=goG8O4OUzYw&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Genshin Impact on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=goG8O4OUzYw)
 
 **Working Games:**
 
@@ -2140,6 +2150,18 @@ Issues may be fixed by enrolling into the Steam beta.
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
 <br />
 </p>
+
+### CrossOver for MacOS
+
+[Back to the Top](#table-of-contents)
+
+[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
+
+ * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
+ 
+  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+
+<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
  
 ## Manage Temps/Fans (CPU and GPU)
 
@@ -2393,20 +2415,8 @@ Nintendo Switch Pro Controller
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/2cfa0e1a-8cbe-435d-aa2f-b4b1365f6c4d">
 </p>
 
-### CrossOver for MacOS
-
-[Back to the Top](#table-of-contents)
-
-[CrossOver for MacOS](https://www.codeweavers.com/store) is a tool that let's you run many popular Windows games on your MacOS system. It comes with an easy to use, single click interface, which makes installing your games simple and fast. CrossOver is built on the latest versions of Wine, based on contributions from both CodeWeavers and the open-source Wine community.
-
- * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
- 
-  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-
-<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
-
 ### Steam
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Installing Steam through CrossOver](https://www.codeweavers.com/compatibility/crossover/steam)
 
@@ -2419,7 +2429,7 @@ Nintendo Switch Pro Controller
 </p>
 
  ### Epic Games Store
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#table-of-contents)
 
 [Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
 
