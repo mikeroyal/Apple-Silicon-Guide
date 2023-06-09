@@ -599,6 +599,7 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
  * [Reality Composer Pro](https://developer.apple.com/videos/play/wwdc2023/10083/) is a tool that let's you discover how to easily compose, edit, and preview 3D content with Reality Composer Pro. Follow along as you explore this developer tool by setting up a new project, composing scenes, adding particle emitters and audio, and even previewing content on your device. 
  * [Reality Composer](https://developer.apple.com/augmented-reality/tools/) is a powerful tool that makes it easy for you to create interactive augmented reality experiences with no prior 3D experience. The Reality Converter quickly converts your existing 3D models to [USDZ](https://graphics.pixar.com/usd/files/USDZFileFormatSpecification.pdf) so it works seamlessly in our tools and on all AR-enabled iPhone and iPad devices.
  * [Apple Vision](https://developer.apple.com/documentation/vision) is a framework that performs face and face landmark detection, text detection, barcode recognition, image registration, and general feature tracking. Vision also allows the use of custom Core ML models for tasks like classification or object detection.
+ * [Metal shader converter](https://developer.apple.com/metal/shader-converter/) is a tool that converts shader intermediate representations in LLVM IR bytecode into bytecode suitable to be loaded into Metal. It’s available as a library and a standalone executable. All the functionality exposed through the library interface is available via the standalone executable.
  * [USDZ](https://graphics.pixar.com/usd/release/spec_usdz.html) is a file format that contains a 3D scene or object saved in the USDZ Universal format, which is developed by Apple and Pixar Animation Studios. It is an uncompressed and unencrypted .ZIP archive that stores a Universal Scene Description (.USD, USDA, or USDC) file, which includes 3D geometry and shading data. USDZ files may also contain .PNG and .JPEG image textures and .M4A, .MP3, or .WAV audio files utilized in the 3D object or scene.
  * [ARKit](https://developer.apple.com/augmented-reality/arkit/) is a set set of software development tools to enable developers to build augmented-reality apps for iOS developed by Apple. The latest version ARKit 3.5 takes advantage of the new LiDAR Scanner and depth sensing system on iPad Pro(2020) to support a new generation of AR apps that use Scene Geometry for enhanced scene understanding and object occlusion.
  * [RealityKit](https://developer.apple.com/documentation/realitykit) is a framework to implement high-performance 3D simulation and rendering with information provided by the ARKit framework to seamlessly integrate virtual objects into the real world.
@@ -606,6 +607,7 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
  * [SceneKit](https://developer.apple.com/scenekit/) is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your iOS apps.
  * [SwiftUI](https://developer.apple.com/documentation/swiftui) is a user interface toolkit that provides views, controls, and layout structures for declaring your app's user interface. The SwiftUI framework provides event handlers for delivering taps, gestures, and other types of input to your application.
  * [UIKit](https://developer.apple.com/documentation/uikit) is a framework provides the required infrastructure for your iOS or tvOS apps. It provides the window and view architecture for implementing your interface, the event handling infrastructure for delivering Multi-Touch and other types of input to your app, and the main run loop needed to manage interactions among the user, the system, and your app.
+ * [SpriteKit](https://developer.apple.com/documentation/spritekit) is a general-purpose framework for drawing shapes, particles, text, images, and video in two dimensions. It leverages Metal to achieve high-performance rendering, while offering a simple programming interface to make it easy to create games and other graphics-intensive apps. 
  * [MetalFX](https://developer.apple.com/videos/play/wwdc2022/10103/) is a new API that provides platform optimized graphics effects for Metal applications. With MetalFX Upscaling, your application can now render frames at a lower resolution, reducing rendering time, without compromising rendering quality. We'll also show you how and when to use its two effects: spatial upscaling, which delivers substantial performance gains, and temporal AA and upscaling, which delivers the highest quality rendering.
 
 <p align="center">
@@ -622,9 +624,7 @@ Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
 
  * [AR Creation Tools - Augmented Reality | Apple Developer](https://developer.apple.com/augmented-reality/tools/)
  * [Augmented Reality applications | Apple](https://www.apple.com/augmented-reality/)
- * [iOS, iPadOS, and tvOS Development on Unreal Engine](https://docs.unrealengine.com/5.0/en-US/ios-ipados-and-tvos-support-for-unreal-engine/)
- * [XR Development on Unreal Engine](https://docs.unrealengine.com/5.0/en-US/developing-for-xr-experiences-in-unreal-engine)
- * [Unreal Engine Performance and Profiling](https://docs.unrealengine.com/5.0/en-US/TestingAndOptimization/PerformanceAndProfiling/)
+ * [Unity's Beta Program for Creating Spatial Experiences](https://create.unity.com/spatial)
  * [Unity Learn Training Program](https://learn.unity.com)
  * [Unity Manual: XR](https://docs.unity3d.com/Manual/XR.html)
  * [Intro to XR: VR, AR, and MR Foundations - Unity Learn](https://learn.unity.com/course/introduction-to-xr-vr-ar-and-mr-foundations)
@@ -1790,23 +1790,18 @@ File Vault
 
 ## Gaming on Apple Silicon Resources
 
- - **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
-
- - **[Apple Silicon Games](https://applesilicongames.com/games)** 
- 
- - **[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)**
-
- - **[M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)**
-
- - **[Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)**
-  
- - **[Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)**
-
- - **[MacGaming Subreddit](https://www.reddit.com/r/macgaming)**
- 
- - **[iOS Gaming Subreddit](https://www.reddit.com/r/iosgaming/)**
- 
- - **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
+ * **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
+ * **[Bring your game to Mac, Part 1: Make a game plan](https://developer.apple.com/videos/play/wwdc2023/10123)**
+ * **[Bring your game to Mac, Part 2: Compile your shaders](https://developer.apple.com/videos/play/wwdc2023/10124/)**
+ * **[Bring your game to Mac, Part 3: Render with Metal](https://developer.apple.com/videos/play/wwdc2023/10125)**
+ * **[Apple Silicon Games](https://applesilicongames.com/games)** 
+ * **[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)**
+ * **[M1 compatible Games Master List | AppleGamingWiki ](https://www.applegamingwiki.com/wiki/M1_compatible_games_master_list)**
+ * **[Games and Apps on Apple Silicon (Compatibility Sheet) by Thomas Schranz(@__tosh on Twitter) ](https://docs.google.com/spreadsheets/d/1er-NivvuIheDmIKBVRu3S_BzA_lZT5z3Z-CxQZ-uPVs)** 
+ * **[Porting Kit | Install Windows apps in Mac](https://www.portingkit.com/)**
+ * **[MacGaming Subreddit](https://www.reddit.com/r/macgaming)**
+ * **[iOS Gaming Subreddit](https://www.reddit.com/r/iosgaming/)**
+ * **[Apple Arcade Subreddit](https://www.reddit.com/r/AppleArcade/)**
  
  
 ## MacOS Game Mode
@@ -1845,10 +1840,9 @@ File Vault
  Game Porting Toolkit running Cyberpunk 2077 on a  M1 Macbook. Image Credit: Isaac Marovitz
 </p>
 
-[![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
-[![Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide](https://ytcards.demolab.com/?id=jUvDPCxkHIU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide")](https://www.youtube.com/watch?v=jUvDPCxkHIU)
-[![Cyberpunk 2077 Running on M1 | M2 Mac](https://ytcards.demolab.com/?id=GS25TeOwTME&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Cyberpunk 2077 Running on M1 | M2 Mac")](https://www.youtube.com/watch?v=GS25TeOwTME)
-[![Diablo IV on Macbook Air M1 with Game Porting Toolkit](https://ytcards.demolab.com/?id=cMQkuE61kq0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Diablo IV on Macbook Air M1 with Game Porting Toolkit")](https://www.youtube.com/watch?v=cMQkuE61kq0)
+[![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
+[![Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide](https://ytcards.demolab.com/?id=jUvDPCxkHIU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide")](https://www.youtube.com/watch?v=jUvDPCxkHIU)
+[![Cyberpunk 2077 Running on M1 | M2 Mac](https://ytcards.demolab.com/?id=GS25TeOwTME&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Cyberpunk 2077 Running on M1 | M2 Mac")](https://www.youtube.com/watch?v=GS25TeOwTME)
 
 **Working Games:**
 
