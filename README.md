@@ -1792,8 +1792,6 @@ File Vault
 
  - **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
 
- - **[PortJump](https://www.codeweavers.com/portjump)**
-
  - **[Apple Silicon Games](https://applesilicongames.com/games)** 
  
  - **[M1 Parallels Windows compatible games list | AppleGamingWiki](https://www.applegamingwiki.com/wiki/M1_Parallels_Windows_compatible_games_list)**
@@ -1848,10 +1846,9 @@ File Vault
 </p>
 
 [![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
-[![Game Porting Toolkit: Hogwarts Legacy on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=FbpIpsA89cY&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Hogwarts Legacy on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=FbpIpsA89cY)
-[![Game Porting Toolkit: Stray on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=dxJ-iFb86lw&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Stray on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=dxJ-iFb86lw)
-[![Game Porting Toolkit: Diablo 4 on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=fLn267So6HU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Diablo 4 on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=fLn267So6HU)
-[![Game Porting Toolkit: Genshin Impact on M2 Max 14" Macbook Pro](https://ytcards.demolab.com/?id=goG8O4OUzYw&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit: Genshin Impact on M2 Max 14" Macbook Pro")](https://www.youtube.com/watch?v=goG8O4OUzYw)
+[![Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide](https://ytcards.demolab.com/?id=jUvDPCxkHIU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide")](https://www.youtube.com/watch?v=jUvDPCxkHIU)
+[![Cyberpunk 2077 Running on M1 | M2 Mac](https://ytcards.demolab.com/?id=GS25TeOwTME&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Cyberpunk 2077 Running on M1 | M2 Mac")](https://www.youtube.com/watch?v=GS25TeOwTME)
+[![Diablo IV on Macbook Air M1 with Game Porting Toolkit](https://ytcards.demolab.com/?id=cMQkuE61kq0&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Diablo IV on Macbook Air M1 with Game Porting Toolkit")](https://www.youtube.com/watch?v=cMQkuE61kq0)
 
 **Working Games:**
 
