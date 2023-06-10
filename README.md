@@ -83,6 +83,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [Apple Arcade](#apple-arcade)
         * [PlayCover](#playcover)
         * [Steam](#Steam)
+        * [Heroic Game Launcher](#heroic-game-launcher)
         * [Epic Games Store](#Epic-games-store)
         * [Blizzard Battle.net](#Blizzard-Battlenet)
         * [Origin](#Origin)
@@ -1788,6 +1789,11 @@ File Vault
 # Gaming
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
+<p align="center">
+  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0a5dc137-c500-420e-8296-d2d25e97feb0">
+ <br />
+</p>
+
 ## Gaming on Apple Silicon Resources
 
  * **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
@@ -1810,6 +1816,8 @@ File Vault
 
  
 **[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the game title you're running. Optimizing your gaming experience across the board with smoother and more consistent frame rates. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods, and significantly reducing input latency with popular game controllers like those for Xbox and PlayStation by doubling the Bluetooth sampling rate. 
+
+ * [Game Controller](https://developer.apple.com/documentation/gamecontroller) is an Apple framework to support users interacting with your app using a physical or virtual game controller. Game controllers include third-party products, such as the DualShock 4, DualSense, and Xbox, as well as the mouse, keyboard, Siri Remote, and racing wheels. 
 
 <p align="center">
   <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/fa3f2a70-df44-4e94-99cd-93fd7de1adf7">
@@ -2213,6 +2221,8 @@ Issues may be fixed by enrolling into the Steam beta.
 MacOS Ventura Settings for Game Controllers
 </p>
 
+ * [Game Controller](https://developer.apple.com/documentation/gamecontroller) is an Apple framework to support users interacting with your app using a physical or virtual game controller. Game controllers include third-party products, such as the DualShock 4, DualSense, and Xbox, as well as the mouse, keyboard, Siri Remote, and racing wheels. 
+
 [Xbox Wireless Controller + USB-C® Cable](https://www.xbox.com/en-us/accessories/controllers/xbox-wireless-controller-usb-c)
 
 <p align="center">
@@ -2419,10 +2429,17 @@ Nintendo Switch Pro Controller
  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
 </p>
 
- ### Epic Games Store
+ ### Heroic Game Launcher
 [Back to the Top](#table-of-contents)
 
-[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. 
+[Heroic Game Launcher](https://heroicgameslauncher.com/) is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). It supports launching games from the Epic Games Store and the GOG.com Store. 
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/95b64ae6-1bf5-494d-a2bf-0a4e16786270">
+</p>
+
+ ### Epic Games Store
+[Back to the Top](#table-of-contents)
 
 [Epic Games Store](https://www.epicgames.com/store/) is a digital video game storefront for Microsoft Windows and macOS, operated by Epic Games.
 
