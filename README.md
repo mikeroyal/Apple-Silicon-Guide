@@ -2003,32 +2003,33 @@ This is particularly useful because as it currently, the real Epic Games Launche
 
    **Remove the existing Wine:**
 
-    ```rm wine```
+   ```rm wine```
 
   ###  Create a symlink to Game Porting Toolkit's Wine
         
    **If using Game Porting Toolkit Wineprefix:**
 
-     ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
+   ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit`/bin/wine64 wine```
 
    **If using Whisky:**
 
-      ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
-      ``` cd ../Resources```
+   ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
+      
+   ``` cd ../Resources```
 
   **Remove the existing Wine:**
 
-    ```rm -rfv wine```
+  ```rm -rfv wine```
 
    ### Create a symlink to Game Porting Toolkit's Wine
     
    **If using Game Porting Toolkit Wineprefix:**
 
-      ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
+   ```ln -s `/usr/local/bin/brew --prefix game-porting-toolkit` wine```
 
    **If using Whisky:**
 
-       ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
+   ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine wine```
 
    * You are now done with Terminal. Install any games you want to try playing.
    * Select the game you want to play, and press the settings button in the top-right.
@@ -2109,11 +2110,12 @@ If still not working then try using CrossOver and create a Steam bottle, then re
 
 Game won’t run because it thinks the version of Windows is too old. Some games detect specific minimum versions of Windows and need to be updated. Use this script to update your wineprefix with build 19042 which should work for most games e.g. Spider-Man Remastered.
 
-```
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f
-WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k
-```
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuild /t REG_SZ /d 19042 /f```
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 reg add 'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion' /v CurrentBuildNumber /t REG_SZ /d 19042 /f```
+
+```WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wineserver -k```
+
 **steamwebhelper.exe crashes**
 
 This is caused by Steam being run through macOS Ventura or below, upgrade to macOS Sonoma.
