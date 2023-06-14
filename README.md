@@ -1797,6 +1797,7 @@ File Vault
 ## Gaming on Apple Silicon Resources
 
  * **[Apple Game Porting Toolkit 1.0](https://github.com/apple/homebrew-apple/tree/main/Formula)**
+ * **[ALL WORKING GAMES LIST (Game Porting Toolkit = Windows DX12 Latest Games for Apple Silicon)](https://docs.google.com/spreadsheets/d/1t_E04Qt411f9mEZJVku_OJsEe6XCqZZsdqtjVaMCcgk/edit?usp=sharing)**
  * **[Bring your game to Mac, Part 1: Make a game plan](https://developer.apple.com/videos/play/wwdc2023/10123)**
  * **[Bring your game to Mac, Part 2: Compile your shaders](https://developer.apple.com/videos/play/wwdc2023/10124/)**
  * **[Bring your game to Mac, Part 3: Render with Metal](https://developer.apple.com/videos/play/wwdc2023/10125)**
@@ -1853,6 +1854,8 @@ File Vault
 [![Cyberpunk 2077 Running on M1 | M2 Mac](https://ytcards.demolab.com/?id=GS25TeOwTME&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Cyberpunk 2077 Running on M1 | M2 Mac")](https://www.youtube.com/watch?v=GS25TeOwTME)
 
 **Working Games:**
+
+ * **[ALL WORKING GAMES LIST (Game Porting Toolkit = Windows DX12 Latest Games for Apple Silicon)](https://docs.google.com/spreadsheets/d/1t_E04Qt411f9mEZJVku_OJsEe6XCqZZsdqtjVaMCcgk/edit?usp=sharing)**
 
  *  Cyberpunk 2077
  *  Elden Ring  
@@ -2011,8 +2014,7 @@ This is particularly useful because as it currently, the real Epic Games Launche
    **If using Whisky:**
 
       ```ln -s /Applications/Whisky.app/Contents/Resources/Libraries/Wine/bin/wine64 wine```
-
-    cd ../Resources
+      ``` cd ../Resources```
 
   **Remove the existing Wine:**
 
