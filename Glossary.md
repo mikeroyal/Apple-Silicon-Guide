@@ -59,6 +59,8 @@ F
 
 G
 
+  **Game Mode** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the running title, thereby improving gaming hardware performance across the board.
+  
    **GPT: GUID Partition Table**: A partition table format created for EFI/UEFI and now used on most modern systems.
    
    **GXF:** probably Guarded Execution Function. Lateral exception levels used to create a low-overhead hypervisor to protect pagetables and equally important structures from XNU itself. 
@@ -123,6 +125,8 @@ N
 O
     
    **1TR: One True RecoveryOS**. This is what RecoveryOS is called when you boot it by holding down the power button. This means you have asserted physical presence and you are running a fully Apple-trusted recovery environment, which gives you special powers, like the ability to install a custom OS. You get root access, but you can only run software signed by Apple, and if FileVault is enabled you first need to authenticate.
+   
+   **OpticID**, is an Apple AR version of an Apple's FaceID biometric recognition and authorization technology, that uses complex algorithms to process iris data on the Vision Pro Headset.
 
 P
 
@@ -183,6 +187,8 @@ V
    **VDM: Vendor Defined Message**. Used for both USB Alternate Mode (not actually proprietary) and vendor-proprietary commands over USB-PD. Apple uses these to configure special modes on their Type C ports.
    
    **VHE: Virtual Host Extensions**. Extra Registers to allow more efficient switching between OS/VMs/User-space. See [ARM VHE explanation](https://developer.arm.com/documentation/102142/0100/Virtualization-Host-Extensions).
+   
+   **visionOS** is Apple's iPadOS/iOS-like Operating System for their Vision Pro Headset. 
 
 X
 
