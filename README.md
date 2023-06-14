@@ -1908,7 +1908,7 @@ Install the x86_64 version of Homebrew if you don't already have it.
 
 **Make sure the brew command is on your path:**
 
-which brew
+```which brew```
 
 **If this command does not print ```/usr/local/bin/brew```, you should use this command:**
 
