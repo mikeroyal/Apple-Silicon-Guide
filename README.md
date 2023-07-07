@@ -585,13 +585,15 @@ R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
 
 OLEDoS (OLED on Silicon) is a display panel that typically has a diagonal length of less than 1 inch and meets the 3000 ppi-4000 ppi resolution criteria of AR/VR device displays. Existing OLED displays use Low-Temperature-Poly-Silicon (LTPS) or Oxide TFT based on glass substrates. OLEDoS uses silicon-wafer-based CMOS substrates. Using silicon substrates, ultra-fine circuit structures typically used in semiconductor processes can be reproduced, which in turn lead to the creation of ultra-high-resolution OLEDs when organic matter is deposited on them.
 
- **LG OLEDoS Display Specs:**
+ **LG and Sony OLEDoS Display Specs:**
  
    * High-resolution 4K micro OLED displays.
    * Display Pixel Size will be between 3000 ppi-4000 ppi.
    * Display offers a brightness of 5,000 nits.
    * The color gamut is quoted as DCI > 97% DCI.
- 
+
+### LG OLEDoS
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/194017317-b1dbda21-5935-47ef-8843-137cc5540b60.png">
   <br />
@@ -599,6 +601,16 @@ OLEDoS (OLED on Silicon) is a display panel that typically has a diagonal length
 </p>
 
 Credit: [LG](https://www.lgdisplay.com/eng/technology/oled)
+
+### Sony OLEDoS
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/194017320-f7631398-a661-401d-9e6f-77d061c8d303.png">
+  <br />
+  Specs for OLED and OLEDoS
+</p>
+
+Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_microdisplay/)
 
 ### Tools and Frameworks
 
@@ -1857,7 +1869,6 @@ File Vault
 [![Game Porting Toolkit gets a BIG SURPRISE update! | Andrew Tsai](https://ytcards.demolab.com/?id=Nl12azxMbFc&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Game Porting Toolkit gets a BIG SURPRISE update! | Andrew Tsai")](https://www.youtube.com/watch?v=Nl12azxMbFc)
 [![The Mac gaming DirectX 12 Revolution is NOW!](https://ytcards.demolab.com/?id=CcYyvzHtJVM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "The Mac gaming DirectX 12 Revolution is NOW!")](https://www.youtube.com/watch?v=CcYyvzHtJVM)
 [![Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide](https://ytcards.demolab.com/?id=jUvDPCxkHIU&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Play ANY Windows Game on Mac with the Game Porting Toolkit! | Step-by-Step Guide")](https://www.youtube.com/watch?v=jUvDPCxkHIU)
-[![Cyberpunk 2077 Running on M1 | M2 Mac](https://ytcards.demolab.com/?id=GS25TeOwTME&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Cyberpunk 2077 Running on M1 | M2 Mac")](https://www.youtube.com/watch?v=GS25TeOwTME)
 
 **Working Games:**
 
