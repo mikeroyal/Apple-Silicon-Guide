@@ -78,7 +78,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
-        * [Game Controllers](#Game-controllers)
+        * [Game Controllers](#game-controllers)
       - [Setting up OBS Studio](#Setting-up-OBS-Studio)
           * [Useful OBS Studio 3rd party Plugins & Themes](#useful-obs-studio-3rd-party-plugins-and-themes)
       - [Discord](#Discord)
