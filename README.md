@@ -2260,6 +2260,12 @@ Xbox Controller
 PS 5  DualSense™ Controller
 </p>
 
+[ROG Raikiri Pro PC Controller](https://rog.asus.com/controllers/rog-raikiri-pro-model/)  is a Xbox-licensed PC controller that features a built-in OLED display, tri-mode connectivity, four rear buttons, selectable step triggers, an ESS DAC, plus adjustable joystick sensitivity and response curves. 
+
+ <p align="center">
+ <img src="https://github.com/mikeroyal/Asus-ROG-Ally-Guide/assets/45159366/84654474-00db-4653-9398-7d0f26c510dc">
+</p>
+
 [Nintendo Switch Pro Controller](https://www.amazon.com/Nintendo-Switch-Pro-Controller/dp/B01NAWKYZ0)
 
 <p align="center">
