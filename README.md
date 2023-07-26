@@ -563,9 +563,23 @@ R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
  
  * [visionOS SDK](https://developer.apple.com/visionos/)
  * [Learn about visionOS](https://developer.apple.com/visionos/learn/)
- * [Vision Pro compatibility evaluations (available July 2023)](https://d*eveloper.apple.com/visionos/work-with-apple/)
- * [Vision Pro developer labs (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
- * [Vision Pro developer kit (available July 2023)](https://developer.apple.com/visionos/work-with-apple/)
+ * [Apple Vision Pro developer kit](https://developer.apple.com/visionos/developer-kit/)
+ * [Apple Vision Pro developer Labs](https://developer.apple.com/visionos/labs/)
+ * [Get started with building apps for spatial computing](https://developer.apple.com/videos/play/wwdc2023/10260/)
+ * [Apple Vision Pro compatibility evaluations](https://developer.apple.com/visionos/compatibility-evaluations/)
+ * [Checking whether your existing app is compatible with visionOS](https://developer.apple.com/documentation/visionOS/checking-whether-your-app-is-compatible-with-visionos/)
+ * [Making your existing app compatible with visionOS](https://developer.apple.com/documentation/visionos/making-your-app-compatible-with-visionos/)
+ * [Bringing your existing apps to visionOS](https://developer.apple.com/documentation/visionos/bringing-your-app-to-visionos/)
+ * [Interacting with your app in the visionOS simulator](https://developer.apple.com/documentation/visionOS/interacting-with-your-app-in-the-visionos-simulator/)
+ * [Diagnosing and resolving bugs in your running app](https://developer.apple.com/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app/)
+ * [Running your app in Simulator or on a device](https://developer.apple.com/documentation/xcode/running-your-app-in-simulator-or-on-a-device/)
+ * [Diagnosing and resolving bugs in your running app](https://developer.apple.com/documentation/xcode/diagnosing-and-resolving-bugs-in-your-running-app/)
+ * [Improving your app’s performance](https://developer.apple.com/documentation/metrickit/improving_your_app_s_performance/)
+ * [Analyzing the performance of your Metal app](https://developer.apple.com/documentation/xcode/analyzing-the-performance-of-your-metal-app/)
+ * [Establishing UIRequiredDeviceCapabilities](https://developer.apple.com/documentation/bundleresources/information_property_list/uirequireddevicecapabilities/)
+ * [Game controllers (GCSupportsControllerUserInteraction)](https://developer.apple.com/design/human-interface-guidelines/game-controllers/)
+ * [Vision Pro Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos/)
+
  
 
  **Apple Vision Pro Headset Specs:**
