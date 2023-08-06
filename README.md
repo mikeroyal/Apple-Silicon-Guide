@@ -658,6 +658,9 @@ Credit: [Sony](https://www.sony.com/en/SonyInfo/research/technologies/OLED_micro
  * [Apple Core Animation Framework](https://developer.apple.com/documentation/quartzcore) is a graphics rendering and animation infrastructure that provides high frame rates and smooth animations without burdening the CPU and slowing down your app.
  * [Apple Core Graphics Framework](https://developer.apple.com/documentation/coregraphics) is a framework based on the Quartz advanced drawing engine. It provides low-level, lightweight 2D rendering with unmatched output fidelity.
  * [GPUImage3](https://github.com/BradLarson/GPUImage3) is the third generation of the [GPUImage framework](https://github.com/BradLarson/GPUImage), an open source project for performing GPU-accelerated image and video processing on Mac and iOS. This third generation is redesigned to use **[Apple's Metal](https://developer.apple.com/metal/) in place of OpenGL**.
+ * [XR Interaction Toolkit package](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.3/manual/index.html) is a high-level, component-based, interaction system for creating VR and AR experiences. It provides a framework that makes 3D and UI interactions available from Unity input events. The core of this system is a set of base Interactor and Interactable components, and an Interaction Manager that ties these two types of components together.
+* [Input System](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.6/manual/index.html) is a tool that allows your users to control your game or app using a device, touch, or gestures
+* [XR Hands package](https://docs.unity3d.com/Packages/com.unity.xr.hands@1.1/manual/index.html) is an API that allows you to access hand tracking data from devices that support hand tracking. To access hand tracking data, you must also enable a provider plug-in that implements the XR hand tracking subsystem.
 
 ### Developer Resources
 
