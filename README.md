@@ -579,6 +579,13 @@ R1 & M2 chips in the Vision Pro Headset. Image Credit: Apple
  * [Establishing UIRequiredDeviceCapabilities](https://developer.apple.com/documentation/bundleresources/information_property_list/uirequireddevicecapabilities/)
  * [Game controllers (GCSupportsControllerUserInteraction)](https://developer.apple.com/design/human-interface-guidelines/game-controllers/)
  * [Vision Pro Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos/)
+ * [Creating your first visionOS app](https://developer.apple.com/documentation/visionos/creating-your-first-visionos-app/)
+ * [Adding 3D content to your app](https://developer.apple.com/documentation/visionos/adding-3d-content-to-your-app)
+ * [Adopting best practices for privacy and user preferences](https://developer.apple.com/documentation/visionos/adopting-best-practices-for-privacy)
+ * [Improving accessibility support in your visionOS app](https://developer.apple.com/documentation/visionos/improving-accessibility-support-in-your-app)
+ * [Unity support for visionOS: What you need to know](https://blog.unity.com/engine-platform/unity-support-for-visionos)
+ * [Create immersive Unity apps](https://developer.apple.com/videos/play/wwdc2023/10088/)
+ * [Bring your Unity VR app to a fully immersive space](https://developer.apple.com/videos/play/wwdc2023/10093/)
 
  
 
