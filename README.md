@@ -1827,6 +1827,74 @@ File Vault
 
 [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&co=GENIE.Platform%3DAndroid) is a software authenticator developed by Google that implements multi-factor authentication services using the Time-based one-time password and HMAC-based one-time password, for authenticating users of software applications.
 
+### Disk Image Creation Tools
+
+[Back to Top](#table-of-contents)
+
+**Disk Image Creation** - is a process of Data backup and recovery where creating an image ensures that the original data on the disk is preserved. With an exact copy, you can extract the data from the disk image anytime you need.
+
+* [Bitscout](https://github.com/vitaly-kamluk/bitscout) - Bitscout by Vitaly Kamluk helps you build your fully-trusted customizable LiveCD/LiveUSB image to be used for remote digital forensics (or perhaps any other task of your choice). It is meant to be transparent and monitorable by the owner of the system, forensically sound, customizable and compact.
+* [Magnet ACQUIRE](https://www.magnetforensics.com/magnet-acquire/) - ACQUIRE by Magnet Forensics allows various types of disk acquisitions to be performed on Windows, Linux, and macOS as well as mobile operating systems (Android and iOS).
+
+### Evidence Collection
+
+[Back to Top](#table-of-contents)
+
+ **Evidence Collection** - is a set of protocols that apply to both pre-collection and post-collection evidence. This process helps with Preserving & Collecting Evidence making sure the evidence is not destroyed or devalued as a source of information.
+
+* [Acquire](https://github.com/fox-it/acquire) - Acquire is a tool to quickly gather forensic artifacts from disk images or a live system into a lightweight container. This makes Acquire an excellent tool to, among others, speedup the process of digital forensic triage. It uses [Dissect](https://github.com/fox-it/dissect) to gather that information from the raw disk, if possible.
+* [artifactcollector](https://github.com/forensicanalysis/artifactcollector) - The artifactcollector project provides a software that collects forensic artifacts on systems.
+* [bulk_extractor](https://github.com/simsong/bulk_extractor) - Computer forensics tool that scans a disk image, a file, or a directory of files and extracts useful information without parsing the file system or file system structures. Because of ignoring the file system structure, the program distinguishes itself in terms of speed and thoroughness.
+* [Forensic Artifacts](https://github.com/ForensicArtifacts/artifacts) - Digital Forensics Artifact Repository
+* [Live Response Collection](https://www.brimorlabs.com/tools/) - Automated tool that collects volatile data from Windows, macOS, and \*nix based operating systems.
+* [Margarita Shotgun](https://github.com/ThreatResponse/margaritashotgun) - Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition.
+* [UAC](https://github.com/tclahr/uac) - UAC (Unix-like Artifacts Collector) is a Live Response collection script for Incident Response that makes use of native binaries and tools to automate the collection of AIX, Android, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris systems artifacts.
+
+### Incident Management
+
+[Back to Top](#table-of-contents)
+
+**Incident Management** - is the process used by development and IT Operations teams to respond to an unplanned event or service interruption and restore the service to its operational state.
+
+* [Catalyst](https://github.com/SecurityBrewery/catalyst) - A free SOAR system that helps to automate alert handling and incident response processes.
+* [CyberCPR](https://www.cybercpr.com) - Community and commercial incident management tool with Need-to-Know built in to support GDPR compliance while handling sensitive incidents.
+* [Cyphon](https://medevel.com/cyphon/) - Cyphon eliminates the headaches of incident management by streamlining a multitude of related tasks through a single platform. It receives, processes and triages events to provide an all-encompassing solution for your analytic workflow — aggregating data, bundling and prioritizing alerts, and empowering analysts to investigate and document incidents.
+* [CORTEX XSOAR](https://www.paloaltonetworks.com/cortex/xsoar) - Palo Alto security orchestration, automation and response platform with full Incident lifecycle management and many integrations to enhance automations.
+* [DFTimewolf](https://github.com/log2timeline/dftimewolf) - A framework for orchestrating forensic collection, processing and data export.
+* [DFIRTrack](https://github.com/dfirtrack/dfirtrack) - Incident Response tracking application handling one or more incidents via cases and tasks with a lot of affected systems and artifacts.
+* [Fast Incident Response (FIR)](https://github.com/certsocietegenerale/FIR/) - Cybersecurity incident management platform designed with agility and speed in mind. It allows for easy creation, tracking, and reporting of cybersecurity incidents and is useful for CSIRTs, CERTs and SOCs alike.
+* [RTIR](https://www.bestpractical.com/rtir/) - Request Tracker for Incident Response (RTIR) is the premier open source incident handling system targeted for computer security teams. We worked with over a dozen CERT and CSIRT teams around the world to help you handle the ever-increasing volume of incident reports. RTIR builds on all the features of Request Tracker.
+* [Sandia Cyber Omni Tracker (SCOT)](https://github.com/sandialabs/scot) - Incident Response collaboration and knowledge capture tool focused on flexibility and ease of use. Our goal is to add value to the incident response process without burdening the user.
+* [Shuffle](https://github.com/frikky/Shuffle) - A general purpose security automation platform focused on accessibility.
+* [threat_note](https://github.com/defpoint/threat_note) - Lightweight investigation notebook that allows security researchers the ability to register and retrieve indicators related to their research.
+* [Zenduty](https://www.zenduty.com) - Zenduty is a novel incident management platform providing end-to-end incident alerting, on-call management and response orchestration, giving teams greater control and automation over the incident management lifecycle.
+
+
+### Sandboxing/Reversing Tools
+
+[Back to Top](#table-of-contents)
+
+**Sandboxing** - is a security practice in which you use an isolated environment, or a "sandbox," for testing. Within the sandbox you run code, analyze the code in a safe, isolated environment without affecting the application, system or platform.
+
+**Reverse-engineering** - is the process of dismantling a device, system, or piece of software to see how it works. It's done primarily to analyze and gain knowledge about the way a product works but often is used to duplicate or enhance the product.
+
+* [Any Run](https://app.any.run/) - Interactive online malware analysis service for dynamic and static research of most types of threats using any environment.
+* [CAPEv2](https://github.com/kevoreilly/CAPEv2) - Malware Configuration And Payload Extraction.
+* [Cutter](https://github.com/radareorg/cutter) - Reverse engineering platform powered by Radare2.
+* [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - Software Reverse Engineering Framework.
+* [Hybrid-Analysis](https://www.hybrid-analysis.com/) - Free powerful online sandbox by CrowdStrike.
+* [Intezer](https://analyze.intezer.com/#/) - Intezer Analyze dives into Windows binaries to detect micro-code similarities to known threats, in order to provide accurate yet easy-to-understand results.
+* [Joe Sandbox (Community)](https://www.joesandbox.com/) - Joe Sandbox detects and analyzes potential malicious files and URLs on Windows, Android, MacOS, Linux, and iOS for suspicious activities; providing comprehensive and detailed analysis reports.
+* [Mastiff](https://github.com/KoreLogicSecurity/mastiff) - Static analysis framework that automates the process of extracting key characteristics from a number of different file formats.
+* [Metadefender Cloud](https://www.metadefender.com) - Free threat intelligence platform providing multiscanning, data sanitization and vulnerability assessment of files.
+* [Radare2](https://github.com/radareorg/radare2) - Reverse engineering framework and command-line toolset.
+* [Reverse.IT](https://www.reverse.it/) - Alternative domain for the Hybrid-Analysis tool provided by CrowdStrike.
+* [StringSifter](https://github.com/fireeye/stringsifter) - A machine learning tool that ranks strings based on their relevance for malware analysis.
+* [Threat.Zone](https://app.threat.zone) - Cloud based threat analysis platform which include sandbox, CDR and interactive analysis for researchers. 
+* [Valkyrie Comodo](https://valkyrie.comodo.com) - Valkyrie uses run-time behavior and hundreds of features from a file to perform analysis.
+* [Viper](https://github.com/viper-framework/viper) - Python based binary analysis and management framework, that works well with Cuckoo and YARA.
+* [Virustotal](https://www.virustotal.com) - Free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners.
+
 # Gaming
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
