@@ -1,4 +1,9 @@
 <p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b5db66fd-07b1-4e54-9dd9-44e25dc00ab9">
+<br />
+</p>
+
+<p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/213074824-9155501e-75bc-4557-9cff-b517211dd421.jpeg">
 <br />
 </p>
