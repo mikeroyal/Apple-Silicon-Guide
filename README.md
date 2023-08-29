@@ -2276,9 +2276,13 @@ Issues may be fixed by enrolling into the Steam beta.
 
  * [CrossOver Apps Compatibility Database](https://www.codeweavers.com/compatibility?browse=&app_desc=&company=&rating=&platform=&date_start=&date_end=&name=ea&search=app#results)
  
-  * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+ * **Recommended:** [Microsoft Visual C++ Redistributable ARM64 Version](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-<img src="https://user-images.githubusercontent.com/45159366/206895903-e4ba0fc7-9df7-43b2-90f1-6e096c2e4c44.png">
+[![5 New Features Revealed—Level Up Your Gaming with CrossOver 23](https://ytcards.demolab.com/?id=wtHJ3TReI-4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "5 New Features Revealed—Level Up Your Gaming with CrossOver 23")](https://www.youtube.com/watch?v=wtHJ3TReI-4) 
+[![How to play Astroneer on Mac with CrossOver 23](https://ytcards.demolab.com/?id=Mr2az2vGWtY&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to play Astroneer on Mac with CrossOver 23")](https://www.youtube.com/watch?v=Mr2az2vGWtY) 
+[![THIS makes CrossOver BETTER than Game Porting Toolkit!](https://ytcards.demolab.com/?id=AxKK3ctISnk&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "THIS makes CrossOver BETTER than Game Porting Toolkit!")](https://www.youtube.com/watch?v=AxKK3ctISnk)  
+
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b7315971-bf00-4070-8c3f-12ea38a3e1fd">
  
 ## Manage Temps/Fans (CPU and GPU)
 
