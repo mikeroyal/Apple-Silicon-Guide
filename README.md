@@ -80,7 +80,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
       - [Game Porting Toolkit](#game-porting-toolkit)
       - [Whisky Wine wrapper](#whisky)
       - [CrossOver for MacOS](#CrossOver-for-MacOS)
-      - [Gaming Xbox Game Pass](#gaming-on-xbox-game-pass) 
+      - [Gaming on Xbox Game Pass](#gaming-on-xbox-game-pass) 
       - [Manage Temps/Fans (CPU and GPU)](#Manage-TempsFans-CPU-and-GPU)
       - [Gaming Peripherals](#Gaming-Peripherals)
         * [Gaming mice, keyboards, and headsets](#RGB-Devices)
