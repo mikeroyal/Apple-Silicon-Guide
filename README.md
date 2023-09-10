@@ -4639,7 +4639,7 @@ Parallels Desktop for Mac
  Ubuntu on UTM
 </p>
 
-[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+[VMware Fusion](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
 
   * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
   * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
@@ -4667,6 +4667,8 @@ The Linux kernel 6.2 offers mainline support for the Apple M1 Pro, Max, and Ultr
   - [Asahi Linux Feature Support](https://github.com/AsahiLinux/docs/wiki/Feature-Support)
   
   - [Asahi Linux Wiki](https://github.com/AsahiLinux/docs/wiki)
+  
+  - [Conformant OpenGL® ES 3.1 drivers are now available for M1/ +M2-family GPUs](https://rosenzweig.io/blog/first-conformant-m1-gpu-driver.html)
 
 [M1N1](https://github.com/AsahiLinux/m1n1) is a bootloader and experimentation playground for Apple Silicon.
 
@@ -4714,8 +4716,12 @@ While you will end up with a fairly usable computer, the exact hardware features
 
 For more general information about Linux on Apple Silicon Macs, refer to the [Asahi Linux project](https://asahilinux.org/) and [alpha installer release](https://asahilinux.org/2022/03/asahi-linux-alpha-release/). 
 
+* [Our new flagship distro: Fedora Asahi Remix - Asahi Linux](https://asahilinux.org/2023/08/fedora-asahi-remix/)
+* [Fedora Asahi Remix project](https://fedora-asahi-remix.org/)
+* [Fedora Asahi Remix packages for Apple Silicon](https://packages.fedoraproject.org/pkgs/asahi-scripts/asahi-scripts/)
+* [Fedora COPR Pacakges for Asahi](https://copr.fedorainfracloud.org/groups/g/asahi/coprs/)
 * [Fedora Asahi Special Interest Group](https://fedoraproject.org/wiki/SIGs/Asahi)
- 
+
 [Asahi-Fedora-Builder](https://github.com/leifliddy/asahi-fedora-builder) is a script that builds a minimal Fedora image to run on Apple M1/M2 systems.
 
 **Installing a Prebuilt Image**
