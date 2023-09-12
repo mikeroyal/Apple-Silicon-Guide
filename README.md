@@ -39,10 +39,11 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 # Table of Contents
 
-1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
-   
+1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)  
+   * [A17 Pro](a17-pro)
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
    * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
+   * [S9](#s9)
    * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
    * [R1](#R1)
    * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
@@ -73,7 +74,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Charging/Powerbanks](#ChargingPowerbanks)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
    
- 2. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+ 1. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
       
       - [Gaming on Apple Silicon resources](#gaming-on-apple-silicon-resources)
       - [MacOS Game Mode](#macos-game-mode)
@@ -126,36 +127,36 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
         * [MAME](#MAME)
       - [Performance Benchmarks](#performance-benchmarks)
 
-3. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
+2. [Wafer Level Multi-Chip Packaging Technology](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
  
     - [InFO (Integrated Fan-Out) Wafer Level Packaging](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
     - [Chip on Wafer on Substrate (CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
 
-4. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
+3. [Xcode Development](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
 
-5. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
+4. [Core ML Development](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
 
-6. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
+5. [Metal Development](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
 
-7. [Visual Studio Studio (VSCode) Development](#vscode-development)
+6. [Visual Studio Studio (VSCode) Development](#vscode-development)
 
      - [VS Code Extensions for Developer Productivity](#VS-Code-Extensions-for-Developer-Productivity) 
 
-8. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
+7. [Unreal Engine 5 Development](#Unreal-Engine-5-Development)
  
-9. [Unity Development](#Unity-Development)
+8. [Unity Development](#Unity-Development)
  
-10. [Blender Development](#Blender-Development)
+9. [Blender Development](#Blender-Development)
 
-11. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+10. [Virtualization](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
 
-12. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+11. [Docker](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
 
-13. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+12. [Kubernetes](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
 
-14. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+13. [Ansible](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
 
-15. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
+14. [Running Linux on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
      * [Linux Virtualization on Apple Silicon](#Linux-Virtualization-on-Apple-Silicon)
      * [Asahi Linux Development](#Asahi-Linux-Development)
      * [Fedora Linux Development](#Fedora-Linux-Development)
@@ -163,19 +164,19 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
      * [Debian Linux Development](#Debian-Linux-Development)
      * [Ubuntu Linux Development](#Ubuntu-Linux-Development)
 
-16. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+15. [Running Windows 10/11 on the Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
 
-17. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+16. [Game Development](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
 
-18. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+17. [Professional Audio/Video Development](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
 
-19. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+18. [3D Graphics & Design](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
 
-20. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+19. [Swift Development](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
 
-21. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+20. [Objective-C Development](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
 
-22. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+21. [C/C++ Development](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
 
 # Getting Started with Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
@@ -224,6 +225,21 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 ## Apple Silicon Chips
 
+### A17 Pro
+
+**A17 Pro** is built on new 3nm architecture. It has **6-CPU cores**, with the 2-performance cores 10% faster and the 4-efficiency cores significantly more efficient. Along with a 6-core GPU that is 20 percent faster than the A16 Bionic(iPhone 15 & 15 Plus models). The Neural Engine, will be almost twice as fast as the A16 Bionic. Apple has also added hardware-accelerate ray-tracing to the A17 Pro GPU. The A17 Pro chip is available in the iPhone 15 Pro and 15 Pro Max.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/23206325-fc71-4d3d-9203-798275475176">
+</br>
+</p>
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/ee123e8c-37f1-4f00-8322-4b2202233968">
+</br>
+Apple A17 Pro Architecture. Image Credit: Apple
+</p>
+
 ### A16 Bionic
 [Back to the Top](#table-of-contents)
 
@@ -256,6 +272,23 @@ A16 Bionic Chip Architecture
 </p>
 
 H2 chip powering the AirPods Pro. Credit: [Apple](https://www.apple.com/newsroom/2022/09/apple-announces-the-next-generation-of-airpods-pro/)
+
+### S9
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/849aaf59-93f2-4ea1-bb9f-efbc646ad65d">
+</br>
+</p>
+
+The S9 chip has 60% more transistors in its CPU than the Series 8, and 30% more in its GPU. Along with neural engine boosting on-device processing for Siri requests, including 25% faster voice dictation in the Apple Watch Series 9.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b1ea6161-ca66-48bc-9570-0b6a0fa756cd">
+</br>
+S9 Chip for Apple Watch Series 9. Image Credit: Apple
+</p>
 
 
 ### U1 
