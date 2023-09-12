@@ -5386,6 +5386,12 @@ cd ubuntu-asahi
 # Running Windows 10/11 on the Apple Silicon
 [Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
+[![Windows 11 ARM on Mac? Parallels vs VMware vs UTM](https://ytcards.demolab.com/?id=lsik-eGJIog&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Windows 11 ARM on Mac? Parallels vs VMware vs UTM")](https://www.youtube.com/watch?v=lsik-eGJIog)
+[![VMware can FINALLY GAME on Mac and.. IT'S FREE?](https://ytcards.demolab.com/?id=Mqn1yoV_OW4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "VMware can FINALLY GAME on Mac and.. IT'S FREE?")](https://www.youtube.com/watch?v=Mqn1yoV_OW4)
+[![Windows on a Mac JUST got better](https://ytcards.demolab.com/?id=Ar4kx13TxBo&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Windows on a Mac JUST got better")](https://www.youtube.com/watch?v=Ar4kx13TxBo)
+[![How to Install Windows 11 on Mac for FREE using UTM VM app](https://ytcards.demolab.com/?id=5Z_G6QG7xxg&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to Install Windows 11 on Mac for FREE using UTM VM app")](https://www.youtube.com/watch?v=5Z_G6QG7xxg)
+[![How to install Windows 11 on Mac M1/M2 Processors for Free (UTM)](https://ytcards.demolab.com/?id=b_hGkl9CSbM&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "How to install Windows 11 on Mac M1/M2 Processors for Free (UTM)")](https://www.youtube.com/watch?v=b_hGkl9CSbM)
+
 [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/) is a program that let's you runs Windows side-by-side with macOS (no restarting required) on your MacBook, MacBook Pro, iMac, iMac Pro, Mac mini or Mac Pro. Share files and folders, copy and paste images and text & drag and drop files between Mac and Windows applications.
 
 <p align="center">
@@ -5406,7 +5412,7 @@ Parallels Desktop for Mac
  Windows 11 on UTM
 </p>
  
-[VMware Fusion 22H2](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
+[VMware Fusion](https://blogs.vmware.com/teamfusion/2022/07/just-released-vmware-fusion-22h2-tech-preview.html) is a software hypervisor developed by VMware for Mac computers.It creates a virtual machine and install an operating system (such as Windows or Linux) inside that virtual machine.
 
   * Windows 11 on Intel and Apple Silicon, with 2D graphics and networking support.
   * VMTools installation support for Windows 11 guest operating system on M1-based Macs.
