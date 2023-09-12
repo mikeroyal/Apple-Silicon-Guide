@@ -2265,7 +2265,7 @@ Issues may be fixed by enrolling into the Steam beta.
 [Whisky](https://github.com/IsaacMarovitz/Whisky) is tool that provides a clean and easy to use graphical wrapper for Wine built in native SwiftUI. It can make and manage bottles, install and run Windows apps and games. Whisky is built on top of [CrossOver 22.1.1](https://www.codeweavers.com/crossover/download-now) and Apple's [Game Porting Toolkit](https://github.com/apple/homebrew-apple/tree/main/Formula) developed by [Isaac Marovitz](https://twitter.com/isaacmarovitz) and help from [Gcenx](https://github.com/Gcenx).
 
 <p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d1f60a22-6b30-4406-a837-6e37ea72f22d">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7c44f35b-78a1-4d48-a01a-cf065b458a0b">
 <br />
 </p>
 
@@ -3039,7 +3039,7 @@ Cartridge Features
 
 [m64p](https://m64p.github.io/) is a Nintendo 64 Emulator. It uses mupen64plus-gui, a brand new mupen64plus frontend written in Qt5. It supports all of the things you’d expect from a frontend (savestate management, pausing, screenshots). 
 
-Nintendo 3DS
+### Nintendo 3DS
 
 [Citra](https://citra-emu.org/) is an open-source emulator for the Nintendo 3DS capable of playing many of your favorite games.
 
