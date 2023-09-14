@@ -226,13 +226,14 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 ## Apple Silicon Chips
 
 ### A17 Pro
-
-**A17 Pro** is built on new 3nm architecture. It has **6-CPU cores**, with the 2-performance cores 10% faster and the 4-efficiency cores significantly more efficient. Along with a 6-core GPU that is 20 percent faster than the A16 Bionic(iPhone 15 & 15 Plus models). The Neural Engine, will be almost twice as fast as the A16 Bionic. Apple has also added hardware-accelerate ray-tracing to the A17 Pro GPU. The A17 Pro chip is available in the iPhone 15 Pro and 15 Pro Max.
+[Back to the Top](#table-of-contents)
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/23206325-fc71-4d3d-9203-798275475176">
 </br>
 </p>
+
+**A17 Pro** is built on new 3nm architecture. It has **6-CPU cores**, with the 2-performance cores 10% faster and the 4-efficiency cores significantly more efficient. Along with a 6-core GPU that is 20 percent faster than the A16 Bionic(iPhone 15 & 15 Plus models). The Neural Engine, will be almost twice as fast as the A16 Bionic. Apple has also added hardware-accelerate ray-tracing to the A17 Pro GPU. The A17 Pro chip is available in the iPhone 15 Pro and 15 Pro Max.
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/ee123e8c-37f1-4f00-8322-4b2202233968">
