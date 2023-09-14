@@ -40,7 +40,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 # Table of Contents
 
 1. [Getting Started with Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)  
-   * [A17 Pro](a17-pro)
+   * [A17 Pro](#a17-pro)
    * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
    * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
    * [S9](#s9)
