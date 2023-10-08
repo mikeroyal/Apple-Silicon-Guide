@@ -72,6 +72,8 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [Checking Battery Health](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
       - [Turning on Low Power Mode](#low-power-mode)
    * [Charging/Powerbanks](#ChargingPowerbanks)
+      - [USB-C Adapters](#usb-c-adapters)
+      - [USB-C Fast Charging Cables (from 3.3-10ft)](#usb-c-fast-charging-cables)
    * [MacOS/iOS Security Hardening](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
    
  1. [Gaming](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
@@ -1706,7 +1708,7 @@ Checking Battery on your iOS device.
 
 [Back to the Top](#table-of-contents)
 
-While the Apple Silicon Macbooks have great battery life. It's always good to have a portable powerbank for charging your device when you're traveling, conferences, etc..
+While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great battery life. It's always good to have a portable USB-C powerbank for charging your device when you're traveling, conferences, etc..
 
 * [Using USB-C cables with your Mac](https://support.apple.com/guide/mac-help/use-usb-c-cables-mchl447b9239/mac)
 * [Apple USB-C Charge Cable (2m) on Amazon](https://www.amazon.com/Apple-USB-C-Charge-Cable-2m/dp/B01MQ5Z080)
@@ -1736,6 +1738,40 @@ While the Apple Silicon Macbooks have great battery life. It's always good to ha
 [HenHot 65W USB-C Portable Charger](https://www.amazon.com/HenHot-20000mAh-Laptop-Portable-Charger/dp/B09SLCV819)
 
 [Baseus 65W USB-C Power Bank with Built-in Cable](https://www.amazon.com/Portable-Charger-Baseus-20000mAh-Charging/dp/B08THFDRSZ)
+
+### USB-C Adapters
+
+[Back to Top](#table-of-content)
+
+ * [JSAUX USB-C to USB Adapter (2 Pack)](https://www.amazon.com/JSAUX-Adapter-Compatible-MacBook-Samsung/dp/B07BS8SRWH/)
+
+ * [Anker USB-C Adapter (2 Pack)](https://www.amazon.com/Adapter-Anker-High-Speed-Transfer-Notebook/dp/B08HZ6PS61/)
+
+ * [Basesailor USB to USB-C Adapter (2 Pack)](https://www.amazon.com/Female-Adapter-Charger-Airpods-Samsung/dp/B079LYHNSR/)
+
+ * [Syntech USB-C to USB Adapter (2 Pack)](https://www.amazon.com/Syntech-Adapter-Thunderbolt-Compatible-MacBook/dp/B07CVX3516/)
+
+ * [Apple USB-C to USB Adapter](https://www.amazon.com/Apple-USB-C-to-USB-Adapter/dp/B00VU2OID2/)
+
+### USB-C Fast Charging Cables
+
+[Back to Top](#table-of-content)
+ 
+ * [Baseus Minimalist USB-C to USB-C Cable 100W](https://www.baseus.com/products/minimalist-usb-c-to-usb-c-cable-100w)
+
+ * [Baseus USB-C Fast Charging Cable 240W](https://www.baseus.com/products/usb-c-fast-charging-cable-240w)
+
+ * [Baseus PD 100W USB C to USB C Cable(6.6 ft), 5A Fast Charging USB C Cable with LED Display](https://www.amazon.com/Baseus-Charging-Display-Braided-Compatible/dp/B0B6CF1YYF?th=1)
+
+ * [Baseus Cafule USB-C to USB-C Cable( 6.6 ft) 100W](https://www.baseus.com/products/cafule-usb-c-to-usb-c-cable-100w-6-6-ft)
+
+ * [Anker 333 USB C to USB C Cable (6ft 100W, 2-Pack)](https://www.amazon.com/Anker-2-Pack-Charging-MacBook-Samsung/dp/B09LCJPZ1P/)
+
+ * [JSAUX USB C to USB C Cable 100W/5A [2-Pack 6.6ft+6.6ft], QC 4.0/USB PD Type-C Fast Charging](https://www.amazon.com/JSAUX-Charging-Braided-Compatible-Matebook/dp/B07GZH2WTV/)
+
+ * [USB C to USB C Cable, 3.2 Gen 2 USB-C Cable 10ft - 4K UHD 20Gbps USB C Cable 100W PD Fast Charging Cable](https://www.amazon.com/USB-Cable-3-1-USB-C-10ft/dp/B089FV33QX/)
+
+ * [AINOPE 100W USB C to USB C Cable 10ft, USB C Charger Cable](https://www.amazon.com/AINOPE-Charging-Braided-compatible-MacBook/dp/B094YDZQ1C/)
 
 
 ## MacOS/iOS Security Hardening
