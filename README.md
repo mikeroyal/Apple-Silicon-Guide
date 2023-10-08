@@ -1741,7 +1741,7 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 
 ### USB-C Adapters
 
-[Back to Top](#table-of-content)
+[Back to Top](#table-of-contents)
 
  * [JSAUX USB-C to USB Adapter (2 Pack)](https://www.amazon.com/JSAUX-Adapter-Compatible-MacBook-Samsung/dp/B07BS8SRWH/)
 
@@ -1755,7 +1755,7 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 
 ### USB-C Fast Charging Cables
 
-[Back to Top](#table-of-content)
+[Back to Top](#table-of-contents)
  
  * [Baseus Minimalist USB-C to USB-C Cable 100W](https://www.baseus.com/products/minimalist-usb-c-to-usb-c-cable-100w)
 
