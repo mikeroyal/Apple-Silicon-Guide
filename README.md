@@ -725,52 +725,79 @@ Devices powered by Apple Silicon.
 </p>
 
 ### macOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [macOS](https://www.apple.com/macos) is an advanced desktop operating system (OS) for Apple's series of desktops and laptops.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230572-2d86197a-ce2a-4eaa-a508-e2c148b60057.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5cfa8b3e-1dd9-49d6-bd11-0422252632f7">
 <br />
 </p>
 
-**macOS Ventura. Source: [Apple](https://www.apple.com/macos/monterey/)**
+**macOS Sonoma. Source: [Apple](https://www.apple.com/macos/sonoma/)**
+
+**These are the Mac computers compatible with macOS Sonoma:**
+
+  * iMac 2019 and later
+  * iMac Pro 2017
+  * Mac Pro 2019 and later
+  * Mac Studio 2022 and later
+  * MacBook Air 2018 and later
+  * MacBook Pro 2018 and later
+  * Mac mini 2018 and later
 
 ### iOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [iOS](https://www.apple.com/ios/) is an advanced mobile operating system (OS) for Apple's series of iPhone products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230685-96be6cd0-118f-48d7-b7b9-e258580cd66a.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/df41724d-e26a-4bf9-8d1c-7548c8f4b7bf">
 <br />
 </p>
 
-**iOS 16. Source: [Apple](https://www.apple.com/ios)**
+**iOS 17. Source: [Apple](https://www.apple.com/ios)**
 
 ### iPadOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [iPadOS](https://www.apple.com/ipados/) is an advanced mobile operating system (OS) for Apple's series of iPad products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230690-b628a77f-963c-44bd-b84b-9e76a2082ef3.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d446af0b-00c3-455f-85fa-8694f340e780">
 <br />
 </p>
 
-**iPadOS 16. Source: [Apple](https://www.apple.com/ipados)**
+**iPadOS 17. Source: [Apple](https://www.apple.com/ipados)**
 
 ###  watchOS
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
 
 [watchOS](https://www.apple.com/watchos/) is an advanced mobile operating system (OS) for Apple's series of Watch products.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/172230694-4accbc04-9057-4280-84d2-42927131fc8c.png">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5779ce06-9441-4502-a8d9-1d4fd034d61e">
 <br />
 </p>
 
-**watchOS 9. Source: [Apple](https://www.apple.com/watchos/)**
+**watchOS 10. Source: [Apple](https://www.apple.com/watchos/)**
+
+###  tvOS
+
+[tvOS](https://www.apple.com/tv-home/) is an advanced mobile operating system (OS) for Apple's series of TV streaming devices.
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/7e3fc9e5-cc4b-49e2-ba5c-028dc42fccb3">
+<br />
+</p>
+
+**tvOS. Source: [Apple](https://www.apple.com/tv-home/)**
+
+### visionOS
+
+[visionOS](https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro/) is Apple's iOS-like operating system for their upcoming AR/VR (Augmented Reality/Virtual Reality) headset powered by Apple's Silicon M2 and R1 chips. It will have an App Store with apps that include mixed-reality versions of their core Apple apps like **[Messages](https://support.apple.com/messages), [FaceTime](https://support.apple.com/facetime), [Maps](https://www.apple.com/maps/), and AR/VR games from [Apple Arcade](https://www.apple.com/apple-arcade/)**. Along with features such as [Memojis](https://apps.apple.com/us/story/id1445637997) and [SharePlay](https://support.apple.com/guide/iphone/use-shareplay-to-watch-and-listen-together-iphb657eb791/ios) that could be central to the user experience. 
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/e1f5d708-87a8-4b45-bfc9-03860cb6ebea">
+  <br />
+ visionOS. Image Credit: Apple
+</p>
 
 ## Getting Software
 
