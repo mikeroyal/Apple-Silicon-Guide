@@ -2532,7 +2532,32 @@ Issues may be fixed by enrolling into the Steam beta.
 **September 29**
  
    * Cocoon (Xbox Series X|S, Xbox One, & Windows PC)
- 
+
+**October 3**
+
+   * The Lamplighter’s League (Console, PC)
+
+**October 4**
+  
+  *  Warhammer 40,000 Darktide (Console [Xbox Series X|S])
+
+**October 10**
+   
+  * Forza Motorsport  (Console[Xbox Series X|S], PC, Cloud)
+    
+**October 24**
+
+  * Cities Skylines 2 (Console[Xbox Series X|S], PC, Cloud)
+
+**October 26**
+    
+  * Mineko’s Night Market (Console[Xbox Series X|S], PC)
+
+**October 31**    
+  
+  *  Headbangers Rhythm Royale (Console[Xbox Series X|S])    
+  *  Jusant(Console[Xbox Series X|S], PC, Cloud)
+
 **November 2**
  
    * Thirsty Suitors (Xbox Series X|S, Xbox One, & Windows PC)
