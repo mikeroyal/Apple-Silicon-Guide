@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/b5db66fd-07b1-4e54-9dd9-44e25dc00ab9">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/41de57da-156b-428c-b4b3-29b4594ae256">
 <br />
 </p>
 
@@ -24,6 +24,13 @@
 #### A guide covering Apple Silicon including the applications, libraries and tools that will make you better and more efficient with your Apple Silicon powered device.
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
+
+
+<p align="center">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d8992b71-e040-4077-9649-fd25a749b8e8">
+<br />
+Apple M3/M3 Pro/M3 Max/M3 Ultra Architectures.
+</p>
 
 <p align="center">
 <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05a63ff1-c221-415c-a563-0476cbe28f95">
@@ -54,6 +61,10 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
    * [M2 Pro](#M2-Pro)
    * [M2 Max](#M2-Max)
    * [M2 Ultra](#M2-Ultra)
+   * [M3](#m3)
+   * [M3 Pro](#m3-pro)
+   * [M3 Max](#m3-max)
+   * [M3 Ultra](#m3-ultra)
    * [Apple AR and Vision Pro Headset](#apple-ar-and-vision-pro-headset)
    * [Devices powered by Apple Silicon](https://github.com/mikeroyal/Apple-Silicon-Guide#Devices-powered-by-Apple-Silicon)
    * [Getting Software](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
@@ -563,6 +574,67 @@ The M2 Ultra is composed of **two M2 Max chips** that are connected together usi
 
 The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-latency unified memory that can be accessed by the **24-core CPU, 76-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**. The M2 Ultra is available for the [Mac Studio](https://www.apple.com/mac-studio/) and [Mac Pro](https://www.apple.com/mac-pro/).
 
+### M3‌
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/81a6ba78-0096-416b-9976-677a6c7e7778">
+</br>
+</p>
+
+**Apple M3 Chip** has a **35% faster CPU, 65% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU (4 high-performance and 4 energy-efficient), 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05f0c5e5-76f4-488d-995f-468f81e980e6">
+</br>
+M3 Chip Architecture
+</p>
+
+### M3 Pro
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/6f0bcd5b-38f4-4243-bbb3-7ec4191758bb">
+</br>
+</p>
+
+**Apple M3 Pro Chip** has a **30% faster CPU, 40% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **36GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU (6 high-performance and 6 energy-efficient), 18-core GPU (200GB/s memory bandwidth), and 16-core Neural Engine**.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d588605b-c665-4949-aa1c-ee721d68b0d4">
+</br>
+M3 Pro Chip Architecture
+</p>
+
+### M3 Max
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/30dd49e5-9f86-4b29-9b4f-c89e13ef8ee3">
+</br>
+</p>
+
+**Apple M3 Max Chip** has a **80% faster CPU, 50% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **124GB** of high-bandwidth, low-latency unified memory that can be accessed by the **16-core CPU (12 high-performance and 4 energy-efficient), 40-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. 
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5410b9e9-a150-4425-b285-e91222c06ca5">
+</br>
+M3 Max Chip Architecture
+</p>
+
+### M3 Ultra
+
+[Back to the Top](#table-of-contents)
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/8e8f62d9-31f7-4852-a5af-c45c8847c037">
+</br>
+</p>
+
+**Apple M3 Ultra Chip** is a Apple's most powerful silicon chip in their M3-series lineup. The M3 Ultra is composed of **two M3 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 192/244GB of high-bandwidth, low-latency unified memory that can be accessed by the **32-core CPU (24 high-performance and 8 energy-efficient), 80-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**.
 
 ## Apple AR and Vision Pro Headset
 
