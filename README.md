@@ -592,19 +592,13 @@ M3 Chip Architecture. Image Credit: Apple
 </p>
 
 <p align="center">
- <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05f0c5e5-76f4-488d-995f-468f81e980e6">
-</br>
-M3 Chip Architecture. Image Credit: Apple
-</p>
-
-<p align="center">
- <img src="">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0fdff7fa-348b-4716-b615-12c0b848b337">
 </br>
 M3 Chip Family efficiency cores performance. Image Credit: Apple
 </p>
 
 <p align="center">
- <img src="">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/8030518f-2e79-4418-b66e-970cd1c74cd4">
 </br>
 M3 Chip Family Neural Engine performance. Image Credit: Apple
 </p>
