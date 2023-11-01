@@ -27,7 +27,7 @@
 
 
 <p align="center">
-<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d8992b71-e040-4077-9649-fd25a749b8e8">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/bc1a4580-6500-44f8-ac84-0d746719a423">
 <br />
 Apple M3/M3 Pro/M3 Max/M3 Ultra Architectures.
 </p>
