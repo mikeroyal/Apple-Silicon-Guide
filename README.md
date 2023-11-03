@@ -583,7 +583,7 @@ The M2 Ultra can be configured with up to **192GB** of high-bandwidth, low-laten
 </br>
 </p>
 
-**Apple M3 Chip** has a **35% faster CPU, 65% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU (4 high-performance and 4 energy-efficient), 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**.
+**Apple M3 Chip** has a **35% faster CPU, 65% faster GPU, and 40% faster Neural Engine than the base [M1 chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**. It can be configured with up to **24GB** of high-bandwidth, low-latency unified memory that can be accessed by the **8-core CPU (4 high-performance and 4 energy-efficient), 10-core GPU (100GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3) and [iMac](https://www.apple.com/shop/buy-mac/imac).
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05f0c5e5-76f4-488d-995f-468f81e980e6">
@@ -612,7 +612,7 @@ M3 Chip Family Neural Engine performance. Image Credit: Apple
 </br>
 </p>
 
-**Apple M3 Pro Chip** has a **30% faster CPU, 40% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **36GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU (6 high-performance and 6 energy-efficient), 18-core GPU (200GB/s memory bandwidth), and 16-core Neural Engine**.
+**Apple M3 Pro Chip** has a **30% faster CPU, 40% faster GPU, and 40% faster Neural Engine than the base [M1 Pro chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**. It can be configured with up to **36GB** of high-bandwidth, low-latency unified memory that can be accessed by the **12-core CPU (6 high-performance and 6 energy-efficient), 18-core GPU (150GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro) and [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-pro).
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d588605b-c665-4949-aa1c-ee721d68b0d4">
@@ -629,7 +629,7 @@ M3 Pro Chip Architecture. Image Credit: Apple
 </br>
 </p>
 
-**Apple M3 Max Chip** has a **80% faster CPU, 50% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **128GB** of high-bandwidth, low-latency unified memory that can be accessed by the **16-core CPU (12 high-performance and 4 energy-efficient), 40-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. 
+**Apple M3 Max Chip** has a **80% faster CPU, 50% faster GPU, and 40% faster Neural Engine than the base [M1 Max chip](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**. It can be configured with up to **128GB** of high-bandwidth, low-latency unified memory that can be accessed by the **16-core CPU (12 high-performance and 4 energy-efficient), 40-core GPU (400GB/s memory bandwidth), and 16-core Neural Engine**. Available in the [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-max) and [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-max).
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5410b9e9-a150-4425-b285-e91222c06ca5">
@@ -647,6 +647,13 @@ M3 Max Chip Architecture. Image Credit: Apple
 </p>
 
 **Apple M3 Ultra Chip** is a Apple's most powerful silicon chip in their M3-series lineup. The M3 Ultra is composed of **two M3 Max chips** that are connected together using [Apple's UltraFusion Architecture](https://github.com/mikeroyal/Apple-Silicon-Guide/files/8248834/US20220013504A1.pdf) packaging. This means the M1 Ultra can be configured with up to 256GB of high-bandwidth, low-latency unified memory that can be accessed by the **32-core CPU (24 high-performance and 8 energy-efficient), 80-core GPU (800GB/s memory bandwidth), and 32-core Neural Engine**.
+
+<p align="center">
+ <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0e80d38b-9619-482e-b9af-a60e9e51a56a">
+</br>
+M3 Ultra Chip Architecture. 
+</p>
+
 
 ## Apple AR and Vision Pro Headset
 
