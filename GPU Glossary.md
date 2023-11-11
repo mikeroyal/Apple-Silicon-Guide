@@ -34,6 +34,7 @@ C
 
 D
 
+**[Dynamic Caching](https://patents.google.com/patent/US20210271606A1/)** is Apple's new GPU process on M3-series chips that allocates the use of local memory in real time. This ensures the precise amount of memory required is spent on that particular task such as Gaming, Video rendering, and 3D graphics. 
 
 E
 
@@ -114,6 +115,8 @@ T
 U
 
    [Universal Flash Storage (UFS)](https://www.jedec.org/standards-documents/focus/flash/universal-flash-storage-ufs) is an open standard, high-performance interface designed for use in applications where power consumption needs to be minimized, including mobile systems such as smartphones and tablets as well as automotive applications. Its high-speed serial interface and optimized protocol enable significant improvements in throughput and system performance.
+
+  **UFS-based multichip packages (uMCPs)** is a process that takes advantage of the ultra-fast Universal Flash Storage (UFS) controller to provide big performance and power savings in a small footprint for slim designs. Available in 10 GB or 12 GB memory modules.
 
 V
 
