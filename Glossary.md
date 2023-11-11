@@ -1,7 +1,7 @@
 # Glossary
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/213122564-2c2018e8-8b06-48dd-92a9-806ca08914c3.jpeg">
+<img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/ccbb8f68-f857-43bf-a762-db23dda7b8f1">
 <br />
 Apple Silicon Devices
 </p>
@@ -179,6 +179,8 @@ U
    **USC: Unified shader core**. A shader core supporting all shader types (vertex, fragment, compute). AGX is a unified architecture, so this just refers to a shader core.
    
    **USB-PD: USB Power Delivery**. A standard for side-band communications over USB Type C (we won't talk about the older standard for our own sanity). This is used for things like detecting what kind of cable is used, connector orientation, configuring the supply voltage, and switching to non-USB modes.
+
+   **UFS-based multichip packages (uMCPs)** is a process that takes advantage of the ultra-fast Universal Flash Storage (UFS) controller to provide big performance and power savings in a small footprint for slim designs. Available in 10 GB or 12 GB memory modules.
 
 V
 
