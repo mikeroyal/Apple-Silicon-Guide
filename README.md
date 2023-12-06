@@ -2649,9 +2649,94 @@ Issues may be fixed by enrolling into the Steam beta.
   *  Headbangers Rhythm Royale (Console[Xbox Series X|S])    
   *  Jusant(Console[Xbox Series X|S], PC, Cloud)
 
+**November 1**
+
+ * Age of Empires II: Definitive Edition – The Mountain Royals (Cloud, Console, and PC) 
+
 **November 2**
+
+ * PlateUp! (Console)
+ * Thirsty Suitors (Cloud, Console, and PC) 
+
+** November 6**
+
+ * Football Manager 2024 (PC)
+ * Football Manager 2024 Console (Cloud, Console, and PC) 
  
-   * Thirsty Suitors (Xbox Series X|S, Xbox One, & Windows PC)
+**November 7**
+
+ * Roboquest 1.0 (Cloud, Console, and PC) 
+
+**November 9**
+
+ * Dungeons 4 (Cloud, Console, and PC) 
+ * Like A Dragon Gaiden: The Man Who Erased His Name (Cloud, Console, and PC) 
+ * Wild Hearts (Cloud, Console, and PC) EA Play 
+
+**November 13**
+
+ * Spirittea (Cloud, Console, and PC) 
+
+**November 14**
+
+ * Coral Island (Cloud and Xbox Series X|S)
+
+**Games Leaving November 15, 2023**
+
+ * Coffee Talk (Cloud, Console, and PC)
+ * Exapunks (PC)
+ * Ghost Song (Cloud, Console, and PC)
+ * Gungrave G.O.R.E (Cloud, Console, and PC)
+ * Football Manager 2023 (PC)
+ * Football Manager 2023 Console (Cloud, Console, and PC)
+ * Lapin (Cloud, Console, and PC)
+ * Townscaper (Cloud, Console, and PC)
+
+**November 28**
+
+ * Rollerdrome  (PC, Cloud and Xbox Series X|S)
+
+**December 1**
+
+ * Remnant: From the Ashes (Cloud, Console, and PC)
+ * Spirit of the North (Cloud, Console, and PC) 
+ * SteamWorld Build (Cloud, Console, and PC)
+
+**December 5**
+
+ * Clone Drone in the Danger Zone (Cloud, PC, and Xbox Series X|S)
+ * Rise of the Tomb Raider (Cloud, Console, and PC)
+ * While the Iron’s Hot (Cloud, Console, and PC)
+ * World War Z: Aftermath (Cloud, Console, and PC)
+
+**December 6 - Coming to Game Pass Core**
+ * Chivalry 2 
+ * Totally Reliable Delivery Service
+
+**December 7**
+
+ * Goat Simulator 3 (Cloud, PC, and Xbox Series X|S)
+
+**December 8**
+
+ * Against the Storm (PC)
+
+**December 13**
+
+ * Tin Hearts (Cloud, Console, and PC)
+
+**December 14**
+
+ * Far Cry 6 (Cloud, Console, and PC)
+
+**Leaving December 15**
+
+The following games are leaving soon save up to 20% on these games to keep them in your library.
+
+  * Chained Echoes (Cloud, Console, and PC)
+  * Opus Magnum (PC)
+  * Potion Craft: Alchemist Simulator (Cloud, Console, and PC)
+  * Rubber Bandits (Cloud, Console, and PC)
 
 **Early 2024**
     
