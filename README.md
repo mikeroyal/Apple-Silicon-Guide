@@ -1876,7 +1876,11 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 ### USB-C Fast Charging Cables
 
 [Back to Top](#table-of-contents)
- 
+
+ * [Apple Thunderbolt 4 (USB‑C) Pro Cable (1 m) | Apple](https://www.apple.com/shop/product/MU883AM/A/thunderbolt-4-usb%E2%80%91c-pro-cable-1-m)
+   
+ * [Apple Thunderbolt 4 (USB-C) Pro Cable (1.8 m) | Amazon](https://www.amazon.com/Apple-Thunderbolt-Pro-Cable-1-8/dp/B09V3KPJGZ)
+   
  * [Baseus Minimalist USB-C to USB-C Cable 100W](https://www.baseus.com/products/minimalist-usb-c-to-usb-c-cable-100w)
 
  * [Baseus USB-C Fast Charging Cable 240W](https://www.baseus.com/products/usb-c-fast-charging-cable-240w)
