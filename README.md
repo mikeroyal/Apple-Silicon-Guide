@@ -224,7 +224,7 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra Architectures.
 
 - [CrossOver® Mac](https://www.codeweavers.com/crossover)
 
-- [DevToysMac](https://github.com/ObuchiYuki/DevToysMac) is the mac app version of [DevToys for Windows](https://github.com/veler/DevToys).
+- [DevToys](https://github.com/DevToys-app/DevToys)
 
 - [asitop](https://github.com/tlkh/asitop) is a Performance monitoring CLI tool for Apple Silicon.
 
