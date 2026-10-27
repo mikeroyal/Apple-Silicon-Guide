@@ -1084,6 +1084,15 @@ Fantastical 3
 </p>
 
 
+[LayoutKeeper](https://github.com/tumingke0/LayoutKeeper) is a free, open-source macOS menu bar utility built for Apple Silicon and Intel Macs. It remembers window positions and Mission Control Spaces per external monitor and restores them when a display is reconnected, switches display arrangements per physical USB-C/Thunderbolt port on Apple Silicon, adjusts external display hardware brightness via DDC (including automatic brightness sync with the MacBook's built-in ambient light sensor), and includes a 4-mode Keep Awake toggle.
+
+<p align="center">
+ <img src="https://raw.githubusercontent.com/tumingke0/LayoutKeeper/main/docs/images/main-window.png">
+  <br />
+  LayoutKeeper
+</p>
+
+
 [WebCatalog](https://webcatalog.io/webcatalog/) is an app that turns any Website into Real Desktop Apps. 
 
 <p align="center">
